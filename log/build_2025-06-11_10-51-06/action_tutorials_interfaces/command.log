@@ -1,0 +1,1 @@
+Invoking command in '/home/nihit/servcli/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nihit/servcli/install/py_srvcli:/opt/ros/humble /usr/bin/cmake /home/nihit/servcli/src/action_tutorials_interfaces -DCMAKE_INSTALL_PREFIX=/home/nihit/servcli/install/action_tutorials_interfaces

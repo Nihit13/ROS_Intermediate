@@ -1,0 +1,24 @@
+[0.516s] Invoking command in '/home/nihit/servcli/src/Turtleactions': PYTHONPATH=/home/nihit/servcli/build/Turtleactions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nihit/servcli/install/Turtleactions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Turtleactions build --build-base /home/nihit/servcli/build/Turtleactions/build install --record /home/nihit/servcli/build/Turtleactions/install.log --single-version-externally-managed install_data
+[0.719s] running egg_info
+[0.719s] writing ../../build/Turtleactions/Turtleactions.egg-info/PKG-INFO
+[0.719s] writing dependency_links to ../../build/Turtleactions/Turtleactions.egg-info/dependency_links.txt
+[0.719s] writing entry points to ../../build/Turtleactions/Turtleactions.egg-info/entry_points.txt
+[0.719s] writing requirements to ../../build/Turtleactions/Turtleactions.egg-info/requires.txt
+[0.719s] writing top-level names to ../../build/Turtleactions/Turtleactions.egg-info/top_level.txt
+[0.721s] reading manifest file '../../build/Turtleactions/Turtleactions.egg-info/SOURCES.txt'
+[0.721s] writing manifest file '../../build/Turtleactions/Turtleactions.egg-info/SOURCES.txt'
+[0.721s] running build
+[0.721s] running build_py
+[0.721s] copying Turtleactions/turtle_action_cli.py -> /home/nihit/servcli/build/Turtleactions/build/lib/Turtleactions
+[0.721s] running install
+[0.722s] running install_lib
+[0.722s] copying /home/nihit/servcli/build/Turtleactions/build/lib/Turtleactions/turtle_action_cli.py -> /home/nihit/servcli/install/Turtleactions/lib/python3.10/site-packages/Turtleactions
+[0.723s] byte-compiling /home/nihit/servcli/install/Turtleactions/lib/python3.10/site-packages/Turtleactions/turtle_action_cli.py to turtle_action_cli.cpython-310.pyc
+[0.723s] running install_data
+[0.723s] running install_egg_info
+[0.725s] removing '/home/nihit/servcli/install/Turtleactions/lib/python3.10/site-packages/Turtleactions-0.0.0-py3.10.egg-info' (and everything under it)
+[0.725s] Copying ../../build/Turtleactions/Turtleactions.egg-info to /home/nihit/servcli/install/Turtleactions/lib/python3.10/site-packages/Turtleactions-0.0.0-py3.10.egg-info
+[0.725s] running install_scripts
+[0.741s] Installing cli script to /home/nihit/servcli/install/Turtleactions/lib/Turtleactions
+[0.741s] writing list of installed files to '/home/nihit/servcli/build/Turtleactions/install.log'
+[0.759s] Invoked command in '/home/nihit/servcli/src/Turtleactions' returned '0': PYTHONPATH=/home/nihit/servcli/build/Turtleactions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nihit/servcli/install/Turtleactions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Turtleactions build --build-base /home/nihit/servcli/build/Turtleactions/build install --record /home/nihit/servcli/build/Turtleactions/install.log --single-version-externally-managed install_data

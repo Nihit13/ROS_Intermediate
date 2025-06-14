@@ -1,0 +1,2 @@
+Invoking command in '/home/nihit/servcli/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nihit/servcli/install/py_srvcli:/opt/ros/humble /usr/bin/cmake --build /home/nihit/servcli/build/tutorial_interfaces -- -j8 -l8
+Invoked command in '/home/nihit/servcli/build/tutorial_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nihit/servcli/install/py_srvcli:/opt/ros/humble /usr/bin/cmake --build /home/nihit/servcli/build/tutorial_interfaces -- -j8 -l8

@@ -1,0 +1,3 @@
+[console_scripts]
+cli = Turtleactions.turtle_action_cli:main
+

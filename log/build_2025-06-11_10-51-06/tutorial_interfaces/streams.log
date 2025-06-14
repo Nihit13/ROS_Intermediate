@@ -1,0 +1,44 @@
+[2.085s] Invoking command in '/home/nihit/servcli/build/tutorial_interfaces': /usr/bin/cmake /home/nihit/servcli/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/nihit/servcli/install/tutorial_interfaces
+[2.250s] -- The C compiler identification is GNU 11.4.0
+[2.372s] -- The CXX compiler identification is GNU 11.4.0
+[2.383s] -- Detecting C compiler ABI info
+[2.552s] -- Detecting C compiler ABI info - done
+[2.575s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.576s] -- Detecting C compile features
+[2.577s] -- Detecting C compile features - done
+[2.587s] -- Detecting CXX compiler ABI info
+[2.813s] -- Detecting CXX compiler ABI info - done
+[2.841s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.844s] -- Detecting CXX compile features
+[2.844s] -- Detecting CXX compile features - done
+[2.851s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.325s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.549s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.765s] Error parsing '/home/nihit/servcli/src/tutorial_interfaces/package.xml':
+[3.883s] Traceback (most recent call last):
+[3.883s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[3.883s]     main()
+[3.883s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[3.884s]     raise e
+[3.885s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[3.885s]     package = parse_package_string(
+[3.886s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[3.886s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[3.886s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/nihit/servcli/src/tutorial_interfaces/package.xml':
+[3.886s] Error(s):
+[3.886s] - The generic dependency on 'action_msgs' is redundant with: build_depend, build_export_depend, exec_depend
+[3.986s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[3.987s]   execute_process(/usr/bin/python3
+[3.987s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[3.987s]   /home/nihit/servcli/src/tutorial_interfaces/package.xml
+[3.987s]   /home/nihit/servcli/build/tutorial_interfaces/ament_cmake_core/package.cmake)
+[3.988s]   returned error code 1
+[3.988s] Call Stack (most recent call first):
+[3.988s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[3.988s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[3.988s]   CMakeLists.txt:24 (ament_lint_auto_find_test_dependencies)
+[3.988s] 
+[3.989s] [0m
+[3.994s] -- Configuring incomplete, errors occurred!
+[3.995s] See also "/home/nihit/servcli/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".
+[4.026s] Invoked command in '/home/nihit/servcli/build/tutorial_interfaces' returned '1': /usr/bin/cmake /home/nihit/servcli/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/nihit/servcli/install/tutorial_interfaces

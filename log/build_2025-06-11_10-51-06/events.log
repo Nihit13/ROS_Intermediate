@@ -1,0 +1,492 @@
+[0.000000] (-) TimerEvent: {}
+[0.000810] (action_tutorials_interfaces) JobQueued: {'identifier': 'action_tutorials_interfaces', 'dependencies': OrderedDict()}
+[0.001030] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.001085] (py_srvcli) JobQueued: {'identifier': 'py_srvcli', 'dependencies': OrderedDict()}
+[0.001115] (python_parameters) JobQueued: {'identifier': 'python_parameters', 'dependencies': OrderedDict()}
+[0.001143] (shapes) JobQueued: {'identifier': 'shapes', 'dependencies': OrderedDict()}
+[0.001170] (turtlebounds) JobQueued: {'identifier': 'turtlebounds', 'dependencies': OrderedDict()}
+[0.001195] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.001222] (action_tutorials_interfaces) JobStarted: {'identifier': 'action_tutorials_interfaces'}
+[0.012645] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.019929] (py_srvcli) JobStarted: {'identifier': 'py_srvcli'}
+[0.030205] (python_parameters) JobStarted: {'identifier': 'python_parameters'}
+[0.038930] (shapes) JobStarted: {'identifier': 'shapes'}
+[0.045457] (turtlebounds) JobStarted: {'identifier': 'turtlebounds'}
+[0.057376] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[0.067528] (action_tutorials_interfaces) JobProgress: {'identifier': 'action_tutorials_interfaces', 'progress': 'cmake'}
+[0.068327] (action_tutorials_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/nihit/servcli/src/action_tutorials_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/nihit/servcli/install/action_tutorials_interfaces'], 'cwd': '/home/nihit/servcli/build/action_tutorials_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nihit'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nihit'), ('OLDPWD', '/home/nihit/servcli/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/nihit/.nvm/versions/node/v24.0.1/bin'), ('NVM_INC', '/home/nihit/.nvm/versions/node/v24.0.1/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2646'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/nihit/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nihit/servcli/install:/home/nihit/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nihit'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nihit'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nihit/.local/bin:/home/nihit/.nvm/versions/node/v24.0.1/bin:/opt/ros/humble/bin:/home/nihit/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nihit-HP-Pavilion-Laptop-15-eg0xxx:@/tmp/.ICE-unix/2617,unix/nihit-HP-Pavilion-Laptop-15-eg0xxx:/tmp/.ICE-unix/2617'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/48d77706_7583_484f_baf2_597b16758b57'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W4LU72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.190'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nihit/dev_ws/install/my_bot:/home/nihit/servcli/install/py_srvcli:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nihit/servcli/build/action_tutorials_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nihit/servcli/install/py_srvcli/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nihit/dev_ws/install/my_bot:/home/nihit/servcli/install/py_srvcli:/opt/ros/humble')]), 'shell': False}
+[0.072552] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.073432] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '/home/nihit/servcli/src/cpp_pubsub', '-DCMAKE_INSTALL_PREFIX=/home/nihit/servcli/install/cpp_pubsub'], 'cwd': '/home/nihit/servcli/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nihit'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nihit'), ('OLDPWD', '/home/nihit/servcli/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/nihit/.nvm/versions/node/v24.0.1/bin'), ('NVM_INC', '/home/nihit/.nvm/versions/node/v24.0.1/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2646'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/nihit/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nihit/servcli/install:/home/nihit/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nihit'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nihit'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nihit/.local/bin:/home/nihit/.nvm/versions/node/v24.0.1/bin:/opt/ros/humble/bin:/home/nihit/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nihit-HP-Pavilion-Laptop-15-eg0xxx:@/tmp/.ICE-unix/2617,unix/nihit-HP-Pavilion-Laptop-15-eg0xxx:/tmp/.ICE-unix/2617'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/48d77706_7583_484f_baf2_597b16758b57'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W4LU72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.190'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nihit/dev_ws/install/my_bot:/home/nihit/servcli/install/py_srvcli:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nihit/servcli/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nihit/servcli/install/py_srvcli/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nihit/dev_ws/install/my_bot:/home/nihit/servcli/install/py_srvcli:/opt/ros/humble')]), 'shell': False}
+[0.098878] (-) TimerEvent: {}
+[0.199547] (-) TimerEvent: {}
+[0.300140] (-) TimerEvent: {}
+[0.400755] (-) TimerEvent: {}
+[0.501430] (-) TimerEvent: {}
+[0.602050] (-) TimerEvent: {}
+[0.702585] (-) TimerEvent: {}
+[0.803205] (-) TimerEvent: {}
+[0.903783] (-) TimerEvent: {}
+[1.004368] (-) TimerEvent: {}
+[1.104944] (-) TimerEvent: {}
+[1.205516] (-) TimerEvent: {}
+[1.306099] (-) TimerEvent: {}
+[1.406787] (-) TimerEvent: {}
+[1.417525] (shapes) JobProgress: {'identifier': 'shapes', 'progress': 'cmake'}
+[1.418900] (shapes) Command: {'cmd': ['/usr/bin/cmake', '/home/nihit/servcli/src/shapes', '-DCMAKE_INSTALL_PREFIX=/home/nihit/servcli/install/shapes'], 'cwd': '/home/nihit/servcli/build/shapes', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nihit'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nihit'), ('OLDPWD', '/home/nihit/servcli/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/nihit/.nvm/versions/node/v24.0.1/bin'), ('NVM_INC', '/home/nihit/.nvm/versions/node/v24.0.1/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2646'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/nihit/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nihit/servcli/install:/home/nihit/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nihit'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nihit'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nihit/.local/bin:/home/nihit/.nvm/versions/node/v24.0.1/bin:/opt/ros/humble/bin:/home/nihit/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nihit-HP-Pavilion-Laptop-15-eg0xxx:@/tmp/.ICE-unix/2617,unix/nihit-HP-Pavilion-Laptop-15-eg0xxx:/tmp/.ICE-unix/2617'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/48d77706_7583_484f_baf2_597b16758b57'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W4LU72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.190'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nihit/dev_ws/install/my_bot:/home/nihit/servcli/install/py_srvcli:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nihit/servcli/build/shapes'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nihit/servcli/install/py_srvcli/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nihit/dev_ws/install/my_bot:/home/nihit/servcli/install/py_srvcli:/opt/ros/humble')]), 'shell': False}
+[1.506942] (-) TimerEvent: {}
+[1.607535] (-) TimerEvent: {}
+[1.708081] (-) TimerEvent: {}
+[1.808737] (-) TimerEvent: {}
+[1.909213] (-) TimerEvent: {}
+[2.009842] (-) TimerEvent: {}
+[2.110763] (-) TimerEvent: {}
+[2.124592] (action_tutorials_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.125440] (action_tutorials_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.125651] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.125837] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.126036] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.128634] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.129780] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.129955] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.130119] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.130263] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.130400] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.130536] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.130739] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.130880] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.131026] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.131210] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.131350] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.131488] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.131626] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.131762] (cpp_pubsub) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.132163] (cpp_pubsub) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.132443] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.132634] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.132778] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.132915] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.133075] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.133219] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.133354] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.133487] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.133621] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.133755] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.133889] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.134031] (cpp_pubsub) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.134519] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.134669] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.134805] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.134992] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.135218] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.135361] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.135805] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.135948] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.136107] (cpp_pubsub) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.136247] (cpp_pubsub) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.136383] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.136519] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.136658] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.136798] (cpp_pubsub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.136935] (cpp_pubsub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.137126] (cpp_pubsub) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.137273] (shapes) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.138569] (shapes) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.139215] (shapes) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.139426] (shapes) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.139622] (shapes) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.139802] (shapes) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.139981] (shapes) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.140188] (shapes) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.140368] (shapes) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.140545] (shapes) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.140717] (shapes) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.140909] (shapes) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.141114] (shapes) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.141309] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[2.141374] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/nihit/servcli/src/tutorial_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/nihit/servcli/install/tutorial_interfaces'], 'cwd': '/home/nihit/servcli/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nihit'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nihit'), ('OLDPWD', '/home/nihit/servcli/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/nihit/.nvm/versions/node/v24.0.1/bin'), ('NVM_INC', '/home/nihit/.nvm/versions/node/v24.0.1/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2646'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/nihit/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nihit/servcli/install:/home/nihit/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nihit'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nihit'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nihit/.local/bin:/home/nihit/.nvm/versions/node/v24.0.1/bin:/opt/ros/humble/bin:/home/nihit/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nihit-HP-Pavilion-Laptop-15-eg0xxx:@/tmp/.ICE-unix/2617,unix/nihit-HP-Pavilion-Laptop-15-eg0xxx:/tmp/.ICE-unix/2617'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/48d77706_7583_484f_baf2_597b16758b57'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W4LU72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.190'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nihit/dev_ws/install/my_bot:/home/nihit/servcli/install/py_srvcli:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nihit/servcli/build/tutorial_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nihit/servcli/install/py_srvcli/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nihit/dev_ws/install/my_bot')]), 'shell': False}
+[2.213744] (-) TimerEvent: {}
+[2.307371] (tutorial_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.313892] (-) TimerEvent: {}
+[2.414727] (-) TimerEvent: {}
+[2.429160] (shapes) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.430379] (tutorial_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.440807] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.514876] (-) TimerEvent: {}
+[2.550091] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.578203] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[2.590733] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/nihit/servcli/build/cpp_pubsub\n'}
+[2.609999] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.618569] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[2.619617] (-) TimerEvent: {}
+[2.619941] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[2.620013] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nihit/servcli/build/cpp_pubsub', '--', '-j8', '-l8'], 'cwd': '/home/nihit/servcli/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nihit'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nihit'), ('OLDPWD', '/home/nihit/servcli/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/nihit/.nvm/versions/node/v24.0.1/bin'), ('NVM_INC', '/home/nihit/.nvm/versions/node/v24.0.1/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2646'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/nihit/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nihit/servcli/install:/home/nihit/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nihit'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nihit'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nihit/.local/bin:/home/nihit/.nvm/versions/node/v24.0.1/bin:/opt/ros/humble/bin:/home/nihit/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nihit-HP-Pavilion-Laptop-15-eg0xxx:@/tmp/.ICE-unix/2617,unix/nihit-HP-Pavilion-Laptop-15-eg0xxx:/tmp/.ICE-unix/2617'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/48d77706_7583_484f_baf2_597b16758b57'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W4LU72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.190'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nihit/dev_ws/install/my_bot:/home/nihit/servcli/install/py_srvcli:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nihit/servcli/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nihit/servcli/install/py_srvcli/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nihit/dev_ws/install/my_bot:/home/nihit/servcli/install/py_srvcli:/opt/ros/humble')]), 'shell': False}
+[2.633012] (tutorial_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.633517] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.635040] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.642781] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.677222] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.683080] (shapes) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.721742] (-) TimerEvent: {}
+[2.744147] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/cpp_sub.cpp.o\x1b[0m\n'}
+[2.756110] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/cpp_pub.cpp.o\x1b[0m\n'}
+[2.822101] (-) TimerEvent: {}
+[2.871093] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.898436] (tutorial_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.901379] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.901837] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.908470] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.922243] (-) TimerEvent: {}
+[3.016477] (shapes) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.018854] (shapes) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.019899] (shapes) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.024147] (shapes) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.025616] (-) TimerEvent: {}
+[3.026372] (shapes) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.027995] (shapes) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.030420] (shapes) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.040926] (shapes) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.061955] (shapes) StdoutLine: {'line': b'-- Generating done\n'}
+[3.062326] (shapes) StdoutLine: {'line': b'-- Build files have been written to: /home/nihit/servcli/build/shapes\n'}
+[3.080744] (shapes) CommandEnded: {'returncode': 0}
+[3.084200] (shapes) JobProgress: {'identifier': 'shapes', 'progress': 'build'}
+[3.084544] (shapes) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nihit/servcli/build/shapes', '--', '-j8', '-l8'], 'cwd': '/home/nihit/servcli/build/shapes', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nihit'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nihit'), ('OLDPWD', '/home/nihit/servcli/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/nihit/.nvm/versions/node/v24.0.1/bin'), ('NVM_INC', '/home/nihit/.nvm/versions/node/v24.0.1/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2646'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/nihit/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nihit/servcli/install:/home/nihit/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nihit'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nihit'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nihit/.local/bin:/home/nihit/.nvm/versions/node/v24.0.1/bin:/opt/ros/humble/bin:/home/nihit/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nihit-HP-Pavilion-Laptop-15-eg0xxx:@/tmp/.ICE-unix/2617,unix/nihit-HP-Pavilion-Laptop-15-eg0xxx:/tmp/.ICE-unix/2617'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/48d77706_7583_484f_baf2_597b16758b57'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W4LU72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.190'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nihit/dev_ws/install/my_bot:/home/nihit/servcli/install/py_srvcli:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nihit/servcli/build/shapes'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nihit/servcli/install/py_srvcli/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nihit/dev_ws/install/my_bot:/home/nihit/servcli/install/py_srvcli:/opt/ros/humble')]), 'shell': False}
+[3.125798] (-) TimerEvent: {}
+[3.191234] (shapes) CommandEnded: {'returncode': 0}
+[3.192346] (shapes) JobProgress: {'identifier': 'shapes', 'progress': 'install'}
+[3.213398] (shapes) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nihit/servcli/build/shapes'], 'cwd': '/home/nihit/servcli/build/shapes', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nihit'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nihit'), ('OLDPWD', '/home/nihit/servcli/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/nihit/.nvm/versions/node/v24.0.1/bin'), ('NVM_INC', '/home/nihit/.nvm/versions/node/v24.0.1/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2646'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/nihit/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nihit/servcli/install:/home/nihit/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nihit'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nihit'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nihit/.local/bin:/home/nihit/.nvm/versions/node/v24.0.1/bin:/opt/ros/humble/bin:/home/nihit/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nihit-HP-Pavilion-Laptop-15-eg0xxx:@/tmp/.ICE-unix/2617,unix/nihit-HP-Pavilion-Laptop-15-eg0xxx:/tmp/.ICE-unix/2617'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/48d77706_7583_484f_baf2_597b16758b57'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W4LU72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.190'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nihit/dev_ws/install/my_bot:/home/nihit/servcli/install/py_srvcli:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nihit/servcli/build/shapes'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nihit/servcli/install/py_srvcli/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nihit/dev_ws/install/my_bot:/home/nihit/servcli/install/py_srvcli:/opt/ros/humble')]), 'shell': False}
+[3.227096] (-) TimerEvent: {}
+[3.235330] (shapes) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.237173] (shapes) StdoutLine: {'line': b'-- Installing: /home/nihit/servcli/install/shapes/share/ament_index/resource_index/package_run_dependencies/shapes\n'}
+[3.240526] (shapes) StdoutLine: {'line': b'-- Installing: /home/nihit/servcli/install/shapes/share/ament_index/resource_index/parent_prefix_path/shapes\n'}
+[3.242540] (shapes) StdoutLine: {'line': b'-- Installing: /home/nihit/servcli/install/shapes/share/shapes/environment/ament_prefix_path.sh\n'}
+[3.243384] (shapes) StdoutLine: {'line': b'-- Installing: /home/nihit/servcli/install/shapes/share/shapes/environment/ament_prefix_path.dsv\n'}
+[3.243610] (shapes) StdoutLine: {'line': b'-- Installing: /home/nihit/servcli/install/shapes/share/shapes/environment/path.sh\n'}
+[3.243814] (shapes) StdoutLine: {'line': b'-- Installing: /home/nihit/servcli/install/shapes/share/shapes/environment/path.dsv\n'}
+[3.244021] (shapes) StdoutLine: {'line': b'-- Installing: /home/nihit/servcli/install/shapes/share/shapes/local_setup.bash\n'}
+[3.244226] (shapes) StdoutLine: {'line': b'-- Installing: /home/nihit/servcli/install/shapes/share/shapes/local_setup.sh\n'}
+[3.244418] (shapes) StdoutLine: {'line': b'-- Installing: /home/nihit/servcli/install/shapes/share/shapes/local_setup.zsh\n'}
+[3.244613] (shapes) StdoutLine: {'line': b'-- Installing: /home/nihit/servcli/install/shapes/share/shapes/local_setup.dsv\n'}
+[3.244798] (shapes) StdoutLine: {'line': b'-- Installing: /home/nihit/servcli/install/shapes/share/shapes/package.dsv\n'}
+[3.244974] (shapes) StdoutLine: {'line': b'-- Installing: /home/nihit/servcli/install/shapes/share/ament_index/resource_index/packages/shapes\n'}
+[3.250892] (shapes) StdoutLine: {'line': b'-- Installing: /home/nihit/servcli/install/shapes/share/shapes/cmake/shapesConfig.cmake\n'}
+[3.251150] (shapes) StdoutLine: {'line': b'-- Installing: /home/nihit/servcli/install/shapes/share/shapes/cmake/shapesConfig-version.cmake\n'}
+[3.251347] (shapes) StdoutLine: {'line': b'-- Installing: /home/nihit/servcli/install/shapes/share/shapes/package.xml\n'}
+[3.255187] (shapes) CommandEnded: {'returncode': 0}
+[3.320343] (shapes) JobEnded: {'identifier': 'shapes', 'rc': 0}
+[3.327294] (-) TimerEvent: {}
+[3.381319] (tutorial_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.427441] (-) TimerEvent: {}
+[3.492543] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.528119] (-) TimerEvent: {}
+[3.532316] (python_parameters) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/python_parameters', 'build', '--build-base', '/home/nihit/servcli/build/python_parameters/build', 'install', '--record', '/home/nihit/servcli/build/python_parameters/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/nihit/servcli/src/python_parameters', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'nihit', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/nihit', 'OLDPWD': '/home/nihit/servcli/src', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/nihit/.nvm/versions/node/v24.0.1/bin', 'NVM_INC': '/home/nihit/.nvm/versions/node/v24.0.1/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2646', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'NVM_DIR': '/home/nihit/.nvm', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/nihit/servcli/install:/home/nihit/dev_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'nihit', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nihit', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/nihit/.local/bin:/home/nihit/.nvm/versions/node/v24.0.1/bin:/opt/ros/humble/bin:/home/nihit/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/nihit-HP-Pavilion-Laptop-15-eg0xxx:@/tmp/.ICE-unix/2617,unix/nihit-HP-Pavilion-Laptop-15-eg0xxx:/tmp/.ICE-unix/2617', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/48d77706_7583_484f_baf2_597b16758b57', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.W4LU72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.190', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nihit/dev_ws/install/my_bot:/home/nihit/servcli/install/py_srvcli:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nihit/servcli/build/python_parameters', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nihit/servcli/build/python_parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nihit/servcli/install/python_parameters/lib/python3.10/site-packages:/home/nihit/servcli/install/py_srvcli/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/nihit/dev_ws/install/my_bot'}, 'shell': False}
+[3.542032] (py_srvcli) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_srvcli', 'build', '--build-base', '/home/nihit/servcli/build/py_srvcli/build', 'install', '--record', '/home/nihit/servcli/build/py_srvcli/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/nihit/servcli/src/py_srvcli', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'nihit', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/nihit', 'OLDPWD': '/home/nihit/servcli/src', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/nihit/.nvm/versions/node/v24.0.1/bin', 'NVM_INC': '/home/nihit/.nvm/versions/node/v24.0.1/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2646', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'NVM_DIR': '/home/nihit/.nvm', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/nihit/servcli/install:/home/nihit/dev_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'nihit', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nihit', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/nihit/.local/bin:/home/nihit/.nvm/versions/node/v24.0.1/bin:/opt/ros/humble/bin:/home/nihit/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/nihit-HP-Pavilion-Laptop-15-eg0xxx:@/tmp/.ICE-unix/2617,unix/nihit-HP-Pavilion-Laptop-15-eg0xxx:/tmp/.ICE-unix/2617', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/48d77706_7583_484f_baf2_597b16758b57', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.W4LU72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.190', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nihit/dev_ws/install/my_bot:/home/nihit/servcli/install/py_srvcli:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nihit/servcli/build/py_srvcli', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nihit/servcli/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nihit/servcli/install/py_srvcli/lib/python3.10/site-packages:/home/nihit/servcli/install/py_srvcli/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/nihit/dev_ws/install/my_bot'}, 'shell': False}
+[3.549169] (turtlebounds) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/turtlebounds', 'build', '--build-base', '/home/nihit/servcli/build/turtlebounds/build', 'install', '--record', '/home/nihit/servcli/build/turtlebounds/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/nihit/servcli/src/turtlebounds', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'nihit', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/nihit', 'OLDPWD': '/home/nihit/servcli/src', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/nihit/.nvm/versions/node/v24.0.1/bin', 'NVM_INC': '/home/nihit/.nvm/versions/node/v24.0.1/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2646', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'NVM_DIR': '/home/nihit/.nvm', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/nihit/servcli/install:/home/nihit/dev_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'nihit', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nihit', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/nihit/.local/bin:/home/nihit/.nvm/versions/node/v24.0.1/bin:/opt/ros/humble/bin:/home/nihit/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/nihit-HP-Pavilion-Laptop-15-eg0xxx:@/tmp/.ICE-unix/2617,unix/nihit-HP-Pavilion-Laptop-15-eg0xxx:/tmp/.ICE-unix/2617', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/48d77706_7583_484f_baf2_597b16758b57', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.W4LU72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.190', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nihit/dev_ws/install/my_bot:/home/nihit/servcli/install/py_srvcli:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nihit/servcli/build/turtlebounds', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nihit/servcli/build/turtlebounds/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nihit/servcli/install/turtlebounds/lib/python3.10/site-packages:/home/nihit/servcli/install/py_srvcli/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/nihit/dev_ws/install/my_bot'}, 'shell': False}
+[3.580310] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.585288] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.606926] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.628255] (-) TimerEvent: {}
+[3.653733] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.654966] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.655311] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.655527] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.717229] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.728397] (-) TimerEvent: {}
+[3.806806] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.823205] (tutorial_interfaces) StderrLine: {'line': b"Error parsing '/home/nihit/servcli/src/tutorial_interfaces/package.xml':\n"}
+[3.831095] (-) TimerEvent: {}
+[3.898572] (action_tutorials_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.901541] (action_tutorials_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.916201] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.931238] (-) TimerEvent: {}
+[3.940314] (tutorial_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[3.940916] (tutorial_interfaces) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[3.941191] (tutorial_interfaces) StderrLine: {'line': b'    main()\n'}
+[3.941381] (tutorial_interfaces) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[3.941578] (tutorial_interfaces) StderrLine: {'line': b'    raise e\n'}
+[3.941787] (tutorial_interfaces) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[3.943322] (tutorial_interfaces) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[3.943548] (tutorial_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string\n'}
+[3.943732] (tutorial_interfaces) StderrLine: {'line': b"    raise InvalidPackage('Error(s):%s' % (''.join(['\\n- %s' % e for e in errors])), filename)\n"}
+[3.943917] (tutorial_interfaces) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/nihit/servcli/src/tutorial_interfaces/package.xml':\n"}
+[3.944116] (tutorial_interfaces) StderrLine: {'line': b'Error(s):\n'}
+[3.944296] (tutorial_interfaces) StderrLine: {'line': b"- The generic dependency on 'action_msgs' is redundant with: build_depend, build_export_depend, exec_depend\n"}
+[4.014224] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[4.031384] (-) TimerEvent: {}
+[4.044317] (tutorial_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[4.044708] (tutorial_interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[4.044922] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[4.045140] (tutorial_interfaces) StderrLine: {'line': b'  /home/nihit/servcli/src/tutorial_interfaces/package.xml\n'}
+[4.045338] (tutorial_interfaces) StderrLine: {'line': b'  /home/nihit/servcli/build/tutorial_interfaces/ament_cmake_core/package.cmake)\n'}
+[4.045508] (tutorial_interfaces) StderrLine: {'line': b'  returned error code 1\n'}
+[4.045682] (tutorial_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.045865] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[4.046062] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[4.046258] (tutorial_interfaces) StderrLine: {'line': b'  CMakeLists.txt:24 (ament_lint_auto_find_test_dependencies)\n'}
+[4.046430] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[4.046611] (tutorial_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[4.052096] (tutorial_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.052483] (tutorial_interfaces) StdoutLine: {'line': b'See also "/home/nihit/servcli/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[4.057017] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/nihit/servcli/build/action_tutorials_interfaces\n'}
+[4.083850] (tutorial_interfaces) CommandEnded: {'returncode': 1}
+[4.087685] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 1}
+[4.092979] (action_tutorials_interfaces) JobEnded: {'identifier': 'action_tutorials_interfaces', 'rc': 'SIGINT'}
+[4.131528] (-) TimerEvent: {}
+[4.232115] (-) TimerEvent: {}
+[4.333110] (-) TimerEvent: {}
+[4.433879] (py_srvcli) StdoutLine: {'line': b'running egg_info\n'}
+[4.434386] (-) TimerEvent: {}
+[4.436991] (py_srvcli) StdoutLine: {'line': b'writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO\n'}
+[4.439168] (py_srvcli) StdoutLine: {'line': b'writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt\n'}
+[4.439496] (py_srvcli) StdoutLine: {'line': b'writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt\n'}
+[4.439696] (py_srvcli) StdoutLine: {'line': b'writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt\n'}
+[4.439886] (py_srvcli) StdoutLine: {'line': b'writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt\n'}
+[4.451614] (py_srvcli) StdoutLine: {'line': b"reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[4.452011] (py_srvcli) StdoutLine: {'line': b"writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[4.452351] (py_srvcli) StdoutLine: {'line': b'running build\n'}
+[4.452552] (py_srvcli) StdoutLine: {'line': b'running build_py\n'}
+[4.452747] (py_srvcli) StdoutLine: {'line': b'copying py_srvcli/actions_client.py -> /home/nihit/servcli/build/py_srvcli/build/lib/py_srvcli\n'}
+[4.452952] (py_srvcli) StdoutLine: {'line': b'running install\n'}
+[4.457396] (py_srvcli) StdoutLine: {'line': b'running install_lib\n'}
+[4.457672] (py_srvcli) StdoutLine: {'line': b'copying /home/nihit/servcli/build/py_srvcli/build/lib/py_srvcli/actions_client.py -> /home/nihit/servcli/install/py_srvcli/lib/python3.10/site-packages/py_srvcli\n'}
+[4.458192] (turtlebounds) StdoutLine: {'line': b'running egg_info\n'}
+[4.458497] (turtlebounds) StdoutLine: {'line': b'creating ../../build/turtlebounds/turtlebounds.egg-info\n'}
+[4.458703] (turtlebounds) StdoutLine: {'line': b'writing ../../build/turtlebounds/turtlebounds.egg-info/PKG-INFO\n'}
+[4.458892] (turtlebounds) StdoutLine: {'line': b'writing dependency_links to ../../build/turtlebounds/turtlebounds.egg-info/dependency_links.txt\n'}
+[4.459091] (turtlebounds) StdoutLine: {'line': b'writing entry points to ../../build/turtlebounds/turtlebounds.egg-info/entry_points.txt\n'}
+[4.459290] (turtlebounds) StdoutLine: {'line': b'writing requirements to ../../build/turtlebounds/turtlebounds.egg-info/requires.txt\n'}
+[4.459478] (turtlebounds) StdoutLine: {'line': b'writing top-level names to ../../build/turtlebounds/turtlebounds.egg-info/top_level.txt\n'}
+[4.459660] (turtlebounds) StdoutLine: {'line': b"writing manifest file '../../build/turtlebounds/turtlebounds.egg-info/SOURCES.txt'\n"}
+[4.459840] (py_srvcli) StdoutLine: {'line': b'byte-compiling /home/nihit/servcli/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/actions_client.py to actions_client.cpython-310.pyc\n'}
+[4.462084] (py_srvcli) StdoutLine: {'line': b'running install_data\n'}
+[4.462421] (py_srvcli) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.462712] (turtlebounds) StdoutLine: {'line': b"reading manifest file '../../build/turtlebounds/turtlebounds.egg-info/SOURCES.txt'\n"}
+[4.464744] (turtlebounds) StdoutLine: {'line': b"writing manifest file '../../build/turtlebounds/turtlebounds.egg-info/SOURCES.txt'\n"}
+[4.465315] (turtlebounds) StdoutLine: {'line': b'running build\n'}
+[4.466298] (turtlebounds) StdoutLine: {'line': b'running build_py\n'}
+[4.468016] (turtlebounds) StdoutLine: {'line': b'creating /home/nihit/servcli/build/turtlebounds/build\n'}
+[4.468246] (turtlebounds) StdoutLine: {'line': b'creating /home/nihit/servcli/build/turtlebounds/build/lib\n'}
+[4.468431] (turtlebounds) StdoutLine: {'line': b'creating /home/nihit/servcli/build/turtlebounds/build/lib/turtlebounds\n'}
+[4.468613] (turtlebounds) StdoutLine: {'line': b'copying turtlebounds/Bounds_Server.py -> /home/nihit/servcli/build/turtlebounds/build/lib/turtlebounds\n'}
+[4.468798] (turtlebounds) StdoutLine: {'line': b'copying turtlebounds/Bounds_client.py -> /home/nihit/servcli/build/turtlebounds/build/lib/turtlebounds\n'}
+[4.468993] (turtlebounds) StdoutLine: {'line': b'copying turtlebounds/__init__.py -> /home/nihit/servcli/build/turtlebounds/build/lib/turtlebounds\n'}
+[4.469207] (turtlebounds) StdoutLine: {'line': b'running install\n'}
+[4.469391] (turtlebounds) StdoutLine: {'line': b'running install_lib\n'}
+[4.472718] (py_srvcli) StdoutLine: {'line': b"removing '/home/nihit/servcli/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.473109] (turtlebounds) StdoutLine: {'line': b'creating /home/nihit/servcli/install/turtlebounds/lib/python3.10/site-packages/turtlebounds\n'}
+[4.473354] (turtlebounds) StdoutLine: {'line': b'copying /home/nihit/servcli/build/turtlebounds/build/lib/turtlebounds/Bounds_Server.py -> /home/nihit/servcli/install/turtlebounds/lib/python3.10/site-packages/turtlebounds\n'}
+[4.473557] (turtlebounds) StdoutLine: {'line': b'copying /home/nihit/servcli/build/turtlebounds/build/lib/turtlebounds/Bounds_client.py -> /home/nihit/servcli/install/turtlebounds/lib/python3.10/site-packages/turtlebounds\n'}
+[4.473759] (turtlebounds) StdoutLine: {'line': b'copying /home/nihit/servcli/build/turtlebounds/build/lib/turtlebounds/__init__.py -> /home/nihit/servcli/install/turtlebounds/lib/python3.10/site-packages/turtlebounds\n'}
+[4.473957] (turtlebounds) StdoutLine: {'line': b'byte-compiling /home/nihit/servcli/install/turtlebounds/lib/python3.10/site-packages/turtlebounds/Bounds_Server.py to Bounds_Server.cpython-310.pyc\n'}
+[4.474342] (py_srvcli) StdoutLine: {'line': b'Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/nihit/servcli/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info\n'}
+[4.474694] (turtlebounds) StdoutLine: {'line': b'byte-compiling /home/nihit/servcli/install/turtlebounds/lib/python3.10/site-packages/turtlebounds/Bounds_client.py to Bounds_client.cpython-310.pyc\n'}
+[4.474911] (turtlebounds) StdoutLine: {'line': b'byte-compiling /home/nihit/servcli/install/turtlebounds/lib/python3.10/site-packages/turtlebounds/__init__.py to __init__.cpython-310.pyc\n'}
+[4.475290] (turtlebounds) StdoutLine: {'line': b'running install_data\n'}
+[4.475662] (py_srvcli) StdoutLine: {'line': b'running install_scripts\n'}
+[4.475882] (turtlebounds) StdoutLine: {'line': b'creating /home/nihit/servcli/install/turtlebounds/share/ament_index\n'}
+[4.476178] (turtlebounds) StdoutLine: {'line': b'creating /home/nihit/servcli/install/turtlebounds/share/ament_index/resource_index\n'}
+[4.476370] (turtlebounds) StdoutLine: {'line': b'creating /home/nihit/servcli/install/turtlebounds/share/ament_index/resource_index/packages\n'}
+[4.476558] (turtlebounds) StdoutLine: {'line': b'copying resource/turtlebounds -> /home/nihit/servcli/install/turtlebounds/share/ament_index/resource_index/packages\n'}
+[4.476743] (turtlebounds) StdoutLine: {'line': b'copying package.xml -> /home/nihit/servcli/install/turtlebounds/share/turtlebounds\n'}
+[4.476940] (turtlebounds) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.483958] (turtlebounds) StdoutLine: {'line': b'Copying ../../build/turtlebounds/turtlebounds.egg-info to /home/nihit/servcli/install/turtlebounds/lib/python3.10/site-packages/turtlebounds-0.0.0-py3.10.egg-info\n'}
+[4.484473] (turtlebounds) StdoutLine: {'line': b'running install_scripts\n'}
+[4.534099] (py_srvcli) StdoutLine: {'line': b'Installing client script to /home/nihit/servcli/install/py_srvcli/lib/py_srvcli\n'}
+[4.534492] (-) TimerEvent: {}
+[4.538311] (py_srvcli) StdoutLine: {'line': b'Installing publish script to /home/nihit/servcli/install/py_srvcli/lib/py_srvcli\n'}
+[4.538732] (py_srvcli) StdoutLine: {'line': b'Installing service script to /home/nihit/servcli/install/py_srvcli/lib/py_srvcli\n'}
+[4.538960] (py_srvcli) StdoutLine: {'line': b'Installing subscribe script to /home/nihit/servcli/install/py_srvcli/lib/py_srvcli\n'}
+[4.539189] (py_srvcli) StdoutLine: {'line': b"writing list of installed files to '/home/nihit/servcli/build/py_srvcli/install.log'\n"}
+[4.553539] (python_parameters) StdoutLine: {'line': b'running egg_info\n'}
+[4.555358] (python_parameters) StdoutLine: {'line': b'creating ../../build/python_parameters/python_parameters.egg-info\n'}
+[4.556210] (python_parameters) StdoutLine: {'line': b'writing ../../build/python_parameters/python_parameters.egg-info/PKG-INFO\n'}
+[4.556772] (python_parameters) StdoutLine: {'line': b'writing dependency_links to ../../build/python_parameters/python_parameters.egg-info/dependency_links.txt\n'}
+[4.557101] (python_parameters) StdoutLine: {'line': b'writing entry points to ../../build/python_parameters/python_parameters.egg-info/entry_points.txt\n'}
+[4.557391] (python_parameters) StdoutLine: {'line': b'writing requirements to ../../build/python_parameters/python_parameters.egg-info/requires.txt\n'}
+[4.557679] (python_parameters) StdoutLine: {'line': b'writing top-level names to ../../build/python_parameters/python_parameters.egg-info/top_level.txt\n'}
+[4.557958] (python_parameters) StdoutLine: {'line': b"writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'\n"}
+[4.560232] (turtlebounds) StdoutLine: {'line': b'Installing Bounds_cli script to /home/nihit/servcli/install/turtlebounds/lib/turtlebounds\n'}
+[4.560676] (turtlebounds) StdoutLine: {'line': b'Installing Bounds_srv script to /home/nihit/servcli/install/turtlebounds/lib/turtlebounds\n'}
+[4.561348] (turtlebounds) StdoutLine: {'line': b"writing list of installed files to '/home/nihit/servcli/build/turtlebounds/install.log'\n"}
+[4.562786] (python_parameters) StdoutLine: {'line': b"reading manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'\n"}
+[4.564479] (python_parameters) StdoutLine: {'line': b"writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'\n"}
+[4.564936] (python_parameters) StdoutLine: {'line': b'running build\n'}
+[4.565197] (python_parameters) StdoutLine: {'line': b'running build_py\n'}
+[4.566091] (python_parameters) StdoutLine: {'line': b'creating /home/nihit/servcli/build/python_parameters/build\n'}
+[4.566379] (python_parameters) StdoutLine: {'line': b'creating /home/nihit/servcli/build/python_parameters/build/lib\n'}
+[4.566623] (python_parameters) StdoutLine: {'line': b'creating /home/nihit/servcli/build/python_parameters/build/lib/python_parameters\n'}
+[4.566834] (python_parameters) StdoutLine: {'line': b'copying python_parameters/python_parameters_node.py -> /home/nihit/servcli/build/python_parameters/build/lib/python_parameters\n'}
+[4.567059] (python_parameters) StdoutLine: {'line': b'copying python_parameters/__init__.py -> /home/nihit/servcli/build/python_parameters/build/lib/python_parameters\n'}
+[4.567394] (python_parameters) StdoutLine: {'line': b'running install\n'}
+[4.567717] (python_parameters) StdoutLine: {'line': b'running install_lib\n'}
+[4.569807] (python_parameters) StdoutLine: {'line': b'creating /home/nihit/servcli/install/python_parameters/lib/python3.10/site-packages/python_parameters\n'}
+[4.570276] (python_parameters) StdoutLine: {'line': b'copying /home/nihit/servcli/build/python_parameters/build/lib/python_parameters/python_parameters_node.py -> /home/nihit/servcli/install/python_parameters/lib/python3.10/site-packages/python_parameters\n'}
+[4.570519] (python_parameters) StdoutLine: {'line': b'copying /home/nihit/servcli/build/python_parameters/build/lib/python_parameters/__init__.py -> /home/nihit/servcli/install/python_parameters/lib/python3.10/site-packages/python_parameters\n'}
+[4.571574] (python_parameters) StdoutLine: {'line': b'byte-compiling /home/nihit/servcli/install/python_parameters/lib/python3.10/site-packages/python_parameters/python_parameters_node.py to python_parameters_node.cpython-310.pyc\n'}
+[4.572597] (python_parameters) StdoutLine: {'line': b'byte-compiling /home/nihit/servcli/install/python_parameters/lib/python3.10/site-packages/python_parameters/__init__.py to __init__.cpython-310.pyc\n'}
+[4.572976] (python_parameters) StdoutLine: {'line': b'running install_data\n'}
+[4.573380] (python_parameters) StdoutLine: {'line': b'creating /home/nihit/servcli/install/python_parameters/share/ament_index\n'}
+[4.573633] (python_parameters) StdoutLine: {'line': b'creating /home/nihit/servcli/install/python_parameters/share/ament_index/resource_index\n'}
+[4.573970] (python_parameters) StdoutLine: {'line': b'creating /home/nihit/servcli/install/python_parameters/share/ament_index/resource_index/packages\n'}
+[4.574311] (python_parameters) StdoutLine: {'line': b'copying resource/python_parameters -> /home/nihit/servcli/install/python_parameters/share/ament_index/resource_index/packages\n'}
+[4.574515] (python_parameters) StdoutLine: {'line': b'copying package.xml -> /home/nihit/servcli/install/python_parameters/share/python_parameters\n'}
+[4.574707] (python_parameters) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.579057] (python_parameters) StdoutLine: {'line': b'Copying ../../build/python_parameters/python_parameters.egg-info to /home/nihit/servcli/install/python_parameters/lib/python3.10/site-packages/python_parameters-0.0.0-py3.10.egg-info\n'}
+[4.580669] (python_parameters) StdoutLine: {'line': b'running install_scripts\n'}
+[4.597087] (py_srvcli) JobEnded: {'identifier': 'py_srvcli', 'rc': 'SIGINT'}
+[4.623318] (turtlebounds) JobEnded: {'identifier': 'turtlebounds', 'rc': 'SIGINT'}
+[4.634655] (-) TimerEvent: {}
+[4.643517] (python_parameters) StdoutLine: {'line': b'Installing minimal_param_node script to /home/nihit/servcli/install/python_parameters/lib/python_parameters\n'}
+[4.644326] (python_parameters) StdoutLine: {'line': b"writing list of installed files to '/home/nihit/servcli/build/python_parameters/install.log'\n"}
+[4.693807] (python_parameters) JobEnded: {'identifier': 'python_parameters', 'rc': 'SIGINT'}
+[4.734808] (-) TimerEvent: {}
+[4.835249] (-) TimerEvent: {}
+[4.935674] (-) TimerEvent: {}
+[5.036130] (-) TimerEvent: {}
+[5.136730] (-) TimerEvent: {}
+[5.237178] (-) TimerEvent: {}
+[5.337712] (-) TimerEvent: {}
+[5.438188] (-) TimerEvent: {}
+[5.538699] (-) TimerEvent: {}
+[5.639136] (-) TimerEvent: {}
+[5.739711] (-) TimerEvent: {}
+[5.840180] (-) TimerEvent: {}
+[5.940638] (-) TimerEvent: {}
+[6.041118] (-) TimerEvent: {}
+[6.141665] (-) TimerEvent: {}
+[6.242124] (-) TimerEvent: {}
+[6.342671] (-) TimerEvent: {}
+[6.443206] (-) TimerEvent: {}
+[6.543733] (-) TimerEvent: {}
+[6.644327] (-) TimerEvent: {}
+[6.744901] (-) TimerEvent: {}
+[6.845494] (-) TimerEvent: {}
+[6.946046] (-) TimerEvent: {}
+[7.046578] (-) TimerEvent: {}
+[7.147121] (-) TimerEvent: {}
+[7.247651] (-) TimerEvent: {}
+[7.348227] (-) TimerEvent: {}
+[7.448786] (-) TimerEvent: {}
+[7.549379] (-) TimerEvent: {}
+[7.649831] (-) TimerEvent: {}
+[7.750379] (-) TimerEvent: {}
+[7.850935] (-) TimerEvent: {}
+[7.951491] (-) TimerEvent: {}
+[8.052039] (-) TimerEvent: {}
+[8.152565] (-) TimerEvent: {}
+[8.253111] (-) TimerEvent: {}
+[8.353635] (-) TimerEvent: {}
+[8.454146] (-) TimerEvent: {}
+[8.554671] (-) TimerEvent: {}
+[8.655111] (-) TimerEvent: {}
+[8.755554] (-) TimerEvent: {}
+[8.856067] (-) TimerEvent: {}
+[8.956672] (-) TimerEvent: {}
+[9.057127] (-) TimerEvent: {}
+[9.157637] (-) TimerEvent: {}
+[9.258138] (-) TimerEvent: {}
+[9.358733] (-) TimerEvent: {}
+[9.459238] (-) TimerEvent: {}
+[9.559674] (-) TimerEvent: {}
+[9.660113] (-) TimerEvent: {}
+[9.760560] (-) TimerEvent: {}
+[9.860977] (-) TimerEvent: {}
+[9.961392] (-) TimerEvent: {}
+[10.061920] (-) TimerEvent: {}
+[10.162412] (-) TimerEvent: {}
+[10.262904] (-) TimerEvent: {}
+[10.363398] (-) TimerEvent: {}
+[10.463881] (-) TimerEvent: {}
+[10.564500] (-) TimerEvent: {}
+[10.665101] (-) TimerEvent: {}
+[10.765591] (-) TimerEvent: {}
+[10.866394] (-) TimerEvent: {}
+[10.966865] (-) TimerEvent: {}
+[11.067351] (-) TimerEvent: {}
+[11.167816] (-) TimerEvent: {}
+[11.268273] (-) TimerEvent: {}
+[11.368728] (-) TimerEvent: {}
+[11.469192] (-) TimerEvent: {}
+[11.569612] (-) TimerEvent: {}
+[11.670040] (-) TimerEvent: {}
+[11.770446] (-) TimerEvent: {}
+[11.870895] (-) TimerEvent: {}
+[11.971424] (-) TimerEvent: {}
+[11.998133] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[12.071576] (-) TimerEvent: {}
+[12.172109] (-) TimerEvent: {}
+[12.272650] (-) TimerEvent: {}
+[12.373207] (-) TimerEvent: {}
+[12.379569] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[12.473348] (-) TimerEvent: {}
+[12.573901] (-) TimerEvent: {}
+[12.674437] (-) TimerEvent: {}
+[12.774961] (-) TimerEvent: {}
+[12.875613] (-) TimerEvent: {}
+[12.976356] (-) TimerEvent: {}
+[13.077038] (-) TimerEvent: {}
+[13.177660] (-) TimerEvent: {}
+[13.278299] (-) TimerEvent: {}
+[13.378906] (-) TimerEvent: {}
+[13.479500] (-) TimerEvent: {}
+[13.580066] (-) TimerEvent: {}
+[13.680636] (-) TimerEvent: {}
+[13.781177] (-) TimerEvent: {}
+[13.881734] (-) TimerEvent: {}
+[13.982312] (-) TimerEvent: {}
+[14.082913] (-) TimerEvent: {}
+[14.183525] (-) TimerEvent: {}
+[14.284131] (-) TimerEvent: {}
+[14.384705] (-) TimerEvent: {}
+[14.485311] (-) TimerEvent: {}
+[14.585928] (-) TimerEvent: {}
+[14.686545] (-) TimerEvent: {}
+[14.787106] (-) TimerEvent: {}
+[14.887669] (-) TimerEvent: {}
+[14.988276] (-) TimerEvent: {}
+[15.088815] (-) TimerEvent: {}
+[15.189398] (-) TimerEvent: {}
+[15.290040] (-) TimerEvent: {}
+[15.390518] (-) TimerEvent: {}
+[15.491057] (-) TimerEvent: {}
+[15.591640] (-) TimerEvent: {}
+[15.692279] (-) TimerEvent: {}
+[15.792896] (-) TimerEvent: {}
+[15.893511] (-) TimerEvent: {}
+[15.994135] (-) TimerEvent: {}
+[16.094743] (-) TimerEvent: {}
+[16.195327] (-) TimerEvent: {}
+[16.295907] (-) TimerEvent: {}
+[16.396494] (-) TimerEvent: {}
+[16.497085] (-) TimerEvent: {}
+[16.597660] (-) TimerEvent: {}
+[16.698193] (-) TimerEvent: {}
+[16.798734] (-) TimerEvent: {}
+[16.899364] (-) TimerEvent: {}
+[16.999999] (-) TimerEvent: {}
+[17.100604] (-) TimerEvent: {}
+[17.201205] (-) TimerEvent: {}
+[17.301812] (-) TimerEvent: {}
+[17.402406] (-) TimerEvent: {}
+[17.503037] (-) TimerEvent: {}
+[17.603624] (-) TimerEvent: {}
+[17.704247] (-) TimerEvent: {}
+[17.804873] (-) TimerEvent: {}
+[17.905581] (-) TimerEvent: {}
+[18.006363] (-) TimerEvent: {}
+[18.107050] (-) TimerEvent: {}
+[18.207708] (-) TimerEvent: {}
+[18.308508] (-) TimerEvent: {}
+[18.409373] (-) TimerEvent: {}
+[18.510145] (-) TimerEvent: {}
+[18.606217] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[18.610292] (-) TimerEvent: {}
+[18.710783] (-) TimerEvent: {}
+[18.811353] (-) TimerEvent: {}
+[18.911872] (-) TimerEvent: {}
+[19.012418] (-) TimerEvent: {}
+[19.112983] (-) TimerEvent: {}
+[19.213496] (-) TimerEvent: {}
+[19.313959] (-) TimerEvent: {}
+[19.317929] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[19.336135] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 'SIGINT'}
+[19.347171] (-) EventReactorShutdown: {}

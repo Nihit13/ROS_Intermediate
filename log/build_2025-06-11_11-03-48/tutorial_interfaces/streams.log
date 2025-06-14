@@ -1,0 +1,64 @@
+[0.019s] Invoking command in '/home/nihit/servcli/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nihit/servcli/install/py_srvcli:/opt/ros/humble /usr/bin/cmake /home/nihit/servcli/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/nihit/servcli/install/tutorial_interfaces
+[0.049s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.330s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.488s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.531s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.535s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.545s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.562s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.584s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.648s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.064s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.812s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.108s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.152s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.194s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.194s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.194s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.575s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[2.575s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[2.575s]   tutorial_interfaces --arguments-file
+[2.576s]   /home/nihit/servcli/build/tutorial_interfaces/rosidl_adapter__arguments__tutorial_interfaces.json
+[2.576s]   --output-dir
+[2.576s]   /home/nihit/servcli/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces
+[2.576s]   --output-file
+[2.576s]   /home/nihit/servcli/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces.idls)
+[2.576s]   returned error code 1:
+[2.576s] 
+[2.576s]   Error processing 'int64 Reached_number' of
+[2.576s]   'tutorial_interfaces/CountUntill_Result': ''Reached_number' is an invalid
+[2.577s]   field name.  It should have the pattern
+[2.577s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''
+[2.577s] 
+[2.577s]   Traceback (most recent call last):
+[2.577s] 
+[2.577s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[2.577s]       return _run_code(code, main_globals, None,
+[2.577s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[2.577s]       exec(code, run_globals)
+[2.578s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[2.578s]       sys.exit(main())
+[2.578s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[2.578s]       abs_idl_file = convert_to_idl(
+[2.578s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 29, in convert_to_idl
+[2.578s]       return convert_action_to_idl(
+[2.578s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/action/__init__.py", line 28, in convert_action_to_idl
+[2.578s]       action = parse_action_string(package_name, input_file.stem, content)
+[2.579s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 904, in parse_action_string
+[2.579s]       result_message = parse_message_string(
+[2.579s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 519, in parse_message_string
+[2.579s]       fields.append(Field(
+[2.579s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 354, in __init__
+[2.579s]       raise NameError(
+[2.579s] 
+[2.579s]   NameError: 'Reached_number' is an invalid field name.  It should have the
+[2.579s]   pattern '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'
+[2.580s] 
+[2.580s] Call Stack (most recent call first):
+[2.580s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[2.580s]   CMakeLists.txt:36 (rosidl_generate_interfaces)
+[2.580s] 
+[2.580s] [0m
+[2.580s] -- Configuring incomplete, errors occurred!
+[2.580s] See also "/home/nihit/servcli/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".
+[2.589s] Invoked command in '/home/nihit/servcli/build/tutorial_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nihit/servcli/install/py_srvcli:/opt/ros/humble /usr/bin/cmake /home/nihit/servcli/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/nihit/servcli/install/tutorial_interfaces

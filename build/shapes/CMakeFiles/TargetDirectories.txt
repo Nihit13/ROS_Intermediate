@@ -1,0 +1,9 @@
+/home/nihit/servcli/build/shapes/CMakeFiles/uninstall.dir
+/home/nihit/servcli/build/shapes/CMakeFiles/shapes_uninstall.dir
+/home/nihit/servcli/build/shapes/CMakeFiles/test.dir
+/home/nihit/servcli/build/shapes/CMakeFiles/edit_cache.dir
+/home/nihit/servcli/build/shapes/CMakeFiles/rebuild_cache.dir
+/home/nihit/servcli/build/shapes/CMakeFiles/list_install_components.dir
+/home/nihit/servcli/build/shapes/CMakeFiles/install.dir
+/home/nihit/servcli/build/shapes/CMakeFiles/install/local.dir
+/home/nihit/servcli/build/shapes/CMakeFiles/install/strip.dir

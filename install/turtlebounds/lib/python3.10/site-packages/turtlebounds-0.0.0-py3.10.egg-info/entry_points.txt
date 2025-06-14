@@ -1,0 +1,4 @@
+[console_scripts]
+Bounds_cli = turtlebounds.Bounds_client:main
+Bounds_srv = turtlebounds.Bounds_Server:main
+

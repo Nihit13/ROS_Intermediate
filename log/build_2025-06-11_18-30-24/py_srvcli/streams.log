@@ -1,0 +1,28 @@
+[1.444s] Invoking command in '/home/nihit/servcli/src/py_srvcli': PYTHONPATH=/home/nihit/servcli/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nihit/servcli/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/nihit/servcli/build/py_srvcli/build install --record /home/nihit/servcli/build/py_srvcli/install.log --single-version-externally-managed install_data
+[2.004s] running egg_info
+[2.006s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[2.006s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[2.006s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[2.006s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[2.006s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[2.010s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[2.012s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[2.012s] running build
+[2.012s] running build_py
+[2.012s] copying py_srvcli/fibonacci_action_client.py -> /home/nihit/servcli/build/py_srvcli/build/lib/py_srvcli
+[2.013s] running install
+[2.013s] running install_lib
+[2.015s] copying /home/nihit/servcli/build/py_srvcli/build/lib/py_srvcli/fibonacci_action_client.py -> /home/nihit/servcli/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[2.016s] byte-compiling /home/nihit/servcli/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/fibonacci_action_client.py to fibonacci_action_client.cpython-310.pyc
+[2.017s] running install_data
+[2.017s] running install_egg_info
+[2.021s] removing '/home/nihit/servcli/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info' (and everything under it)
+[2.021s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/nihit/servcli/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[2.022s] running install_scripts
+[2.062s] Installing actionserv script to /home/nihit/servcli/install/py_srvcli/lib/py_srvcli
+[2.062s] Installing client script to /home/nihit/servcli/install/py_srvcli/lib/py_srvcli
+[2.062s] Installing publish script to /home/nihit/servcli/install/py_srvcli/lib/py_srvcli
+[2.063s] Installing service script to /home/nihit/servcli/install/py_srvcli/lib/py_srvcli
+[2.063s] Installing subscribe script to /home/nihit/servcli/install/py_srvcli/lib/py_srvcli
+[2.063s] writing list of installed files to '/home/nihit/servcli/build/py_srvcli/install.log'
+[2.109s] Invoked command in '/home/nihit/servcli/src/py_srvcli' returned '0': PYTHONPATH=/home/nihit/servcli/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nihit/servcli/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/nihit/servcli/build/py_srvcli/build install --record /home/nihit/servcli/build/py_srvcli/install.log --single-version-externally-managed install_data
