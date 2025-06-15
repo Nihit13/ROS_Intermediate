@@ -1,8 +1,0 @@
-{
-  "package_name": "tutorial_interfaces",
-  "non_idl_tuples": [
-    "/home/nihit/servcli/src/tutorial_interfaces:msg/Num.msg",
-    "/home/nihit/servcli/src/tutorial_interfaces:msg/Sphere.msg",
-    "/home/nihit/servcli/src/tutorial_interfaces:actions/CountUntill.action"
-  ]
-}

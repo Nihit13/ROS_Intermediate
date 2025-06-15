@@ -1,8 +1,0 @@
-[console_scripts]
-actioncli = py_srvcli.fibonacci_action_client:main
-actionserv = py_srvcli.fibonacci_action_server:main
-client = py_srvcli.client_member_function:main
-publish = py_srvcli.publisher_node:main
-service = py_srvcli.service_member_function:main
-subscribe = py_srvcli.subscriber_node:main
-
