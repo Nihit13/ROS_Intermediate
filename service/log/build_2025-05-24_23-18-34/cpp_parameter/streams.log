@@ -1,0 +1,11 @@
+[0.097s] Invoking command in '/home/gargie/service/build/cpp_parameter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/service/build/cpp_parameter -- -j4 -l4
+[0.289s] [35m[1mConsolidate compiler generated dependencies of target parameter_node[0m
+[0.412s] [ 50%] [32mBuilding CXX object CMakeFiles/parameter_node.dir/src/parameter_node.cpp.o[0m
+[12.571s] [01m[K/home/gargie/service/src/cpp_parameter/src/parameter_node.cpp:[m[K In constructor ‘[01m[Kparameter::parameter()[m[K’:
+[12.572s] [01m[K/home/gargie/service/src/cpp_parameter/src/parameter_node.cpp:13:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K![m[K’ token
+[12.573s]    13 |         param_desc.description ="this parameter is mine"[01;31m[K![m[K;
+[12.573s]       |                                                         [01;31m[K^[m[K
+[14.762s] gmake[2]: *** [CMakeFiles/parameter_node.dir/build.make:76: CMakeFiles/parameter_node.dir/src/parameter_node.cpp.o] Error 1
+[14.763s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/parameter_node.dir/all] Error 2
+[14.764s] gmake: *** [Makefile:146: all] Error 2
+[14.772s] Invoked command in '/home/gargie/service/build/cpp_parameter' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/service/build/cpp_parameter -- -j4 -l4

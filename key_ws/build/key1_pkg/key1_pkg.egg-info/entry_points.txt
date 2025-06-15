@@ -1,0 +1,4 @@
+[console_scripts]
+pub_key1 = key1_pkg.pub_key1:main
+sub_key1 = key1_pkg.sub_key1:main
+

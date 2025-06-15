@@ -1,0 +1,22 @@
+[2.912s] Invoking command in '/home/gargie/key_ws/src/key1_pkg': PYTHONPATH=/home/gargie/key_ws/build/key1_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gargie/key_ws/install/key1_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/key1_pkg build --build-base /home/gargie/key_ws/build/key1_pkg/build install --record /home/gargie/key_ws/build/key1_pkg/install.log --single-version-externally-managed install_data
+[4.085s] running egg_info
+[4.087s] writing ../../build/key1_pkg/key1_pkg.egg-info/PKG-INFO
+[4.090s] writing dependency_links to ../../build/key1_pkg/key1_pkg.egg-info/dependency_links.txt
+[4.091s] writing entry points to ../../build/key1_pkg/key1_pkg.egg-info/entry_points.txt
+[4.093s] writing requirements to ../../build/key1_pkg/key1_pkg.egg-info/requires.txt
+[4.094s] writing top-level names to ../../build/key1_pkg/key1_pkg.egg-info/top_level.txt
+[4.098s] reading manifest file '../../build/key1_pkg/key1_pkg.egg-info/SOURCES.txt'
+[4.099s] adding license file 'LICENSE'
+[4.102s] writing manifest file '../../build/key1_pkg/key1_pkg.egg-info/SOURCES.txt'
+[4.103s] running build
+[4.104s] running build_py
+[4.105s] running install
+[4.106s] running install_lib
+[4.112s] running install_data
+[4.114s] running install_egg_info
+[4.122s] removing '/home/gargie/key_ws/install/key1_pkg/lib/python3.10/site-packages/key1_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[4.123s] Copying ../../build/key1_pkg/key1_pkg.egg-info to /home/gargie/key_ws/install/key1_pkg/lib/python3.10/site-packages/key1_pkg-0.0.0-py3.10.egg-info
+[4.127s] running install_scripts
+[4.218s] Installing pub_key1 script to /home/gargie/key_ws/install/key1_pkg/lib/key1_pkg
+[4.221s] writing list of installed files to '/home/gargie/key_ws/build/key1_pkg/install.log'
+[4.355s] Invoked command in '/home/gargie/key_ws/src/key1_pkg' returned '0': PYTHONPATH=/home/gargie/key_ws/build/key1_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gargie/key_ws/install/key1_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/key1_pkg build --build-base /home/gargie/key_ws/build/key1_pkg/build install --record /home/gargie/key_ws/build/key1_pkg/install.log --single-version-externally-managed install_data

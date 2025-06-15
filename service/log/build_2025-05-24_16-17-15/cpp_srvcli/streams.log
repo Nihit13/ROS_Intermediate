@@ -1,0 +1,36 @@
+[0.048s] Invoking command in '/home/gargie/service/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake /home/gargie/service/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/gargie/service/install/cpp_srvcli
+[0.100s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.707s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.837s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.849s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.876s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.923s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.985s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.139s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.142s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.499s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.729s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[1.938s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.293s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.294s] -- Configured cppcheck include dirs: 
+[2.296s] -- Configured cppcheck exclude dirs and/or files: 
+[2.298s] -- Added test 'lint_cmake' to check CMake code style
+[2.301s] -- Added test 'uncrustify' to check C / C++ code style
+[2.303s] -- Configured uncrustify additional arguments: 
+[2.305s] -- Added test 'xmllint' to check XML markup files
+[2.308s] -- Configuring done
+[2.319s] [31mCMake Error at CMakeLists.txt:13 (add_executable):
+[2.320s]   Cannot find source file:
+[2.322s] 
+[2.324s]     src/add_two_inits_server.cpp
+[2.325s] 
+[2.327s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[2.328s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[2.330s] 
+[2.331s] [0m
+[2.333s] [31mCMake Error at CMakeLists.txt:13 (add_executable):
+[2.334s]   No SOURCES given to target: server
+[2.336s] 
+[2.337s] [0m
+[2.339s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[2.363s] Invoked command in '/home/gargie/service/build/cpp_srvcli' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake /home/gargie/service/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/gargie/service/install/cpp_srvcli

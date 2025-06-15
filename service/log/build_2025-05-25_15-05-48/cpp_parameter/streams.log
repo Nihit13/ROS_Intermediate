@@ -1,0 +1,24 @@
+[0.100s] Invoking command in '/home/gargie/service/build/cpp_parameter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/service/build/cpp_parameter -- -j4 -l4
+[0.309s] [35m[1mConsolidate compiler generated dependencies of target parameter_node[0m
+[0.468s] [ 50%] [32mBuilding CXX object CMakeFiles/parameter_node.dir/src/parameter_node.cpp.o[0m
+[12.611s] [01m[K/home/gargie/service/src/cpp_parameter/src/parameter_node.cpp:29:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcount[m[K’ does not name a type
+[12.614s]    29 |         [01;31m[Kcount[m[K;
+[12.616s]       |         [01;31m[K^~~~~[m[K
+[12.667s] [01m[K/home/gargie/service/src/cpp_parameter/src/parameter_node.cpp:[m[K In member function ‘[01m[Kvoid parameter::timer_callback()[m[K’:
+[12.669s] [01m[K/home/gargie/service/src/cpp_parameter/src/parameter_node.cpp:22:33:[m[K [01;31m[Kerror: [m[Kexpected identifier before string constant
+[12.670s]    22 |           std::string words[3]=[[01;31m[K"I"[m[K,"Love","Ros"];
+[12.672s]       |                                 [01;31m[K^~~[m[K
+[12.673s] [01m[K/home/gargie/service/src/cpp_parameter/src/parameter_node.cpp:22:36:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K][m[K’ before ‘[01m[K,[m[K’ token
+[12.675s]    22 |           std::string words[3]=["I"[01;31m[K,[m[K"Love","Ros"];
+[12.677s]       |                                    [01;31m[K^[m[K
+[12.678s] [01m[K/home/gargie/service/src/cpp_parameter/src/parameter_node.cpp:[m[K In lambda function:
+[12.680s] [01m[K/home/gargie/service/src/cpp_parameter/src/parameter_node.cpp:22:36:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K,[m[K’ token
+[12.681s] [01m[K/home/gargie/service/src/cpp_parameter/src/parameter_node.cpp:[m[K In member function ‘[01m[Kvoid parameter::timer_callback()[m[K’:
+[12.684s] [01m[K/home/gargie/service/src/cpp_parameter/src/parameter_node.cpp:22:36:[m[K [01;31m[Kerror: [m[Karray must be initialized with a brace-enclosed initializer
+[12.686s] [01m[K/home/gargie/service/src/cpp_parameter/src/parameter_node.cpp:22:37:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before string constant
+[12.688s]    22 |           std::string words[3]=["I",[01;31m[K"Love"[m[K,"Ros"];
+[12.689s]       |                                     [01;31m[K^~~~~~[m[K
+[14.836s] gmake[2]: *** [CMakeFiles/parameter_node.dir/build.make:76: CMakeFiles/parameter_node.dir/src/parameter_node.cpp.o] Error 1
+[14.837s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/parameter_node.dir/all] Error 2
+[14.837s] gmake: *** [Makefile:146: all] Error 2
+[14.847s] Invoked command in '/home/gargie/service/build/cpp_parameter' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/service/build/cpp_parameter -- -j4 -l4

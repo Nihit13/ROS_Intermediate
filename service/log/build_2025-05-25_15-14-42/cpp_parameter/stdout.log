@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target parameter_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/parameter_node.dir/src/parameter_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable parameter_node[0m
+[100%] Built target parameter_node
+-- Install configuration: ""
+-- Installing: /home/gargie/service/install/cpp_parameter/lib/cpp_parameter/parameter_node
+-- Set runtime path of "/home/gargie/service/install/cpp_parameter/lib/cpp_parameter/parameter_node" to ""
+-- Up-to-date: /home/gargie/service/install/cpp_parameter/share/ament_index/resource_index/package_run_dependencies/cpp_parameter
+-- Up-to-date: /home/gargie/service/install/cpp_parameter/share/ament_index/resource_index/parent_prefix_path/cpp_parameter
+-- Up-to-date: /home/gargie/service/install/cpp_parameter/share/cpp_parameter/environment/ament_prefix_path.sh
+-- Up-to-date: /home/gargie/service/install/cpp_parameter/share/cpp_parameter/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/gargie/service/install/cpp_parameter/share/cpp_parameter/environment/path.sh
+-- Up-to-date: /home/gargie/service/install/cpp_parameter/share/cpp_parameter/environment/path.dsv
+-- Up-to-date: /home/gargie/service/install/cpp_parameter/share/cpp_parameter/local_setup.bash
+-- Up-to-date: /home/gargie/service/install/cpp_parameter/share/cpp_parameter/local_setup.sh
+-- Up-to-date: /home/gargie/service/install/cpp_parameter/share/cpp_parameter/local_setup.zsh
+-- Up-to-date: /home/gargie/service/install/cpp_parameter/share/cpp_parameter/local_setup.dsv
+-- Installing: /home/gargie/service/install/cpp_parameter/share/cpp_parameter/package.dsv
+-- Up-to-date: /home/gargie/service/install/cpp_parameter/share/ament_index/resource_index/packages/cpp_parameter
+-- Up-to-date: /home/gargie/service/install/cpp_parameter/share/cpp_parameter/cmake/cpp_parameterConfig.cmake
+-- Up-to-date: /home/gargie/service/install/cpp_parameter/share/cpp_parameter/cmake/cpp_parameterConfig-version.cmake
+-- Up-to-date: /home/gargie/service/install/cpp_parameter/share/cpp_parameter/package.xml

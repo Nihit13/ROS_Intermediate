@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "tutorial_interface__py",
+		"source" : "/home/gargie/service/build/tutorial_interface/tutorial_interface__py"
+	}
+}

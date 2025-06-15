@@ -1,0 +1,17 @@
+/home/gargie/interfaces/install/inter_pkg/lib/inter_pkg/interface_n
+/home/gargie/interfaces/install/inter_pkg/lib/inter_pkg/node_interf
+/home/gargie/interfaces/install/inter_pkg/share/ament_index/resource_index/package_run_dependencies/inter_pkg
+/home/gargie/interfaces/install/inter_pkg/share/ament_index/resource_index/parent_prefix_path/inter_pkg
+/home/gargie/interfaces/install/inter_pkg/share/inter_pkg/environment/ament_prefix_path.sh
+/home/gargie/interfaces/install/inter_pkg/share/inter_pkg/environment/ament_prefix_path.dsv
+/home/gargie/interfaces/install/inter_pkg/share/inter_pkg/environment/path.sh
+/home/gargie/interfaces/install/inter_pkg/share/inter_pkg/environment/path.dsv
+/home/gargie/interfaces/install/inter_pkg/share/inter_pkg/local_setup.bash
+/home/gargie/interfaces/install/inter_pkg/share/inter_pkg/local_setup.sh
+/home/gargie/interfaces/install/inter_pkg/share/inter_pkg/local_setup.zsh
+/home/gargie/interfaces/install/inter_pkg/share/inter_pkg/local_setup.dsv
+/home/gargie/interfaces/install/inter_pkg/share/inter_pkg/package.dsv
+/home/gargie/interfaces/install/inter_pkg/share/ament_index/resource_index/packages/inter_pkg
+/home/gargie/interfaces/install/inter_pkg/share/inter_pkg/cmake/inter_pkgConfig.cmake
+/home/gargie/interfaces/install/inter_pkg/share/inter_pkg/cmake/inter_pkgConfig-version.cmake
+/home/gargie/interfaces/install/inter_pkg/share/inter_pkg/package.xml

@@ -1,0 +1,24 @@
+[0.081s] Invoking command in '/home/gargie/service/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/service/build/cpp_srvcli -- -j4 -l4
+[0.312s] [ 50%] Built target server
+[0.322s] [100%] Built target client
+[1.431s] Invoked command in '/home/gargie/service/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/service/build/cpp_srvcli -- -j4 -l4
+[1.478s] Invoking command in '/home/gargie/service/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --install /home/gargie/service/build/cpp_srvcli
+[1.506s] -- Install configuration: ""
+[1.507s] -- Up-to-date: /home/gargie/service/install/cpp_srvcli/lib/cpp_srvcli/server
+[1.508s] -- Up-to-date: /home/gargie/service/install/cpp_srvcli/lib/cpp_srvcli/client
+[1.509s] -- Up-to-date: /home/gargie/service/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[1.511s] -- Up-to-date: /home/gargie/service/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[1.511s] -- Up-to-date: /home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[1.512s] -- Up-to-date: /home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[1.513s] -- Up-to-date: /home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[1.513s] -- Up-to-date: /home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[1.514s] -- Up-to-date: /home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[1.514s] -- Up-to-date: /home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[1.515s] -- Up-to-date: /home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[1.516s] -- Up-to-date: /home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[1.517s] -- Installing: /home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[1.518s] -- Up-to-date: /home/gargie/service/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[1.521s] -- Up-to-date: /home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[1.522s] -- Up-to-date: /home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[1.524s] -- Up-to-date: /home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[1.525s] Invoked command in '/home/gargie/service/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --install /home/gargie/service/build/cpp_srvcli

@@ -1,0 +1,8 @@
+{
+  "package_name": "tutorial_interface",
+  "non_idl_tuples": [
+    "/home/gargie/service/src/tutorial_interface:msg/Num.msg",
+    "/home/gargie/service/src/tutorial_interface:msg/Sphere.msg",
+    "/home/gargie/service/src/tutorial_interface:srv/AddThreeInts.srv"
+  ]
+}

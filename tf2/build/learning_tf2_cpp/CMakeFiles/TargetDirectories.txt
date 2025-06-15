@@ -1,0 +1,9 @@
+/home/gargie/tf2/build/learning_tf2_cpp/CMakeFiles/uninstall.dir
+/home/gargie/tf2/build/learning_tf2_cpp/CMakeFiles/learning_tf2_cpp_uninstall.dir
+/home/gargie/tf2/build/learning_tf2_cpp/CMakeFiles/test.dir
+/home/gargie/tf2/build/learning_tf2_cpp/CMakeFiles/edit_cache.dir
+/home/gargie/tf2/build/learning_tf2_cpp/CMakeFiles/rebuild_cache.dir
+/home/gargie/tf2/build/learning_tf2_cpp/CMakeFiles/list_install_components.dir
+/home/gargie/tf2/build/learning_tf2_cpp/CMakeFiles/install.dir
+/home/gargie/tf2/build/learning_tf2_cpp/CMakeFiles/install/local.dir
+/home/gargie/tf2/build/learning_tf2_cpp/CMakeFiles/install/strip.dir

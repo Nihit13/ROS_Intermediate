@@ -1,0 +1,11 @@
+[01m[K/home/gargie/interfaces/src/cpp_eventhandle/src/parameter.cpp:36:34:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedPtr[m[K’ in ‘[01m[Kclass rclcpp::ParameterEventHandler[m[K’ does not name a type
+   36 |   rclcpp::ParameterEventHandler::[01;31m[KSharedPtr[m[K parameter_event_handler_;
+      |                                  [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/gargie/interfaces/src/cpp_eventhandle/src/parameter.cpp:[m[K In constructor ‘[01m[KParameterMonitor::ParameterMonitor()[m[K’:
+[01m[K/home/gargie/interfaces/src/cpp_eventhandle/src/parameter.cpp:16:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kparameter_event_handler_[m[K’ was not declared in this scope; did you mean ‘[01m[Kparameter_callback_handle_[m[K’?
+   16 |     [01;31m[Kparameter_event_handler_[m[K = std::make_shared<rclcpp::ParameterEventHandler>(this);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |     [32m[Kparameter_callback_handle_[m[K
+gmake[2]: *** [CMakeFiles/parameter.dir/build.make:76: CMakeFiles/parameter.dir/src/parameter.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/parameter.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

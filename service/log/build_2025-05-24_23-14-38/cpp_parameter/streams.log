@@ -1,0 +1,52 @@
+[0.099s] Invoking command in '/home/gargie/service/build/cpp_parameter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake /home/gargie/service/src/cpp_parameter -DCMAKE_INSTALL_PREFIX=/home/gargie/service/install/cpp_parameter
+[0.155s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.030s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.237s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.254s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.287s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.344s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.419s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.606s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.614s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.040s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.284s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.699s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.701s] -- Configured cppcheck include dirs: 
+[2.702s] -- Configured cppcheck exclude dirs and/or files: 
+[2.704s] -- Added test 'lint_cmake' to check CMake code style
+[2.710s] -- Added test 'uncrustify' to check C / C++ code style
+[2.712s] -- Configured uncrustify additional arguments: 
+[2.713s] -- Added test 'xmllint' to check XML markup files
+[2.720s] -- Configuring done
+[2.764s] -- Generating done
+[2.780s] -- Build files have been written to: /home/gargie/service/build/cpp_parameter
+[2.821s] Invoked command in '/home/gargie/service/build/cpp_parameter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake /home/gargie/service/src/cpp_parameter -DCMAKE_INSTALL_PREFIX=/home/gargie/service/install/cpp_parameter
+[2.825s] Invoking command in '/home/gargie/service/build/cpp_parameter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/service/build/cpp_parameter -- -j4 -l4
+[3.063s] [ 50%] [32mBuilding CXX object CMakeFiles/parameter_node.dir/src/parameter_node.cpp.o[0m
+[14.353s] [01m[K/home/gargie/service/src/cpp_parameter/src/parameter_node.cpp:11:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+[14.355s]    11 |         [01;31m[K{[m[K
+[14.358s]       |         [01;31m[K^[m[K
+[14.360s] [01m[K/home/gargie/service/src/cpp_parameter/src/parameter_node.cpp:27:19:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K;[m[K’ token
+[14.362s]    27 | rclcpp::TimerBase:[01;31m[K;[m[KSharedPtr timer_;
+[14.364s]       |                   [01;31m[K^[m[K
+[14.365s] [01m[K/home/gargie/service/src/cpp_parameter/src/parameter_node.cpp:27:19:[m[K [01;31m[Kerror: [m[Kbit-field ‘[01m[K<anonymous>[m[K’ with non-integral type ‘[01m[Krclcpp::TimerBase[m[K’
+[14.367s] [01m[K/home/gargie/service/src/cpp_parameter/src/parameter_node.cpp:[m[K In constructor ‘[01m[Kparameter::parameter()[m[K’:
+[14.368s] [01m[K/home/gargie/service/src/cpp_parameter/src/parameter_node.cpp:10:43:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ at end of input
+[14.370s]    10 |         parameter():Node("parameter_node")[01;31m[K;[m[K
+[14.372s]       |                                           [01;31m[K^[m[K
+[14.373s] [01m[K/home/gargie/service/src/cpp_parameter/src/parameter_node.cpp:[m[K At global scope:
+[14.375s] [01m[K/home/gargie/service/src/cpp_parameter/src/parameter_node.cpp:29:19:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[Kchar[m[K’
+[14.377s]    29 | int main(int argc [01;31m[Kchar[m[K**argv)
+[14.378s]       |                   [01;31m[K^~~~[m[K
+[14.380s] [01m[K/home/gargie/service/src/cpp_parameter/src/parameter_node.cpp:29:5:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint main(int)[m[K’ takes only zero or two arguments [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmain-Wmain]8;;[m[K]
+[14.382s]    29 | int [01;35m[Kmain[m[K(int argc char**argv)
+[14.383s]       |     [01;35m[K^~~~[m[K
+[14.385s] [01m[K/home/gargie/service/src/cpp_parameter/src/parameter_node.cpp:[m[K In function ‘[01m[Kint main(int)[m[K’:
+[14.386s] [01m[K/home/gargie/service/src/cpp_parameter/src/parameter_node.cpp:31:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kargv[m[K’ was not declared in this scope; did you mean ‘[01m[Kargc[m[K’?
+[14.388s]    31 | rclcpp::init(argc,[01;31m[Kargv[m[K);
+[14.391s]       |                   [01;31m[K^~~~[m[K
+[14.392s]       |                   [32m[Kargc[m[K
+[16.347s] gmake[2]: *** [CMakeFiles/parameter_node.dir/build.make:76: CMakeFiles/parameter_node.dir/src/parameter_node.cpp.o] Error 1
+[16.348s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/parameter_node.dir/all] Error 2
+[16.349s] gmake: *** [Makefile:146: all] Error 2
+[16.358s] Invoked command in '/home/gargie/service/build/cpp_parameter' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/service/build/cpp_parameter -- -j4 -l4

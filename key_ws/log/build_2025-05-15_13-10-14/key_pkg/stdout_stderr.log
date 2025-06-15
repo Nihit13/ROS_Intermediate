@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target pub_key[0m
+[35m[1mConsolidate compiler generated dependencies of target sub_key[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/sub_key.dir/src/sub_key.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pub_key.dir/src/pub_key.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable pub_key[0m
+[ 75%] Built target pub_key
+[100%] [32m[1mLinking CXX executable sub_key[0m
+[100%] Built target sub_key
+-- Install configuration: ""
+-- Installing: /home/gargie/key_ws/install/key_pkg/lib/key_pkg/pub_key
+-- Set runtime path of "/home/gargie/key_ws/install/key_pkg/lib/key_pkg/pub_key" to ""
+-- Installing: /home/gargie/key_ws/install/key_pkg/lib/key_pkg/sub_key
+-- Set runtime path of "/home/gargie/key_ws/install/key_pkg/lib/key_pkg/sub_key" to ""
+-- Installing: /home/gargie/key_ws/install/key_pkg/share/ament_index/resource_index/package_run_dependencies/key_pkg
+-- Installing: /home/gargie/key_ws/install/key_pkg/share/ament_index/resource_index/parent_prefix_path/key_pkg
+-- Installing: /home/gargie/key_ws/install/key_pkg/share/key_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/gargie/key_ws/install/key_pkg/share/key_pkg/environment/ament_prefix_path.dsv
+-- Installing: /home/gargie/key_ws/install/key_pkg/share/key_pkg/environment/path.sh
+-- Installing: /home/gargie/key_ws/install/key_pkg/share/key_pkg/environment/path.dsv
+-- Installing: /home/gargie/key_ws/install/key_pkg/share/key_pkg/local_setup.bash
+-- Installing: /home/gargie/key_ws/install/key_pkg/share/key_pkg/local_setup.sh
+-- Installing: /home/gargie/key_ws/install/key_pkg/share/key_pkg/local_setup.zsh
+-- Installing: /home/gargie/key_ws/install/key_pkg/share/key_pkg/local_setup.dsv
+-- Installing: /home/gargie/key_ws/install/key_pkg/share/key_pkg/package.dsv
+-- Installing: /home/gargie/key_ws/install/key_pkg/share/ament_index/resource_index/packages/key_pkg
+-- Installing: /home/gargie/key_ws/install/key_pkg/share/key_pkg/cmake/key_pkgConfig.cmake
+-- Installing: /home/gargie/key_ws/install/key_pkg/share/key_pkg/cmake/key_pkgConfig-version.cmake
+-- Installing: /home/gargie/key_ws/install/key_pkg/share/key_pkg/package.xml

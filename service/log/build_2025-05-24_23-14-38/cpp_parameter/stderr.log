@@ -1,0 +1,26 @@
+[01m[K/home/gargie/service/src/cpp_parameter/src/parameter_node.cpp:11:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+   11 |         [01;31m[K{[m[K
+      |         [01;31m[K^[m[K
+[01m[K/home/gargie/service/src/cpp_parameter/src/parameter_node.cpp:27:19:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K;[m[K’ token
+   27 | rclcpp::TimerBase:[01;31m[K;[m[KSharedPtr timer_;
+      |                   [01;31m[K^[m[K
+[01m[K/home/gargie/service/src/cpp_parameter/src/parameter_node.cpp:27:19:[m[K [01;31m[Kerror: [m[Kbit-field ‘[01m[K<anonymous>[m[K’ with non-integral type ‘[01m[Krclcpp::TimerBase[m[K’
+[01m[K/home/gargie/service/src/cpp_parameter/src/parameter_node.cpp:[m[K In constructor ‘[01m[Kparameter::parameter()[m[K’:
+[01m[K/home/gargie/service/src/cpp_parameter/src/parameter_node.cpp:10:43:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ at end of input
+   10 |         parameter():Node("parameter_node")[01;31m[K;[m[K
+      |                                           [01;31m[K^[m[K
+[01m[K/home/gargie/service/src/cpp_parameter/src/parameter_node.cpp:[m[K At global scope:
+[01m[K/home/gargie/service/src/cpp_parameter/src/parameter_node.cpp:29:19:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[Kchar[m[K’
+   29 | int main(int argc [01;31m[Kchar[m[K**argv)
+      |                   [01;31m[K^~~~[m[K
+[01m[K/home/gargie/service/src/cpp_parameter/src/parameter_node.cpp:29:5:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint main(int)[m[K’ takes only zero or two arguments [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmain-Wmain]8;;[m[K]
+   29 | int [01;35m[Kmain[m[K(int argc char**argv)
+      |     [01;35m[K^~~~[m[K
+[01m[K/home/gargie/service/src/cpp_parameter/src/parameter_node.cpp:[m[K In function ‘[01m[Kint main(int)[m[K’:
+[01m[K/home/gargie/service/src/cpp_parameter/src/parameter_node.cpp:31:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kargv[m[K’ was not declared in this scope; did you mean ‘[01m[Kargc[m[K’?
+   31 | rclcpp::init(argc,[01;31m[Kargv[m[K);
+      |                   [01;31m[K^~~~[m[K
+      |                   [32m[Kargc[m[K
+gmake[2]: *** [CMakeFiles/parameter_node.dir/build.make:76: CMakeFiles/parameter_node.dir/src/parameter_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/parameter_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,4 @@
+[31mCMake Error at CMakeLists.txt:12 (ament_executable):
+  Unknown CMake command "ament_executable".
+
+[0m

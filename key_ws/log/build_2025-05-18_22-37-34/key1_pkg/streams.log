@@ -1,0 +1,38 @@
+[2.926s] Invoking command in '/home/gargie/key_ws/src/key1_pkg': PYTHONPATH=/home/gargie/key_ws/build/key1_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gargie/key_ws/install/key1_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/key1_pkg build --build-base /home/gargie/key_ws/build/key1_pkg/build install --record /home/gargie/key_ws/build/key1_pkg/install.log --single-version-externally-managed install_data
+[4.141s] running egg_info
+[4.145s] creating ../../build/key1_pkg/key1_pkg.egg-info
+[4.145s] writing ../../build/key1_pkg/key1_pkg.egg-info/PKG-INFO
+[4.147s] writing dependency_links to ../../build/key1_pkg/key1_pkg.egg-info/dependency_links.txt
+[4.148s] writing entry points to ../../build/key1_pkg/key1_pkg.egg-info/entry_points.txt
+[4.148s] writing requirements to ../../build/key1_pkg/key1_pkg.egg-info/requires.txt
+[4.149s] writing top-level names to ../../build/key1_pkg/key1_pkg.egg-info/top_level.txt
+[4.150s] writing manifest file '../../build/key1_pkg/key1_pkg.egg-info/SOURCES.txt'
+[4.157s] reading manifest file '../../build/key1_pkg/key1_pkg.egg-info/SOURCES.txt'
+[4.157s] adding license file 'LICENSE'
+[4.160s] writing manifest file '../../build/key1_pkg/key1_pkg.egg-info/SOURCES.txt'
+[4.161s] running build
+[4.162s] running build_py
+[4.163s] creating /home/gargie/key_ws/build/key1_pkg/build
+[4.164s] creating /home/gargie/key_ws/build/key1_pkg/build/lib
+[4.164s] creating /home/gargie/key_ws/build/key1_pkg/build/lib/key1_pkg
+[4.165s] copying key1_pkg/pub_key1.py -> /home/gargie/key_ws/build/key1_pkg/build/lib/key1_pkg
+[4.165s] copying key1_pkg/__init__.py -> /home/gargie/key_ws/build/key1_pkg/build/lib/key1_pkg
+[4.166s] running install
+[4.166s] running install_lib
+[4.169s] creating /home/gargie/key_ws/install/key1_pkg/lib/python3.10/site-packages/key1_pkg
+[4.170s] copying /home/gargie/key_ws/build/key1_pkg/build/lib/key1_pkg/pub_key1.py -> /home/gargie/key_ws/install/key1_pkg/lib/python3.10/site-packages/key1_pkg
+[4.170s] copying /home/gargie/key_ws/build/key1_pkg/build/lib/key1_pkg/__init__.py -> /home/gargie/key_ws/install/key1_pkg/lib/python3.10/site-packages/key1_pkg
+[4.173s] byte-compiling /home/gargie/key_ws/install/key1_pkg/lib/python3.10/site-packages/key1_pkg/pub_key1.py to pub_key1.cpython-310.pyc
+[4.175s] byte-compiling /home/gargie/key_ws/install/key1_pkg/lib/python3.10/site-packages/key1_pkg/__init__.py to __init__.cpython-310.pyc
+[4.177s] running install_data
+[4.179s] creating /home/gargie/key_ws/install/key1_pkg/share/ament_index
+[4.179s] creating /home/gargie/key_ws/install/key1_pkg/share/ament_index/resource_index
+[4.180s] creating /home/gargie/key_ws/install/key1_pkg/share/ament_index/resource_index/packages
+[4.180s] copying resource/key1_pkg -> /home/gargie/key_ws/install/key1_pkg/share/ament_index/resource_index/packages
+[4.181s] copying package.xml -> /home/gargie/key_ws/install/key1_pkg/share/key1_pkg
+[4.181s] running install_egg_info
+[4.187s] Copying ../../build/key1_pkg/key1_pkg.egg-info to /home/gargie/key_ws/install/key1_pkg/lib/python3.10/site-packages/key1_pkg-0.0.0-py3.10.egg-info
+[4.192s] running install_scripts
+[4.281s] Installing pub_key1 script to /home/gargie/key_ws/install/key1_pkg/lib/key1_pkg
+[4.283s] writing list of installed files to '/home/gargie/key_ws/build/key1_pkg/install.log'
+[4.407s] Invoked command in '/home/gargie/key_ws/src/key1_pkg' returned '0': PYTHONPATH=/home/gargie/key_ws/build/key1_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gargie/key_ws/install/key1_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/key1_pkg build --build-base /home/gargie/key_ws/build/key1_pkg/build install --record /home/gargie/key_ws/build/key1_pkg/install.log --single-version-externally-managed install_data

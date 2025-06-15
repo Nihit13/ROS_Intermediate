@@ -1,0 +1,46 @@
+[0.094s] Invoking command in '/home/gargie/service/build/cpp_parameter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake /home/gargie/service/src/cpp_parameter -DCMAKE_INSTALL_PREFIX=/home/gargie/service/install/cpp_parameter
+[0.414s] -- The C compiler identification is GNU 11.4.0
+[0.782s] -- The CXX compiler identification is GNU 11.4.0
+[0.816s] -- Detecting C compiler ABI info
+[1.202s] -- Detecting C compiler ABI info - done
+[1.248s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.249s] -- Detecting C compile features
+[1.251s] -- Detecting C compile features - done
+[1.266s] -- Detecting CXX compiler ABI info
+[1.676s] -- Detecting CXX compiler ABI info - done
+[1.724s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.724s] -- Detecting CXX compile features
+[1.726s] -- Detecting CXX compile features - done
+[1.740s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.607s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.098s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[3.303s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.338s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.379s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.446s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.530s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.743s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.756s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.119s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.214s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.356s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.395s] -- Looking for pthread.h
+[4.710s] -- Looking for pthread.h - found
+[4.712s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.028s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.034s] -- Found Threads: TRUE  
+[5.287s] [31mCMake Error at CMakeLists.txt:12 (add_executable):
+[5.287s]   The target name "parameter/parameter.cpp" is reserved or not valid for
+[5.288s]   certain CMake features, such as generator expressions, and may result in
+[5.289s]   undefined behavior.
+[5.289s] 
+[5.290s] [0m
+[5.290s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[5.290s]   ament_target_dependencies() the first argument must be a valid target name
+[5.291s] Call Stack (most recent call first):
+[5.291s]   CMakeLists.txt:13 (ament_target_dependencies)
+[5.292s] 
+[5.292s] [0m
+[5.292s] -- Configuring incomplete, errors occurred!
+[5.293s] See also "/home/gargie/service/build/cpp_parameter/CMakeFiles/CMakeOutput.log".
+[5.327s] Invoked command in '/home/gargie/service/build/cpp_parameter' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake /home/gargie/service/src/cpp_parameter -DCMAKE_INSTALL_PREFIX=/home/gargie/service/install/cpp_parameter

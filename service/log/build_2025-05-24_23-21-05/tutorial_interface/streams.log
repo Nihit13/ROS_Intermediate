@@ -1,0 +1,202 @@
+[0.121s] Invoking command in '/home/gargie/service/build/tutorial_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/service/build/tutorial_interface -- -j4 -l4
+[0.367s] [  2%] Built target tutorial_interface__cpp
+[0.427s] [ 12%] Built target tutorial_interface__rosidl_generator_c
+[0.492s] [ 12%] Built target ament_cmake_python_copy_tutorial_interface
+[0.542s] [ 23%] Built target tutorial_interface__rosidl_typesupport_cpp
+[0.579s] [ 34%] Built target tutorial_interface__rosidl_typesupport_fastrtps_cpp
+[0.592s] [ 44%] Built target tutorial_interface__rosidl_typesupport_introspection_cpp
+[0.661s] [ 55%] Built target tutorial_interface__rosidl_typesupport_fastrtps_c
+[0.695s] [ 65%] Built target tutorial_interface__rosidl_typesupport_c
+[0.699s] [ 76%] Built target tutorial_interface__rosidl_typesupport_introspection_c
+[0.790s] [ 76%] Built target tutorial_interface
+[0.886s] [ 78%] Built target tutorial_interface__py
+[0.999s] [ 87%] Built target tutorial_interface__rosidl_generator_py
+[1.115s] [ 91%] Built target tutorial_interface__rosidl_typesupport_fastrtps_c__pyext
+[1.162s] [ 95%] Built target tutorial_interface__rosidl_typesupport_introspection_c__pyext
+[1.172s] [100%] Built target tutorial_interface__rosidl_typesupport_c__pyext
+[1.911s] running egg_info
+[1.916s] writing tutorial_interface.egg-info/PKG-INFO
+[1.917s] writing dependency_links to tutorial_interface.egg-info/dependency_links.txt
+[1.918s] writing top-level names to tutorial_interface.egg-info/top_level.txt
+[1.931s] reading manifest file 'tutorial_interface.egg-info/SOURCES.txt'
+[1.932s] writing manifest file 'tutorial_interface.egg-info/SOURCES.txt'
+[2.088s] [100%] Built target ament_cmake_python_build_tutorial_interface_egg
+[2.133s] Invoked command in '/home/gargie/service/build/tutorial_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/service/build/tutorial_interface -- -j4 -l4
+[2.138s] Invoking command in '/home/gargie/service/build/tutorial_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --install /home/gargie/service/build/tutorial_interface
+[2.175s] -- Install configuration: ""
+[2.176s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/ament_index/resource_index/rosidl_interfaces/tutorial_interface
+[2.176s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface
+[2.177s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv
+[2.177s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/detail
+[2.178s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/detail/add_three_ints__type_support.h
+[2.179s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/detail/add_three_ints__functions.h
+[2.179s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/detail/add_three_ints__struct.h
+[2.179s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/detail/add_three_ints__functions.c
+[2.180s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/add_three_ints.h
+[2.180s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg
+[2.181s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/num.h
+[2.182s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/rosidl_generator_c__visibility_control.h
+[2.182s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/sphere.h
+[2.184s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail
+[2.185s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/sphere__struct.h
+[2.185s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/num__functions.h
+[2.186s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/num__functions.c
+[2.186s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/num__struct.h
+[2.187s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/sphere__functions.h
+[2.187s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/sphere__type_support.h
+[2.188s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/num__type_support.h
+[2.188s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/sphere__functions.c
+[2.189s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/environment/library_path.sh
+[2.190s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/environment/library_path.dsv
+[2.190s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/lib/libtutorial_interface__rosidl_generator_c.so
+[2.191s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface
+[2.191s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv
+[2.192s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/detail
+[2.192s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[2.193s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg
+[2.193s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail
+[2.194s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+[2.194s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[2.195s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.196s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/lib/libtutorial_interface__rosidl_typesupport_fastrtps_c.so
+[2.196s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface
+[2.196s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv
+[2.197s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/detail
+[2.197s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/detail/add_three_ints__struct.hpp
+[2.197s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/detail/add_three_ints__traits.hpp
+[2.198s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/detail/add_three_ints__builder.hpp
+[2.199s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/detail/add_three_ints__type_support.hpp
+[2.199s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/add_three_ints.hpp
+[2.200s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg
+[2.201s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/num.hpp
+[2.201s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail
+[2.202s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/num__traits.hpp
+[2.202s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/sphere__type_support.hpp
+[2.203s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/num__type_support.hpp
+[2.204s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/sphere__traits.hpp
+[2.204s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/num__struct.hpp
+[2.205s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/num__builder.hpp
+[2.206s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/sphere__struct.hpp
+[2.206s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/sphere__builder.hpp
+[2.207s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.207s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/sphere.hpp
+[2.207s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface
+[2.208s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv
+[2.208s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/detail
+[2.208s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/detail/dds_fastrtps
+[2.209s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[2.209s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg
+[2.209s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail
+[2.210s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/dds_fastrtps
+[2.210s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+[2.210s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[2.211s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.211s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/lib/libtutorial_interface__rosidl_typesupport_fastrtps_cpp.so
+[2.211s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface
+[2.211s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv
+[2.212s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/detail
+[2.213s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[2.213s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/detail/add_three_ints__type_support.c
+[2.214s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg
+[2.214s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.214s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail
+[2.214s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+[2.215s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/num__rosidl_typesupport_introspection_c.h
+[2.215s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/num__type_support.c
+[2.215s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/sphere__type_support.c
+[2.216s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/lib/libtutorial_interface__rosidl_typesupport_introspection_c.so
+[2.216s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/lib/libtutorial_interface__rosidl_typesupport_c.so
+[2.216s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface
+[2.217s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv
+[2.217s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/detail
+[2.217s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/detail/add_three_ints__type_support.cpp
+[2.217s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[2.218s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg
+[2.218s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail
+[2.218s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/sphere__type_support.cpp
+[2.219s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[2.219s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/num__type_support.cpp
+[2.219s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+[2.220s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/lib/libtutorial_interface__rosidl_typesupport_introspection_cpp.so
+[2.220s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/lib/libtutorial_interface__rosidl_typesupport_cpp.so
+[2.220s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/environment/pythonpath.sh
+[2.221s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/environment/pythonpath.dsv
+[2.221s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface-0.0.0-py3.10.egg-info
+[2.221s] -- Installing: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.221s] -- Installing: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.222s] -- Installing: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface-0.0.0-py3.10.egg-info/top_level.txt
+[2.222s] -- Installing: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[2.222s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface
+[2.223s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/libtutorial_interface__rosidl_generator_py.so
+[2.223s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/_tutorial_interface_s.ep.rosidl_typesupport_introspection_c.c
+[2.223s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/srv
+[2.224s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/srv/_add_three_ints.py
+[2.224s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/srv/__init__.py
+[2.225s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/srv/_add_three_ints_s.c
+[2.225s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/tutorial_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.225s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/_tutorial_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.226s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/tutorial_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.226s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/_tutorial_interface_s.ep.rosidl_typesupport_c.c
+[2.226s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/__init__.py
+[2.227s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/tutorial_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.227s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/msg
+[2.227s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/msg/_num.py
+[2.227s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/msg/_num_s.c
+[2.228s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/msg/_sphere_s.c
+[2.228s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/msg/__init__.py
+[2.228s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/msg/_sphere.py
+[2.364s] Listing '/home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface'...
+[2.365s] Listing '/home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/msg'...
+[2.367s] Listing '/home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/srv'...
+[2.389s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/tutorial_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.391s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/tutorial_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.392s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/tutorial_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.394s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/lib/libtutorial_interface__rosidl_generator_py.so
+[2.395s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/msg/Num.idl
+[2.396s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/msg/Sphere.idl
+[2.397s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/srv/AddThreeInts.idl
+[2.398s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/msg/Num.msg
+[2.399s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/msg/Sphere.msg
+[2.400s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/srv/AddThreeInts.srv
+[2.401s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/srv/AddThreeInts_Request.msg
+[2.401s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/srv/AddThreeInts_Response.msg
+[2.402s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/ament_index/resource_index/package_run_dependencies/tutorial_interface
+[2.403s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/ament_index/resource_index/parent_prefix_path/tutorial_interface
+[2.404s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/environment/ament_prefix_path.sh
+[2.405s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/environment/ament_prefix_path.dsv
+[2.406s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/environment/path.sh
+[2.407s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/environment/path.dsv
+[2.408s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/local_setup.bash
+[2.409s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/local_setup.sh
+[2.410s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/local_setup.zsh
+[2.411s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/local_setup.dsv
+[2.411s] -- Installing: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/package.dsv
+[2.412s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/ament_index/resource_index/packages/tutorial_interface
+[2.412s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/export_tutorial_interface__rosidl_generator_cExport.cmake
+[2.413s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/export_tutorial_interface__rosidl_generator_cExport-noconfig.cmake
+[2.414s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/export_tutorial_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[2.414s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/export_tutorial_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.415s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/export_tutorial_interface__rosidl_generator_cppExport.cmake
+[2.415s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/export_tutorial_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.416s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/export_tutorial_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.417s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/tutorial_interface__rosidl_typesupport_introspection_cExport.cmake
+[2.420s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/tutorial_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.423s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/tutorial_interface__rosidl_typesupport_cExport.cmake
+[2.423s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/tutorial_interface__rosidl_typesupport_cExport-noconfig.cmake
+[2.424s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/tutorial_interface__rosidl_typesupport_introspection_cppExport.cmake
+[2.424s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/tutorial_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.424s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/tutorial_interface__rosidl_typesupport_cppExport.cmake
+[2.425s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/tutorial_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[2.425s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/export_tutorial_interface__rosidl_generator_pyExport.cmake
+[2.426s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/export_tutorial_interface__rosidl_generator_pyExport-noconfig.cmake
+[2.426s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/rosidl_cmake-extras.cmake
+[2.427s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.427s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.428s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[2.428s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/ament_cmake_export_targets-extras.cmake
+[2.429s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.430s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.430s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/tutorial_interfaceConfig.cmake
+[2.430s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/tutorial_interfaceConfig-version.cmake
+[2.431s] -- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/package.xml
+[2.431s] Invoked command in '/home/gargie/service/build/tutorial_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --install /home/gargie/service/build/tutorial_interface

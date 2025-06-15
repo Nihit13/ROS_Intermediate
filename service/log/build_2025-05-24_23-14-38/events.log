@@ -1,0 +1,484 @@
+[0.000000] (-) TimerEvent: {}
+[0.002155] (cpp_parameter) JobQueued: {'identifier': 'cpp_parameter', 'dependencies': OrderedDict()}
+[0.002372] (py_srvcli) JobQueued: {'identifier': 'py_srvcli', 'dependencies': OrderedDict()}
+[0.003022] (tutorial_interface) JobQueued: {'identifier': 'tutorial_interface', 'dependencies': OrderedDict()}
+[0.003164] (cpp_srvcli) JobQueued: {'identifier': 'cpp_srvcli', 'dependencies': OrderedDict([('tutorial_interface', '/home/gargie/service/install/tutorial_interface')])}
+[0.004339] (tutorial_interface) JobStarted: {'identifier': 'tutorial_interface'}
+[0.038989] (cpp_parameter) JobStarted: {'identifier': 'cpp_parameter'}
+[0.067101] (py_srvcli) JobStarted: {'identifier': 'py_srvcli'}
+[0.098656] (-) TimerEvent: {}
+[0.109497] (tutorial_interface) JobProgress: {'identifier': 'tutorial_interface', 'progress': 'cmake'}
+[0.112436] (tutorial_interface) JobProgress: {'identifier': 'tutorial_interface', 'progress': 'build'}
+[0.115165] (tutorial_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gargie/service/build/tutorial_interface', '--', '-j4', '-l4'], 'cwd': '/home/gargie/service/build/tutorial_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'gargie'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/gargie/service/install/tutorial_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gargie'), ('OLDPWD', '/home/gargie/service/src/cpp_parameter/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1504'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gargie/service/install:/home/gargie/project/install:/home/gargie/key_ws/install:/home/gargie/chem_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gargie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gargie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gargie-HP-Pavilion-x360-Convertible:@/tmp/.ICE-unix/1468,unix/gargie-HP-Pavilion-x360-Convertible:/tmp/.ICE-unix/1468'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a04c9ae7_f784_4192_83f2_6a9fb3e59bc7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9K9E72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.312'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gargie/service/install/cpp_srvcli:/home/gargie/service/install/tutorial_interface:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key_pkg:/home/gargie/key_ws/install/key1_pkg:/home/gargie/project/install/project_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gargie/service/build/tutorial_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages:/home/gargie/service/install/py_srvcli/lib/python3.10/site-packages:/home/gargie/key_ws/install/key1_pkg/lib/python3.10/site-packages:/home/gargie/chem_ws/install/chem_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gargie/service/install/cpp_srvcli:/home/gargie/service/install/tutorial_interface:/home/gargie/key_ws/install/key_pkg:/home/gargie/project/install/project_pkg:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble')]), 'shell': False}
+[0.129660] (cpp_parameter) JobProgress: {'identifier': 'cpp_parameter', 'progress': 'cmake'}
+[0.132230] (cpp_parameter) Command: {'cmd': ['/usr/bin/cmake', '/home/gargie/service/src/cpp_parameter', '-DCMAKE_INSTALL_PREFIX=/home/gargie/service/install/cpp_parameter'], 'cwd': '/home/gargie/service/build/cpp_parameter', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'gargie'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/gargie/service/install/tutorial_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gargie'), ('OLDPWD', '/home/gargie/service/src/cpp_parameter/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1504'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gargie/service/install:/home/gargie/project/install:/home/gargie/key_ws/install:/home/gargie/chem_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gargie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gargie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gargie-HP-Pavilion-x360-Convertible:@/tmp/.ICE-unix/1468,unix/gargie-HP-Pavilion-x360-Convertible:/tmp/.ICE-unix/1468'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a04c9ae7_f784_4192_83f2_6a9fb3e59bc7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9K9E72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.312'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gargie/service/install/cpp_srvcli:/home/gargie/service/install/tutorial_interface:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key_pkg:/home/gargie/key_ws/install/key1_pkg:/home/gargie/project/install/project_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gargie/service/build/cpp_parameter'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages:/home/gargie/service/install/py_srvcli/lib/python3.10/site-packages:/home/gargie/key_ws/install/key1_pkg/lib/python3.10/site-packages:/home/gargie/chem_ws/install/chem_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gargie/service/install/cpp_srvcli:/home/gargie/service/install/tutorial_interface:/home/gargie/key_ws/install/key_pkg:/home/gargie/project/install/project_pkg:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble')]), 'shell': False}
+[0.193976] (cpp_parameter) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.198886] (-) TimerEvent: {}
+[0.302736] (-) TimerEvent: {}
+[0.401939] (tutorial_interface) StdoutLine: {'line': b'[  2%] Built target tutorial_interface__cpp\n'}
+[0.402803] (-) TimerEvent: {}
+[0.447020] (tutorial_interface) StdoutLine: {'line': b'[ 12%] Built target tutorial_interface__rosidl_generator_c\n'}
+[0.505710] (-) TimerEvent: {}
+[0.539889] (tutorial_interface) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_tutorial_interface\n'}
+[0.592776] (tutorial_interface) StdoutLine: {'line': b'[ 23%] Built target tutorial_interface__rosidl_typesupport_cpp\n'}
+[0.593595] (tutorial_interface) StdoutLine: {'line': b'[ 34%] Built target tutorial_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[0.611403] (-) TimerEvent: {}
+[0.621174] (tutorial_interface) StdoutLine: {'line': b'[ 44%] Built target tutorial_interface__rosidl_typesupport_introspection_cpp\n'}
+[0.713745] (-) TimerEvent: {}
+[0.726841] (tutorial_interface) StdoutLine: {'line': b'[ 55%] Built target tutorial_interface__rosidl_typesupport_introspection_c\n'}
+[0.749490] (tutorial_interface) StdoutLine: {'line': b'[ 65%] Built target tutorial_interface__rosidl_typesupport_fastrtps_c\n'}
+[0.767909] (tutorial_interface) StdoutLine: {'line': b'[ 76%] Built target tutorial_interface__rosidl_typesupport_c\n'}
+[0.816733] (-) TimerEvent: {}
+[0.874775] (tutorial_interface) StdoutLine: {'line': b'[ 76%] Built target tutorial_interface\n'}
+[0.916941] (-) TimerEvent: {}
+[0.984262] (tutorial_interface) StdoutLine: {'line': b'[ 78%] Built target tutorial_interface__py\n'}
+[1.019720] (-) TimerEvent: {}
+[1.069511] (cpp_parameter) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.102837] (tutorial_interface) StdoutLine: {'line': b'[ 87%] Built target tutorial_interface__rosidl_generator_py\n'}
+[1.119914] (-) TimerEvent: {}
+[1.224075] (-) TimerEvent: {}
+[1.230470] (tutorial_interface) StdoutLine: {'line': b'[ 91%] Built target tutorial_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[1.276732] (cpp_parameter) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.288735] (tutorial_interface) StdoutLine: {'line': b'[ 95%] Built target tutorial_interface__rosidl_typesupport_c__pyext\n'}
+[1.293738] (cpp_parameter) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.312810] (tutorial_interface) StdoutLine: {'line': b'[100%] Built target tutorial_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.324273] (-) TimerEvent: {}
+[1.326205] (cpp_parameter) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.383478] (cpp_parameter) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.424462] (-) TimerEvent: {}
+[1.458729] (cpp_parameter) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.527767] (-) TimerEvent: {}
+[1.631723] (-) TimerEvent: {}
+[1.645923] (cpp_parameter) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.653744] (cpp_parameter) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.731903] (-) TimerEvent: {}
+[1.833141] (-) TimerEvent: {}
+[1.934472] (-) TimerEvent: {}
+[2.035360] (-) TimerEvent: {}
+[2.079147] (cpp_parameter) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.135672] (-) TimerEvent: {}
+[2.237485] (-) TimerEvent: {}
+[2.318202] (tutorial_interface) StdoutLine: {'line': b'running egg_info\n'}
+[2.321951] (tutorial_interface) StdoutLine: {'line': b'writing tutorial_interface.egg-info/PKG-INFO\n'}
+[2.323434] (tutorial_interface) StdoutLine: {'line': b'writing dependency_links to tutorial_interface.egg-info/dependency_links.txt\n'}
+[2.324121] (cpp_parameter) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.324921] (tutorial_interface) StdoutLine: {'line': b'writing top-level names to tutorial_interface.egg-info/top_level.txt\n'}
+[2.337659] (tutorial_interface) StdoutLine: {'line': b"reading manifest file 'tutorial_interface.egg-info/SOURCES.txt'\n"}
+[2.338231] (-) TimerEvent: {}
+[2.340937] (tutorial_interface) StdoutLine: {'line': b"writing manifest file 'tutorial_interface.egg-info/SOURCES.txt'\n"}
+[2.438504] (-) TimerEvent: {}
+[2.506620] (tutorial_interface) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_tutorial_interface_egg\n'}
+[2.538692] (-) TimerEvent: {}
+[2.560702] (tutorial_interface) CommandEnded: {'returncode': 0}
+[2.564260] (tutorial_interface) JobProgress: {'identifier': 'tutorial_interface', 'progress': 'install'}
+[2.608090] (tutorial_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/gargie/service/build/tutorial_interface'], 'cwd': '/home/gargie/service/build/tutorial_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'gargie'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/gargie/service/install/tutorial_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gargie'), ('OLDPWD', '/home/gargie/service/src/cpp_parameter/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1504'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gargie/service/install:/home/gargie/project/install:/home/gargie/key_ws/install:/home/gargie/chem_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gargie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gargie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gargie-HP-Pavilion-x360-Convertible:@/tmp/.ICE-unix/1468,unix/gargie-HP-Pavilion-x360-Convertible:/tmp/.ICE-unix/1468'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a04c9ae7_f784_4192_83f2_6a9fb3e59bc7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9K9E72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.312'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gargie/service/install/cpp_srvcli:/home/gargie/service/install/tutorial_interface:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key_pkg:/home/gargie/key_ws/install/key1_pkg:/home/gargie/project/install/project_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gargie/service/build/tutorial_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages:/home/gargie/service/install/py_srvcli/lib/python3.10/site-packages:/home/gargie/key_ws/install/key1_pkg/lib/python3.10/site-packages:/home/gargie/chem_ws/install/chem_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gargie/service/install/cpp_srvcli:/home/gargie/service/install/tutorial_interface:/home/gargie/key_ws/install/key_pkg:/home/gargie/project/install/project_pkg:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble')]), 'shell': False}
+[2.638907] (-) TimerEvent: {}
+[2.651808] (tutorial_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.652411] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/ament_index/resource_index/rosidl_interfaces/tutorial_interface\n'}
+[2.652904] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface\n'}
+[2.653307] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv\n'}
+[2.653727] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/detail\n'}
+[2.654105] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/detail/add_three_ints__type_support.h\n'}
+[2.655641] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/detail/add_three_ints__functions.h\n'}
+[2.656948] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/detail/add_three_ints__struct.h\n'}
+[2.657724] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/detail/add_three_ints__functions.c\n'}
+[2.658216] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/add_three_ints.h\n'}
+[2.658836] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg\n'}
+[2.659563] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/num.h\n'}
+[2.660972] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.661830] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/sphere.h\n'}
+[2.662237] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail\n'}
+[2.662666] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/sphere__struct.h\n'}
+[2.663956] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/num__functions.h\n'}
+[2.664570] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/num__functions.c\n'}
+[2.665115] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/num__struct.h\n'}
+[2.665789] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/sphere__functions.h\n'}
+[2.673115] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/sphere__type_support.h\n'}
+[2.674394] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/num__type_support.h\n'}
+[2.675244] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/sphere__functions.c\n'}
+[2.675841] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/environment/library_path.sh\n'}
+[2.676331] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/environment/library_path.dsv\n'}
+[2.677257] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/lib/libtutorial_interface__rosidl_generator_c.so\n'}
+[2.678098] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface\n'}
+[2.678722] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv\n'}
+[2.679221] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/detail\n'}
+[2.679772] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[2.680282] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg\n'}
+[2.681192] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail\n'}
+[2.682328] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h\n'}
+[2.683282] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[2.684249] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.685173] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/lib/libtutorial_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[2.687220] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface\n'}
+[2.688001] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv\n'}
+[2.688494] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/detail\n'}
+[2.689457] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/detail/add_three_ints__struct.hpp\n'}
+[2.690303] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/detail/add_three_ints__traits.hpp\n'}
+[2.690836] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/detail/add_three_ints__builder.hpp\n'}
+[2.691304] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/detail/add_three_ints__type_support.hpp\n'}
+[2.691786] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/add_three_ints.hpp\n'}
+[2.692362] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg\n'}
+[2.693494] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/num.hpp\n'}
+[2.694075] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail\n'}
+[2.694634] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/num__traits.hpp\n'}
+[2.695198] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/sphere__type_support.hpp\n'}
+[2.695743] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/num__type_support.hpp\n'}
+[2.696244] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/sphere__traits.hpp\n'}
+[2.696765] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/num__struct.hpp\n'}
+[2.697632] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/num__builder.hpp\n'}
+[2.698358] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/sphere__struct.hpp\n'}
+[2.698965] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/sphere__builder.hpp\n'}
+[2.699454] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[2.700007] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/sphere.hpp\n'}
+[2.700484] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface\n'}
+[2.701017] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv\n'}
+[2.701477] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/detail\n'}
+[2.702115] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/detail/dds_fastrtps\n'}
+[2.702690] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.703219] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg\n'}
+[2.703767] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail\n'}
+[2.704277] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/dds_fastrtps\n'}
+[2.704807] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.705293] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.705919] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.706430] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/lib/libtutorial_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.706974] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface\n'}
+[2.707448] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv\n'}
+[2.708053] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/detail\n'}
+[2.708614] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[2.709154] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/detail/add_three_ints__type_support.c\n'}
+[2.709697] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg\n'}
+[2.710236] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.710777] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail\n'}
+[2.711273] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/sphere__rosidl_typesupport_introspection_c.h\n'}
+[2.711814] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[2.712304] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/num__type_support.c\n'}
+[2.712905] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/sphere__type_support.c\n'}
+[2.713468] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/lib/libtutorial_interface__rosidl_typesupport_introspection_c.so\n'}
+[2.714033] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/lib/libtutorial_interface__rosidl_typesupport_c.so\n'}
+[2.714610] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface\n'}
+[2.715148] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv\n'}
+[2.715715] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/detail\n'}
+[2.716256] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/detail/add_three_ints__type_support.cpp\n'}
+[2.716784] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.718588] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg\n'}
+[2.719457] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail\n'}
+[2.720060] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/sphere__type_support.cpp\n'}
+[2.720606] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.721133] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/num__type_support.cpp\n'}
+[2.721639] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/include/tutorial_interface/tutorial_interface/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.722189] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/lib/libtutorial_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[2.722738] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/lib/libtutorial_interface__rosidl_typesupport_cpp.so\n'}
+[2.723254] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/environment/pythonpath.sh\n'}
+[2.723933] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/environment/pythonpath.dsv\n'}
+[2.724749] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface-0.0.0-py3.10.egg-info\n'}
+[2.725364] (tutorial_interface) StdoutLine: {'line': b'-- Installing: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.726293] (tutorial_interface) StdoutLine: {'line': b'-- Installing: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.726957] (tutorial_interface) StdoutLine: {'line': b'-- Installing: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.727513] (tutorial_interface) StdoutLine: {'line': b'-- Installing: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.728186] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface\n'}
+[2.728729] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/libtutorial_interface__rosidl_generator_py.so\n'}
+[2.729240] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/_tutorial_interface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.729792] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/srv\n'}
+[2.730340] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/srv/_add_three_ints.py\n'}
+[2.730966] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/srv/__init__.py\n'}
+[2.731473] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/srv/_add_three_ints_s.c\n'}
+[2.732033] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/tutorial_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.732510] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/_tutorial_interface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.733154] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/tutorial_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.733687] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/_tutorial_interface_s.ep.rosidl_typesupport_c.c\n'}
+[2.734240] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/__init__.py\n'}
+[2.734852] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/tutorial_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.735377] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/msg\n'}
+[2.735941] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/msg/_num.py\n'}
+[2.736438] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/msg/_num_s.c\n'}
+[2.737047] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/msg/_sphere_s.c\n'}
+[2.737581] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/msg/__init__.py\n'}
+[2.738102] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/msg/_sphere.py\n'}
+[2.738845] (cpp_parameter) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.739407] (-) TimerEvent: {}
+[2.740677] (cpp_parameter) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.741284] (cpp_parameter) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.743751] (cpp_parameter) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.749445] (cpp_parameter) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.750128] (cpp_parameter) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.752589] (cpp_parameter) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.759897] (cpp_parameter) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.803897] (cpp_parameter) StdoutLine: {'line': b'-- Generating done\n'}
+[2.820041] (cpp_parameter) StdoutLine: {'line': b'-- Build files have been written to: /home/gargie/service/build/cpp_parameter\n'}
+[2.839644] (-) TimerEvent: {}
+[2.859945] (cpp_parameter) CommandEnded: {'returncode': 0}
+[2.861604] (cpp_parameter) JobProgress: {'identifier': 'cpp_parameter', 'progress': 'build'}
+[2.861760] (cpp_parameter) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gargie/service/build/cpp_parameter', '--', '-j4', '-l4'], 'cwd': '/home/gargie/service/build/cpp_parameter', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'gargie'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/gargie/service/install/tutorial_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gargie'), ('OLDPWD', '/home/gargie/service/src/cpp_parameter/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1504'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gargie/service/install:/home/gargie/project/install:/home/gargie/key_ws/install:/home/gargie/chem_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gargie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gargie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gargie-HP-Pavilion-x360-Convertible:@/tmp/.ICE-unix/1468,unix/gargie-HP-Pavilion-x360-Convertible:/tmp/.ICE-unix/1468'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a04c9ae7_f784_4192_83f2_6a9fb3e59bc7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9K9E72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.312'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gargie/service/install/cpp_srvcli:/home/gargie/service/install/tutorial_interface:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key_pkg:/home/gargie/key_ws/install/key1_pkg:/home/gargie/project/install/project_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gargie/service/build/cpp_parameter'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages:/home/gargie/service/install/py_srvcli/lib/python3.10/site-packages:/home/gargie/key_ws/install/key1_pkg/lib/python3.10/site-packages:/home/gargie/chem_ws/install/chem_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gargie/service/install/cpp_srvcli:/home/gargie/service/install/tutorial_interface:/home/gargie/key_ws/install/key_pkg:/home/gargie/project/install/project_pkg:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble')]), 'shell': False}
+[2.878089] (tutorial_interface) StdoutLine: {'line': b"Listing '/home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface'...\n"}
+[2.878898] (tutorial_interface) StdoutLine: {'line': b"Listing '/home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/msg'...\n"}
+[2.879352] (tutorial_interface) StdoutLine: {'line': b"Listing '/home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/srv'...\n"}
+[2.909875] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/tutorial_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.910696] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/tutorial_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.913247] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages/tutorial_interface/tutorial_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.914033] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/lib/libtutorial_interface__rosidl_generator_py.so\n'}
+[2.915583] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/msg/Num.idl\n'}
+[2.916179] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/msg/Sphere.idl\n'}
+[2.917207] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/srv/AddThreeInts.idl\n'}
+[2.918869] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/msg/Num.msg\n'}
+[2.919656] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/msg/Sphere.msg\n'}
+[2.920234] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/srv/AddThreeInts.srv\n'}
+[2.920775] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/srv/AddThreeInts_Request.msg\n'}
+[2.921283] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/srv/AddThreeInts_Response.msg\n'}
+[2.922228] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/ament_index/resource_index/package_run_dependencies/tutorial_interface\n'}
+[2.923319] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/ament_index/resource_index/parent_prefix_path/tutorial_interface\n'}
+[2.924760] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/environment/ament_prefix_path.sh\n'}
+[2.925736] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/environment/ament_prefix_path.dsv\n'}
+[2.926699] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/environment/path.sh\n'}
+[2.927421] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/environment/path.dsv\n'}
+[2.927997] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/local_setup.bash\n'}
+[2.928469] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/local_setup.sh\n'}
+[2.930026] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/local_setup.zsh\n'}
+[2.931201] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/local_setup.dsv\n'}
+[2.931866] (tutorial_interface) StdoutLine: {'line': b'-- Installing: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/package.dsv\n'}
+[2.932416] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/ament_index/resource_index/packages/tutorial_interface\n'}
+[2.933001] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/export_tutorial_interface__rosidl_generator_cExport.cmake\n'}
+[2.933477] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/export_tutorial_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.934037] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/export_tutorial_interface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.934514] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/export_tutorial_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.935203] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/export_tutorial_interface__rosidl_generator_cppExport.cmake\n'}
+[2.935845] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/export_tutorial_interface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.936437] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/export_tutorial_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.937311] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/tutorial_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.937963] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/tutorial_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.938444] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/tutorial_interface__rosidl_typesupport_cExport.cmake\n'}
+[2.940430] (-) TimerEvent: {}
+[2.943586] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/tutorial_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.945667] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/tutorial_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.946293] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/tutorial_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.947451] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/tutorial_interface__rosidl_typesupport_cppExport.cmake\n'}
+[2.948405] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/tutorial_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.949809] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/export_tutorial_interface__rosidl_generator_pyExport.cmake\n'}
+[2.950771] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/export_tutorial_interface__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.951908] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[2.952793] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.953238] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.953631] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.954656] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.955759] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.956387] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.957331] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/tutorial_interfaceConfig.cmake\n'}
+[2.958342] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/cmake/tutorial_interfaceConfig-version.cmake\n'}
+[2.959315] (tutorial_interface) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/tutorial_interface/share/tutorial_interface/package.xml\n'}
+[2.960253] (tutorial_interface) CommandEnded: {'returncode': 0}
+[3.041006] (-) TimerEvent: {}
+[3.081814] (tutorial_interface) JobEnded: {'identifier': 'tutorial_interface', 'rc': 0}
+[3.085973] (cpp_srvcli) JobStarted: {'identifier': 'cpp_srvcli'}
+[3.102768] (cpp_parameter) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/parameter_node.dir/src/parameter_node.cpp.o\x1b[0m\n'}
+[3.136827] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'cmake'}
+[3.140203] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'build'}
+[3.142330] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gargie/service/build/cpp_srvcli', '--', '-j4', '-l4'], 'cwd': '/home/gargie/service/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'gargie'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/gargie/service/install/tutorial_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gargie'), ('OLDPWD', '/home/gargie/service/src/cpp_parameter/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1504'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gargie/service/install:/home/gargie/project/install:/home/gargie/key_ws/install:/home/gargie/chem_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gargie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gargie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gargie-HP-Pavilion-x360-Convertible:@/tmp/.ICE-unix/1468,unix/gargie-HP-Pavilion-x360-Convertible:/tmp/.ICE-unix/1468'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a04c9ae7_f784_4192_83f2_6a9fb3e59bc7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9K9E72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.312'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gargie/service/install/cpp_srvcli:/home/gargie/service/install/tutorial_interface:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key_pkg:/home/gargie/key_ws/install/key1_pkg:/home/gargie/project/install/project_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gargie/service/build/cpp_srvcli'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages:/home/gargie/service/install/py_srvcli/lib/python3.10/site-packages:/home/gargie/key_ws/install/key1_pkg/lib/python3.10/site-packages:/home/gargie/chem_ws/install/chem_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gargie/service/install/tutorial_interface:/home/gargie/service/install/cpp_srvcli:/home/gargie/key_ws/install/key_pkg:/home/gargie/project/install/project_pkg:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble')]), 'shell': False}
+[3.148172] (-) TimerEvent: {}
+[3.251755] (-) TimerEvent: {}
+[3.354713] (-) TimerEvent: {}
+[3.390933] (cpp_srvcli) StdoutLine: {'line': b'[ 50%] Built target server\n'}
+[3.428576] (cpp_srvcli) StdoutLine: {'line': b'[100%] Built target client\n'}
+[3.456796] (-) TimerEvent: {}
+[3.476782] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[3.480861] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'install'}
+[3.481099] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/gargie/service/build/cpp_srvcli'], 'cwd': '/home/gargie/service/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'gargie'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/gargie/service/install/tutorial_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gargie'), ('OLDPWD', '/home/gargie/service/src/cpp_parameter/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1504'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gargie/service/install:/home/gargie/project/install:/home/gargie/key_ws/install:/home/gargie/chem_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gargie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gargie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gargie-HP-Pavilion-x360-Convertible:@/tmp/.ICE-unix/1468,unix/gargie-HP-Pavilion-x360-Convertible:/tmp/.ICE-unix/1468'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a04c9ae7_f784_4192_83f2_6a9fb3e59bc7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9K9E72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.312'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gargie/service/install/cpp_srvcli:/home/gargie/service/install/tutorial_interface:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key_pkg:/home/gargie/key_ws/install/key1_pkg:/home/gargie/project/install/project_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gargie/service/build/cpp_srvcli'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages:/home/gargie/service/install/py_srvcli/lib/python3.10/site-packages:/home/gargie/key_ws/install/key1_pkg/lib/python3.10/site-packages:/home/gargie/chem_ws/install/chem_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gargie/service/install/tutorial_interface:/home/gargie/service/install/cpp_srvcli:/home/gargie/key_ws/install/key_pkg:/home/gargie/project/install/project_pkg:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble')]), 'shell': False}
+[3.517930] (cpp_srvcli) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.519182] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/cpp_srvcli/lib/cpp_srvcli/server\n'}
+[3.521081] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/cpp_srvcli/lib/cpp_srvcli/client\n'}
+[3.522927] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli\n'}
+[3.523590] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli\n'}
+[3.524178] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh\n'}
+[3.524703] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv\n'}
+[3.525210] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh\n'}
+[3.526103] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv\n'}
+[3.526724] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash\n'}
+[3.527220] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh\n'}
+[3.527748] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh\n'}
+[3.528284] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv\n'}
+[3.528877] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/package.dsv\n'}
+[3.529335] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli\n'}
+[3.530886] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake\n'}
+[3.535155] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake\n'}
+[3.537330] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/package.xml\n'}
+[3.538331] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[3.557068] (-) TimerEvent: {}
+[3.612503] (cpp_srvcli) JobEnded: {'identifier': 'cpp_srvcli', 'rc': 0}
+[3.657300] (-) TimerEvent: {}
+[3.758213] (-) TimerEvent: {}
+[3.851599] (py_srvcli) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_srvcli', 'build', '--build-base', '/home/gargie/service/build/py_srvcli/build', 'install', '--record', '/home/gargie/service/build/py_srvcli/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/gargie/service/src/py_srvcli', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'gargie', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/gargie/service/install/tutorial_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/gargie', 'OLDPWD': '/home/gargie/service/src/cpp_parameter/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1504', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/gargie/service/install:/home/gargie/project/install:/home/gargie/key_ws/install:/home/gargie/chem_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'gargie', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'gargie', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/gargie-HP-Pavilion-x360-Convertible:@/tmp/.ICE-unix/1468,unix/gargie-HP-Pavilion-x360-Convertible:/tmp/.ICE-unix/1468', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a04c9ae7_f784_4192_83f2_6a9fb3e59bc7', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.9K9E72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.312', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/gargie/service/install/cpp_srvcli:/home/gargie/service/install/tutorial_interface:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key_pkg:/home/gargie/key_ws/install/key1_pkg:/home/gargie/project/install/project_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/gargie/service/build/py_srvcli', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/gargie/service/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gargie/service/install/py_srvcli/lib/python3.10/site-packages:/home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages:/home/gargie/service/install/py_srvcli/lib/python3.10/site-packages:/home/gargie/key_ws/install/key1_pkg/lib/python3.10/site-packages:/home/gargie/chem_ws/install/chem_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/gargie/service/install/cpp_srvcli:/home/gargie/service/install/tutorial_interface:/home/gargie/key_ws/install/key_pkg:/home/gargie/project/install/project_pkg'}, 'shell': False}
+[3.858362] (-) TimerEvent: {}
+[3.959177] (-) TimerEvent: {}
+[4.060264] (-) TimerEvent: {}
+[4.161130] (-) TimerEvent: {}
+[4.262100] (-) TimerEvent: {}
+[4.363041] (-) TimerEvent: {}
+[4.464016] (-) TimerEvent: {}
+[4.565062] (-) TimerEvent: {}
+[4.665994] (-) TimerEvent: {}
+[4.766952] (-) TimerEvent: {}
+[4.867973] (-) TimerEvent: {}
+[4.968848] (-) TimerEvent: {}
+[5.047967] (py_srvcli) StdoutLine: {'line': b'running egg_info\n'}
+[5.051175] (py_srvcli) StdoutLine: {'line': b'writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO\n'}
+[5.052413] (py_srvcli) StdoutLine: {'line': b'writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt\n'}
+[5.053390] (py_srvcli) StdoutLine: {'line': b'writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt\n'}
+[5.054413] (py_srvcli) StdoutLine: {'line': b'writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt\n'}
+[5.055253] (py_srvcli) StdoutLine: {'line': b'writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt\n'}
+[5.062681] (py_srvcli) StdoutLine: {'line': b"reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[5.063960] (py_srvcli) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[5.066626] (py_srvcli) StdoutLine: {'line': b"writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[5.067691] (py_srvcli) StdoutLine: {'line': b'running build\n'}
+[5.068266] (py_srvcli) StdoutLine: {'line': b'running build_py\n'}
+[5.068856] (-) TimerEvent: {}
+[5.074973] (py_srvcli) StdoutLine: {'line': b'running install\n'}
+[5.076381] (py_srvcli) StdoutLine: {'line': b'running install_lib\n'}
+[5.082122] (py_srvcli) StdoutLine: {'line': b'running install_data\n'}
+[5.083008] (py_srvcli) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.090487] (py_srvcli) StdoutLine: {'line': b"removing '/home/gargie/service/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.091795] (py_srvcli) StdoutLine: {'line': b'Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/gargie/service/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info\n'}
+[5.096157] (py_srvcli) StdoutLine: {'line': b'running install_scripts\n'}
+[5.169115] (-) TimerEvent: {}
+[5.186410] (py_srvcli) StdoutLine: {'line': b'Installing client script to /home/gargie/service/install/py_srvcli/lib/py_srvcli\n'}
+[5.187373] (py_srvcli) StdoutLine: {'line': b'Installing service script to /home/gargie/service/install/py_srvcli/lib/py_srvcli\n'}
+[5.189146] (py_srvcli) StdoutLine: {'line': b"writing list of installed files to '/home/gargie/service/build/py_srvcli/install.log'\n"}
+[5.269438] (-) TimerEvent: {}
+[5.323388] (py_srvcli) CommandEnded: {'returncode': 0}
+[5.354919] (py_srvcli) JobEnded: {'identifier': 'py_srvcli', 'rc': 0}
+[5.369726] (-) TimerEvent: {}
+[5.470767] (-) TimerEvent: {}
+[5.572462] (-) TimerEvent: {}
+[5.674322] (-) TimerEvent: {}
+[5.776142] (-) TimerEvent: {}
+[5.877905] (-) TimerEvent: {}
+[5.979749] (-) TimerEvent: {}
+[6.081449] (-) TimerEvent: {}
+[6.183257] (-) TimerEvent: {}
+[6.285096] (-) TimerEvent: {}
+[6.386835] (-) TimerEvent: {}
+[6.487691] (-) TimerEvent: {}
+[6.588479] (-) TimerEvent: {}
+[6.689506] (-) TimerEvent: {}
+[6.791353] (-) TimerEvent: {}
+[6.893202] (-) TimerEvent: {}
+[6.994981] (-) TimerEvent: {}
+[7.096831] (-) TimerEvent: {}
+[7.198616] (-) TimerEvent: {}
+[7.300389] (-) TimerEvent: {}
+[7.402241] (-) TimerEvent: {}
+[7.504101] (-) TimerEvent: {}
+[7.605989] (-) TimerEvent: {}
+[7.707797] (-) TimerEvent: {}
+[7.809376] (-) TimerEvent: {}
+[7.911231] (-) TimerEvent: {}
+[8.013082] (-) TimerEvent: {}
+[8.114905] (-) TimerEvent: {}
+[8.216768] (-) TimerEvent: {}
+[8.318615] (-) TimerEvent: {}
+[8.420455] (-) TimerEvent: {}
+[8.522286] (-) TimerEvent: {}
+[8.624139] (-) TimerEvent: {}
+[8.725984] (-) TimerEvent: {}
+[8.827852] (-) TimerEvent: {}
+[8.929700] (-) TimerEvent: {}
+[9.031472] (-) TimerEvent: {}
+[9.133348] (-) TimerEvent: {}
+[9.235198] (-) TimerEvent: {}
+[9.337061] (-) TimerEvent: {}
+[9.438910] (-) TimerEvent: {}
+[9.540789] (-) TimerEvent: {}
+[9.642697] (-) TimerEvent: {}
+[9.744483] (-) TimerEvent: {}
+[9.846335] (-) TimerEvent: {}
+[9.948210] (-) TimerEvent: {}
+[10.050319] (-) TimerEvent: {}
+[10.152154] (-) TimerEvent: {}
+[10.254005] (-) TimerEvent: {}
+[10.355875] (-) TimerEvent: {}
+[10.457723] (-) TimerEvent: {}
+[10.559596] (-) TimerEvent: {}
+[10.661384] (-) TimerEvent: {}
+[10.763236] (-) TimerEvent: {}
+[10.865078] (-) TimerEvent: {}
+[10.966855] (-) TimerEvent: {}
+[11.068755] (-) TimerEvent: {}
+[11.170506] (-) TimerEvent: {}
+[11.272319] (-) TimerEvent: {}
+[11.374165] (-) TimerEvent: {}
+[11.476012] (-) TimerEvent: {}
+[11.577892] (-) TimerEvent: {}
+[11.679779] (-) TimerEvent: {}
+[11.781633] (-) TimerEvent: {}
+[11.883395] (-) TimerEvent: {}
+[11.985221] (-) TimerEvent: {}
+[12.086878] (-) TimerEvent: {}
+[12.188009] (-) TimerEvent: {}
+[12.289831] (-) TimerEvent: {}
+[12.391682] (-) TimerEvent: {}
+[12.493462] (-) TimerEvent: {}
+[12.595332] (-) TimerEvent: {}
+[12.697225] (-) TimerEvent: {}
+[12.799127] (-) TimerEvent: {}
+[12.900992] (-) TimerEvent: {}
+[13.002852] (-) TimerEvent: {}
+[13.104678] (-) TimerEvent: {}
+[13.206505] (-) TimerEvent: {}
+[13.308365] (-) TimerEvent: {}
+[13.410184] (-) TimerEvent: {}
+[13.512059] (-) TimerEvent: {}
+[13.613962] (-) TimerEvent: {}
+[13.715827] (-) TimerEvent: {}
+[13.817677] (-) TimerEvent: {}
+[13.919449] (-) TimerEvent: {}
+[14.021294] (-) TimerEvent: {}
+[14.123156] (-) TimerEvent: {}
+[14.224985] (-) TimerEvent: {}
+[14.326870] (-) TimerEvent: {}
+[14.390996] (cpp_parameter) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/service/src/cpp_parameter/src/parameter_node.cpp:11:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[14.393814] (cpp_parameter) StderrLine: {'line': b'   11 |         \x1b[01;31m\x1b[K{\x1b[m\x1b[K\n'}
+[14.395709] (cpp_parameter) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[14.398349] (cpp_parameter) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/service/src/cpp_parameter/src/parameter_node.cpp:27:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[14.400759] (cpp_parameter) StderrLine: {'line': b'   27 | rclcpp::TimerBase:\x1b[01;31m\x1b[K;\x1b[m\x1b[KSharedPtr timer_;\n'}
+[14.402380] (cpp_parameter) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[14.403995] (cpp_parameter) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/service/src/cpp_parameter/src/parameter_node.cpp:27:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbit-field \xe2\x80\x98\x1b[01m\x1b[K<anonymous>\x1b[m\x1b[K\xe2\x80\x99 with non-integral type \xe2\x80\x98\x1b[01m\x1b[Krclcpp::TimerBase\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.405589] (cpp_parameter) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/service/src/cpp_parameter/src/parameter_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kparameter::parameter()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.407112] (cpp_parameter) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/service/src/cpp_parameter/src/parameter_node.cpp:10:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 at end of input\n'}
+[14.408726] (cpp_parameter) StderrLine: {'line': b'   10 |         parameter():Node("parameter_node")\x1b[01;31m\x1b[K;\x1b[m\x1b[K\n'}
+[14.410252] (cpp_parameter) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[14.412166] (cpp_parameter) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/service/src/cpp_parameter/src/parameter_node.cpp:\x1b[m\x1b[K At global scope:\n'}
+[14.413773] (cpp_parameter) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/service/src/cpp_parameter/src/parameter_node.cpp:29:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.415424] (cpp_parameter) StderrLine: {'line': b'   29 | int main(int argc \x1b[01;31m\x1b[Kchar\x1b[m\x1b[K**argv)\n'}
+[14.417015] (cpp_parameter) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[14.418706] (cpp_parameter) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/service/src/cpp_parameter/src/parameter_node.cpp:29:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint main(int)\x1b[m\x1b[K\xe2\x80\x99 takes only zero or two arguments [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmain\x07-Wmain\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.420363] (cpp_parameter) StderrLine: {'line': b'   29 | int \x1b[01;35m\x1b[Kmain\x1b[m\x1b[K(int argc char**argv)\n'}
+[14.421952] (cpp_parameter) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[14.423472] (cpp_parameter) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/service/src/cpp_parameter/src/parameter_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.425047] (cpp_parameter) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/service/src/cpp_parameter/src/parameter_node.cpp:31:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kargv\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kargc\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[14.426679] (cpp_parameter) StderrLine: {'line': b'   31 | rclcpp::init(argc,\x1b[01;31m\x1b[Kargv\x1b[m\x1b[K);\n'}
+[14.428139] (-) TimerEvent: {}
+[14.429431] (cpp_parameter) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[14.431155] (cpp_parameter) StderrLine: {'line': b'      |                   \x1b[32m\x1b[Kargc\x1b[m\x1b[K\n'}
+[14.528450] (-) TimerEvent: {}
+[14.629834] (-) TimerEvent: {}
+[14.731640] (-) TimerEvent: {}
+[14.833351] (-) TimerEvent: {}
+[14.935117] (-) TimerEvent: {}
+[15.036868] (-) TimerEvent: {}
+[15.138691] (-) TimerEvent: {}
+[15.240469] (-) TimerEvent: {}
+[15.342347] (-) TimerEvent: {}
+[15.444138] (-) TimerEvent: {}
+[15.545863] (-) TimerEvent: {}
+[15.647673] (-) TimerEvent: {}
+[15.749447] (-) TimerEvent: {}
+[15.851263] (-) TimerEvent: {}
+[15.953383] (-) TimerEvent: {}
+[16.055190] (-) TimerEvent: {}
+[16.157343] (-) TimerEvent: {}
+[16.259406] (-) TimerEvent: {}
+[16.361483] (-) TimerEvent: {}
+[16.386241] (cpp_parameter) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/parameter_node.dir/build.make:76: CMakeFiles/parameter_node.dir/src/parameter_node.cpp.o] Error 1\n'}
+[16.387448] (cpp_parameter) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/parameter_node.dir/all] Error 2\n'}
+[16.388197] (cpp_parameter) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[16.396886] (cpp_parameter) CommandEnded: {'returncode': 2}
+[16.433129] (cpp_parameter) JobEnded: {'identifier': 'cpp_parameter', 'rc': 2}
+[16.445968] (-) EventReactorShutdown: {}

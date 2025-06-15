@@ -1,0 +1,41 @@
+[0.054s] Invoking command in '/home/gargie/service/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/service/build/cpp_srvcli -- -j4 -l4
+[0.204s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[0.269s] [ 50%] Built target client
+[0.272s] [ 75%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints.cpp.o[0m
+[11.516s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[11.518s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[11.519s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[11.521s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[11.522s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[11.524s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[11.525s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[11.527s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[11.528s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[11.530s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[11.532s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[11.534s]                  from [01m[K/home/gargie/service/src/cpp_srvcli/src/add_two_ints.cpp:1[m[K:
+[11.535s] [01m[K/home/gargie/service/src/cpp_srvcli/src/add_two_ints.cpp:[m[K In function ‘[01m[Kvoid add(std::shared_ptr<example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> > >, std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > >)[m[K’:
+[11.537s] [01m[K/home/gargie/service/src/cpp_srvcli/src/add_two_ints.cpp:10:17:[m[K [01;31m[Kerror: [m[K‘[01m[Krequeat[m[K’ was not declared in this scope; did you mean ‘[01m[Krequest[m[K’?
+[11.538s]    10 |      request->a,[01;31m[Krequeat[m[K->b);
+[11.540s]       |                 [01;31m[K^~~~~~~[m[K
+[11.541s] [01m[K/home/gargie/service/src/cpp_srvcli/src/add_two_ints.cpp:11:79:[m[K [01;31m[Kerror: [m[K‘[01m[Klongint[m[K’ was not declared in this scope; did you mean ‘[01m[Klrint[m[K’?
+[11.543s]    11 | _logger("rclcpp"),"sending back response: [%1d]",([01;31m[Klongint[m[K)response->sum);
+[11.544s]       |                                                   [01;31m[K^~~~~~~[m[K
+[11.546s] 
+[11.550s] [01m[K/home/gargie/service/src/cpp_srvcli/src/add_two_ints.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[11.552s] [01m[K/home/gargie/service/src/cpp_srvcli/src/add_two_ints.cpp:19:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kexampe_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Kexample_interfaces[m[K’?
+[11.553s]    19 |     rclcpp::Service<[01;31m[Kexampe_interfaces[m[K::srv::AddTwoInts>::SharedPtr service= node->create_service<exaple_interfaces::srv::AddTwoInts>("add_two_ints", &add);
+[11.555s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[11.557s]       |                     [32m[Kexample_interfaces[m[K
+[11.558s] [01m[K/home/gargie/service/src/cpp_srvcli/src/add_two_ints.cpp:19:55:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[11.560s]    19 | rclcpp::Service<exampe_interfaces::srv::AddTwoInts[01;31m[K>[m[K::SharedPtr service= node->create_service<exaple_interfaces::srv::AddTwoInts>("add_two_ints", &add);
+[11.561s]       |                                                   [01;31m[K^[m[K
+[11.563s] 
+[11.564s] [01m[K/home/gargie/service/src/cpp_srvcli/src/add_two_ints.cpp:19:68:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[Kservice[m[K’
+[11.566s]    19 | ce<exampe_interfaces::srv::AddTwoInts>::SharedPtr [01;31m[Kservice[m[K= node->create_service<exaple_interfaces::srv::AddTwoInts>("add_two_ints", &add);
+[11.567s]       |                                                   [01;31m[K^~~~~~~[m[K
+[11.569s] 
+[13.511s] gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/add_two_ints.cpp.o] Error 1
+[13.512s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2
+[13.513s] gmake: *** [Makefile:146: all] Error 2
+[13.523s] Invoked command in '/home/gargie/service/build/cpp_srvcli' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/service/build/cpp_srvcli -- -j4 -l4

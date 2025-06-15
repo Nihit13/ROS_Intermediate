@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target node_interf[0m
+[ 50%] Built target interface_n
+[ 75%] [32mBuilding CXX object CMakeFiles/node_interf.dir/src/node_interf.cpp.o[0m
+[01m[K/home/gargie/interfaces/src/inter_pkg/src/node_interf.cpp:29:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K:[m[K’ token
+   29 |   explicit LifecycleTalker(const std::string & node_name[01;31m[K:[m[K rclcpp_lifecycle::LifecycleNode(node_name)
+      |                                                         [01;31m[K^[m[K
+[01m[K/home/gargie/interfaces/src/inter_pkg/src/node_interf.cpp:30:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K}[m[K’ token
+   30 |   {}
+      |     [01;31m[K^[m[K
+      |     [32m[K)[m[K
+   31 | [32m[K}[m[K;
+      | [32m[K~[m[K    
+[01m[K/home/gargie/interfaces/src/inter_pkg/src/node_interf.cpp:29:27:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   29 |   explicit LifecycleTalker[01;36m[K([m[Kconst std::string & node_name: rclcpp_lifecycle::LifecycleNode(node_name)
+      |                           [01;36m[K^[m[K
+[01m[K/home/gargie/interfaces/src/inter_pkg/src/node_interf.cpp:30:4:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   30 |   {[01;31m[K}[m[K
+      |    [01;31m[K^[m[K
+      |     [32m[K;[m[K
+gmake[2]: *** [CMakeFiles/node_interf.dir/build.make:76: CMakeFiles/node_interf.dir/src/node_interf.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/node_interf.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

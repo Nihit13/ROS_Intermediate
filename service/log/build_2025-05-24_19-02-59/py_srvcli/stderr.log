@@ -1,0 +1,6 @@
+Sorry: IndentationError: expected an indented block after function definition on line 8 (service.py, line 9)
+  File "/home/gargie/service/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/client.py", line 2
+    import example_interfaces.srv import AddTwoInts
+                                  ^^^^^^
+SyntaxError: invalid syntax
+

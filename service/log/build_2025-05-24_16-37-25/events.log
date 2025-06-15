@@ -1,0 +1,208 @@
+[0.000000] (-) TimerEvent: {}
+[0.001440] (cpp_srvcli) JobQueued: {'identifier': 'cpp_srvcli', 'dependencies': OrderedDict()}
+[0.002129] (cpp_srvcli) JobStarted: {'identifier': 'cpp_srvcli'}
+[0.043686] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'cmake'}
+[0.046403] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'build'}
+[0.049374] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gargie/service/build/cpp_srvcli', '--', '-j4', '-l4'], 'cwd': '/home/gargie/service/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'gargie'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gargie'), ('OLDPWD', '/home/gargie/service/src/cpp_srvcli/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1504'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gargie/service/install:/home/gargie/project/install:/home/gargie/key_ws/install:/home/gargie/chem_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gargie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gargie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gargie-HP-Pavilion-x360-Convertible:@/tmp/.ICE-unix/1468,unix/gargie-HP-Pavilion-x360-Convertible:/tmp/.ICE-unix/1468'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/23142232_4880_4d33_b822_eeb5ea7ea779'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9K9E72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.195'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gargie/key_ws/install/key_pkg:/home/gargie/key_ws/install/key1_pkg:/home/gargie/project/install/project_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gargie/service/build/cpp_srvcli'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gargie/key_ws/install/key1_pkg/lib/python3.10/site-packages:/home/gargie/chem_ws/install/chem_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gargie/key_ws/install/key_pkg:/home/gargie/project/install/project_pkg:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble')]), 'shell': False}
+[0.097996] (-) TimerEvent: {}
+[0.198758] (-) TimerEvent: {}
+[0.222199] (cpp_srvcli) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target server\x1b[0m\n'}
+[0.270951] (cpp_srvcli) StdoutLine: {'line': b'[ 50%] Built target client\n'}
+[0.289372] (cpp_srvcli) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints.cpp.o\x1b[0m\n'}
+[0.298955] (-) TimerEvent: {}
+[0.399663] (-) TimerEvent: {}
+[0.500414] (-) TimerEvent: {}
+[0.601185] (-) TimerEvent: {}
+[0.701962] (-) TimerEvent: {}
+[0.802978] (-) TimerEvent: {}
+[0.904546] (-) TimerEvent: {}
+[1.005482] (-) TimerEvent: {}
+[1.107293] (-) TimerEvent: {}
+[1.209072] (-) TimerEvent: {}
+[1.310777] (-) TimerEvent: {}
+[1.412383] (-) TimerEvent: {}
+[1.513216] (-) TimerEvent: {}
+[1.614005] (-) TimerEvent: {}
+[1.714783] (-) TimerEvent: {}
+[1.815615] (-) TimerEvent: {}
+[1.916447] (-) TimerEvent: {}
+[2.017509] (-) TimerEvent: {}
+[2.119375] (-) TimerEvent: {}
+[2.221261] (-) TimerEvent: {}
+[2.322044] (-) TimerEvent: {}
+[2.422907] (-) TimerEvent: {}
+[2.523707] (-) TimerEvent: {}
+[2.624538] (-) TimerEvent: {}
+[2.725391] (-) TimerEvent: {}
+[2.826205] (-) TimerEvent: {}
+[2.926977] (-) TimerEvent: {}
+[3.027755] (-) TimerEvent: {}
+[3.128559] (-) TimerEvent: {}
+[3.229370] (-) TimerEvent: {}
+[3.330193] (-) TimerEvent: {}
+[3.430970] (-) TimerEvent: {}
+[3.531765] (-) TimerEvent: {}
+[3.632574] (-) TimerEvent: {}
+[3.733397] (-) TimerEvent: {}
+[3.834220] (-) TimerEvent: {}
+[3.934984] (-) TimerEvent: {}
+[4.035770] (-) TimerEvent: {}
+[4.136605] (-) TimerEvent: {}
+[4.237490] (-) TimerEvent: {}
+[4.338349] (-) TimerEvent: {}
+[4.439166] (-) TimerEvent: {}
+[4.539963] (-) TimerEvent: {}
+[4.640741] (-) TimerEvent: {}
+[4.741587] (-) TimerEvent: {}
+[4.842425] (-) TimerEvent: {}
+[4.943265] (-) TimerEvent: {}
+[5.044144] (-) TimerEvent: {}
+[5.144925] (-) TimerEvent: {}
+[5.245708] (-) TimerEvent: {}
+[5.346540] (-) TimerEvent: {}
+[5.447370] (-) TimerEvent: {}
+[5.548210] (-) TimerEvent: {}
+[5.648999] (-) TimerEvent: {}
+[5.749783] (-) TimerEvent: {}
+[5.850899] (-) TimerEvent: {}
+[5.952666] (-) TimerEvent: {}
+[6.054433] (-) TimerEvent: {}
+[6.156182] (-) TimerEvent: {}
+[6.258034] (-) TimerEvent: {}
+[6.359717] (-) TimerEvent: {}
+[6.461335] (-) TimerEvent: {}
+[6.562303] (-) TimerEvent: {}
+[6.664159] (-) TimerEvent: {}
+[6.765987] (-) TimerEvent: {}
+[6.867789] (-) TimerEvent: {}
+[6.969656] (-) TimerEvent: {}
+[7.071633] (-) TimerEvent: {}
+[7.173485] (-) TimerEvent: {}
+[7.275467] (-) TimerEvent: {}
+[7.377345] (-) TimerEvent: {}
+[7.479147] (-) TimerEvent: {}
+[7.580954] (-) TimerEvent: {}
+[7.682731] (-) TimerEvent: {}
+[7.784555] (-) TimerEvent: {}
+[7.886420] (-) TimerEvent: {}
+[7.988274] (-) TimerEvent: {}
+[8.090152] (-) TimerEvent: {}
+[8.192161] (-) TimerEvent: {}
+[8.294100] (-) TimerEvent: {}
+[8.396013] (-) TimerEvent: {}
+[8.497763] (-) TimerEvent: {}
+[8.599640] (-) TimerEvent: {}
+[8.701480] (-) TimerEvent: {}
+[8.803392] (-) TimerEvent: {}
+[8.905199] (-) TimerEvent: {}
+[9.007086] (-) TimerEvent: {}
+[9.108916] (-) TimerEvent: {}
+[9.210689] (-) TimerEvent: {}
+[9.312537] (-) TimerEvent: {}
+[9.414387] (-) TimerEvent: {}
+[9.516181] (-) TimerEvent: {}
+[9.618039] (-) TimerEvent: {}
+[9.719596] (-) TimerEvent: {}
+[9.820445] (-) TimerEvent: {}
+[9.921301] (-) TimerEvent: {}
+[10.022094] (-) TimerEvent: {}
+[10.122893] (-) TimerEvent: {}
+[10.223663] (-) TimerEvent: {}
+[10.324450] (-) TimerEvent: {}
+[10.425237] (-) TimerEvent: {}
+[10.526006] (-) TimerEvent: {}
+[10.626786] (-) TimerEvent: {}
+[10.727591] (-) TimerEvent: {}
+[10.828425] (-) TimerEvent: {}
+[10.929256] (-) TimerEvent: {}
+[11.030096] (-) TimerEvent: {}
+[11.130919] (-) TimerEvent: {}
+[11.231689] (-) TimerEvent: {}
+[11.332506] (-) TimerEvent: {}
+[11.433364] (-) TimerEvent: {}
+[11.534182] (-) TimerEvent: {}
+[11.634983] (-) TimerEvent: {}
+[11.735755] (-) TimerEvent: {}
+[11.836605] (-) TimerEvent: {}
+[11.937482] (-) TimerEvent: {}
+[12.038336] (-) TimerEvent: {}
+[12.139194] (-) TimerEvent: {}
+[12.239993] (-) TimerEvent: {}
+[12.340777] (-) TimerEvent: {}
+[12.441621] (-) TimerEvent: {}
+[12.542449] (-) TimerEvent: {}
+[12.643279] (-) TimerEvent: {}
+[12.744113] (-) TimerEvent: {}
+[12.844958] (-) TimerEvent: {}
+[12.945755] (-) TimerEvent: {}
+[13.046610] (-) TimerEvent: {}
+[13.147474] (-) TimerEvent: {}
+[13.248336] (-) TimerEvent: {}
+[13.349176] (-) TimerEvent: {}
+[13.449990] (-) TimerEvent: {}
+[13.550777] (-) TimerEvent: {}
+[13.651613] (-) TimerEvent: {}
+[13.752466] (-) TimerEvent: {}
+[13.853337] (-) TimerEvent: {}
+[13.954254] (-) TimerEvent: {}
+[14.054984] (-) TimerEvent: {}
+[14.155787] (-) TimerEvent: {}
+[14.256661] (-) TimerEvent: {}
+[14.357591] (-) TimerEvent: {}
+[14.458434] (-) TimerEvent: {}
+[14.559276] (-) TimerEvent: {}
+[14.660088] (-) TimerEvent: {}
+[14.760934] (-) TimerEvent: {}
+[14.861728] (-) TimerEvent: {}
+[14.962541] (-) TimerEvent: {}
+[15.063379] (-) TimerEvent: {}
+[15.165628] (-) TimerEvent: {}
+[15.267611] (-) TimerEvent: {}
+[15.369661] (-) TimerEvent: {}
+[15.471727] (-) TimerEvent: {}
+[15.573799] (-) TimerEvent: {}
+[15.675971] (-) TimerEvent: {}
+[15.778029] (-) TimerEvent: {}
+[15.879715] (-) TimerEvent: {}
+[15.980600] (-) TimerEvent: {}
+[16.081514] (-) TimerEvent: {}
+[16.182272] (-) TimerEvent: {}
+[16.188565] (cpp_srvcli) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable server\x1b[0m\n'}
+[16.282514] (-) TimerEvent: {}
+[16.383530] (-) TimerEvent: {}
+[16.484729] (-) TimerEvent: {}
+[16.585908] (-) TimerEvent: {}
+[16.686869] (-) TimerEvent: {}
+[16.787854] (-) TimerEvent: {}
+[16.888730] (-) TimerEvent: {}
+[16.989784] (-) TimerEvent: {}
+[17.038921] (cpp_srvcli) StdoutLine: {'line': b'[100%] Built target server\n'}
+[17.081153] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[17.083495] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'install'}
+[17.090077] (-) TimerEvent: {}
+[17.117918] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/gargie/service/build/cpp_srvcli'], 'cwd': '/home/gargie/service/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'gargie'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gargie'), ('OLDPWD', '/home/gargie/service/src/cpp_srvcli/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1504'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gargie/service/install:/home/gargie/project/install:/home/gargie/key_ws/install:/home/gargie/chem_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gargie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gargie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gargie-HP-Pavilion-x360-Convertible:@/tmp/.ICE-unix/1468,unix/gargie-HP-Pavilion-x360-Convertible:/tmp/.ICE-unix/1468'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/23142232_4880_4d33_b822_eeb5ea7ea779'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9K9E72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.195'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gargie/key_ws/install/key_pkg:/home/gargie/key_ws/install/key1_pkg:/home/gargie/project/install/project_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gargie/service/build/cpp_srvcli'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gargie/key_ws/install/key1_pkg/lib/python3.10/site-packages:/home/gargie/chem_ws/install/chem_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gargie/key_ws/install/key_pkg:/home/gargie/project/install/project_pkg:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble')]), 'shell': False}
+[17.153258] (cpp_srvcli) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.154128] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/gargie/service/install/cpp_srvcli/lib/cpp_srvcli/server\n'}
+[17.158113] (cpp_srvcli) StdoutLine: {'line': b'-- Set runtime path of "/home/gargie/service/install/cpp_srvcli/lib/cpp_srvcli/server" to ""\n'}
+[17.159067] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/gargie/service/install/cpp_srvcli/lib/cpp_srvcli/client\n'}
+[17.163042] (cpp_srvcli) StdoutLine: {'line': b'-- Set runtime path of "/home/gargie/service/install/cpp_srvcli/lib/cpp_srvcli/client" to ""\n'}
+[17.163996] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/gargie/service/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli\n'}
+[17.164996] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/gargie/service/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli\n'}
+[17.165890] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh\n'}
+[17.166849] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv\n'}
+[17.167747] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh\n'}
+[17.168679] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv\n'}
+[17.169611] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash\n'}
+[17.170540] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh\n'}
+[17.171494] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh\n'}
+[17.172363] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv\n'}
+[17.173214] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/package.dsv\n'}
+[17.174063] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/gargie/service/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli\n'}
+[17.175047] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake\n'}
+[17.175597] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake\n'}
+[17.176416] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/package.xml\n'}
+[17.185214] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[17.190150] (-) TimerEvent: {}
+[17.291856] (-) TimerEvent: {}
+[17.309139] (cpp_srvcli) JobEnded: {'identifier': 'cpp_srvcli', 'rc': 0}
+[17.312492] (-) EventReactorShutdown: {}

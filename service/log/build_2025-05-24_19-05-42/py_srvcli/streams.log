@@ -1,0 +1,29 @@
+[2.984s] Invoking command in '/home/gargie/service/src/py_srvcli': PYTHONPATH=/home/gargie/service/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gargie/service/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/gargie/service/build/py_srvcli/build install --record /home/gargie/service/build/py_srvcli/install.log --single-version-externally-managed install_data
+[4.161s] running egg_info
+[4.164s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[4.166s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[4.168s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[4.170s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[4.172s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[4.175s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[4.177s] adding license file 'LICENSE'
+[4.179s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[4.181s] running build
+[4.183s] running build_py
+[4.185s] copying py_srvcli/client.py -> /home/gargie/service/build/py_srvcli/build/lib/py_srvcli
+[4.187s] running install
+[4.189s] running install_lib
+[4.191s] copying /home/gargie/service/build/py_srvcli/build/lib/py_srvcli/client.py -> /home/gargie/service/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[4.194s] byte-compiling /home/gargie/service/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/service.py to service.cpython-310.pyc
+[4.195s] byte-compiling /home/gargie/service/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/client.py to client.cpython-310.pyc
+[4.197s] Sorry: IndentationError: expected an indented block after function definition on line 8 (service.py, line 9)
+[4.199s] Sorry: IndentationError: expected an indented block after function definition on line 8 (client.py, line 9)
+[4.200s] running install_data
+[4.202s] running install_egg_info
+[4.206s] removing '/home/gargie/service/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info' (and everything under it)
+[4.208s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/gargie/service/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[4.211s] running install_scripts
+[4.298s] Installing client script to /home/gargie/service/install/py_srvcli/lib/py_srvcli
+[4.300s] Installing service script to /home/gargie/service/install/py_srvcli/lib/py_srvcli
+[4.302s] writing list of installed files to '/home/gargie/service/build/py_srvcli/install.log'
+[4.425s] Invoked command in '/home/gargie/service/src/py_srvcli' returned '0': PYTHONPATH=/home/gargie/service/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gargie/service/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/gargie/service/build/py_srvcli/build install --record /home/gargie/service/build/py_srvcli/install.log --single-version-externally-managed install_data

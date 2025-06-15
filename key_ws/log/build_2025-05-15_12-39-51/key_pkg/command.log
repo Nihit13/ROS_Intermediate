@@ -1,0 +1,2 @@
+Invoking command in '/home/gargie/key_ws/build/key_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gargie/key_ws/src/key_pkg -DCMAKE_INSTALL_PREFIX=/home/gargie/key_ws/install/key_pkg
+Invoked command in '/home/gargie/key_ws/build/key_pkg' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gargie/key_ws/src/key_pkg -DCMAKE_INSTALL_PREFIX=/home/gargie/key_ws/install/key_pkg

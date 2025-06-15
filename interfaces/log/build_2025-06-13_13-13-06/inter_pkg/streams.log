@@ -1,0 +1,24 @@
+[0.059s] Invoking command in '/home/gargie/interfaces/build/inter_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/service/install/py_srvcli:/home/gargie/service/install/py_parameter:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/interfaces/build/inter_pkg -- -j4 -l4
+[0.243s] [35m[1mConsolidate compiler generated dependencies of target node_interf[0m
+[0.299s] [ 50%] Built target interface_n
+[0.312s] [ 75%] [32mBuilding CXX object CMakeFiles/node_interf.dir/src/node_interf.cpp.o[0m
+[11.645s] [01m[K/home/gargie/interfaces/src/inter_pkg/src/node_interf.cpp:29:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K:[m[K’ token
+[11.645s]    29 |   explicit LifecycleTalker(const std::string & node_name[01;31m[K:[m[K rclcpp_lifecycle::LifecycleNode(node_name)
+[11.646s]       |                                                         [01;31m[K^[m[K
+[11.646s] [01m[K/home/gargie/interfaces/src/inter_pkg/src/node_interf.cpp:30:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K}[m[K’ token
+[11.647s]    30 |   {}
+[11.647s]       |     [01;31m[K^[m[K
+[11.647s]       |     [32m[K)[m[K
+[11.648s]    31 | [32m[K}[m[K;
+[11.648s]       | [32m[K~[m[K    
+[11.649s] [01m[K/home/gargie/interfaces/src/inter_pkg/src/node_interf.cpp:29:27:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[11.649s]    29 |   explicit LifecycleTalker[01;36m[K([m[Kconst std::string & node_name: rclcpp_lifecycle::LifecycleNode(node_name)
+[11.650s]       |                           [01;36m[K^[m[K
+[11.650s] [01m[K/home/gargie/interfaces/src/inter_pkg/src/node_interf.cpp:30:4:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[11.651s]    30 |   {[01;31m[K}[m[K
+[11.651s]       |    [01;31m[K^[m[K
+[11.652s]       |     [32m[K;[m[K
+[13.602s] gmake[2]: *** [CMakeFiles/node_interf.dir/build.make:76: CMakeFiles/node_interf.dir/src/node_interf.cpp.o] Error 1
+[13.603s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/node_interf.dir/all] Error 2
+[13.604s] gmake: *** [Makefile:146: all] Error 2
+[13.612s] Invoked command in '/home/gargie/interfaces/build/inter_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/service/install/py_srvcli:/home/gargie/service/install/py_parameter:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/interfaces/build/inter_pkg -- -j4 -l4

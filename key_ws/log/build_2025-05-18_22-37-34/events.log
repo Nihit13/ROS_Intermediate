@@ -1,0 +1,139 @@
+[0.000000] (-) TimerEvent: {}
+[0.001075] (key1_pkg) JobQueued: {'identifier': 'key1_pkg', 'dependencies': OrderedDict()}
+[0.001281] (key_pkg) JobQueued: {'identifier': 'key_pkg', 'dependencies': OrderedDict()}
+[0.001405] (key1_pkg) JobStarted: {'identifier': 'key1_pkg'}
+[0.032212] (key_pkg) JobStarted: {'identifier': 'key_pkg'}
+[0.096486] (-) TimerEvent: {}
+[0.198093] (-) TimerEvent: {}
+[0.299848] (-) TimerEvent: {}
+[0.401765] (-) TimerEvent: {}
+[0.503537] (-) TimerEvent: {}
+[0.605608] (-) TimerEvent: {}
+[0.707744] (-) TimerEvent: {}
+[0.809795] (-) TimerEvent: {}
+[0.911859] (-) TimerEvent: {}
+[1.013889] (-) TimerEvent: {}
+[1.115952] (-) TimerEvent: {}
+[1.218013] (-) TimerEvent: {}
+[1.320352] (-) TimerEvent: {}
+[1.324413] (key_pkg) JobProgress: {'identifier': 'key_pkg', 'progress': 'cmake'}
+[1.327064] (key_pkg) JobProgress: {'identifier': 'key_pkg', 'progress': 'build'}
+[1.329803] (key_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gargie/key_ws/build/key_pkg', '--', '-j4', '-l4'], 'cwd': '/home/gargie/key_ws/build/key_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'gargie'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gargie'), ('OLDPWD', '/home/gargie/key_ws/src/key1_pkg/key1_pkg'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1460'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gargie/project/install:/home/gargie/key_ws/install:/home/gargie/chem_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gargie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gargie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gargie-HP-Pavilion-x360-Convertible:@/tmp/.ICE-unix/1425,unix/gargie-HP-Pavilion-x360-Convertible:/tmp/.ICE-unix/1425'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/dfa806cc_d97a_4e2e_a742_3d5173b85c04'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UX3Y62'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.210'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gargie/key_ws/install/key_pkg:/home/gargie/project/install/project_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gargie/key_ws/build/key_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gargie/chem_ws/install/chem_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gargie/key_ws/install/key_pkg:/home/gargie/project/install/project_pkg:/opt/ros/humble')]), 'shell': False}
+[1.420669] (-) TimerEvent: {}
+[1.435848] (key_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.520880] (-) TimerEvent: {}
+[1.621777] (-) TimerEvent: {}
+[1.722679] (-) TimerEvent: {}
+[1.823544] (-) TimerEvent: {}
+[1.924489] (-) TimerEvent: {}
+[2.025454] (-) TimerEvent: {}
+[2.035460] (key_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.125823] (-) TimerEvent: {}
+[2.157242] (key_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.170315] (key_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.197799] (key_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.226077] (-) TimerEvent: {}
+[2.244933] (key_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.306598] (key_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.326344] (-) TimerEvent: {}
+[2.428847] (-) TimerEvent: {}
+[2.468315] (key_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.474347] (key_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.529041] (-) TimerEvent: {}
+[2.629920] (-) TimerEvent: {}
+[2.730783] (-) TimerEvent: {}
+[2.822034] (key_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.830998] (-) TimerEvent: {}
+[2.920389] (key1_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/key1_pkg', 'build', '--build-base', '/home/gargie/key_ws/build/key1_pkg/build', 'install', '--record', '/home/gargie/key_ws/build/key1_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/gargie/key_ws/src/key1_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'gargie', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/gargie', 'OLDPWD': '/home/gargie/key_ws/src/key1_pkg/key1_pkg', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1460', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/gargie/project/install:/home/gargie/key_ws/install:/home/gargie/chem_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'gargie', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'gargie', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/gargie-HP-Pavilion-x360-Convertible:@/tmp/.ICE-unix/1425,unix/gargie-HP-Pavilion-x360-Convertible:/tmp/.ICE-unix/1425', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/dfa806cc_d97a_4e2e_a742_3d5173b85c04', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.UX3Y62', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.210', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/gargie/key_ws/install/key_pkg:/home/gargie/project/install/project_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/gargie/key_ws/build/key1_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/gargie/key_ws/build/key1_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gargie/key_ws/install/key1_pkg/lib/python3.10/site-packages:/home/gargie/chem_ws/install/chem_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/gargie/key_ws/install/key_pkg:/home/gargie/project/install/project_pkg'}, 'shell': False}
+[2.931186] (-) TimerEvent: {}
+[3.032030] (-) TimerEvent: {}
+[3.057284] (key_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.132374] (-) TimerEvent: {}
+[3.233211] (-) TimerEvent: {}
+[3.334122] (-) TimerEvent: {}
+[3.383569] (key_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.384444] (key_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.385057] (key_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.386454] (key_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.390395] (key_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.390934] (key_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.391872] (key_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.395456] (key_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.434675] (-) TimerEvent: {}
+[3.446663] (key_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[3.468240] (key_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/gargie/key_ws/build/key_pkg\n'}
+[3.534943] (-) TimerEvent: {}
+[3.577044] (key_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pub_key\x1b[0m\n'}
+[3.581029] (key_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sub_key\x1b[0m\n'}
+[3.636880] (-) TimerEvent: {}
+[3.649098] (key_pkg) StdoutLine: {'line': b'[ 50%] Built target pub_key\n'}
+[3.655711] (key_pkg) StdoutLine: {'line': b'[100%] Built target sub_key\n'}
+[3.703025] (key_pkg) CommandEnded: {'returncode': 0}
+[3.706867] (key_pkg) JobProgress: {'identifier': 'key_pkg', 'progress': 'install'}
+[3.739876] (key_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/gargie/key_ws/build/key_pkg'], 'cwd': '/home/gargie/key_ws/build/key_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'gargie'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gargie'), ('OLDPWD', '/home/gargie/key_ws/src/key1_pkg/key1_pkg'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1460'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gargie/project/install:/home/gargie/key_ws/install:/home/gargie/chem_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gargie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gargie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gargie-HP-Pavilion-x360-Convertible:@/tmp/.ICE-unix/1425,unix/gargie-HP-Pavilion-x360-Convertible:/tmp/.ICE-unix/1425'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/dfa806cc_d97a_4e2e_a742_3d5173b85c04'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UX3Y62'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.210'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gargie/key_ws/install/key_pkg:/home/gargie/project/install/project_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gargie/key_ws/build/key_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gargie/chem_ws/install/chem_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gargie/key_ws/install/key_pkg:/home/gargie/project/install/project_pkg:/opt/ros/humble')]), 'shell': False}
+[3.742188] (-) TimerEvent: {}
+[3.768260] (key_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.769869] (key_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/key_ws/install/key_pkg/lib/key_pkg/pub_key\n'}
+[3.771800] (key_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/key_ws/install/key_pkg/lib/key_pkg/sub_key\n'}
+[3.775533] (key_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/key_ws/install/key_pkg/share/ament_index/resource_index/package_run_dependencies/key_pkg\n'}
+[3.776338] (key_pkg) StdoutLine: {'line': b'-- Installing: /home/gargie/key_ws/install/key_pkg/share/ament_index/resource_index/parent_prefix_path/key_pkg\n'}
+[3.777161] (key_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/key_ws/install/key_pkg/share/key_pkg/environment/ament_prefix_path.sh\n'}
+[3.777747] (key_pkg) StdoutLine: {'line': b'-- Installing: /home/gargie/key_ws/install/key_pkg/share/key_pkg/environment/ament_prefix_path.dsv\n'}
+[3.778097] (key_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/key_ws/install/key_pkg/share/key_pkg/environment/path.sh\n'}
+[3.778439] (key_pkg) StdoutLine: {'line': b'-- Installing: /home/gargie/key_ws/install/key_pkg/share/key_pkg/environment/path.dsv\n'}
+[3.779054] (key_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/key_ws/install/key_pkg/share/key_pkg/local_setup.bash\n'}
+[3.779377] (key_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/key_ws/install/key_pkg/share/key_pkg/local_setup.sh\n'}
+[3.779706] (key_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/key_ws/install/key_pkg/share/key_pkg/local_setup.zsh\n'}
+[3.780256] (key_pkg) StdoutLine: {'line': b'-- Installing: /home/gargie/key_ws/install/key_pkg/share/key_pkg/local_setup.dsv\n'}
+[3.780577] (key_pkg) StdoutLine: {'line': b'-- Installing: /home/gargie/key_ws/install/key_pkg/share/key_pkg/package.dsv\n'}
+[3.780928] (key_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/key_ws/install/key_pkg/share/ament_index/resource_index/packages/key_pkg\n'}
+[3.781229] (key_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/key_ws/install/key_pkg/share/key_pkg/cmake/key_pkgConfig.cmake\n'}
+[3.781523] (key_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/key_ws/install/key_pkg/share/key_pkg/cmake/key_pkgConfig-version.cmake\n'}
+[3.781850] (key_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/key_ws/install/key_pkg/share/key_pkg/package.xml\n'}
+[3.787953] (key_pkg) CommandEnded: {'returncode': 0}
+[3.844849] (-) TimerEvent: {}
+[3.898362] (key_pkg) JobEnded: {'identifier': 'key_pkg', 'rc': 0}
+[3.945026] (-) TimerEvent: {}
+[4.045781] (-) TimerEvent: {}
+[4.142260] (key1_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[4.145171] (key1_pkg) StdoutLine: {'line': b'creating ../../build/key1_pkg/key1_pkg.egg-info\n'}
+[4.146145] (-) TimerEvent: {}
+[4.146565] (key1_pkg) StdoutLine: {'line': b'writing ../../build/key1_pkg/key1_pkg.egg-info/PKG-INFO\n'}
+[4.147714] (key1_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/key1_pkg/key1_pkg.egg-info/dependency_links.txt\n'}
+[4.148403] (key1_pkg) StdoutLine: {'line': b'writing entry points to ../../build/key1_pkg/key1_pkg.egg-info/entry_points.txt\n'}
+[4.149491] (key1_pkg) StdoutLine: {'line': b'writing requirements to ../../build/key1_pkg/key1_pkg.egg-info/requires.txt\n'}
+[4.150087] (key1_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/key1_pkg/key1_pkg.egg-info/top_level.txt\n'}
+[4.150993] (key1_pkg) StdoutLine: {'line': b"writing manifest file '../../build/key1_pkg/key1_pkg.egg-info/SOURCES.txt'\n"}
+[4.157628] (key1_pkg) StdoutLine: {'line': b"reading manifest file '../../build/key1_pkg/key1_pkg.egg-info/SOURCES.txt'\n"}
+[4.158581] (key1_pkg) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[4.160689] (key1_pkg) StdoutLine: {'line': b"writing manifest file '../../build/key1_pkg/key1_pkg.egg-info/SOURCES.txt'\n"}
+[4.162348] (key1_pkg) StdoutLine: {'line': b'running build\n'}
+[4.162962] (key1_pkg) StdoutLine: {'line': b'running build_py\n'}
+[4.163439] (key1_pkg) StdoutLine: {'line': b'creating /home/gargie/key_ws/build/key1_pkg/build\n'}
+[4.164777] (key1_pkg) StdoutLine: {'line': b'creating /home/gargie/key_ws/build/key1_pkg/build/lib\n'}
+[4.165259] (key1_pkg) StdoutLine: {'line': b'creating /home/gargie/key_ws/build/key1_pkg/build/lib/key1_pkg\n'}
+[4.165690] (key1_pkg) StdoutLine: {'line': b'copying key1_pkg/pub_key1.py -> /home/gargie/key_ws/build/key1_pkg/build/lib/key1_pkg\n'}
+[4.166117] (key1_pkg) StdoutLine: {'line': b'copying key1_pkg/__init__.py -> /home/gargie/key_ws/build/key1_pkg/build/lib/key1_pkg\n'}
+[4.167064] (key1_pkg) StdoutLine: {'line': b'running install\n'}
+[4.167523] (key1_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[4.170041] (key1_pkg) StdoutLine: {'line': b'creating /home/gargie/key_ws/install/key1_pkg/lib/python3.10/site-packages/key1_pkg\n'}
+[4.170915] (key1_pkg) StdoutLine: {'line': b'copying /home/gargie/key_ws/build/key1_pkg/build/lib/key1_pkg/pub_key1.py -> /home/gargie/key_ws/install/key1_pkg/lib/python3.10/site-packages/key1_pkg\n'}
+[4.171434] (key1_pkg) StdoutLine: {'line': b'copying /home/gargie/key_ws/build/key1_pkg/build/lib/key1_pkg/__init__.py -> /home/gargie/key_ws/install/key1_pkg/lib/python3.10/site-packages/key1_pkg\n'}
+[4.173739] (key1_pkg) StdoutLine: {'line': b'byte-compiling /home/gargie/key_ws/install/key1_pkg/lib/python3.10/site-packages/key1_pkg/pub_key1.py to pub_key1.cpython-310.pyc\n'}
+[4.176392] (key1_pkg) StdoutLine: {'line': b'byte-compiling /home/gargie/key_ws/install/key1_pkg/lib/python3.10/site-packages/key1_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[4.177761] (key1_pkg) StdoutLine: {'line': b'running install_data\n'}
+[4.178508] (key1_pkg) StdoutLine: {'line': b'creating /home/gargie/key_ws/install/key1_pkg/share/ament_index\n'}
+[4.180364] (key1_pkg) StdoutLine: {'line': b'creating /home/gargie/key_ws/install/key1_pkg/share/ament_index/resource_index\n'}
+[4.180948] (key1_pkg) StdoutLine: {'line': b'creating /home/gargie/key_ws/install/key1_pkg/share/ament_index/resource_index/packages\n'}
+[4.181413] (key1_pkg) StdoutLine: {'line': b'copying resource/key1_pkg -> /home/gargie/key_ws/install/key1_pkg/share/ament_index/resource_index/packages\n'}
+[4.181929] (key1_pkg) StdoutLine: {'line': b'copying package.xml -> /home/gargie/key_ws/install/key1_pkg/share/key1_pkg\n'}
+[4.182373] (key1_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.187944] (key1_pkg) StdoutLine: {'line': b'Copying ../../build/key1_pkg/key1_pkg.egg-info to /home/gargie/key_ws/install/key1_pkg/lib/python3.10/site-packages/key1_pkg-0.0.0-py3.10.egg-info\n'}
+[4.192489] (key1_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[4.246447] (-) TimerEvent: {}
+[4.282252] (key1_pkg) StdoutLine: {'line': b'Installing pub_key1 script to /home/gargie/key_ws/install/key1_pkg/lib/key1_pkg\n'}
+[4.283704] (key1_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/gargie/key_ws/build/key1_pkg/install.log'\n"}
+[4.346819] (-) TimerEvent: {}
+[4.408195] (key1_pkg) CommandEnded: {'returncode': 0}
+[4.436783] (key1_pkg) JobEnded: {'identifier': 'key1_pkg', 'rc': 0}
+[4.441900] (-) EventReactorShutdown: {}

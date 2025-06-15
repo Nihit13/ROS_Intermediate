@@ -1,0 +1,26 @@
+[0.103s] Invoking command in '/home/gargie/service/build/cpp_parameter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/service/build/cpp_parameter -- -j4 -l4
+[0.316s] [35m[1mConsolidate compiler generated dependencies of target parameter_node[0m
+[0.424s] [ 50%] [32mBuilding CXX object CMakeFiles/parameter_node.dir/src/parameter_node.cpp.o[0m
+[16.162s] [100%] [32m[1mLinking CXX executable parameter_node[0m
+[16.865s] [100%] Built target parameter_node
+[16.911s] Invoked command in '/home/gargie/service/build/cpp_parameter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/service/build/cpp_parameter -- -j4 -l4
+[16.916s] Invoking command in '/home/gargie/service/build/cpp_parameter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --install /home/gargie/service/build/cpp_parameter
+[16.946s] -- Install configuration: ""
+[16.947s] -- Installing: /home/gargie/service/install/cpp_parameter/lib/cpp_parameter/parameter_node
+[16.950s] -- Set runtime path of "/home/gargie/service/install/cpp_parameter/lib/cpp_parameter/parameter_node" to ""
+[16.951s] -- Installing: /home/gargie/service/install/cpp_parameter/share/ament_index/resource_index/package_run_dependencies/cpp_parameter
+[16.952s] -- Installing: /home/gargie/service/install/cpp_parameter/share/ament_index/resource_index/parent_prefix_path/cpp_parameter
+[16.955s] -- Installing: /home/gargie/service/install/cpp_parameter/share/cpp_parameter/environment/ament_prefix_path.sh
+[16.956s] -- Installing: /home/gargie/service/install/cpp_parameter/share/cpp_parameter/environment/ament_prefix_path.dsv
+[16.957s] -- Installing: /home/gargie/service/install/cpp_parameter/share/cpp_parameter/environment/path.sh
+[16.958s] -- Installing: /home/gargie/service/install/cpp_parameter/share/cpp_parameter/environment/path.dsv
+[16.958s] -- Installing: /home/gargie/service/install/cpp_parameter/share/cpp_parameter/local_setup.bash
+[16.959s] -- Installing: /home/gargie/service/install/cpp_parameter/share/cpp_parameter/local_setup.sh
+[16.960s] -- Installing: /home/gargie/service/install/cpp_parameter/share/cpp_parameter/local_setup.zsh
+[16.961s] -- Installing: /home/gargie/service/install/cpp_parameter/share/cpp_parameter/local_setup.dsv
+[16.961s] -- Installing: /home/gargie/service/install/cpp_parameter/share/cpp_parameter/package.dsv
+[16.962s] -- Installing: /home/gargie/service/install/cpp_parameter/share/ament_index/resource_index/packages/cpp_parameter
+[16.963s] -- Installing: /home/gargie/service/install/cpp_parameter/share/cpp_parameter/cmake/cpp_parameterConfig.cmake
+[16.963s] -- Installing: /home/gargie/service/install/cpp_parameter/share/cpp_parameter/cmake/cpp_parameterConfig-version.cmake
+[16.964s] -- Installing: /home/gargie/service/install/cpp_parameter/share/cpp_parameter/package.xml
+[16.972s] Invoked command in '/home/gargie/service/build/cpp_parameter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --install /home/gargie/service/build/cpp_parameter

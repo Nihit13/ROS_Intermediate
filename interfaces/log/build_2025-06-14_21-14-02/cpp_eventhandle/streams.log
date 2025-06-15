@@ -1,0 +1,15 @@
+[0.082s] Invoking command in '/home/gargie/interfaces/build/cpp_eventhandle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/tf2/install/learning_tf2_py:/home/gargie/service/install/py_srvcli:/home/gargie/service/install/py_parameter:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/interfaces/build/cpp_eventhandle -- -j4 -l4
+[0.446s] [35m[1mConsolidate compiler generated dependencies of target parameter[0m
+[0.650s] [ 50%] [32mBuilding CXX object CMakeFiles/parameter.dir/src/parameter.cpp.o[0m
+[12.988s] [01m[K/home/gargie/interfaces/src/cpp_eventhandle/src/parameter.cpp:36:34:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedPtr[m[K’ in ‘[01m[Kclass rclcpp::ParameterEventHandler[m[K’ does not name a type
+[12.990s]    36 |   rclcpp::ParameterEventHandler::[01;31m[KSharedPtr[m[K parameter_event_handler_;
+[12.991s]       |                                  [01;31m[K^~~~~~~~~[m[K
+[13.045s] [01m[K/home/gargie/interfaces/src/cpp_eventhandle/src/parameter.cpp:[m[K In constructor ‘[01m[KParameterMonitor::ParameterMonitor()[m[K’:
+[13.047s] [01m[K/home/gargie/interfaces/src/cpp_eventhandle/src/parameter.cpp:16:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kparameter_event_handler_[m[K’ was not declared in this scope; did you mean ‘[01m[Kparameter_callback_handle_[m[K’?
+[13.048s]    16 |     [01;31m[Kparameter_event_handler_[m[K = std::make_shared<rclcpp::ParameterEventHandler>(this);
+[13.050s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.052s]       |     [32m[Kparameter_callback_handle_[m[K
+[22.843s] gmake[2]: *** [CMakeFiles/parameter.dir/build.make:76: CMakeFiles/parameter.dir/src/parameter.cpp.o] Error 1
+[22.844s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/parameter.dir/all] Error 2
+[22.845s] gmake: *** [Makefile:146: all] Error 2
+[22.855s] Invoked command in '/home/gargie/interfaces/build/cpp_eventhandle' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/tf2/install/learning_tf2_py:/home/gargie/service/install/py_srvcli:/home/gargie/service/install/py_parameter:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/interfaces/build/cpp_eventhandle -- -j4 -l4

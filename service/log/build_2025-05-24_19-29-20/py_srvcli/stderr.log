@@ -1,0 +1,5 @@
+  File "/home/gargie/service/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/service.py", line 24
+    if __name__='__main__':
+       ^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+

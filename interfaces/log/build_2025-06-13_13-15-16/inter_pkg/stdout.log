@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target node_interf[0m
+[ 50%] Built target interface_n
+[ 75%] [32mBuilding CXX object CMakeFiles/node_interf.dir/src/node_interf.cpp.o[0m
+[100%] [32m[1mLinking CXX executable node_interf[0m
+[100%] Built target node_interf
+-- Install configuration: ""
+-- Up-to-date: /home/gargie/interfaces/install/inter_pkg/lib/inter_pkg/interface_n
+-- Installing: /home/gargie/interfaces/install/inter_pkg/lib/inter_pkg/node_interf
+-- Set runtime path of "/home/gargie/interfaces/install/inter_pkg/lib/inter_pkg/node_interf" to ""
+-- Up-to-date: /home/gargie/interfaces/install/inter_pkg/share/ament_index/resource_index/package_run_dependencies/inter_pkg
+-- Up-to-date: /home/gargie/interfaces/install/inter_pkg/share/ament_index/resource_index/parent_prefix_path/inter_pkg
+-- Up-to-date: /home/gargie/interfaces/install/inter_pkg/share/inter_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/gargie/interfaces/install/inter_pkg/share/inter_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/gargie/interfaces/install/inter_pkg/share/inter_pkg/environment/path.sh
+-- Up-to-date: /home/gargie/interfaces/install/inter_pkg/share/inter_pkg/environment/path.dsv
+-- Up-to-date: /home/gargie/interfaces/install/inter_pkg/share/inter_pkg/local_setup.bash
+-- Up-to-date: /home/gargie/interfaces/install/inter_pkg/share/inter_pkg/local_setup.sh
+-- Up-to-date: /home/gargie/interfaces/install/inter_pkg/share/inter_pkg/local_setup.zsh
+-- Up-to-date: /home/gargie/interfaces/install/inter_pkg/share/inter_pkg/local_setup.dsv
+-- Installing: /home/gargie/interfaces/install/inter_pkg/share/inter_pkg/package.dsv
+-- Up-to-date: /home/gargie/interfaces/install/inter_pkg/share/ament_index/resource_index/packages/inter_pkg
+-- Up-to-date: /home/gargie/interfaces/install/inter_pkg/share/inter_pkg/cmake/inter_pkgConfig.cmake
+-- Up-to-date: /home/gargie/interfaces/install/inter_pkg/share/inter_pkg/cmake/inter_pkgConfig-version.cmake
+-- Up-to-date: /home/gargie/interfaces/install/inter_pkg/share/inter_pkg/package.xml

@@ -1,0 +1,26 @@
+[2.972s] Invoking command in '/home/gargie/service/src/py_srvcli': PYTHONPATH=/home/gargie/service/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gargie/service/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/gargie/service/build/py_srvcli/build install --record /home/gargie/service/build/py_srvcli/install.log --single-version-externally-managed install_data
+[4.156s] running egg_info
+[4.158s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[4.161s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[4.163s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[4.164s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[4.166s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[4.169s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[4.172s] adding license file 'LICENSE'
+[4.174s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[4.176s] running build
+[4.178s] running build_py
+[4.179s] copying py_srvcli/service.py -> /home/gargie/service/build/py_srvcli/build/lib/py_srvcli
+[4.181s] running install
+[4.183s] running install_lib
+[4.184s] copying /home/gargie/service/build/py_srvcli/build/lib/py_srvcli/service.py -> /home/gargie/service/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[4.187s] byte-compiling /home/gargie/service/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/service.py to service.cpython-310.pyc
+[4.189s] running install_data
+[4.190s] running install_egg_info
+[4.194s] removing '/home/gargie/service/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info' (and everything under it)
+[4.196s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/gargie/service/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[4.200s] running install_scripts
+[4.292s] Installing client script to /home/gargie/service/install/py_srvcli/lib/py_srvcli
+[4.294s] Installing service script to /home/gargie/service/install/py_srvcli/lib/py_srvcli
+[4.296s] writing list of installed files to '/home/gargie/service/build/py_srvcli/install.log'
+[4.421s] Invoked command in '/home/gargie/service/src/py_srvcli' returned '0': PYTHONPATH=/home/gargie/service/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gargie/service/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/gargie/service/build/py_srvcli/build install --record /home/gargie/service/build/py_srvcli/install.log --single-version-externally-managed install_data

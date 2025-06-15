@@ -1,0 +1,10 @@
+[1.321s] Invoking command in '/home/gargie/key_ws/build/key_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gargie/key_ws/build/key_pkg -- -j4 -l4
+[1.491s] [35m[1mConsolidate compiler generated dependencies of target pub_key[0m
+[1.498s] [35m[1mConsolidate compiler generated dependencies of target sub_key[0m
+[1.499s] gmake[2]: *** No rule to make target 'CMakeFiles/pub_keys.dir/build'.  Stop.
+[1.499s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/pub_keys.dir/all] Error 2
+[1.500s] gmake[1]: *** Waiting for unfinished jobs....
+[1.566s] [100%] Built target sub_key
+[1.569s] [100%] Built target pub_key
+[1.571s] gmake: *** [Makefile:146: all] Error 2
+[1.580s] Invoked command in '/home/gargie/key_ws/build/key_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gargie/key_ws/build/key_pkg -- -j4 -l4

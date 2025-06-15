@@ -1,0 +1,22 @@
+[0.059s] Invoking command in '/home/gargie/tf2/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/tf2/install/learning_tf2_py:/home/gargie/service/install/py_srvcli:/home/gargie/service/install/py_parameter:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/tf2/build/learning_tf2_cpp -- -j4 -l4
+[0.212s] Invoked command in '/home/gargie/tf2/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/tf2/install/learning_tf2_py:/home/gargie/service/install/py_srvcli:/home/gargie/service/install/py_parameter:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/tf2/build/learning_tf2_cpp -- -j4 -l4
+[0.253s] Invoking command in '/home/gargie/tf2/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/tf2/install/learning_tf2_py:/home/gargie/service/install/py_srvcli:/home/gargie/service/install/py_parameter:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --install /home/gargie/tf2/build/learning_tf2_cpp
+[0.284s] -- Install configuration: ""
+[0.285s] -- Up-to-date: /home/gargie/tf2/install/learning_tf2_cpp/share/learning_tf2_cpp/launch
+[0.286s] -- Installing: /home/gargie/tf2/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/static_transform.xml
+[0.287s] -- Up-to-date: /home/gargie/tf2/install/learning_tf2_cpp/share/ament_index/resource_index/package_run_dependencies/learning_tf2_cpp
+[0.288s] -- Up-to-date: /home/gargie/tf2/install/learning_tf2_cpp/share/ament_index/resource_index/parent_prefix_path/learning_tf2_cpp
+[0.288s] -- Up-to-date: /home/gargie/tf2/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.sh
+[0.289s] -- Up-to-date: /home/gargie/tf2/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.dsv
+[0.289s] -- Up-to-date: /home/gargie/tf2/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.sh
+[0.290s] -- Up-to-date: /home/gargie/tf2/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.dsv
+[0.290s] -- Up-to-date: /home/gargie/tf2/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.bash
+[0.292s] -- Up-to-date: /home/gargie/tf2/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.sh
+[0.295s] -- Up-to-date: /home/gargie/tf2/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.zsh
+[0.297s] -- Up-to-date: /home/gargie/tf2/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.dsv
+[0.299s] -- Up-to-date: /home/gargie/tf2/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv
+[0.299s] -- Up-to-date: /home/gargie/tf2/install/learning_tf2_cpp/share/ament_index/resource_index/packages/learning_tf2_cpp
+[0.300s] -- Up-to-date: /home/gargie/tf2/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig.cmake
+[0.300s] -- Up-to-date: /home/gargie/tf2/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig-version.cmake
+[0.301s] -- Up-to-date: /home/gargie/tf2/install/learning_tf2_cpp/share/learning_tf2_cpp/package.xml
+[0.302s] Invoked command in '/home/gargie/tf2/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/tf2/install/learning_tf2_py:/home/gargie/service/install/py_srvcli:/home/gargie/service/install/py_parameter:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --install /home/gargie/tf2/build/learning_tf2_cpp

@@ -1,0 +1,4 @@
+source;share/inter_pkg/local_setup.bash
+source;share/inter_pkg/local_setup.dsv
+source;share/inter_pkg/local_setup.sh
+source;share/inter_pkg/local_setup.zsh

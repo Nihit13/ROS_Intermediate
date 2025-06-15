@@ -1,0 +1,128 @@
+[0.000000] (-) TimerEvent: {}
+[0.001443] (key_pkg) JobQueued: {'identifier': 'key_pkg', 'dependencies': OrderedDict()}
+[0.001725] (key_pkg) JobStarted: {'identifier': 'key_pkg'}
+[0.038726] (key_pkg) JobProgress: {'identifier': 'key_pkg', 'progress': 'cmake'}
+[0.041252] (key_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/gargie/key_ws/src/key_pkg', '-DCMAKE_INSTALL_PREFIX=/home/gargie/key_ws/install/key_pkg'], 'cwd': '/home/gargie/key_ws/build/key_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'gargie'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gargie'), ('OLDPWD', '/home/gargie/key_ws/src/key_pkg/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2128'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gargie/key_ws/install:/home/gargie/chem_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gargie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gargie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gargie-HP-Pavilion-x360-Convertible:@/tmp/.ICE-unix/1466,unix/gargie-HP-Pavilion-x360-Convertible:/tmp/.ICE-unix/1466'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a3685ee3_8a26_4190_830c_3703f5ddcd0b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1PME62'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gargie/key_ws/build/key_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gargie/chem_ws/install/chem_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.096567] (-) TimerEvent: {}
+[0.197598] (-) TimerEvent: {}
+[0.299106] (-) TimerEvent: {}
+[0.400641] (-) TimerEvent: {}
+[0.502166] (-) TimerEvent: {}
+[0.534022] (key_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.602439] (-) TimerEvent: {}
+[0.703311] (-) TimerEvent: {}
+[0.804268] (-) TimerEvent: {}
+[0.905553] (-) TimerEvent: {}
+[0.910076] (key_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.963809] (key_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.005794] (-) TimerEvent: {}
+[1.106646] (-) TimerEvent: {}
+[1.207445] (-) TimerEvent: {}
+[1.299902] (key_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.307624] (-) TimerEvent: {}
+[1.357509] (key_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.361755] (key_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.365340] (key_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.386481] (key_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.407868] (-) TimerEvent: {}
+[1.508681] (-) TimerEvent: {}
+[1.609572] (-) TimerEvent: {}
+[1.710448] (-) TimerEvent: {}
+[1.748500] (key_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.810647] (-) TimerEvent: {}
+[1.813345] (key_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.814672] (key_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.817343] (key_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.833857] (key_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.910976] (-) TimerEvent: {}
+[2.012268] (-) TimerEvent: {}
+[2.114014] (-) TimerEvent: {}
+[2.214946] (-) TimerEvent: {}
+[2.315995] (-) TimerEvent: {}
+[2.417157] (-) TimerEvent: {}
+[2.518696] (-) TimerEvent: {}
+[2.564964] (key_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.619134] (-) TimerEvent: {}
+[2.721014] (-) TimerEvent: {}
+[2.822548] (-) TimerEvent: {}
+[2.923396] (-) TimerEvent: {}
+[3.024313] (-) TimerEvent: {}
+[3.037742] (key_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.124731] (-) TimerEvent: {}
+[3.226566] (-) TimerEvent: {}
+[3.247603] (key_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.272060] (key_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.319041] (key_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.326809] (-) TimerEvent: {}
+[3.390159] (key_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.427044] (-) TimerEvent: {}
+[3.473125] (key_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.527249] (-) TimerEvent: {}
+[3.627977] (-) TimerEvent: {}
+[3.682735] (key_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.694277] (key_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.728183] (-) TimerEvent: {}
+[3.828977] (-) TimerEvent: {}
+[3.929698] (-) TimerEvent: {}
+[4.030506] (-) TimerEvent: {}
+[4.080368] (key_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.130729] (-) TimerEvent: {}
+[4.203267] (key_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.231039] (-) TimerEvent: {}
+[4.332695] (-) TimerEvent: {}
+[4.337059] (key_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.381533] (key_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.432896] (-) TimerEvent: {}
+[4.533971] (-) TimerEvent: {}
+[4.635565] (-) TimerEvent: {}
+[4.721991] (key_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.723864] (key_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.735640] (-) TimerEvent: {}
+[4.836331] (-) TimerEvent: {}
+[4.937125] (-) TimerEvent: {}
+[5.037912] (-) TimerEvent: {}
+[5.061492] (key_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.065980] (key_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.138103] (-) TimerEvent: {}
+[5.238997] (-) TimerEvent: {}
+[5.339767] (-) TimerEvent: {}
+[5.387176] (key_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.440062] (-) TimerEvent: {}
+[5.540797] (-) TimerEvent: {}
+[5.641639] (-) TimerEvent: {}
+[5.742656] (-) TimerEvent: {}
+[5.762675] (key_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.771892] (key_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.780453] (key_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.792969] (key_pkg) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:17 (add_executable):\n'}
+[5.793870] (key_pkg) StderrLine: {'line': b'  Cannot find source file:\n'}
+[5.794421] (key_pkg) StderrLine: {'line': b'\n'}
+[5.794969] (key_pkg) StderrLine: {'line': b'    src/pub_key.cpp\n'}
+[5.795750] (key_pkg) StderrLine: {'line': b'\n'}
+[5.796313] (key_pkg) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[5.796787] (key_pkg) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[5.797330] (key_pkg) StderrLine: {'line': b'\n'}
+[5.797775] (key_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[5.799782] (key_pkg) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:20 (add_executable):\n'}
+[5.800525] (key_pkg) StderrLine: {'line': b'  Cannot find source file:\n'}
+[5.801080] (key_pkg) StderrLine: {'line': b'\n'}
+[5.801529] (key_pkg) StderrLine: {'line': b'    src/sub_key.cpp\n'}
+[5.802051] (key_pkg) StderrLine: {'line': b'\n'}
+[5.803616] (key_pkg) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[5.804412] (key_pkg) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[5.805146] (key_pkg) StderrLine: {'line': b'\n'}
+[5.805673] (key_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[5.806149] (key_pkg) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:17 (add_executable):\n'}
+[5.806580] (key_pkg) StderrLine: {'line': b'  No SOURCES given to target: pub_key\n'}
+[5.807085] (key_pkg) StderrLine: {'line': b'\n'}
+[5.807501] (key_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[5.807935] (key_pkg) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:20 (add_executable):\n'}
+[5.808336] (key_pkg) StderrLine: {'line': b'  No SOURCES given to target: sub_key\n'}
+[5.808719] (key_pkg) StderrLine: {'line': b'\n'}
+[5.809197] (key_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[5.809684] (key_pkg) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[5.840418] (key_pkg) CommandEnded: {'returncode': 1}
+[5.842806] (-) TimerEvent: {}
+[5.944717] (-) TimerEvent: {}
+[6.016530] (key_pkg) JobEnded: {'identifier': 'key_pkg', 'rc': 1}
+[6.028930] (-) EventReactorShutdown: {}

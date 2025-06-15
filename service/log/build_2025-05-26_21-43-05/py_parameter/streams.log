@@ -1,0 +1,38 @@
+[5.878s] Invoking command in '/home/gargie/service/src/py_parameter': PYTHONPATH=/home/gargie/service/build/py_parameter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gargie/service/install/py_parameter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_parameter build --build-base /home/gargie/service/build/py_parameter/build install --record /home/gargie/service/build/py_parameter/install.log --single-version-externally-managed install_data
+[7.838s] running egg_info
+[7.841s] creating ../../build/py_parameter/py_parameter.egg-info
+[7.844s] writing ../../build/py_parameter/py_parameter.egg-info/PKG-INFO
+[7.846s] writing dependency_links to ../../build/py_parameter/py_parameter.egg-info/dependency_links.txt
+[7.847s] writing entry points to ../../build/py_parameter/py_parameter.egg-info/entry_points.txt
+[7.847s] writing requirements to ../../build/py_parameter/py_parameter.egg-info/requires.txt
+[7.848s] writing top-level names to ../../build/py_parameter/py_parameter.egg-info/top_level.txt
+[7.855s] writing manifest file '../../build/py_parameter/py_parameter.egg-info/SOURCES.txt'
+[7.858s] reading manifest file '../../build/py_parameter/py_parameter.egg-info/SOURCES.txt'
+[7.858s] adding license file 'LICENSE'
+[7.862s] writing manifest file '../../build/py_parameter/py_parameter.egg-info/SOURCES.txt'
+[7.867s] running build
+[7.868s] running build_py
+[7.869s] creating /home/gargie/service/build/py_parameter/build
+[7.869s] creating /home/gargie/service/build/py_parameter/build/lib
+[7.870s] creating /home/gargie/service/build/py_parameter/build/lib/py_parameter
+[7.870s] copying py_parameter/py_para_node.py -> /home/gargie/service/build/py_parameter/build/lib/py_parameter
+[7.871s] copying py_parameter/__init__.py -> /home/gargie/service/build/py_parameter/build/lib/py_parameter
+[7.877s] running install
+[7.878s] running install_lib
+[7.883s] creating /home/gargie/service/install/py_parameter/lib/python3.10/site-packages/py_parameter
+[7.885s] copying /home/gargie/service/build/py_parameter/build/lib/py_parameter/py_para_node.py -> /home/gargie/service/install/py_parameter/lib/python3.10/site-packages/py_parameter
+[7.886s] copying /home/gargie/service/build/py_parameter/build/lib/py_parameter/__init__.py -> /home/gargie/service/install/py_parameter/lib/python3.10/site-packages/py_parameter
+[7.888s] byte-compiling /home/gargie/service/install/py_parameter/lib/python3.10/site-packages/py_parameter/py_para_node.py to py_para_node.cpython-310.pyc
+[7.896s] byte-compiling /home/gargie/service/install/py_parameter/lib/python3.10/site-packages/py_parameter/__init__.py to __init__.cpython-310.pyc
+[7.896s] running install_data
+[7.897s] creating /home/gargie/service/install/py_parameter/share/ament_index
+[7.900s] creating /home/gargie/service/install/py_parameter/share/ament_index/resource_index
+[7.907s] creating /home/gargie/service/install/py_parameter/share/ament_index/resource_index/packages
+[7.911s] copying resource/py_parameter -> /home/gargie/service/install/py_parameter/share/ament_index/resource_index/packages
+[7.912s] copying package.xml -> /home/gargie/service/install/py_parameter/share/py_parameter
+[7.912s] running install_egg_info
+[7.913s] Copying ../../build/py_parameter/py_parameter.egg-info to /home/gargie/service/install/py_parameter/lib/python3.10/site-packages/py_parameter-0.0.0-py3.10.egg-info
+[7.915s] running install_scripts
+[8.027s] Installing py_para_node script to /home/gargie/service/install/py_parameter/lib/py_parameter
+[8.029s] writing list of installed files to '/home/gargie/service/build/py_parameter/install.log'
+[8.212s] Invoked command in '/home/gargie/service/src/py_parameter' returned '0': PYTHONPATH=/home/gargie/service/build/py_parameter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gargie/service/install/py_parameter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_parameter build --build-base /home/gargie/service/build/py_parameter/build install --record /home/gargie/service/build/py_parameter/install.log --single-version-externally-managed install_data

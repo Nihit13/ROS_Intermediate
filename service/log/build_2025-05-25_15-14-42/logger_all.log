@@ -1,0 +1,330 @@
+[0.526s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.527s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x792f750ce890>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x792f750ce3e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x792f750ce3e0>>, mixin_verb=('build',))
+[1.361s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.363s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/gargie/service'
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.365s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.365s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.365s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.416s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.416s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.416s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.417s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.417s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.418s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.418s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.418s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.419s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.419s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.419s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.420s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.420s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.420s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.422s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.422s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.422s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.422s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.422s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameter) by extensions ['ignore', 'ignore_ament_install']
+[1.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameter) by extension 'ignore'
+[1.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameter) by extension 'ignore_ament_install'
+[1.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameter) by extensions ['colcon_pkg']
+[1.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameter) by extension 'colcon_pkg'
+[1.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameter) by extensions ['colcon_meta']
+[1.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameter) by extension 'colcon_meta'
+[1.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameter) by extensions ['ros']
+[1.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameter) by extension 'ros'
+[1.435s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_parameter' with type 'ros.ament_cmake' and name 'cpp_parameter'
+[1.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['ignore', 'ignore_ament_install']
+[1.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'ignore'
+[1.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'ignore_ament_install'
+[1.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['colcon_pkg']
+[1.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'colcon_pkg'
+[1.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['colcon_meta']
+[1.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'colcon_meta'
+[1.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['ros']
+[1.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'ros'
+[1.440s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_srvcli' with type 'ros.ament_cmake' and name 'cpp_srvcli'
+[1.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['ignore', 'ignore_ament_install']
+[1.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'ignore'
+[1.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'ignore_ament_install'
+[1.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['colcon_pkg']
+[1.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'colcon_pkg'
+[1.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['colcon_meta']
+[1.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'colcon_meta'
+[1.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['ros']
+[1.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'ros'
+[1.445s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_srvcli' with type 'ros.ament_python' and name 'py_srvcli'
+[1.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interface) by extensions ['ignore', 'ignore_ament_install']
+[1.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interface) by extension 'ignore'
+[1.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interface) by extension 'ignore_ament_install'
+[1.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interface) by extensions ['colcon_pkg']
+[1.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interface) by extension 'colcon_pkg'
+[1.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interface) by extensions ['colcon_meta']
+[1.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interface) by extension 'colcon_meta'
+[1.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interface) by extensions ['ros']
+[1.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interface) by extension 'ros'
+[1.451s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tutorial_interface' with type 'ros.ament_cmake' and name 'tutorial_interface'
+[1.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.597s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/gargie/service/install
+[1.599s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/gargie/project/install
+[1.602s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/gargie/key_ws/install
+[1.604s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/gargie/chem_ws/install
+[1.612s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 295 installed packages in /opt/ros/humble
+[1.621s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.832s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameter' build argument 'cmake_args' from command line to 'None'
+[1.832s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameter' build argument 'cmake_target' from command line to 'None'
+[1.832s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.832s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameter' build argument 'cmake_clean_cache' from command line to 'False'
+[1.832s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameter' build argument 'cmake_clean_first' from command line to 'False'
+[1.832s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameter' build argument 'cmake_force_configure' from command line to 'False'
+[1.833s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameter' build argument 'ament_cmake_args' from command line to 'None'
+[1.833s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameter' build argument 'catkin_cmake_args' from command line to 'None'
+[1.833s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.833s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_parameter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gargie/service/build/cpp_parameter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gargie/service/install/cpp_parameter', 'merge_install': False, 'path': '/home/gargie/service/src/cpp_parameter', 'symlink_install': False, 'test_result_base': None}
+[1.835s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_args' from command line to 'None'
+[1.835s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_target' from command line to 'None'
+[1.835s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.835s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_clean_cache' from command line to 'False'
+[1.835s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_clean_first' from command line to 'False'
+[1.836s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_force_configure' from command line to 'False'
+[1.836s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'ament_cmake_args' from command line to 'None'
+[1.836s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'catkin_cmake_args' from command line to 'None'
+[1.836s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.836s] DEBUG:colcon.colcon_core.verb:Building package 'py_srvcli' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gargie/service/build/py_srvcli', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gargie/service/install/py_srvcli', 'merge_install': False, 'path': '/home/gargie/service/src/py_srvcli', 'symlink_install': False, 'test_result_base': None}
+[1.838s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interface' build argument 'cmake_args' from command line to 'None'
+[1.838s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interface' build argument 'cmake_target' from command line to 'None'
+[1.838s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.838s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[1.838s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interface' build argument 'cmake_clean_first' from command line to 'False'
+[1.839s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interface' build argument 'cmake_force_configure' from command line to 'False'
+[1.839s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interface' build argument 'ament_cmake_args' from command line to 'None'
+[1.839s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[1.839s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.839s] DEBUG:colcon.colcon_core.verb:Building package 'tutorial_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gargie/service/build/tutorial_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gargie/service/install/tutorial_interface', 'merge_install': False, 'path': '/home/gargie/service/src/tutorial_interface', 'symlink_install': False, 'test_result_base': None}
+[1.841s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_args' from command line to 'None'
+[1.841s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_target' from command line to 'None'
+[1.841s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.841s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_clean_cache' from command line to 'False'
+[1.842s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_clean_first' from command line to 'False'
+[1.842s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_force_configure' from command line to 'False'
+[1.842s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'ament_cmake_args' from command line to 'None'
+[1.842s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'catkin_cmake_args' from command line to 'None'
+[1.842s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.842s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_srvcli' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gargie/service/build/cpp_srvcli', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gargie/service/install/cpp_srvcli', 'merge_install': False, 'path': '/home/gargie/service/src/cpp_srvcli', 'symlink_install': False, 'test_result_base': None}
+[1.843s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.848s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.849s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gargie/service/src/tutorial_interface' with build type 'ament_cmake'
+[1.850s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gargie/service/src/tutorial_interface'
+[1.861s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.861s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.861s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.886s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gargie/service/src/cpp_parameter' with build type 'ament_cmake'
+[1.887s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gargie/service/src/cpp_parameter'
+[1.889s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.889s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.915s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/gargie/service/src/py_srvcli' with build type 'ament_python'
+[1.916s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_srvcli', 'ament_prefix_path')
+[1.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gargie/service/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.ps1'
+[1.923s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gargie/service/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.dsv'
+[1.926s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gargie/service/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.sh'
+[1.930s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.930s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.975s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gargie/service/build/tutorial_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/service/build/tutorial_interface -- -j4 -l4
+[2.002s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gargie/service/build/cpp_parameter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/service/build/cpp_parameter -- -j4 -l4
+[3.603s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/gargie/service/src/py_srvcli'
+[3.604s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.605s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.436s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gargie/service/build/tutorial_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/service/build/tutorial_interface -- -j4 -l4
+[4.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gargie/service/build/tutorial_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --install /home/gargie/service/build/tutorial_interface
+[4.824s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tutorial_interface)
+[4.844s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gargie/service/build/tutorial_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --install /home/gargie/service/build/tutorial_interface
+[4.851s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/tutorial_interface' for CMake module files
+[4.855s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/tutorial_interface' for CMake config files
+[4.858s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interface', 'cmake_prefix_path')
+[4.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gargie/service/install/tutorial_interface/share/tutorial_interface/hook/cmake_prefix_path.ps1'
+[4.862s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gargie/service/install/tutorial_interface/share/tutorial_interface/hook/cmake_prefix_path.dsv'
+[4.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gargie/service/install/tutorial_interface/share/tutorial_interface/hook/cmake_prefix_path.sh'
+[4.868s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/tutorial_interface/lib'
+[4.869s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interface', 'ld_library_path_lib')
+[4.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gargie/service/install/tutorial_interface/share/tutorial_interface/hook/ld_library_path_lib.ps1'
+[4.874s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gargie/service/install/tutorial_interface/share/tutorial_interface/hook/ld_library_path_lib.dsv'
+[4.876s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gargie/service/install/tutorial_interface/share/tutorial_interface/hook/ld_library_path_lib.sh'
+[4.879s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/tutorial_interface/bin'
+[4.879s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/tutorial_interface/lib/pkgconfig/tutorial_interface.pc'
+[4.880s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/tutorial_interface/lib/python3.10/site-packages'
+[4.882s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/tutorial_interface/bin'
+[4.883s] INFO:colcon.colcon_core.shell:Creating package script '/home/gargie/service/install/tutorial_interface/share/tutorial_interface/package.ps1'
+[4.889s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gargie/service/install/tutorial_interface/share/tutorial_interface/package.dsv'
+[4.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/gargie/service/install/tutorial_interface/share/tutorial_interface/package.sh'
+[4.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/gargie/service/install/tutorial_interface/share/tutorial_interface/package.bash'
+[4.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/gargie/service/install/tutorial_interface/share/tutorial_interface/package.zsh'
+[4.905s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gargie/service/install/tutorial_interface/share/colcon-core/packages/tutorial_interface)
+[4.909s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tutorial_interface)
+[4.910s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/tutorial_interface' for CMake module files
+[4.914s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/tutorial_interface' for CMake config files
+[4.917s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interface', 'cmake_prefix_path')
+[4.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gargie/service/install/tutorial_interface/share/tutorial_interface/hook/cmake_prefix_path.ps1'
+[4.922s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gargie/service/install/tutorial_interface/share/tutorial_interface/hook/cmake_prefix_path.dsv'
+[4.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gargie/service/install/tutorial_interface/share/tutorial_interface/hook/cmake_prefix_path.sh'
+[4.927s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/tutorial_interface/lib'
+[4.928s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interface', 'ld_library_path_lib')
+[4.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gargie/service/install/tutorial_interface/share/tutorial_interface/hook/ld_library_path_lib.ps1'
+[4.931s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gargie/service/install/tutorial_interface/share/tutorial_interface/hook/ld_library_path_lib.dsv'
+[4.934s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gargie/service/install/tutorial_interface/share/tutorial_interface/hook/ld_library_path_lib.sh'
+[4.936s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/tutorial_interface/bin'
+[4.937s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/tutorial_interface/lib/pkgconfig/tutorial_interface.pc'
+[4.938s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/tutorial_interface/lib/python3.10/site-packages'
+[4.940s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/tutorial_interface/bin'
+[4.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/gargie/service/install/tutorial_interface/share/tutorial_interface/package.ps1'
+[4.945s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gargie/service/install/tutorial_interface/share/tutorial_interface/package.dsv'
+[4.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/gargie/service/install/tutorial_interface/share/tutorial_interface/package.sh'
+[4.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/gargie/service/install/tutorial_interface/share/tutorial_interface/package.bash'
+[4.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/gargie/service/install/tutorial_interface/share/tutorial_interface/package.zsh'
+[4.957s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gargie/service/install/tutorial_interface/share/colcon-core/packages/tutorial_interface)
+[4.958s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gargie/service/src/cpp_srvcli' with build type 'ament_cmake'
+[4.959s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gargie/service/src/cpp_srvcli'
+[4.960s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.961s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.043s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gargie/service/build/cpp_srvcli': CMAKE_PREFIX_PATH=/home/gargie/service/install/tutorial_interface:/home/gargie/service/install/cpp_srvcli:/home/gargie/service/install/cpp_parameter:/home/gargie/key_ws/install/key_pkg:/home/gargie/project/install/project_pkg:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/service/build/cpp_srvcli -- -j4 -l4
+[5.371s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gargie/service/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/home/gargie/service/install/tutorial_interface:/home/gargie/service/install/cpp_srvcli:/home/gargie/service/install/cpp_parameter:/home/gargie/key_ws/install/key_pkg:/home/gargie/project/install/project_pkg:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/service/build/cpp_srvcli -- -j4 -l4
+[5.382s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gargie/service/build/cpp_srvcli': CMAKE_PREFIX_PATH=/home/gargie/service/install/tutorial_interface:/home/gargie/service/install/cpp_srvcli:/home/gargie/service/install/cpp_parameter:/home/gargie/key_ws/install/key_pkg:/home/gargie/project/install/project_pkg:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --install /home/gargie/service/build/cpp_srvcli
+[5.439s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_srvcli)
+[5.440s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/cpp_srvcli' for CMake module files
+[5.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gargie/service/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/home/gargie/service/install/tutorial_interface:/home/gargie/service/install/cpp_srvcli:/home/gargie/service/install/cpp_parameter:/home/gargie/key_ws/install/key_pkg:/home/gargie/project/install/project_pkg:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --install /home/gargie/service/build/cpp_srvcli
+[5.453s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/cpp_srvcli' for CMake config files
+[5.455s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_srvcli', 'cmake_prefix_path')
+[5.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.ps1'
+[5.460s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.dsv'
+[5.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.sh'
+[5.467s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/cpp_srvcli/lib'
+[5.467s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/cpp_srvcli/bin'
+[5.468s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/cpp_srvcli/lib/pkgconfig/cpp_srvcli.pc'
+[5.469s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/cpp_srvcli/lib/python3.10/site-packages'
+[5.471s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/cpp_srvcli/bin'
+[5.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/package.ps1'
+[5.476s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/package.dsv'
+[5.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/package.sh'
+[5.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/package.bash'
+[5.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/package.zsh'
+[5.488s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gargie/service/install/cpp_srvcli/share/colcon-core/packages/cpp_srvcli)
+[5.491s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_srvcli)
+[5.493s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/cpp_srvcli' for CMake module files
+[5.496s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/cpp_srvcli' for CMake config files
+[5.499s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_srvcli', 'cmake_prefix_path')
+[5.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.ps1'
+[5.504s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.dsv'
+[5.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.sh'
+[5.510s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/cpp_srvcli/lib'
+[5.511s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/cpp_srvcli/bin'
+[5.512s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/cpp_srvcli/lib/pkgconfig/cpp_srvcli.pc'
+[5.513s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/cpp_srvcli/lib/python3.10/site-packages'
+[5.514s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/cpp_srvcli/bin'
+[5.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/package.ps1'
+[5.519s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/package.dsv'
+[5.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/package.sh'
+[5.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/package.bash'
+[5.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/gargie/service/install/cpp_srvcli/share/cpp_srvcli/package.zsh'
+[5.529s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gargie/service/install/cpp_srvcli/share/colcon-core/packages/cpp_srvcli)
+[5.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gargie/service/src/py_srvcli': PYTHONPATH=/home/gargie/service/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gargie/service/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/gargie/service/build/py_srvcli/build install --record /home/gargie/service/build/py_srvcli/install.log --single-version-externally-managed install_data
+[6.989s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/py_srvcli' for CMake module files
+[6.992s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gargie/service/src/py_srvcli' returned '0': PYTHONPATH=/home/gargie/service/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gargie/service/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/gargie/service/build/py_srvcli/build install --record /home/gargie/service/build/py_srvcli/install.log --single-version-externally-managed install_data
+[6.993s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/py_srvcli' for CMake config files
+[6.996s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/py_srvcli/lib'
+[6.997s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/py_srvcli/bin'
+[6.997s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/py_srvcli/lib/pkgconfig/py_srvcli.pc'
+[6.998s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/py_srvcli/lib/python3.10/site-packages'
+[6.999s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_srvcli', 'pythonpath')
+[7.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gargie/service/install/py_srvcli/share/py_srvcli/hook/pythonpath.ps1'
+[7.003s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gargie/service/install/py_srvcli/share/py_srvcli/hook/pythonpath.dsv'
+[7.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gargie/service/install/py_srvcli/share/py_srvcli/hook/pythonpath.sh'
+[7.008s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/py_srvcli/bin'
+[7.009s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_srvcli)
+[7.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/gargie/service/install/py_srvcli/share/py_srvcli/package.ps1'
+[7.015s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gargie/service/install/py_srvcli/share/py_srvcli/package.dsv'
+[7.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/gargie/service/install/py_srvcli/share/py_srvcli/package.sh'
+[7.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/gargie/service/install/py_srvcli/share/py_srvcli/package.bash'
+[7.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/gargie/service/install/py_srvcli/share/py_srvcli/package.zsh'
+[7.031s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gargie/service/install/py_srvcli/share/colcon-core/packages/py_srvcli)
+[18.872s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gargie/service/build/cpp_parameter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/service/build/cpp_parameter -- -j4 -l4
+[18.875s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gargie/service/build/cpp_parameter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --install /home/gargie/service/build/cpp_parameter
+[18.919s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_parameter)
+[18.927s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/cpp_parameter' for CMake module files
+[18.958s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gargie/service/build/cpp_parameter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --install /home/gargie/service/build/cpp_parameter
+[18.965s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/cpp_parameter' for CMake config files
+[18.971s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_parameter', 'cmake_prefix_path')
+[18.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gargie/service/install/cpp_parameter/share/cpp_parameter/hook/cmake_prefix_path.ps1'
+[18.984s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gargie/service/install/cpp_parameter/share/cpp_parameter/hook/cmake_prefix_path.dsv'
+[18.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gargie/service/install/cpp_parameter/share/cpp_parameter/hook/cmake_prefix_path.sh'
+[18.997s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/cpp_parameter/lib'
+[18.998s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/cpp_parameter/bin'
+[18.999s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/cpp_parameter/lib/pkgconfig/cpp_parameter.pc'
+[19.002s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/cpp_parameter/lib/python3.10/site-packages'
+[19.005s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/cpp_parameter/bin'
+[19.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/gargie/service/install/cpp_parameter/share/cpp_parameter/package.ps1'
+[19.013s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gargie/service/install/cpp_parameter/share/cpp_parameter/package.dsv'
+[19.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/gargie/service/install/cpp_parameter/share/cpp_parameter/package.sh'
+[19.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/gargie/service/install/cpp_parameter/share/cpp_parameter/package.bash'
+[19.025s] INFO:colcon.colcon_core.shell:Creating package script '/home/gargie/service/install/cpp_parameter/share/cpp_parameter/package.zsh'
+[19.028s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gargie/service/install/cpp_parameter/share/colcon-core/packages/cpp_parameter)
+[19.032s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_parameter)
+[19.034s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/cpp_parameter' for CMake module files
+[19.041s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/cpp_parameter' for CMake config files
+[19.043s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_parameter', 'cmake_prefix_path')
+[19.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gargie/service/install/cpp_parameter/share/cpp_parameter/hook/cmake_prefix_path.ps1'
+[19.048s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gargie/service/install/cpp_parameter/share/cpp_parameter/hook/cmake_prefix_path.dsv'
+[19.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gargie/service/install/cpp_parameter/share/cpp_parameter/hook/cmake_prefix_path.sh'
+[19.054s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/cpp_parameter/lib'
+[19.055s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/cpp_parameter/bin'
+[19.056s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/cpp_parameter/lib/pkgconfig/cpp_parameter.pc'
+[19.057s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/cpp_parameter/lib/python3.10/site-packages'
+[19.058s] Level 1:colcon.colcon_core.environment:checking '/home/gargie/service/install/cpp_parameter/bin'
+[19.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/gargie/service/install/cpp_parameter/share/cpp_parameter/package.ps1'
+[19.064s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gargie/service/install/cpp_parameter/share/cpp_parameter/package.dsv'
+[19.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/gargie/service/install/cpp_parameter/share/cpp_parameter/package.sh'
+[19.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/gargie/service/install/cpp_parameter/share/cpp_parameter/package.bash'
+[19.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/gargie/service/install/cpp_parameter/share/cpp_parameter/package.zsh'
+[19.081s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gargie/service/install/cpp_parameter/share/colcon-core/packages/cpp_parameter)
+[19.083s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[19.085s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[19.086s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[19.086s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[19.151s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[19.151s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[19.152s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[19.292s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[19.294s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gargie/service/install/local_setup.ps1'
+[19.301s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gargie/service/install/_local_setup_util_ps1.py'
+[19.311s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gargie/service/install/setup.ps1'
+[19.320s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gargie/service/install/local_setup.sh'
+[19.324s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gargie/service/install/_local_setup_util_sh.py'
+[19.328s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gargie/service/install/setup.sh'
+[19.336s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gargie/service/install/local_setup.bash'
+[19.341s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gargie/service/install/setup.bash'
+[19.349s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gargie/service/install/local_setup.zsh'
+[19.352s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gargie/service/install/setup.zsh'

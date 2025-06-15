@@ -1,0 +1,166 @@
+[0.000000] (-) TimerEvent: {}
+[0.002714] (inter_pkg) JobQueued: {'identifier': 'inter_pkg', 'dependencies': OrderedDict()}
+[0.002909] (inter_pkg) JobStarted: {'identifier': 'inter_pkg'}
+[0.050536] (inter_pkg) JobProgress: {'identifier': 'inter_pkg', 'progress': 'cmake'}
+[0.057096] (inter_pkg) JobProgress: {'identifier': 'inter_pkg', 'progress': 'build'}
+[0.057547] (inter_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gargie/interfaces/build/inter_pkg', '--', '-j4', '-l4'], 'cwd': '/home/gargie/interfaces/build/inter_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'gargie'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/gargie/interm_ws/install/action_tutorials_cpp/lib:/home/gargie/service/install/tutorial_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gargie'), ('OLDPWD', '/home/gargie'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1602'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gargie/interfaces/install:/home/gargie/interm_ws/install:/home/gargie/service/install:/home/gargie/project/install:/home/gargie/key_ws/install:/home/gargie/chem_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gargie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gargie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gargie-HP-Pavilion-x360-Convertible:@/tmp/.ICE-unix/1568,unix/gargie-HP-Pavilion-x360-Convertible:/tmp/.ICE-unix/1568'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8db797fd_d576_4ef3_ae6d_b5e6b48b4f5f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CCX172'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.115'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gargie/interfaces/install/inter_pkg:/home/gargie/interm_ws/install/action_tutorials_cpp:/home/gargie/service/install/cpp_srvcli:/home/gargie/service/install/tutorial_interface:/home/gargie/service/install/py_srvcli:/home/gargie/service/install/py_parameter:/home/gargie/service/install/cpp_parameter:/home/gargie/key_ws/install/key_pkg:/home/gargie/key_ws/install/key1_pkg:/home/gargie/project/install/project_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gargie/interfaces/build/inter_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages:/home/gargie/service/install/py_srvcli/lib/python3.10/site-packages:/home/gargie/service/install/py_parameter/lib/python3.10/site-packages:/home/gargie/key_ws/install/key1_pkg/lib/python3.10/site-packages:/home/gargie/chem_ws/install/chem_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gargie/interfaces/install/inter_pkg:/home/gargie/interm_ws/install/action_tutorials_cpp:/home/gargie/service/install/cpp_srvcli:/home/gargie/service/install/tutorial_interface:/home/gargie/service/install/cpp_parameter:/home/gargie/key_ws/install/key_pkg:/home/gargie/project/install/project_pkg:/home/gargie/service/install/py_srvcli:/home/gargie/service/install/py_parameter:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble')]), 'shell': False}
+[0.098778] (-) TimerEvent: {}
+[0.199540] (-) TimerEvent: {}
+[0.245519] (inter_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target node_interf\x1b[0m\n'}
+[0.299884] (-) TimerEvent: {}
+[0.301801] (inter_pkg) StdoutLine: {'line': b'[ 50%] Built target interface_n\n'}
+[0.314384] (inter_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/node_interf.dir/src/node_interf.cpp.o\x1b[0m\n'}
+[0.400215] (-) TimerEvent: {}
+[0.501036] (-) TimerEvent: {}
+[0.601802] (-) TimerEvent: {}
+[0.702598] (-) TimerEvent: {}
+[0.803365] (-) TimerEvent: {}
+[0.904771] (-) TimerEvent: {}
+[1.006675] (-) TimerEvent: {}
+[1.108578] (-) TimerEvent: {}
+[1.210493] (-) TimerEvent: {}
+[1.312387] (-) TimerEvent: {}
+[1.414490] (-) TimerEvent: {}
+[1.516378] (-) TimerEvent: {}
+[1.618447] (-) TimerEvent: {}
+[1.720678] (-) TimerEvent: {}
+[1.823006] (-) TimerEvent: {}
+[1.925295] (-) TimerEvent: {}
+[2.027495] (-) TimerEvent: {}
+[2.129440] (-) TimerEvent: {}
+[2.231547] (-) TimerEvent: {}
+[2.333780] (-) TimerEvent: {}
+[2.436052] (-) TimerEvent: {}
+[2.538380] (-) TimerEvent: {}
+[2.640581] (-) TimerEvent: {}
+[2.742914] (-) TimerEvent: {}
+[2.845324] (-) TimerEvent: {}
+[2.947509] (-) TimerEvent: {}
+[3.049565] (-) TimerEvent: {}
+[3.151531] (-) TimerEvent: {}
+[3.253282] (-) TimerEvent: {}
+[3.354186] (-) TimerEvent: {}
+[3.455039] (-) TimerEvent: {}
+[3.555899] (-) TimerEvent: {}
+[3.656745] (-) TimerEvent: {}
+[3.757666] (-) TimerEvent: {}
+[3.858578] (-) TimerEvent: {}
+[3.959401] (-) TimerEvent: {}
+[4.060270] (-) TimerEvent: {}
+[4.161085] (-) TimerEvent: {}
+[4.261984] (-) TimerEvent: {}
+[4.362931] (-) TimerEvent: {}
+[4.463854] (-) TimerEvent: {}
+[4.564710] (-) TimerEvent: {}
+[4.665589] (-) TimerEvent: {}
+[4.766403] (-) TimerEvent: {}
+[4.867283] (-) TimerEvent: {}
+[4.968186] (-) TimerEvent: {}
+[5.069178] (-) TimerEvent: {}
+[5.170006] (-) TimerEvent: {}
+[5.270902] (-) TimerEvent: {}
+[5.371798] (-) TimerEvent: {}
+[5.472706] (-) TimerEvent: {}
+[5.573657] (-) TimerEvent: {}
+[5.674560] (-) TimerEvent: {}
+[5.775403] (-) TimerEvent: {}
+[5.876285] (-) TimerEvent: {}
+[5.977103] (-) TimerEvent: {}
+[6.077971] (-) TimerEvent: {}
+[6.178949] (-) TimerEvent: {}
+[6.279963] (-) TimerEvent: {}
+[6.380856] (-) TimerEvent: {}
+[6.481725] (-) TimerEvent: {}
+[6.582669] (-) TimerEvent: {}
+[6.683490] (-) TimerEvent: {}
+[6.784374] (-) TimerEvent: {}
+[6.885244] (-) TimerEvent: {}
+[6.986082] (-) TimerEvent: {}
+[7.086980] (-) TimerEvent: {}
+[7.187856] (-) TimerEvent: {}
+[7.288835] (-) TimerEvent: {}
+[7.389659] (-) TimerEvent: {}
+[7.490520] (-) TimerEvent: {}
+[7.591382] (-) TimerEvent: {}
+[7.692266] (-) TimerEvent: {}
+[7.793097] (-) TimerEvent: {}
+[7.894032] (-) TimerEvent: {}
+[7.994962] (-) TimerEvent: {}
+[8.095841] (-) TimerEvent: {}
+[8.196712] (-) TimerEvent: {}
+[8.297565] (-) TimerEvent: {}
+[8.398345] (-) TimerEvent: {}
+[8.499263] (-) TimerEvent: {}
+[8.600257] (-) TimerEvent: {}
+[8.701196] (-) TimerEvent: {}
+[8.802018] (-) TimerEvent: {}
+[8.902889] (-) TimerEvent: {}
+[9.003785] (-) TimerEvent: {}
+[9.104727] (-) TimerEvent: {}
+[9.205625] (-) TimerEvent: {}
+[9.306446] (-) TimerEvent: {}
+[9.407289] (-) TimerEvent: {}
+[9.508185] (-) TimerEvent: {}
+[9.609000] (-) TimerEvent: {}
+[9.709928] (-) TimerEvent: {}
+[9.810744] (-) TimerEvent: {}
+[9.911615] (-) TimerEvent: {}
+[10.012469] (-) TimerEvent: {}
+[10.113282] (-) TimerEvent: {}
+[10.214071] (-) TimerEvent: {}
+[10.314913] (-) TimerEvent: {}
+[10.415836] (-) TimerEvent: {}
+[10.516753] (-) TimerEvent: {}
+[10.617651] (-) TimerEvent: {}
+[10.718531] (-) TimerEvent: {}
+[10.819350] (-) TimerEvent: {}
+[10.920251] (-) TimerEvent: {}
+[11.021150] (-) TimerEvent: {}
+[11.122037] (-) TimerEvent: {}
+[11.222956] (-) TimerEvent: {}
+[11.323860] (-) TimerEvent: {}
+[11.424752] (-) TimerEvent: {}
+[11.525723] (-) TimerEvent: {}
+[11.626685] (-) TimerEvent: {}
+[11.646940] (inter_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/interfaces/src/inter_pkg/src/node_interf.cpp:29:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K:\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[11.647712] (inter_pkg) StderrLine: {'line': b'   29 |   explicit LifecycleTalker(const std::string & node_name\x1b[01;31m\x1b[K:\x1b[m\x1b[K rclcpp_lifecycle::LifecycleNode(node_name)\n'}
+[11.648196] (inter_pkg) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.648695] (inter_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/interfaces/src/inter_pkg/src/node_interf.cpp:30:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[11.649164] (inter_pkg) StderrLine: {'line': b'   30 |   {}\n'}
+[11.649640] (inter_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.650039] (inter_pkg) StderrLine: {'line': b'      |     \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[11.650534] (inter_pkg) StderrLine: {'line': b'   31 | \x1b[32m\x1b[K}\x1b[m\x1b[K;\n'}
+[11.650944] (inter_pkg) StderrLine: {'line': b'      | \x1b[32m\x1b[K~\x1b[m\x1b[K    \n'}
+[11.651430] (inter_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/interfaces/src/inter_pkg/src/node_interf.cpp:29:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.651878] (inter_pkg) StderrLine: {'line': b'   29 |   explicit LifecycleTalker\x1b[01;36m\x1b[K(\x1b[m\x1b[Kconst std::string & node_name: rclcpp_lifecycle::LifecycleNode(node_name)\n'}
+[11.652354] (inter_pkg) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[11.652742] (inter_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/interfaces/src/inter_pkg/src/node_interf.cpp:30:4:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[11.653164] (inter_pkg) StderrLine: {'line': b'   30 |   {\x1b[01;31m\x1b[K}\x1b[m\x1b[K\n'}
+[11.653874] (inter_pkg) StderrLine: {'line': b'      |    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.654395] (inter_pkg) StderrLine: {'line': b'      |     \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[11.727033] (-) TimerEvent: {}
+[11.827976] (-) TimerEvent: {}
+[11.928857] (-) TimerEvent: {}
+[12.029737] (-) TimerEvent: {}
+[12.130610] (-) TimerEvent: {}
+[12.231492] (-) TimerEvent: {}
+[12.332343] (-) TimerEvent: {}
+[12.433273] (-) TimerEvent: {}
+[12.534149] (-) TimerEvent: {}
+[12.634994] (-) TimerEvent: {}
+[12.735881] (-) TimerEvent: {}
+[12.836801] (-) TimerEvent: {}
+[12.937789] (-) TimerEvent: {}
+[13.038681] (-) TimerEvent: {}
+[13.139490] (-) TimerEvent: {}
+[13.240317] (-) TimerEvent: {}
+[13.341163] (-) TimerEvent: {}
+[13.441979] (-) TimerEvent: {}
+[13.542934] (-) TimerEvent: {}
+[13.604227] (inter_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/node_interf.dir/build.make:76: CMakeFiles/node_interf.dir/src/node_interf.cpp.o] Error 1\n'}
+[13.605632] (inter_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/node_interf.dir/all] Error 2\n'}
+[13.606546] (inter_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[13.614104] (inter_pkg) CommandEnded: {'returncode': 2}
+[13.647847] (-) TimerEvent: {}
+[13.668580] (inter_pkg) JobEnded: {'identifier': 'inter_pkg', 'rc': 2}
+[13.680617] (-) EventReactorShutdown: {}

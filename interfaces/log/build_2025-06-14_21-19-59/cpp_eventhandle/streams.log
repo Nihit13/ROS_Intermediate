@@ -1,0 +1,11 @@
+[0.058s] Invoking command in '/home/gargie/interfaces/build/cpp_eventhandle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/tf2/install/learning_tf2_py:/home/gargie/service/install/py_srvcli:/home/gargie/service/install/py_parameter:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/interfaces/build/cpp_eventhandle -- -j4 -l4
+[0.240s] [35m[1mConsolidate compiler generated dependencies of target parameter[0m
+[0.316s] [ 50%] [32mBuilding CXX object CMakeFiles/parameter.dir/src/parameter.cpp.o[0m
+[11.453s] [01m[K/home/gargie/interfaces/src/cpp_eventhandle/src/parameter.cpp:[m[K In constructor ‘[01m[KSampleNodeWithParameters::SampleNodeWithParameters()[m[K’:
+[11.455s] [01m[K/home/gargie/interfaces/src/cpp_eventhandle/src/parameter.cpp:27:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kevent_cb_handle_[m[K’
+[11.456s]    27 | [01;31m[Kevent_cb_handle_[m[K = param_subscriber_->add_parameter_event_callback(event_cb);
+[11.458s]       | [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[21.959s] gmake[2]: *** [CMakeFiles/parameter.dir/build.make:76: CMakeFiles/parameter.dir/src/parameter.cpp.o] Error 1
+[21.960s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/parameter.dir/all] Error 2
+[21.961s] gmake: *** [Makefile:146: all] Error 2
+[21.969s] Invoked command in '/home/gargie/interfaces/build/cpp_eventhandle' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/tf2/install/learning_tf2_py:/home/gargie/service/install/py_srvcli:/home/gargie/service/install/py_parameter:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/interfaces/build/cpp_eventhandle -- -j4 -l4

@@ -1,0 +1,390 @@
+[0.000000] (-) TimerEvent: {}
+[0.001551] (polygon_base) JobQueued: {'identifier': 'polygon_base', 'dependencies': OrderedDict()}
+[0.001808] (polygon_plugins) JobQueued: {'identifier': 'polygon_plugins', 'dependencies': OrderedDict([('polygon_base', '/home/gargie/class_ws/install/polygon_base')])}
+[0.001954] (polygon_base) JobStarted: {'identifier': 'polygon_base'}
+[0.055862] (polygon_base) JobProgress: {'identifier': 'polygon_base', 'progress': 'cmake'}
+[0.058028] (polygon_base) Command: {'cmd': ['/usr/bin/cmake', '/home/gargie/class_ws/src/polygon_base', '-DCMAKE_INSTALL_PREFIX=/home/gargie/class_ws/install/polygon_base'], 'cwd': '/home/gargie/class_ws/build/polygon_base', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'gargie'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/gargie/service/install/tutorial_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gargie'), ('OLDPWD', '/home/gargie/class_ws/src/polygon_plugins'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1507'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gargie/service/install:/home/gargie/project/install:/home/gargie/key_ws/install:/home/gargie/chem_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gargie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gargie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gargie-HP-Pavilion-x360-Convertible:@/tmp/.ICE-unix/1471,unix/gargie-HP-Pavilion-x360-Convertible:/tmp/.ICE-unix/1471'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/22e7a8c9_c125_4680_b6fa_b0a958ad5c8f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D8Y062'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gargie/service/install/cpp_srvcli:/home/gargie/service/install/tutorial_interface:/home/gargie/service/install/py_srvcli:/home/gargie/service/install/cpp_parameter:/home/gargie/key_ws/install/key_pkg:/home/gargie/key_ws/install/key1_pkg:/home/gargie/project/install/project_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gargie/class_ws/build/polygon_base'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages:/home/gargie/service/install/py_srvcli/lib/python3.10/site-packages:/home/gargie/key_ws/install/key1_pkg/lib/python3.10/site-packages:/home/gargie/chem_ws/install/chem_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gargie/service/install/cpp_srvcli:/home/gargie/service/install/tutorial_interface:/home/gargie/service/install/cpp_parameter:/home/gargie/key_ws/install/key_pkg:/home/gargie/project/install/project_pkg:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble')]), 'shell': False}
+[0.097307] (-) TimerEvent: {}
+[0.198201] (-) TimerEvent: {}
+[0.299100] (-) TimerEvent: {}
+[0.400180] (-) TimerEvent: {}
+[0.501157] (-) TimerEvent: {}
+[0.548879] (polygon_base) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.601346] (-) TimerEvent: {}
+[0.702216] (-) TimerEvent: {}
+[0.803230] (-) TimerEvent: {}
+[0.904210] (-) TimerEvent: {}
+[0.958814] (polygon_base) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.004444] (-) TimerEvent: {}
+[1.020206] (polygon_base) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.104712] (-) TimerEvent: {}
+[1.205910] (-) TimerEvent: {}
+[1.306867] (-) TimerEvent: {}
+[1.354695] (polygon_base) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.407014] (-) TimerEvent: {}
+[1.411415] (polygon_base) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.414898] (polygon_base) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.417979] (polygon_base) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.436021] (polygon_base) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.507375] (-) TimerEvent: {}
+[1.608515] (-) TimerEvent: {}
+[1.710303] (-) TimerEvent: {}
+[1.799122] (polygon_base) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.810677] (-) TimerEvent: {}
+[1.839229] (polygon_base) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.841739] (polygon_base) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.844491] (polygon_base) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.861910] (polygon_base) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.910942] (-) TimerEvent: {}
+[2.012193] (-) TimerEvent: {}
+[2.113798] (-) TimerEvent: {}
+[2.214914] (-) TimerEvent: {}
+[2.316653] (-) TimerEvent: {}
+[2.417417] (-) TimerEvent: {}
+[2.518378] (-) TimerEvent: {}
+[2.620271] (-) TimerEvent: {}
+[2.622025] (polygon_base) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.720538] (-) TimerEvent: {}
+[2.821325] (-) TimerEvent: {}
+[2.922152] (-) TimerEvent: {}
+[3.023484] (-) TimerEvent: {}
+[3.125523] (-) TimerEvent: {}
+[3.227210] (-) TimerEvent: {}
+[3.248350] (polygon_base) StdoutLine: {'line': b'-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[3.327455] (-) TimerEvent: {}
+[3.428302] (-) TimerEvent: {}
+[3.453193] (polygon_base) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.528644] (-) TimerEvent: {}
+[3.629402] (-) TimerEvent: {}
+[3.730311] (-) TimerEvent: {}
+[3.831220] (-) TimerEvent: {}
+[3.868764] (polygon_base) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.869711] (polygon_base) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/gargie/class_ws/src/polygon_base/include>\n'}
+[3.870290] (polygon_base) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.875068] (polygon_base) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.882949] (polygon_base) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.883625] (polygon_base) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.886899] (polygon_base) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.899595] (polygon_base) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.922423] (polygon_base) StdoutLine: {'line': b'-- Generating done\n'}
+[3.931494] (-) TimerEvent: {}
+[3.932281] (polygon_base) StdoutLine: {'line': b'-- Build files have been written to: /home/gargie/class_ws/build/polygon_base\n'}
+[3.957648] (polygon_base) CommandEnded: {'returncode': 0}
+[3.964664] (polygon_base) JobProgress: {'identifier': 'polygon_base', 'progress': 'build'}
+[3.980254] (polygon_base) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gargie/class_ws/build/polygon_base', '--', '-j4', '-l4'], 'cwd': '/home/gargie/class_ws/build/polygon_base', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'gargie'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/gargie/service/install/tutorial_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gargie'), ('OLDPWD', '/home/gargie/class_ws/src/polygon_plugins'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1507'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gargie/service/install:/home/gargie/project/install:/home/gargie/key_ws/install:/home/gargie/chem_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gargie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gargie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gargie-HP-Pavilion-x360-Convertible:@/tmp/.ICE-unix/1471,unix/gargie-HP-Pavilion-x360-Convertible:/tmp/.ICE-unix/1471'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/22e7a8c9_c125_4680_b6fa_b0a958ad5c8f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D8Y062'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gargie/service/install/cpp_srvcli:/home/gargie/service/install/tutorial_interface:/home/gargie/service/install/py_srvcli:/home/gargie/service/install/cpp_parameter:/home/gargie/key_ws/install/key_pkg:/home/gargie/key_ws/install/key1_pkg:/home/gargie/project/install/project_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gargie/class_ws/build/polygon_base'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages:/home/gargie/service/install/py_srvcli/lib/python3.10/site-packages:/home/gargie/key_ws/install/key1_pkg/lib/python3.10/site-packages:/home/gargie/chem_ws/install/chem_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gargie/service/install/cpp_srvcli:/home/gargie/service/install/tutorial_interface:/home/gargie/service/install/cpp_parameter:/home/gargie/key_ws/install/key_pkg:/home/gargie/project/install/project_pkg:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble')]), 'shell': False}
+[4.032045] (-) TimerEvent: {}
+[4.132919] (-) TimerEvent: {}
+[4.166257] (polygon_base) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/area_node.dir/src/area_node.cpp.o\x1b[0m\n'}
+[4.233149] (-) TimerEvent: {}
+[4.333914] (-) TimerEvent: {}
+[4.434736] (-) TimerEvent: {}
+[4.535503] (-) TimerEvent: {}
+[4.636338] (-) TimerEvent: {}
+[4.737090] (-) TimerEvent: {}
+[4.837943] (-) TimerEvent: {}
+[4.938736] (-) TimerEvent: {}
+[5.039535] (-) TimerEvent: {}
+[5.140641] (-) TimerEvent: {}
+[5.242875] (-) TimerEvent: {}
+[5.344697] (-) TimerEvent: {}
+[5.446306] (-) TimerEvent: {}
+[5.547159] (-) TimerEvent: {}
+[5.648030] (-) TimerEvent: {}
+[5.748885] (-) TimerEvent: {}
+[5.849762] (-) TimerEvent: {}
+[5.950807] (-) TimerEvent: {}
+[6.052550] (-) TimerEvent: {}
+[6.154703] (-) TimerEvent: {}
+[6.256663] (-) TimerEvent: {}
+[6.358412] (-) TimerEvent: {}
+[6.460209] (-) TimerEvent: {}
+[6.561908] (-) TimerEvent: {}
+[6.663690] (-) TimerEvent: {}
+[6.765236] (-) TimerEvent: {}
+[6.866101] (-) TimerEvent: {}
+[6.966911] (-) TimerEvent: {}
+[7.067714] (-) TimerEvent: {}
+[7.168515] (-) TimerEvent: {}
+[7.269330] (-) TimerEvent: {}
+[7.370142] (-) TimerEvent: {}
+[7.470954] (-) TimerEvent: {}
+[7.571856] (-) TimerEvent: {}
+[7.672688] (-) TimerEvent: {}
+[7.773482] (-) TimerEvent: {}
+[7.874324] (-) TimerEvent: {}
+[7.975195] (-) TimerEvent: {}
+[8.076048] (-) TimerEvent: {}
+[8.176900] (-) TimerEvent: {}
+[8.277723] (-) TimerEvent: {}
+[8.378537] (-) TimerEvent: {}
+[8.479414] (-) TimerEvent: {}
+[8.580251] (-) TimerEvent: {}
+[8.681064] (-) TimerEvent: {}
+[8.781917] (-) TimerEvent: {}
+[8.882715] (-) TimerEvent: {}
+[8.983517] (-) TimerEvent: {}
+[9.084359] (-) TimerEvent: {}
+[9.185194] (-) TimerEvent: {}
+[9.286012] (-) TimerEvent: {}
+[9.386753] (-) TimerEvent: {}
+[9.487541] (-) TimerEvent: {}
+[9.588402] (-) TimerEvent: {}
+[9.689225] (-) TimerEvent: {}
+[9.790042] (-) TimerEvent: {}
+[9.890861] (-) TimerEvent: {}
+[9.991664] (-) TimerEvent: {}
+[10.092435] (-) TimerEvent: {}
+[10.193266] (-) TimerEvent: {}
+[10.294089] (-) TimerEvent: {}
+[10.394906] (-) TimerEvent: {}
+[10.495733] (-) TimerEvent: {}
+[10.596675] (-) TimerEvent: {}
+[10.697442] (-) TimerEvent: {}
+[10.798244] (-) TimerEvent: {}
+[10.899023] (-) TimerEvent: {}
+[10.999865] (-) TimerEvent: {}
+[11.100633] (-) TimerEvent: {}
+[11.201427] (-) TimerEvent: {}
+[11.302265] (-) TimerEvent: {}
+[11.403104] (-) TimerEvent: {}
+[11.503932] (-) TimerEvent: {}
+[11.604744] (-) TimerEvent: {}
+[11.705500] (-) TimerEvent: {}
+[11.806354] (-) TimerEvent: {}
+[11.907248] (-) TimerEvent: {}
+[12.008087] (-) TimerEvent: {}
+[12.108918] (-) TimerEvent: {}
+[12.209725] (-) TimerEvent: {}
+[12.310541] (-) TimerEvent: {}
+[12.411366] (-) TimerEvent: {}
+[12.512131] (-) TimerEvent: {}
+[12.612943] (-) TimerEvent: {}
+[12.713718] (-) TimerEvent: {}
+[12.814475] (-) TimerEvent: {}
+[12.915317] (-) TimerEvent: {}
+[13.016179] (-) TimerEvent: {}
+[13.117000] (-) TimerEvent: {}
+[13.217771] (-) TimerEvent: {}
+[13.318616] (-) TimerEvent: {}
+[13.419393] (-) TimerEvent: {}
+[13.520213] (-) TimerEvent: {}
+[13.621000] (-) TimerEvent: {}
+[13.721773] (-) TimerEvent: {}
+[13.822523] (-) TimerEvent: {}
+[13.923335] (-) TimerEvent: {}
+[14.024157] (-) TimerEvent: {}
+[14.124989] (-) TimerEvent: {}
+[14.225762] (-) TimerEvent: {}
+[14.326550] (-) TimerEvent: {}
+[14.427348] (-) TimerEvent: {}
+[14.528184] (-) TimerEvent: {}
+[14.629001] (-) TimerEvent: {}
+[14.729781] (-) TimerEvent: {}
+[14.830651] (-) TimerEvent: {}
+[14.931442] (-) TimerEvent: {}
+[15.032264] (-) TimerEvent: {}
+[15.133131] (-) TimerEvent: {}
+[15.233968] (-) TimerEvent: {}
+[15.334765] (-) TimerEvent: {}
+[15.435534] (-) TimerEvent: {}
+[15.536373] (-) TimerEvent: {}
+[15.637208] (-) TimerEvent: {}
+[15.738015] (-) TimerEvent: {}
+[15.838757] (-) TimerEvent: {}
+[15.939541] (-) TimerEvent: {}
+[16.040392] (-) TimerEvent: {}
+[16.141250] (-) TimerEvent: {}
+[16.242089] (-) TimerEvent: {}
+[16.342898] (-) TimerEvent: {}
+[16.443880] (-) TimerEvent: {}
+[16.545472] (-) TimerEvent: {}
+[16.646296] (-) TimerEvent: {}
+[16.747104] (-) TimerEvent: {}
+[16.847935] (-) TimerEvent: {}
+[16.948745] (-) TimerEvent: {}
+[17.049623] (-) TimerEvent: {}
+[17.150433] (-) TimerEvent: {}
+[17.223405] (polygon_base) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable area_node\x1b[0m\n'}
+[17.250709] (-) TimerEvent: {}
+[17.351494] (-) TimerEvent: {}
+[17.452550] (-) TimerEvent: {}
+[17.554419] (-) TimerEvent: {}
+[17.656245] (-) TimerEvent: {}
+[17.758062] (-) TimerEvent: {}
+[17.859902] (-) TimerEvent: {}
+[17.961604] (-) TimerEvent: {}
+[17.995477] (polygon_base) StdoutLine: {'line': b'[100%] Built target area_node\n'}
+[18.042176] (polygon_base) CommandEnded: {'returncode': 0}
+[18.046541] (polygon_base) JobProgress: {'identifier': 'polygon_base', 'progress': 'install'}
+[18.061830] (-) TimerEvent: {}
+[18.083848] (polygon_base) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/gargie/class_ws/build/polygon_base'], 'cwd': '/home/gargie/class_ws/build/polygon_base', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'gargie'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/gargie/service/install/tutorial_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gargie'), ('OLDPWD', '/home/gargie/class_ws/src/polygon_plugins'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1507'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gargie/service/install:/home/gargie/project/install:/home/gargie/key_ws/install:/home/gargie/chem_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gargie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gargie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gargie-HP-Pavilion-x360-Convertible:@/tmp/.ICE-unix/1471,unix/gargie-HP-Pavilion-x360-Convertible:/tmp/.ICE-unix/1471'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/22e7a8c9_c125_4680_b6fa_b0a958ad5c8f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D8Y062'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gargie/service/install/cpp_srvcli:/home/gargie/service/install/tutorial_interface:/home/gargie/service/install/py_srvcli:/home/gargie/service/install/cpp_parameter:/home/gargie/key_ws/install/key_pkg:/home/gargie/key_ws/install/key1_pkg:/home/gargie/project/install/project_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gargie/class_ws/build/polygon_base'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages:/home/gargie/service/install/py_srvcli/lib/python3.10/site-packages:/home/gargie/key_ws/install/key1_pkg/lib/python3.10/site-packages:/home/gargie/chem_ws/install/chem_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gargie/service/install/cpp_srvcli:/home/gargie/service/install/tutorial_interface:/home/gargie/service/install/cpp_parameter:/home/gargie/key_ws/install/key_pkg:/home/gargie/project/install/project_pkg:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble')]), 'shell': False}
+[18.120341] (polygon_base) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.121612] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_base/include\n'}
+[18.122441] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_base/include/polygon_base\n'}
+[18.123152] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_base/include/polygon_base/regular_polygon.hpp\n'}
+[18.123823] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_base/lib/polygon_base/area_node\n'}
+[18.128970] (polygon_base) StdoutLine: {'line': b'-- Set runtime path of "/home/gargie/class_ws/install/polygon_base/lib/polygon_base/area_node" to ""\n'}
+[18.129886] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_base/share/ament_index/resource_index/package_run_dependencies/polygon_base\n'}
+[18.130774] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_base/share/ament_index/resource_index/parent_prefix_path/polygon_base\n'}
+[18.131628] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_base/share/polygon_base/environment/ament_prefix_path.sh\n'}
+[18.132632] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_base/share/polygon_base/environment/ament_prefix_path.dsv\n'}
+[18.133504] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_base/share/polygon_base/environment/path.sh\n'}
+[18.134480] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_base/share/polygon_base/environment/path.dsv\n'}
+[18.135432] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_base/share/polygon_base/local_setup.bash\n'}
+[18.136298] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_base/share/polygon_base/local_setup.sh\n'}
+[18.137173] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_base/share/polygon_base/local_setup.zsh\n'}
+[18.138125] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_base/share/polygon_base/local_setup.dsv\n'}
+[18.139083] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_base/share/polygon_base/package.dsv\n'}
+[18.139832] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_base/share/ament_index/resource_index/packages/polygon_base\n'}
+[18.140520] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_base/share/polygon_base/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[18.141207] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig.cmake\n'}
+[18.141873] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig-version.cmake\n'}
+[18.142481] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_base/share/polygon_base/package.xml\n'}
+[18.145944] (polygon_base) CommandEnded: {'returncode': 0}
+[18.161982] (-) TimerEvent: {}
+[18.263637] (-) TimerEvent: {}
+[18.295333] (polygon_base) JobEnded: {'identifier': 'polygon_base', 'rc': 0}
+[18.303435] (polygon_plugins) JobStarted: {'identifier': 'polygon_plugins'}
+[18.342919] (polygon_plugins) JobProgress: {'identifier': 'polygon_plugins', 'progress': 'cmake'}
+[18.347346] (polygon_plugins) Command: {'cmd': ['/usr/bin/cmake', '/home/gargie/class_ws/src/polygon_plugins', '-DCMAKE_INSTALL_PREFIX=/home/gargie/class_ws/install/polygon_plugins'], 'cwd': '/home/gargie/class_ws/build/polygon_plugins', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'gargie'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/gargie/service/install/tutorial_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gargie'), ('OLDPWD', '/home/gargie/class_ws/src/polygon_plugins'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1507'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gargie/service/install:/home/gargie/project/install:/home/gargie/key_ws/install:/home/gargie/chem_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gargie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gargie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gargie-HP-Pavilion-x360-Convertible:@/tmp/.ICE-unix/1471,unix/gargie-HP-Pavilion-x360-Convertible:/tmp/.ICE-unix/1471'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/22e7a8c9_c125_4680_b6fa_b0a958ad5c8f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D8Y062'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gargie/class_ws/install/polygon_base:/home/gargie/service/install/cpp_srvcli:/home/gargie/service/install/tutorial_interface:/home/gargie/service/install/py_srvcli:/home/gargie/service/install/cpp_parameter:/home/gargie/key_ws/install/key_pkg:/home/gargie/key_ws/install/key1_pkg:/home/gargie/project/install/project_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gargie/class_ws/build/polygon_plugins'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages:/home/gargie/service/install/py_srvcli/lib/python3.10/site-packages:/home/gargie/key_ws/install/key1_pkg/lib/python3.10/site-packages:/home/gargie/chem_ws/install/chem_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gargie/class_ws/install/polygon_base:/home/gargie/service/install/cpp_srvcli:/home/gargie/service/install/tutorial_interface:/home/gargie/service/install/cpp_parameter:/home/gargie/key_ws/install/key_pkg:/home/gargie/project/install/project_pkg:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble')]), 'shell': False}
+[18.363757] (-) TimerEvent: {}
+[18.464392] (-) TimerEvent: {}
+[18.565304] (-) TimerEvent: {}
+[18.595398] (polygon_plugins) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[18.665520] (-) TimerEvent: {}
+[18.766369] (-) TimerEvent: {}
+[18.846210] (polygon_plugins) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[18.866597] (-) TimerEvent: {}
+[18.876399] (polygon_plugins) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[18.966729] (-) TimerEvent: {}
+[19.067463] (-) TimerEvent: {}
+[19.168337] (-) TimerEvent: {}
+[19.173743] (polygon_plugins) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[19.228744] (polygon_plugins) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[19.230751] (polygon_plugins) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[19.232206] (polygon_plugins) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[19.247869] (polygon_plugins) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[19.268832] (-) TimerEvent: {}
+[19.369736] (-) TimerEvent: {}
+[19.472185] (-) TimerEvent: {}
+[19.573046] (-) TimerEvent: {}
+[19.598969] (polygon_plugins) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[19.641537] (polygon_plugins) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[19.643283] (polygon_plugins) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[19.645892] (polygon_plugins) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[19.657078] (polygon_plugins) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[19.674753] (-) TimerEvent: {}
+[19.775817] (-) TimerEvent: {}
+[19.876703] (-) TimerEvent: {}
+[19.977606] (-) TimerEvent: {}
+[20.078418] (-) TimerEvent: {}
+[20.179306] (-) TimerEvent: {}
+[20.280373] (-) TimerEvent: {}
+[20.381278] (-) TimerEvent: {}
+[20.386292] (polygon_plugins) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[20.481479] (-) TimerEvent: {}
+[20.582233] (-) TimerEvent: {}
+[20.683015] (-) TimerEvent: {}
+[20.783820] (-) TimerEvent: {}
+[20.846124] (polygon_plugins) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[20.884019] (-) TimerEvent: {}
+[20.887654] (polygon_plugins) StdoutLine: {'line': b'-- Found polygon_base: 0.0.0 (/home/gargie/class_ws/install/polygon_base/share/polygon_base/cmake)\n'}
+[20.899458] (polygon_plugins) StdoutLine: {'line': b'-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[20.984230] (-) TimerEvent: {}
+[21.056863] (polygon_plugins) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[21.084410] (-) TimerEvent: {}
+[21.185262] (-) TimerEvent: {}
+[21.287024] (-) TimerEvent: {}
+[21.388674] (-) TimerEvent: {}
+[21.446731] (polygon_plugins) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[21.447943] (polygon_plugins) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/gargie/class_ws/src/polygon_plugins/include>\n'}
+[21.448497] (polygon_plugins) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[21.451555] (polygon_plugins) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[21.457498] (polygon_plugins) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[21.458143] (polygon_plugins) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[21.460342] (polygon_plugins) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[21.474805] (polygon_plugins) StdoutLine: {'line': b'-- Configuring done\n'}
+[21.488885] (-) TimerEvent: {}
+[21.496340] (polygon_plugins) StdoutLine: {'line': b'-- Generating done\n'}
+[21.506436] (polygon_plugins) StdoutLine: {'line': b'-- Build files have been written to: /home/gargie/class_ws/build/polygon_plugins\n'}
+[21.534735] (polygon_plugins) CommandEnded: {'returncode': 0}
+[21.536804] (polygon_plugins) JobProgress: {'identifier': 'polygon_plugins', 'progress': 'build'}
+[21.538093] (polygon_plugins) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gargie/class_ws/build/polygon_plugins', '--', '-j4', '-l4'], 'cwd': '/home/gargie/class_ws/build/polygon_plugins', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'gargie'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/gargie/service/install/tutorial_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gargie'), ('OLDPWD', '/home/gargie/class_ws/src/polygon_plugins'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1507'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gargie/service/install:/home/gargie/project/install:/home/gargie/key_ws/install:/home/gargie/chem_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gargie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gargie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gargie-HP-Pavilion-x360-Convertible:@/tmp/.ICE-unix/1471,unix/gargie-HP-Pavilion-x360-Convertible:/tmp/.ICE-unix/1471'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/22e7a8c9_c125_4680_b6fa_b0a958ad5c8f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D8Y062'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gargie/class_ws/install/polygon_base:/home/gargie/service/install/cpp_srvcli:/home/gargie/service/install/tutorial_interface:/home/gargie/service/install/py_srvcli:/home/gargie/service/install/cpp_parameter:/home/gargie/key_ws/install/key_pkg:/home/gargie/key_ws/install/key1_pkg:/home/gargie/project/install/project_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gargie/class_ws/build/polygon_plugins'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages:/home/gargie/service/install/py_srvcli/lib/python3.10/site-packages:/home/gargie/key_ws/install/key1_pkg/lib/python3.10/site-packages:/home/gargie/chem_ws/install/chem_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gargie/class_ws/install/polygon_base:/home/gargie/service/install/cpp_srvcli:/home/gargie/service/install/tutorial_interface:/home/gargie/service/install/cpp_parameter:/home/gargie/key_ws/install/key_pkg:/home/gargie/project/install/project_pkg:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble')]), 'shell': False}
+[21.589158] (-) TimerEvent: {}
+[21.689978] (-) TimerEvent: {}
+[21.733793] (polygon_plugins) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/polygon_plugins.dir/src/polygon_plugins.cpp.o\x1b[0m\n'}
+[21.790180] (-) TimerEvent: {}
+[21.890990] (-) TimerEvent: {}
+[21.991746] (-) TimerEvent: {}
+[22.092512] (-) TimerEvent: {}
+[22.193305] (-) TimerEvent: {}
+[22.294150] (-) TimerEvent: {}
+[22.395035] (-) TimerEvent: {}
+[22.495842] (-) TimerEvent: {}
+[22.596671] (-) TimerEvent: {}
+[22.697497] (-) TimerEvent: {}
+[22.798352] (-) TimerEvent: {}
+[22.899173] (-) TimerEvent: {}
+[22.999980] (-) TimerEvent: {}
+[23.100766] (-) TimerEvent: {}
+[23.201549] (-) TimerEvent: {}
+[23.302384] (-) TimerEvent: {}
+[23.403257] (-) TimerEvent: {}
+[23.504102] (-) TimerEvent: {}
+[23.604911] (-) TimerEvent: {}
+[23.705747] (-) TimerEvent: {}
+[23.806526] (-) TimerEvent: {}
+[23.907364] (-) TimerEvent: {}
+[24.008200] (-) TimerEvent: {}
+[24.109017] (-) TimerEvent: {}
+[24.209883] (-) TimerEvent: {}
+[24.310718] (-) TimerEvent: {}
+[24.411514] (-) TimerEvent: {}
+[24.512335] (-) TimerEvent: {}
+[24.613189] (-) TimerEvent: {}
+[24.714042] (-) TimerEvent: {}
+[24.767008] (polygon_plugins) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libpolygon_plugins.so\x1b[0m\n'}
+[24.814302] (-) TimerEvent: {}
+[24.915539] (-) TimerEvent: {}
+[25.017722] (-) TimerEvent: {}
+[25.119758] (-) TimerEvent: {}
+[25.206304] (polygon_plugins) StdoutLine: {'line': b'[100%] Built target polygon_plugins\n'}
+[25.219999] (-) TimerEvent: {}
+[25.252112] (polygon_plugins) CommandEnded: {'returncode': 0}
+[25.254338] (polygon_plugins) JobProgress: {'identifier': 'polygon_plugins', 'progress': 'install'}
+[25.254659] (polygon_plugins) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/gargie/class_ws/build/polygon_plugins'], 'cwd': '/home/gargie/class_ws/build/polygon_plugins', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'gargie'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/gargie/service/install/tutorial_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gargie'), ('OLDPWD', '/home/gargie/class_ws/src/polygon_plugins'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1507'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gargie/service/install:/home/gargie/project/install:/home/gargie/key_ws/install:/home/gargie/chem_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gargie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gargie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gargie-HP-Pavilion-x360-Convertible:@/tmp/.ICE-unix/1471,unix/gargie-HP-Pavilion-x360-Convertible:/tmp/.ICE-unix/1471'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/22e7a8c9_c125_4680_b6fa_b0a958ad5c8f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D8Y062'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gargie/class_ws/install/polygon_base:/home/gargie/service/install/cpp_srvcli:/home/gargie/service/install/tutorial_interface:/home/gargie/service/install/py_srvcli:/home/gargie/service/install/cpp_parameter:/home/gargie/key_ws/install/key_pkg:/home/gargie/key_ws/install/key1_pkg:/home/gargie/project/install/project_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gargie/class_ws/build/polygon_plugins'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gargie/service/install/tutorial_interface/local/lib/python3.10/dist-packages:/home/gargie/service/install/py_srvcli/lib/python3.10/site-packages:/home/gargie/key_ws/install/key1_pkg/lib/python3.10/site-packages:/home/gargie/chem_ws/install/chem_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gargie/class_ws/install/polygon_base:/home/gargie/service/install/cpp_srvcli:/home/gargie/service/install/tutorial_interface:/home/gargie/service/install/cpp_parameter:/home/gargie/key_ws/install/key_pkg:/home/gargie/project/install/project_pkg:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble')]), 'shell': False}
+[25.281515] (polygon_plugins) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.282889] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_plugins/share/polygon_plugins/plugins.xml\n'}
+[25.283966] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_plugins/include\n'}
+[25.284972] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_plugins/include/polygon_plugins\n'}
+[25.285834] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_plugins/include/polygon_plugins/polygon_plugins.hpp\n'}
+[25.286705] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_plugins/include/polygon_plugins/visibility_control.h\n'}
+[25.287136] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_plugins/lib/libpolygon_plugins.so\n'}
+[25.288397] (polygon_plugins) StdoutLine: {'line': b'-- Set runtime path of "/home/gargie/class_ws/install/polygon_plugins/lib/libpolygon_plugins.so" to ""\n'}
+[25.289327] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_plugins/share/polygon_plugins/environment/library_path.sh\n'}
+[25.290268] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_plugins/share/polygon_plugins/environment/library_path.dsv\n'}
+[25.291212] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_plugins/share/ament_index/resource_index/package_run_dependencies/polygon_plugins\n'}
+[25.292543] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_plugins/share/ament_index/resource_index/parent_prefix_path/polygon_plugins\n'}
+[25.293632] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.sh\n'}
+[25.294480] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.dsv\n'}
+[25.295309] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_plugins/share/polygon_plugins/environment/path.sh\n'}
+[25.295964] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_plugins/share/polygon_plugins/environment/path.dsv\n'}
+[25.297500] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_plugins/share/polygon_plugins/local_setup.bash\n'}
+[25.298135] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_plugins/share/polygon_plugins/local_setup.sh\n'}
+[25.298930] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_plugins/share/polygon_plugins/local_setup.zsh\n'}
+[25.299750] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_plugins/share/polygon_plugins/local_setup.dsv\n'}
+[25.300356] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_plugins/share/polygon_plugins/package.dsv\n'}
+[25.301166] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_plugins/share/ament_index/resource_index/packages/polygon_plugins\n'}
+[25.301880] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_plugins/share/ament_index/resource_index/polygon_base__pluginlib__plugin/polygon_plugins\n'}
+[25.302750] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_plugins/share/polygon_plugins/cmake/export_polygon_pluginsExport.cmake\n'}
+[25.303288] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_plugins/share/polygon_plugins/cmake/export_polygon_pluginsExport-noconfig.cmake\n'}
+[25.304069] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[25.304638] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[25.305456] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[25.306230] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig.cmake\n'}
+[25.307110] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig-version.cmake\n'}
+[25.307825] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/gargie/class_ws/install/polygon_plugins/share/polygon_plugins/package.xml\n'}
+[25.316428] (polygon_plugins) CommandEnded: {'returncode': 0}
+[25.320102] (-) TimerEvent: {}
+[25.393315] (polygon_plugins) JobEnded: {'identifier': 'polygon_plugins', 'rc': 0}
+[25.396351] (-) EventReactorShutdown: {}

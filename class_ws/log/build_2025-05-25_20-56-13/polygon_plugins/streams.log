@@ -1,0 +1,68 @@
+[0.047s] Invoking command in '/home/gargie/class_ws/build/polygon_plugins': AMENT_PREFIX_PATH=/home/gargie/class_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gargie/class_ws/install/polygon_base:/home/gargie/service/install/cpp_srvcli:/home/gargie/service/install/tutorial_interface:/home/gargie/service/install/cpp_parameter:/home/gargie/key_ws/install/key_pkg:/home/gargie/project/install/project_pkg:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake /home/gargie/class_ws/src/polygon_plugins -DCMAKE_INSTALL_PREFIX=/home/gargie/class_ws/install/polygon_plugins
+[0.292s] -- The C compiler identification is GNU 11.4.0
+[0.543s] -- The CXX compiler identification is GNU 11.4.0
+[0.573s] -- Detecting C compiler ABI info
+[0.870s] -- Detecting C compiler ABI info - done
+[0.925s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.927s] -- Detecting C compile features
+[0.929s] -- Detecting C compile features - done
+[0.945s] -- Detecting CXX compiler ABI info
+[1.296s] -- Detecting CXX compiler ABI info - done
+[1.338s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.340s] -- Detecting CXX compile features
+[1.342s] -- Detecting CXX compile features - done
+[1.354s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.083s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.543s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.584s] -- Found polygon_base: 0.0.0 (/home/gargie/class_ws/install/polygon_base/share/polygon_base/cmake)
+[2.596s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[2.753s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.143s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.144s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/gargie/class_ws/src/polygon_plugins/include>
+[3.145s] -- Configured cppcheck exclude dirs and/or files: 
+[3.148s] -- Added test 'lint_cmake' to check CMake code style
+[3.154s] -- Added test 'uncrustify' to check C / C++ code style
+[3.155s] -- Configured uncrustify additional arguments: 
+[3.157s] -- Added test 'xmllint' to check XML markup files
+[3.171s] -- Configuring done
+[3.193s] -- Generating done
+[3.203s] -- Build files have been written to: /home/gargie/class_ws/build/polygon_plugins
+[3.232s] Invoked command in '/home/gargie/class_ws/build/polygon_plugins' returned '0': AMENT_PREFIX_PATH=/home/gargie/class_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gargie/class_ws/install/polygon_base:/home/gargie/service/install/cpp_srvcli:/home/gargie/service/install/tutorial_interface:/home/gargie/service/install/cpp_parameter:/home/gargie/key_ws/install/key_pkg:/home/gargie/project/install/project_pkg:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake /home/gargie/class_ws/src/polygon_plugins -DCMAKE_INSTALL_PREFIX=/home/gargie/class_ws/install/polygon_plugins
+[3.239s] Invoking command in '/home/gargie/class_ws/build/polygon_plugins': AMENT_PREFIX_PATH=/home/gargie/class_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gargie/class_ws/install/polygon_base:/home/gargie/service/install/cpp_srvcli:/home/gargie/service/install/tutorial_interface:/home/gargie/service/install/cpp_parameter:/home/gargie/key_ws/install/key_pkg:/home/gargie/project/install/project_pkg:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/class_ws/build/polygon_plugins -- -j4 -l4
+[3.430s] [ 50%] [32mBuilding CXX object CMakeFiles/polygon_plugins.dir/src/polygon_plugins.cpp.o[0m
+[6.469s] [100%] [32m[1mLinking CXX shared library libpolygon_plugins.so[0m
+[6.903s] [100%] Built target polygon_plugins
+[6.949s] Invoked command in '/home/gargie/class_ws/build/polygon_plugins' returned '0': AMENT_PREFIX_PATH=/home/gargie/class_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gargie/class_ws/install/polygon_base:/home/gargie/service/install/cpp_srvcli:/home/gargie/service/install/tutorial_interface:/home/gargie/service/install/cpp_parameter:/home/gargie/key_ws/install/key_pkg:/home/gargie/project/install/project_pkg:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/class_ws/build/polygon_plugins -- -j4 -l4
+[6.953s] Invoking command in '/home/gargie/class_ws/build/polygon_plugins': AMENT_PREFIX_PATH=/home/gargie/class_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gargie/class_ws/install/polygon_base:/home/gargie/service/install/cpp_srvcli:/home/gargie/service/install/tutorial_interface:/home/gargie/service/install/cpp_parameter:/home/gargie/key_ws/install/key_pkg:/home/gargie/project/install/project_pkg:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --install /home/gargie/class_ws/build/polygon_plugins
+[6.978s] -- Install configuration: ""
+[6.979s] -- Installing: /home/gargie/class_ws/install/polygon_plugins/share/polygon_plugins/plugins.xml
+[6.981s] -- Installing: /home/gargie/class_ws/install/polygon_plugins/include
+[6.982s] -- Installing: /home/gargie/class_ws/install/polygon_plugins/include/polygon_plugins
+[6.983s] -- Installing: /home/gargie/class_ws/install/polygon_plugins/include/polygon_plugins/polygon_plugins.hpp
+[6.983s] -- Installing: /home/gargie/class_ws/install/polygon_plugins/include/polygon_plugins/visibility_control.h
+[6.984s] -- Installing: /home/gargie/class_ws/install/polygon_plugins/lib/libpolygon_plugins.so
+[6.985s] -- Set runtime path of "/home/gargie/class_ws/install/polygon_plugins/lib/libpolygon_plugins.so" to ""
+[6.986s] -- Installing: /home/gargie/class_ws/install/polygon_plugins/share/polygon_plugins/environment/library_path.sh
+[6.987s] -- Installing: /home/gargie/class_ws/install/polygon_plugins/share/polygon_plugins/environment/library_path.dsv
+[6.988s] -- Installing: /home/gargie/class_ws/install/polygon_plugins/share/ament_index/resource_index/package_run_dependencies/polygon_plugins
+[6.989s] -- Installing: /home/gargie/class_ws/install/polygon_plugins/share/ament_index/resource_index/parent_prefix_path/polygon_plugins
+[6.990s] -- Installing: /home/gargie/class_ws/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.sh
+[6.991s] -- Installing: /home/gargie/class_ws/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.dsv
+[6.992s] -- Installing: /home/gargie/class_ws/install/polygon_plugins/share/polygon_plugins/environment/path.sh
+[6.992s] -- Installing: /home/gargie/class_ws/install/polygon_plugins/share/polygon_plugins/environment/path.dsv
+[6.994s] -- Installing: /home/gargie/class_ws/install/polygon_plugins/share/polygon_plugins/local_setup.bash
+[6.995s] -- Installing: /home/gargie/class_ws/install/polygon_plugins/share/polygon_plugins/local_setup.sh
+[6.995s] -- Installing: /home/gargie/class_ws/install/polygon_plugins/share/polygon_plugins/local_setup.zsh
+[6.996s] -- Installing: /home/gargie/class_ws/install/polygon_plugins/share/polygon_plugins/local_setup.dsv
+[6.997s] -- Installing: /home/gargie/class_ws/install/polygon_plugins/share/polygon_plugins/package.dsv
+[6.998s] -- Installing: /home/gargie/class_ws/install/polygon_plugins/share/ament_index/resource_index/packages/polygon_plugins
+[6.998s] -- Installing: /home/gargie/class_ws/install/polygon_plugins/share/ament_index/resource_index/polygon_base__pluginlib__plugin/polygon_plugins
+[6.999s] -- Installing: /home/gargie/class_ws/install/polygon_plugins/share/polygon_plugins/cmake/export_polygon_pluginsExport.cmake
+[7.000s] -- Installing: /home/gargie/class_ws/install/polygon_plugins/share/polygon_plugins/cmake/export_polygon_pluginsExport-noconfig.cmake
+[7.001s] -- Installing: /home/gargie/class_ws/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.001s] -- Installing: /home/gargie/class_ws/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[7.002s] -- Installing: /home/gargie/class_ws/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_targets-extras.cmake
+[7.003s] -- Installing: /home/gargie/class_ws/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig.cmake
+[7.004s] -- Installing: /home/gargie/class_ws/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig-version.cmake
+[7.004s] -- Installing: /home/gargie/class_ws/install/polygon_plugins/share/polygon_plugins/package.xml
+[7.014s] Invoked command in '/home/gargie/class_ws/build/polygon_plugins' returned '0': AMENT_PREFIX_PATH=/home/gargie/class_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gargie/class_ws/install/polygon_base:/home/gargie/service/install/cpp_srvcli:/home/gargie/service/install/tutorial_interface:/home/gargie/service/install/cpp_parameter:/home/gargie/key_ws/install/key_pkg:/home/gargie/project/install/project_pkg:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --install /home/gargie/class_ws/build/polygon_plugins

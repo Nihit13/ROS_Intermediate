@@ -1,0 +1,39 @@
+[0.092s] Invoking command in '/home/gargie/interfaces/build/cpp_eventhandle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/tf2/install/learning_tf2_py:/home/gargie/service/install/py_srvcli:/home/gargie/service/install/py_parameter:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/interfaces/build/cpp_eventhandle -- -j4 -l4
+[0.357s] [35m[1mConsolidate compiler generated dependencies of target parameter[0m
+[0.476s] [ 50%] [32mBuilding CXX object CMakeFiles/parameter.dir/src/parameter.cpp.o[0m
+[12.155s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[12.155s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[12.156s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[12.157s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[12.158s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[12.158s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[12.159s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[12.159s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[12.160s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[12.160s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[12.161s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.161s]                  from [01m[K/home/gargie/interfaces/src/cpp_eventhandle/src/parameter.cpp:3[m[K:
+[12.162s] [01m[K/home/gargie/interfaces/src/cpp_eventhandle/src/parameter.cpp:[m[K In lambda function:
+[12.163s] [01m[K/home/gargie/interfaces/src/cpp_eventhandle/src/parameter.cpp:27:36:[m[K [01;35m[Kwarning: [m[Kunknown escape sequence: '\%'
+[12.164s]    27 |     RCLCPP_INFO(this->get_logger(),[01;35m[K"Recieved parameter event from node \%s\""[m[K,
+[12.164s]       |                                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.196s] [01m[K/home/gargie/interfaces/src/cpp_eventhandle/src/parameter.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[12.197s] [01m[K/home/gargie/interfaces/src/cpp_eventhandle/src/parameter.cpp:48:33:[m[K [01;31m[Kerror: [m[K‘[01m[KSampleNodeWithParameters[m[K’ was not declared in this scope
+[12.197s]    48 |   rclcpp::spin(std::make_shared<[01;31m[KSampleNodeWithParameters[m[K>());
+[12.197s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.198s] [01m[K/home/gargie/interfaces/src/cpp_eventhandle/src/parameter.cpp:48:58:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[12.199s]    48 |   rclcpp::spin([01;31m[Kstd::make_shared<SampleNodeWithParameters>()[m[K);
+[12.199s]       |                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[12.200s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[12.201s]                  from [01m[K/home/gargie/interfaces/src/cpp_eventhandle/src/parameter.cpp:1[m[K:
+[12.201s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[12.202s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[12.202s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[12.204s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.204s] [01m[K/home/gargie/interfaces/src/cpp_eventhandle/src/parameter.cpp:48:58:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[12.205s]    48 |   rclcpp::spin([01;31m[Kstd::make_shared<SampleNodeWithParameters>()[m[K);
+[12.205s]       |                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[21.997s] gmake[2]: *** [CMakeFiles/parameter.dir/build.make:76: CMakeFiles/parameter.dir/src/parameter.cpp.o] Error 1
+[21.998s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/parameter.dir/all] Error 2
+[21.999s] gmake: *** [Makefile:146: all] Error 2
+[22.008s] Invoked command in '/home/gargie/interfaces/build/cpp_eventhandle' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/tf2/install/learning_tf2_py:/home/gargie/service/install/py_srvcli:/home/gargie/service/install/py_parameter:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/interfaces/build/cpp_eventhandle -- -j4 -l4

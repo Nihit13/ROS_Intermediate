@@ -1,0 +1,221 @@
+[0.000000] (-) TimerEvent: {}
+[0.003944] (cpp_srvcli) JobQueued: {'identifier': 'cpp_srvcli', 'dependencies': OrderedDict()}
+[0.004202] (cpp_srvcli) JobStarted: {'identifier': 'cpp_srvcli'}
+[0.045129] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'cmake'}
+[0.047732] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'build'}
+[0.050683] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gargie/service/build/cpp_srvcli', '--', '-j4', '-l4'], 'cwd': '/home/gargie/service/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'gargie'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gargie'), ('OLDPWD', '/home/gargie/service/src/cpp_srvcli/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1504'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gargie/service/install:/home/gargie/project/install:/home/gargie/key_ws/install:/home/gargie/chem_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gargie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gargie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gargie-HP-Pavilion-x360-Convertible:@/tmp/.ICE-unix/1468,unix/gargie-HP-Pavilion-x360-Convertible:/tmp/.ICE-unix/1468'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/23142232_4880_4d33_b822_eeb5ea7ea779'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9K9E72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.195'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gargie/key_ws/install/key_pkg:/home/gargie/key_ws/install/key1_pkg:/home/gargie/project/install/project_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gargie/service/build/cpp_srvcli'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gargie/key_ws/install/key1_pkg/lib/python3.10/site-packages:/home/gargie/chem_ws/install/chem_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gargie/key_ws/install/key_pkg:/home/gargie/project/install/project_pkg:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble')]), 'shell': False}
+[0.098879] (-) TimerEvent: {}
+[0.199595] (-) TimerEvent: {}
+[0.213038] (cpp_srvcli) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target client\x1b[0m\n'}
+[0.252384] (cpp_srvcli) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints.cpp.o\x1b[0m\n'}
+[0.281134] (cpp_srvcli) StdoutLine: {'line': b'[ 75%] Built target client\n'}
+[0.299847] (-) TimerEvent: {}
+[0.400579] (-) TimerEvent: {}
+[0.501348] (-) TimerEvent: {}
+[0.602107] (-) TimerEvent: {}
+[0.702867] (-) TimerEvent: {}
+[0.803583] (-) TimerEvent: {}
+[0.904332] (-) TimerEvent: {}
+[1.005119] (-) TimerEvent: {}
+[1.105890] (-) TimerEvent: {}
+[1.208241] (-) TimerEvent: {}
+[1.309688] (-) TimerEvent: {}
+[1.411556] (-) TimerEvent: {}
+[1.512856] (-) TimerEvent: {}
+[1.614742] (-) TimerEvent: {}
+[1.716937] (-) TimerEvent: {}
+[1.819037] (-) TimerEvent: {}
+[1.921120] (-) TimerEvent: {}
+[2.023141] (-) TimerEvent: {}
+[2.125141] (-) TimerEvent: {}
+[2.227299] (-) TimerEvent: {}
+[2.329410] (-) TimerEvent: {}
+[2.431259] (-) TimerEvent: {}
+[2.533353] (-) TimerEvent: {}
+[2.635181] (-) TimerEvent: {}
+[2.737078] (-) TimerEvent: {}
+[2.838928] (-) TimerEvent: {}
+[2.940985] (-) TimerEvent: {}
+[3.042974] (-) TimerEvent: {}
+[3.144967] (-) TimerEvent: {}
+[3.246973] (-) TimerEvent: {}
+[3.349045] (-) TimerEvent: {}
+[3.451115] (-) TimerEvent: {}
+[3.553102] (-) TimerEvent: {}
+[3.654914] (-) TimerEvent: {}
+[3.756911] (-) TimerEvent: {}
+[3.858902] (-) TimerEvent: {}
+[3.960926] (-) TimerEvent: {}
+[4.062970] (-) TimerEvent: {}
+[4.164989] (-) TimerEvent: {}
+[4.267005] (-) TimerEvent: {}
+[4.369024] (-) TimerEvent: {}
+[4.471065] (-) TimerEvent: {}
+[4.573069] (-) TimerEvent: {}
+[4.675058] (-) TimerEvent: {}
+[4.777049] (-) TimerEvent: {}
+[4.879038] (-) TimerEvent: {}
+[4.981100] (-) TimerEvent: {}
+[5.083080] (-) TimerEvent: {}
+[5.185196] (-) TimerEvent: {}
+[5.287280] (-) TimerEvent: {}
+[5.389356] (-) TimerEvent: {}
+[5.491482] (-) TimerEvent: {}
+[5.593584] (-) TimerEvent: {}
+[5.695319] (-) TimerEvent: {}
+[5.797005] (-) TimerEvent: {}
+[5.898872] (-) TimerEvent: {}
+[6.000911] (-) TimerEvent: {}
+[6.102918] (-) TimerEvent: {}
+[6.204896] (-) TimerEvent: {}
+[6.306904] (-) TimerEvent: {}
+[6.408989] (-) TimerEvent: {}
+[6.511106] (-) TimerEvent: {}
+[6.612869] (-) TimerEvent: {}
+[6.714595] (-) TimerEvent: {}
+[6.816346] (-) TimerEvent: {}
+[6.918304] (-) TimerEvent: {}
+[7.020082] (-) TimerEvent: {}
+[7.121976] (-) TimerEvent: {}
+[7.223663] (-) TimerEvent: {}
+[7.325512] (-) TimerEvent: {}
+[7.427349] (-) TimerEvent: {}
+[7.529305] (-) TimerEvent: {}
+[7.631242] (-) TimerEvent: {}
+[7.733077] (-) TimerEvent: {}
+[7.834944] (-) TimerEvent: {}
+[7.936596] (-) TimerEvent: {}
+[8.038320] (-) TimerEvent: {}
+[8.140098] (-) TimerEvent: {}
+[8.242142] (-) TimerEvent: {}
+[8.344166] (-) TimerEvent: {}
+[8.446211] (-) TimerEvent: {}
+[8.548228] (-) TimerEvent: {}
+[8.650103] (-) TimerEvent: {}
+[8.752083] (-) TimerEvent: {}
+[8.854059] (-) TimerEvent: {}
+[8.956046] (-) TimerEvent: {}
+[9.058081] (-) TimerEvent: {}
+[9.159850] (-) TimerEvent: {}
+[9.261896] (-) TimerEvent: {}
+[9.363603] (-) TimerEvent: {}
+[9.465690] (-) TimerEvent: {}
+[9.567733] (-) TimerEvent: {}
+[9.669462] (-) TimerEvent: {}
+[9.771459] (-) TimerEvent: {}
+[9.873404] (-) TimerEvent: {}
+[9.975511] (-) TimerEvent: {}
+[10.077610] (-) TimerEvent: {}
+[10.179585] (-) TimerEvent: {}
+[10.281580] (-) TimerEvent: {}
+[10.383585] (-) TimerEvent: {}
+[10.485573] (-) TimerEvent: {}
+[10.587459] (-) TimerEvent: {}
+[10.689457] (-) TimerEvent: {}
+[10.791551] (-) TimerEvent: {}
+[10.893643] (-) TimerEvent: {}
+[10.995698] (-) TimerEvent: {}
+[11.097721] (-) TimerEvent: {}
+[11.199710] (-) TimerEvent: {}
+[11.301950] (-) TimerEvent: {}
+[11.403957] (-) TimerEvent: {}
+[11.457551] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/service/src/cpp_srvcli/src/add_two_ints.cpp:7:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kexample_interface\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.459647] (cpp_srvcli) StderrLine: {'line': b'    7 |      std::shared_ptr<\x1b[01;31m\x1b[Kexample_interface\x1b[m\x1b[K::srv::AddTwoInts::Response> response)\n'}
+[11.461277] (cpp_srvcli) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.462855] (cpp_srvcli) StderrLine: {'line': b'      |                      \x1b[32m\x1b[Kexample_interfaces\x1b[m\x1b[K\n'}
+[11.464390] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/service/src/cpp_srvcli/src/add_two_ints.cpp:7:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[11.465986] (cpp_srvcli) StderrLine: {'line': b'    7 | d_ptr<example_interface::srv::AddTwoInts::Response\x1b[01;31m\x1b[K>\x1b[m\x1b[K response)\n'}
+[11.467455] (cpp_srvcli) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.467853] (cpp_srvcli) StderrLine: {'line': b'\n'}
+[11.476411] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/service/src/cpp_srvcli/src/add_two_ints.cpp:7:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kexample_interface\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.478332] (cpp_srvcli) StderrLine: {'line': b'    7 |      std::shared_ptr<\x1b[01;31m\x1b[Kexample_interface\x1b[m\x1b[K::srv::AddTwoInts::Response> response)\n'}
+[11.479938] (cpp_srvcli) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.481431] (cpp_srvcli) StderrLine: {'line': b'      |                      \x1b[32m\x1b[Kexample_interfaces\x1b[m\x1b[K\n'}
+[11.483074] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/service/src/cpp_srvcli/src/add_two_ints.cpp:7:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[11.484573] (cpp_srvcli) StderrLine: {'line': b'    7 | d_ptr<example_interface::srv::AddTwoInts::Response\x1b[01;31m\x1b[K>\x1b[m\x1b[K response)\n'}
+[11.486106] (cpp_srvcli) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.487585] (cpp_srvcli) StderrLine: {'line': b'\n'}
+[11.493860] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/service/src/cpp_srvcli/src/add_two_ints.cpp:7:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kexample_interface\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.495949] (cpp_srvcli) StderrLine: {'line': b'    7 |      std::shared_ptr<\x1b[01;31m\x1b[Kexample_interface\x1b[m\x1b[K::srv::AddTwoInts::Response> response)\n'}
+[11.497575] (cpp_srvcli) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.499129] (cpp_srvcli) StderrLine: {'line': b'      |                      \x1b[32m\x1b[Kexample_interfaces\x1b[m\x1b[K\n'}
+[11.500629] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/service/src/cpp_srvcli/src/add_two_ints.cpp:7:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[11.502273] (cpp_srvcli) StderrLine: {'line': b'    7 | d_ptr<example_interface::srv::AddTwoInts::Response\x1b[01;31m\x1b[K>\x1b[m\x1b[K response)\n'}
+[11.503892] (cpp_srvcli) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.505348] (-) TimerEvent: {}
+[11.506573] (cpp_srvcli) StderrLine: {'line': b'\n'}
+[11.508192] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/service/src/cpp_srvcli/src/add_two_ints.cpp:7:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[11.509715] (cpp_srvcli) StderrLine: {'line': b'    7 |      \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<example_interface::srv::AddTwoInts::Response> response)\n'}
+[11.511272] (cpp_srvcli) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[11.512819] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/service/src/cpp_srvcli/src/add_two_ints.cpp:7:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kexample_interface\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[11.514342] (cpp_srvcli) StderrLine: {'line': b'    7 |      std::shared_ptr<\x1b[01;31m\x1b[Kexample_interface\x1b[m\x1b[K::srv::AddTwoInts::Response> response)\n'}
+[11.515932] (cpp_srvcli) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.517459] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/service/src/cpp_srvcli/src/add_two_ints.cpp:7:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass template placeholder \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr\x1b[m\x1b[K\xe2\x80\x99 not permitted in this context\n'}
+[11.519384] (cpp_srvcli) StderrLine: {'line': b'    7 |      \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<example_interface::srv::AddTwoInts::Response> response)\n'}
+[11.521003] (cpp_srvcli) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[11.522684] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/service/src/cpp_srvcli/src/add_two_ints.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid add(...)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.524308] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/service/src/cpp_srvcli/src/add_two_ints.cpp:8:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[11.526120] (cpp_srvcli) StderrLine: {'line': b'    8 |      {\x1b[01;31m\x1b[Kresponse\x1b[m\x1b[K->sum = request->a+request->b;\n'}
+[11.527609] (cpp_srvcli) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[11.536833] (cpp_srvcli) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[11.538508] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[11.541079] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[11.543350] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[11.545384] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[11.547016] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[11.548596] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[11.550168] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[11.551870] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[11.553519] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[11.556359] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[11.558045] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gargie/service/src/cpp_srvcli/src/add_two_ints.cpp:1\x1b[m\x1b[K:\n'}
+[11.559390] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/service/src/cpp_srvcli/src/add_two_ints.cpp:10:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krequeat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krequest\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.560716] (cpp_srvcli) StderrLine: {'line': b'   10 |      request->a,\x1b[01;31m\x1b[Krequeat\x1b[m\x1b[K->b);\n'}
+[11.561924] (cpp_srvcli) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[11.563046] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/service/src/cpp_srvcli/src/add_two_ints.cpp:11:79:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klongint\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Klrint\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.564443] (cpp_srvcli) StderrLine: {'line': b'   11 | _logger("rclcpp"),"sending back response: [%1d]",(\x1b[01;31m\x1b[Klongint\x1b[m\x1b[K)response->sum);\n'}
+[11.565606] (cpp_srvcli) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[11.567822] (cpp_srvcli) StderrLine: {'line': b'\n'}
+[11.573301] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/service/src/cpp_srvcli/src/add_two_ints.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.574688] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/service/src/cpp_srvcli/src/add_two_ints.cpp:19:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kexampe_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.576590] (cpp_srvcli) StderrLine: {'line': b'   19 |     rclcpp::Service<\x1b[01;31m\x1b[Kexampe_interfaces\x1b[m\x1b[K::srv::AddTwoInts>::SharedPtr service= node->create_service<exaple_interfaces::srv::AddTwoInts>("add_two_ints", &add);\n'}
+[11.577752] (cpp_srvcli) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.578941] (cpp_srvcli) StderrLine: {'line': b'      |                     \x1b[32m\x1b[Kexample_interfaces\x1b[m\x1b[K\n'}
+[11.580065] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/service/src/cpp_srvcli/src/add_two_ints.cpp:19:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[11.581195] (cpp_srvcli) StderrLine: {'line': b'   19 | rclcpp::Service<exampe_interfaces::srv::AddTwoInts\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr service= node->create_service<exaple_interfaces::srv::AddTwoInts>("add_two_ints", &add);\n'}
+[11.582321] (cpp_srvcli) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.583400] (cpp_srvcli) StderrLine: {'line': b'\n'}
+[11.584425] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/service/src/cpp_srvcli/src/add_two_ints.cpp:19:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[Kservice\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.585457] (cpp_srvcli) StderrLine: {'line': b'   19 | ce<exampe_interfaces::srv::AddTwoInts>::SharedPtr \x1b[01;31m\x1b[Kservice\x1b[m\x1b[K= node->create_service<exaple_interfaces::srv::AddTwoInts>("add_two_ints", &add);\n'}
+[11.586472] (cpp_srvcli) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[11.587519] (cpp_srvcli) StderrLine: {'line': b'\n'}
+[11.588427] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/service/src/cpp_srvcli/src/add_two_ints.cpp:23:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kspine\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kspin\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.589411] (cpp_srvcli) StderrLine: {'line': b'   23 |     rclcpp::\x1b[01;31m\x1b[Kspine\x1b[m\x1b[K(node);\n'}
+[11.590325] (cpp_srvcli) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[11.591210] (cpp_srvcli) StderrLine: {'line': b'      |             \x1b[32m\x1b[Kspin\x1b[m\x1b[K\n'}
+[11.605615] (-) TimerEvent: {}
+[11.707051] (-) TimerEvent: {}
+[11.808717] (-) TimerEvent: {}
+[11.910469] (-) TimerEvent: {}
+[12.012554] (-) TimerEvent: {}
+[12.114645] (-) TimerEvent: {}
+[12.216732] (-) TimerEvent: {}
+[12.318930] (-) TimerEvent: {}
+[12.421023] (-) TimerEvent: {}
+[12.523098] (-) TimerEvent: {}
+[12.625108] (-) TimerEvent: {}
+[12.727219] (-) TimerEvent: {}
+[12.829317] (-) TimerEvent: {}
+[12.931393] (-) TimerEvent: {}
+[13.033495] (-) TimerEvent: {}
+[13.135601] (-) TimerEvent: {}
+[13.237678] (-) TimerEvent: {}
+[13.339938] (-) TimerEvent: {}
+[13.442002] (-) TimerEvent: {}
+[13.528555] (cpp_srvcli) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/add_two_ints.cpp.o] Error 1\n'}
+[13.530959] (cpp_srvcli) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2\n'}
+[13.532639] (cpp_srvcli) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[13.538975] (cpp_srvcli) CommandEnded: {'returncode': 2}
+[13.546679] (-) TimerEvent: {}
+[13.629025] (cpp_srvcli) JobEnded: {'identifier': 'cpp_srvcli', 'rc': 2}
+[13.641000] (-) EventReactorShutdown: {}

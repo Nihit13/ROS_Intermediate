@@ -1,0 +1,7 @@
+[01m[K/home/gargie/interfaces/src/cpp_eventhandle/src/parameter.cpp:[m[K In constructor ‘[01m[KSampleNodeWithParameters::SampleNodeWithParameters()[m[K’:
+[01m[K/home/gargie/interfaces/src/cpp_eventhandle/src/parameter.cpp:27:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kevent_cb_handle_[m[K’
+   27 | [01;31m[Kevent_cb_handle_[m[K = param_subscriber_->add_parameter_event_callback(event_cb);
+      | [01;31m[K^~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/parameter.dir/build.make:76: CMakeFiles/parameter.dir/src/parameter.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/parameter.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,20 @@
+[ 50%] Built target interface_n
+[100%] Built target node_interf
+-- Install configuration: ""
+-- Up-to-date: /home/gargie/interfaces/install/inter_pkg/lib/inter_pkg/interface_n
+-- Up-to-date: /home/gargie/interfaces/install/inter_pkg/lib/inter_pkg/node_interf
+-- Up-to-date: /home/gargie/interfaces/install/inter_pkg/share/ament_index/resource_index/package_run_dependencies/inter_pkg
+-- Up-to-date: /home/gargie/interfaces/install/inter_pkg/share/ament_index/resource_index/parent_prefix_path/inter_pkg
+-- Up-to-date: /home/gargie/interfaces/install/inter_pkg/share/inter_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/gargie/interfaces/install/inter_pkg/share/inter_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/gargie/interfaces/install/inter_pkg/share/inter_pkg/environment/path.sh
+-- Up-to-date: /home/gargie/interfaces/install/inter_pkg/share/inter_pkg/environment/path.dsv
+-- Up-to-date: /home/gargie/interfaces/install/inter_pkg/share/inter_pkg/local_setup.bash
+-- Up-to-date: /home/gargie/interfaces/install/inter_pkg/share/inter_pkg/local_setup.sh
+-- Up-to-date: /home/gargie/interfaces/install/inter_pkg/share/inter_pkg/local_setup.zsh
+-- Up-to-date: /home/gargie/interfaces/install/inter_pkg/share/inter_pkg/local_setup.dsv
+-- Installing: /home/gargie/interfaces/install/inter_pkg/share/inter_pkg/package.dsv
+-- Up-to-date: /home/gargie/interfaces/install/inter_pkg/share/ament_index/resource_index/packages/inter_pkg
+-- Up-to-date: /home/gargie/interfaces/install/inter_pkg/share/inter_pkg/cmake/inter_pkgConfig.cmake
+-- Up-to-date: /home/gargie/interfaces/install/inter_pkg/share/inter_pkg/cmake/inter_pkgConfig-version.cmake
+-- Up-to-date: /home/gargie/interfaces/install/inter_pkg/share/inter_pkg/package.xml

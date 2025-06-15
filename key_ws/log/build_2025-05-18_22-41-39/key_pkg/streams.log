@@ -1,0 +1,24 @@
+[1.282s] Invoking command in '/home/gargie/key_ws/build/key_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gargie/key_ws/build/key_pkg -- -j4 -l4
+[1.522s] [ 50%] Built target pub_key
+[1.527s] [100%] Built target sub_key
+[1.569s] Invoked command in '/home/gargie/key_ws/build/key_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gargie/key_ws/build/key_pkg -- -j4 -l4
+[1.611s] Invoking command in '/home/gargie/key_ws/build/key_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/gargie/key_ws/build/key_pkg
+[1.639s] -- Install configuration: ""
+[1.640s] -- Up-to-date: /home/gargie/key_ws/install/key_pkg/lib/key_pkg/pub_key
+[1.641s] -- Up-to-date: /home/gargie/key_ws/install/key_pkg/lib/key_pkg/sub_key
+[1.642s] -- Up-to-date: /home/gargie/key_ws/install/key_pkg/share/ament_index/resource_index/package_run_dependencies/key_pkg
+[1.643s] -- Up-to-date: /home/gargie/key_ws/install/key_pkg/share/ament_index/resource_index/parent_prefix_path/key_pkg
+[1.644s] -- Up-to-date: /home/gargie/key_ws/install/key_pkg/share/key_pkg/environment/ament_prefix_path.sh
+[1.645s] -- Up-to-date: /home/gargie/key_ws/install/key_pkg/share/key_pkg/environment/ament_prefix_path.dsv
+[1.645s] -- Up-to-date: /home/gargie/key_ws/install/key_pkg/share/key_pkg/environment/path.sh
+[1.646s] -- Up-to-date: /home/gargie/key_ws/install/key_pkg/share/key_pkg/environment/path.dsv
+[1.646s] -- Up-to-date: /home/gargie/key_ws/install/key_pkg/share/key_pkg/local_setup.bash
+[1.647s] -- Up-to-date: /home/gargie/key_ws/install/key_pkg/share/key_pkg/local_setup.sh
+[1.648s] -- Up-to-date: /home/gargie/key_ws/install/key_pkg/share/key_pkg/local_setup.zsh
+[1.648s] -- Up-to-date: /home/gargie/key_ws/install/key_pkg/share/key_pkg/local_setup.dsv
+[1.649s] -- Up-to-date: /home/gargie/key_ws/install/key_pkg/share/key_pkg/package.dsv
+[1.651s] -- Up-to-date: /home/gargie/key_ws/install/key_pkg/share/ament_index/resource_index/packages/key_pkg
+[1.652s] -- Up-to-date: /home/gargie/key_ws/install/key_pkg/share/key_pkg/cmake/key_pkgConfig.cmake
+[1.654s] -- Up-to-date: /home/gargie/key_ws/install/key_pkg/share/key_pkg/cmake/key_pkgConfig-version.cmake
+[1.654s] -- Up-to-date: /home/gargie/key_ws/install/key_pkg/share/key_pkg/package.xml
+[1.657s] Invoked command in '/home/gargie/key_ws/build/key_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/gargie/key_ws/build/key_pkg

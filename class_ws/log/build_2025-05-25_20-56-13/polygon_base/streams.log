@@ -1,0 +1,57 @@
+[0.059s] Invoking command in '/home/gargie/class_ws/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake /home/gargie/class_ws/src/polygon_base -DCMAKE_INSTALL_PREFIX=/home/gargie/class_ws/install/polygon_base
+[0.547s] -- The C compiler identification is GNU 11.4.0
+[0.958s] -- The CXX compiler identification is GNU 11.4.0
+[1.019s] -- Detecting C compiler ABI info
+[1.353s] -- Detecting C compiler ABI info - done
+[1.410s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.413s] -- Detecting C compile features
+[1.416s] -- Detecting C compile features - done
+[1.436s] -- Detecting CXX compiler ABI info
+[1.798s] -- Detecting CXX compiler ABI info - done
+[1.839s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.842s] -- Detecting CXX compile features
+[1.844s] -- Detecting CXX compile features - done
+[1.861s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.621s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.247s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[3.452s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.867s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.868s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/gargie/class_ws/src/polygon_base/include>
+[3.869s] -- Configured cppcheck exclude dirs and/or files: 
+[3.874s] -- Added test 'lint_cmake' to check CMake code style
+[3.881s] -- Added test 'uncrustify' to check C / C++ code style
+[3.882s] -- Configured uncrustify additional arguments: 
+[3.885s] -- Added test 'xmllint' to check XML markup files
+[3.898s] -- Configuring done
+[3.921s] -- Generating done
+[3.931s] -- Build files have been written to: /home/gargie/class_ws/build/polygon_base
+[3.958s] Invoked command in '/home/gargie/class_ws/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake /home/gargie/class_ws/src/polygon_base -DCMAKE_INSTALL_PREFIX=/home/gargie/class_ws/install/polygon_base
+[3.981s] Invoking command in '/home/gargie/class_ws/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/class_ws/build/polygon_base -- -j4 -l4
+[4.165s] [ 50%] [32mBuilding CXX object CMakeFiles/area_node.dir/src/area_node.cpp.o[0m
+[17.222s] [100%] [32m[1mLinking CXX executable area_node[0m
+[17.994s] [100%] Built target area_node
+[18.041s] Invoked command in '/home/gargie/class_ws/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/class_ws/build/polygon_base -- -j4 -l4
+[18.085s] Invoking command in '/home/gargie/class_ws/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --install /home/gargie/class_ws/build/polygon_base
+[18.119s] -- Install configuration: ""
+[18.120s] -- Installing: /home/gargie/class_ws/install/polygon_base/include
+[18.121s] -- Installing: /home/gargie/class_ws/install/polygon_base/include/polygon_base
+[18.122s] -- Installing: /home/gargie/class_ws/install/polygon_base/include/polygon_base/regular_polygon.hpp
+[18.122s] -- Installing: /home/gargie/class_ws/install/polygon_base/lib/polygon_base/area_node
+[18.128s] -- Set runtime path of "/home/gargie/class_ws/install/polygon_base/lib/polygon_base/area_node" to ""
+[18.129s] -- Installing: /home/gargie/class_ws/install/polygon_base/share/ament_index/resource_index/package_run_dependencies/polygon_base
+[18.129s] -- Installing: /home/gargie/class_ws/install/polygon_base/share/ament_index/resource_index/parent_prefix_path/polygon_base
+[18.130s] -- Installing: /home/gargie/class_ws/install/polygon_base/share/polygon_base/environment/ament_prefix_path.sh
+[18.131s] -- Installing: /home/gargie/class_ws/install/polygon_base/share/polygon_base/environment/ament_prefix_path.dsv
+[18.132s] -- Installing: /home/gargie/class_ws/install/polygon_base/share/polygon_base/environment/path.sh
+[18.133s] -- Installing: /home/gargie/class_ws/install/polygon_base/share/polygon_base/environment/path.dsv
+[18.134s] -- Installing: /home/gargie/class_ws/install/polygon_base/share/polygon_base/local_setup.bash
+[18.135s] -- Installing: /home/gargie/class_ws/install/polygon_base/share/polygon_base/local_setup.sh
+[18.136s] -- Installing: /home/gargie/class_ws/install/polygon_base/share/polygon_base/local_setup.zsh
+[18.137s] -- Installing: /home/gargie/class_ws/install/polygon_base/share/polygon_base/local_setup.dsv
+[18.138s] -- Installing: /home/gargie/class_ws/install/polygon_base/share/polygon_base/package.dsv
+[18.138s] -- Installing: /home/gargie/class_ws/install/polygon_base/share/ament_index/resource_index/packages/polygon_base
+[18.139s] -- Installing: /home/gargie/class_ws/install/polygon_base/share/polygon_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.140s] -- Installing: /home/gargie/class_ws/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig.cmake
+[18.140s] -- Installing: /home/gargie/class_ws/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig-version.cmake
+[18.141s] -- Installing: /home/gargie/class_ws/install/polygon_base/share/polygon_base/package.xml
+[18.146s] Invoked command in '/home/gargie/class_ws/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --install /home/gargie/class_ws/build/polygon_base
