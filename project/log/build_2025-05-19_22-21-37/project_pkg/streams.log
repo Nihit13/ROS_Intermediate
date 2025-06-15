@@ -1,0 +1,117 @@
+[0.054s] Invoking command in '/home/gargie/project/build/project_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/project/build/project_pkg -- -j4 -l4
+[0.225s] [35m[1mConsolidate compiler generated dependencies of target shapes_node[0m
+[0.299s] [ 50%] [32mBuilding CXX object CMakeFiles/shapes_node.dir/src/shapes_node.cpp.o[0m
+[11.986s] [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:115:44:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedPtr[m[K’ is not a member of ‘[01m[Kstd_srvs::srv::Empty[m[K’
+[11.986s]   115 |       rclcpp::Client<std_srvs::srv::Empty::[01;31m[KSharedPtr[m[K clear_client_;
+[11.987s]       |                                            [01;31m[K^~~~~~~~~[m[K
+[11.987s] [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:115:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[11.988s]   115 |       rclcpp::Client<std_srvs::srv::Empty::SharedPtr [01;31m[Kclear_client_[m[K;
+[11.989s]       |                                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[12.269s] [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:[m[K In constructor ‘[01m[KShape::Shape()[m[K’:
+[12.269s] [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:13:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kclear_client_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcreate_client[m[K’?
+[12.270s]    13 |     [01;31m[Kclear_client_[m[K= this->create_client<std_srvs::srv::Empty>("/clear");
+[12.270s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[12.271s]       |     [32m[Kcreate_client[m[K
+[12.519s] [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:14:103:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kturtlesim::srv::TeleportAbsolute::TeleportAbsolute(const char [27])[m[K’
+[12.521s]    14 | _client<turtlesim::srv::TeleportAbsolute("/turtle1/teleport_absolute"[01;31m[K)[m[K;
+[12.528s]       |                                                                      [01;31m[K^[m[K
+[12.530s] 
+[12.531s] In file included from [01m[K/opt/ros/humble/include/turtlesim/turtlesim/srv/teleport_absolute.hpp:7[m[K,
+[12.533s]                  from [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:6[m[K:
+[12.534s] [01m[K/opt/ros/humble/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp:272:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr turtlesim::srv::TeleportAbsolute::TeleportAbsolute()[m[K’
+[12.536s]   272 | struct [01;36m[KTeleportAbsolute[m[K
+[12.538s]       |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[12.539s] [01m[K/opt/ros/humble/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp:272:8:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[12.541s] [01m[K/opt/ros/humble/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp:272:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr turtlesim::srv::TeleportAbsolute::TeleportAbsolute(const turtlesim::srv::TeleportAbsolute&)[m[K’
+[12.542s] [01m[K/opt/ros/humble/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp:272:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [27][m[K’ to ‘[01m[Kconst turtlesim::srv::TeleportAbsolute&[m[K’
+[12.544s] [01m[K/opt/ros/humble/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp:272:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr turtlesim::srv::TeleportAbsolute::TeleportAbsolute(turtlesim::srv::TeleportAbsolute&&)[m[K’
+[12.546s] [01m[K/opt/ros/humble/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp:272:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [27][m[K’ to ‘[01m[Kturtlesim::srv::TeleportAbsolute&&[m[K’
+[12.547s] [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:14:28:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[12.551s]    14 |     teleport_client_=this->[01;31m[Kcreate_client<turtlesim::srv::TeleportAbsolute("/turtle1/teleport_absolute")[m[K;
+[12.553s]       |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.555s] [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:14:28:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp::Client<turtlesim::srv::TeleportAbsolute>::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Client<turtlesim::srv::TeleportAbsolute> >[m[K’} and ‘[01m[K<unresolved overloaded function type>[m[K’)
+[12.557s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[12.559s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[12.561s]                  from [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:2[m[K:
+[12.562s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = rclcpp::Client<turtlesim::srv::TeleportAbsolute>][m[K’
+[12.564s]   363 |         [01;36m[Koperator[m[K=(const shared_ptr<_Yp>& __r) noexcept
+[12.565s]       |         [01;36m[K^~~~~~~~[m[K
+[12.567s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.568s] [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:14:28:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_Yp[m[K’
+[12.570s]    14 |     teleport_client_=this->[01;36m[Kcreate_client<turtlesim::srv::TeleportAbsolute("/turtle1/teleport_absolute")[m[K;
+[12.572s]       |                            [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.573s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[12.574s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[12.576s]                  from [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:2[m[K:
+[12.577s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:374:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = rclcpp::Client<turtlesim::srv::TeleportAbsolute>][m[K’
+[12.578s]   374 |         [01;36m[Koperator[m[K=(auto_ptr<_Yp>&& __r)
+[12.580s]       |         [01;36m[K^~~~~~~~[m[K
+[12.581s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:374:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.582s] [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:14:28:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_Yp[m[K’
+[12.584s]    14 |     teleport_client_=this->[01;36m[Kcreate_client<turtlesim::srv::TeleportAbsolute("/turtle1/teleport_absolute")[m[K;
+[12.585s]       |                            [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.586s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[12.587s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[12.588s]                  from [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:2[m[K:
+[12.590s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = rclcpp::Client<turtlesim::srv::TeleportAbsolute>][m[K’
+[12.592s]   391 |         [01;36m[Koperator[m[K=(shared_ptr<_Yp>&& __r) noexcept
+[12.593s]       |         [01;36m[K^~~~~~~~[m[K
+[12.594s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.595s] [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:14:28:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_Yp[m[K’
+[12.596s]    14 |     teleport_client_=this->[01;36m[Kcreate_client<turtlesim::srv::TeleportAbsolute("/turtle1/teleport_absolute")[m[K;
+[12.597s]       |                            [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.598s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[12.599s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[12.600s]                  from [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:2[m[K:
+[12.602s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:399:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = rclcpp::Client<turtlesim::srv::TeleportAbsolute>][m[K’
+[12.603s]   399 |         [01;36m[Koperator[m[K=(unique_ptr<_Yp, _Del>&& __r)
+[12.604s]       |         [01;36m[K^~~~~~~~[m[K
+[12.605s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:399:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.606s] [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:14:28:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_Yp[m[K’
+[12.606s]    14 |     teleport_client_=this->[01;36m[Kcreate_client<turtlesim::srv::TeleportAbsolute("/turtle1/teleport_absolute")[m[K;
+[12.608s]       |                            [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.608s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[12.609s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[12.610s]                  from [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:2[m[K:
+[12.610s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:359:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = rclcpp::Client<turtlesim::srv::TeleportAbsolute>][m[K’
+[12.611s]   359 |       shared_ptr& [01;36m[Koperator[m[K=(const shared_ptr&) noexcept = default;
+[12.612s]       |                   [01;36m[K^~~~~~~~[m[K
+[12.612s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:359:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kconst std::shared_ptr<rclcpp::Client<turtlesim::srv::TeleportAbsolute> >&[m[K’
+[12.613s]   359 |       shared_ptr& operator=([01;36m[Kconst shared_ptr&[m[K) noexcept = default;
+[12.613s]       |                             [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[12.614s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:383:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = rclcpp::Client<turtlesim::srv::TeleportAbsolute>][m[K’
+[12.615s]   383 |       [01;36m[Koperator[m[K=(shared_ptr&& __r) noexcept
+[12.615s]       |       [01;36m[K^~~~~~~~[m[K
+[12.616s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:383:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kstd::shared_ptr<rclcpp::Client<turtlesim::srv::TeleportAbsolute> >&&[m[K’
+[12.616s]   383 |       operator=([01;36m[Kshared_ptr&& __r[m[K) noexcept
+[12.617s]       |                 [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[12.618s] [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:98:31:[m[K [01;31m[Kerror: [m[K‘[01m[KEmpty[m[K’ is not a member of ‘[01m[Kstd_srvs[m[K’
+[12.618s]    98 |     std::shared_ptr<std_srvs::[01;31m[KEmpty[m[K::Request> clear_req=std::make_shared<std_srvs::srv::Empty::Request>();
+[12.619s]       |                               [01;31m[K^~~~~[m[K
+[12.619s] [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:98:31:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[12.620s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/wait_result.hpp:25[m[K,
+[12.620s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/sequential_synchronization.hpp:32[m[K,
+[12.621s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/wait_set.hpp:26[m[K,
+[12.621s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:168[m[K,
+[12.622s]                  from [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:2[m[K:
+[12.623s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/wait_result_kind.hpp:28:3:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Empty[m[K’
+[12.623s]    28 |   [01;36m[KEmpty[m[K,  //<! Kind used when trying to wait on an empty wait set.
+[12.624s]       |   [01;36m[K^~~~~[m[K
+[12.624s] In file included from [01m[K/opt/ros/humble/include/std_srvs/std_srvs/srv/empty.hpp:7[m[K,
+[12.625s]                  from [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:5[m[K:
+[12.626s] [01m[K/opt/ros/humble/include/std_srvs/std_srvs/srv/detail/empty__struct.hpp:237:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_srvs::srv::Empty[m[K’
+[12.626s]   237 | struct [01;36m[KEmpty[m[K
+[12.627s]       |        [01;36m[K^~~~~[m[K
+[12.627s] [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:98:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[12.628s]    98 |     std::shared_ptr<std_srvs::Empty::Request[01;31m[K>[m[K clear_req=std::make_shared<std_srvs::srv::Empty::Request>();
+[12.628s]       |                                             [01;31m[K^[m[K
+[12.629s] [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:98:104:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >[m[K’ to ‘[01m[Kint[m[K’ in initialization
+[12.629s]    98 | ::Request> clear_req=[01;31m[Kstd::make_shared<std_srvs::srv::Empty::Request>()[m[K;
+[12.630s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[12.630s]       |                                                                     [01;31m[K|[m[K
+[12.631s]       |                                                                     [01;31m[Kstd::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >[m[K
+[12.631s] 
+[17.185s] gmake[2]: *** [CMakeFiles/shapes_node.dir/build.make:76: CMakeFiles/shapes_node.dir/src/shapes_node.cpp.o] Error 1
+[17.186s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/shapes_node.dir/all] Error 2
+[17.187s] gmake: *** [Makefile:146: all] Error 2
+[17.195s] Invoked command in '/home/gargie/project/build/project_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/project/build/project_pkg -- -j4 -l4

@@ -1,0 +1,87 @@
+[0.052s] Invoking command in '/home/gargie/project/build/project_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/project/build/project_pkg -- -j4 -l4
+[0.225s] [35m[1mConsolidate compiler generated dependencies of target shapes_node[0m
+[0.291s] [ 50%] [32mBuilding CXX object CMakeFiles/shapes_node.dir/src/shapes_node.cpp.o[0m
+[12.228s] [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:[m[K In constructor ‘[01m[KShape::Shape()[m[K’:
+[12.231s] [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:98:31:[m[K [01;31m[Kerror: [m[K‘[01m[KEmpty[m[K’ is not a member of ‘[01m[Kstd_srvs[m[K’
+[12.232s]    98 |     std::shared_ptr<std_srvs::[01;31m[KEmpty[m[K::Request> clear_req=std::make_shared<std_srvs::srv::Empty::Request>();
+[12.234s]       |                               [01;31m[K^~~~~[m[K
+[12.236s] [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:98:31:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[12.237s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/wait_result.hpp:25[m[K,
+[12.239s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/sequential_synchronization.hpp:32[m[K,
+[12.240s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/wait_set.hpp:26[m[K,
+[12.243s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:168[m[K,
+[12.246s]                  from [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:2[m[K:
+[12.247s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/wait_result_kind.hpp:28:3:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Empty[m[K’
+[12.249s]    28 |   [01;36m[KEmpty[m[K,  //<! Kind used when trying to wait on an empty wait set.
+[12.251s]       |   [01;36m[K^~~~~[m[K
+[12.253s] In file included from [01m[K/opt/ros/humble/include/std_srvs/std_srvs/srv/empty.hpp:7[m[K,
+[12.256s]                  from [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:5[m[K:
+[12.258s] [01m[K/opt/ros/humble/include/std_srvs/std_srvs/srv/detail/empty__struct.hpp:237:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_srvs::srv::Empty[m[K’
+[12.260s]   237 | struct [01;36m[KEmpty[m[K
+[12.262s]       |        [01;36m[K^~~~~[m[K
+[12.264s] [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:98:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[12.266s]    98 |     std::shared_ptr<std_srvs::Empty::Request[01;31m[K>[m[K clear_req=std::make_shared<std_srvs::srv::Empty::Request>();
+[12.267s]       |                                             [01;31m[K^[m[K
+[12.269s] [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:98:104:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >[m[K’ to ‘[01m[Kint[m[K’ in initialization
+[12.270s]    98 | ::Request> clear_req=[01;31m[Kstd::make_shared<std_srvs::srv::Empty::Request>()[m[K;
+[12.271s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[12.273s]       |                                                                     [01;31m[K|[m[K
+[12.274s]       |                                                                     [01;31m[Kstd::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >[m[K
+[12.275s] 
+[12.277s] [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:99:38:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Client<std_srvs::srv::Empty>::async_send_request(int&)[m[K’
+[12.278s]    99 |     [01;31m[Kclear_client_->async_send_request(clear_req)[m[K;
+[12.279s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[12.280s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[12.281s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[12.282s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[12.284s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[12.285s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[12.286s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[12.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[12.288s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[12.289s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.290s]                  from [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:2[m[K:
+[12.291s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:643:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFutureAndRequestId rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest, CallbackT&&) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<typename ServiceT::Response::SharedPtr>)> >::value>::type* <anonymous> = <anonymous>; ServiceT = std_srvs::srv::Empty][m[K’
+[12.292s]   643 |   [01;36m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+[12.293s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[12.294s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:643:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.294s] [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:99:38:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[12.295s]    99 |     [01;36m[Kclear_client_->async_send_request(clear_req)[m[K;
+[12.296s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[12.297s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[12.298s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[12.298s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[12.299s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[12.300s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[12.301s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[12.301s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[12.302s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[12.303s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.304s]                  from [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:2[m[K:
+[12.304s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:674:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFutureWithRequestAndRequestId rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest, CallbackT&&) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<typename ServiceT::Request::SharedPtr, typename ServiceT::Response::SharedPtr> >)> >::value>::type* <anonymous> = <anonymous>; ServiceT = std_srvs::srv::Empty][m[K’
+[12.305s]   674 |   [01;36m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+[12.306s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[12.306s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:674:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.307s] [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:99:38:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[12.308s]    99 |     [01;36m[Kclear_client_->async_send_request(clear_req)[m[K;
+[12.309s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[12.309s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[12.311s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[12.311s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[12.312s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[12.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[12.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[12.314s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[12.315s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[12.315s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.316s]                  from [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:2[m[K:
+[12.317s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:608:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Client<ServiceT>::FutureAndRequestId rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest) [with ServiceT = std_srvs::srv::Empty; rclcpp::Client<ServiceT>::SharedRequest = std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >][m[K’
+[12.317s]   608 |   [01;36m[Kasync_send_request[m[K(SharedRequest request)
+[12.318s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[12.318s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:608:36:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Krclcpp::Client<std_srvs::srv::Empty>::SharedRequest[m[K’ {aka ‘[01m[Kstd::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >[m[K’}
+[12.319s]   608 |   async_send_request([01;36m[KSharedRequest request[m[K)
+[12.319s]       |                      [01;36m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+[17.101s] gmake[2]: *** [CMakeFiles/shapes_node.dir/build.make:76: CMakeFiles/shapes_node.dir/src/shapes_node.cpp.o] Error 1
+[17.102s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/shapes_node.dir/all] Error 2
+[17.103s] gmake: *** [Makefile:146: all] Error 2
+[17.111s] Invoked command in '/home/gargie/project/build/project_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/project/build/project_pkg -- -j4 -l4

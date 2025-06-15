@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target shapes_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/shapes_node.dir/src/shapes_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable shapes_node[0m
+[100%] Built target shapes_node
+-- Install configuration: ""
+-- Installing: /home/gargie/project/install/project_pkg/lib/project_pkg/shapes_node
+-- Set runtime path of "/home/gargie/project/install/project_pkg/lib/project_pkg/shapes_node" to ""
+-- Up-to-date: /home/gargie/project/install/project_pkg/share/ament_index/resource_index/package_run_dependencies/project_pkg
+-- Installing: /home/gargie/project/install/project_pkg/share/ament_index/resource_index/parent_prefix_path/project_pkg
+-- Up-to-date: /home/gargie/project/install/project_pkg/share/project_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/gargie/project/install/project_pkg/share/project_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/gargie/project/install/project_pkg/share/project_pkg/environment/path.sh
+-- Installing: /home/gargie/project/install/project_pkg/share/project_pkg/environment/path.dsv
+-- Up-to-date: /home/gargie/project/install/project_pkg/share/project_pkg/local_setup.bash
+-- Up-to-date: /home/gargie/project/install/project_pkg/share/project_pkg/local_setup.sh
+-- Up-to-date: /home/gargie/project/install/project_pkg/share/project_pkg/local_setup.zsh
+-- Installing: /home/gargie/project/install/project_pkg/share/project_pkg/local_setup.dsv
+-- Installing: /home/gargie/project/install/project_pkg/share/project_pkg/package.dsv
+-- Up-to-date: /home/gargie/project/install/project_pkg/share/ament_index/resource_index/packages/project_pkg
+-- Up-to-date: /home/gargie/project/install/project_pkg/share/project_pkg/cmake/project_pkgConfig.cmake
+-- Up-to-date: /home/gargie/project/install/project_pkg/share/project_pkg/cmake/project_pkgConfig-version.cmake
+-- Up-to-date: /home/gargie/project/install/project_pkg/share/project_pkg/package.xml

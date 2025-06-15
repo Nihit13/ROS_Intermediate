@@ -1,0 +1,81 @@
+[0.055s] Invoking command in '/home/gargie/project/build/project_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/project/build/project_pkg -- -j4 -l4
+[0.235s] [35m[1mConsolidate compiler generated dependencies of target shapes_node[0m
+[0.303s] [ 50%] [32mBuilding CXX object CMakeFiles/shapes_node.dir/src/shapes_node.cpp.o[0m
+[11.568s] [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:[m[K In constructor ‘[01m[KShape::Shape()[m[K’:
+[11.570s] [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:37:12:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kgetline(std::istream&, int&)[m[K’
+[11.572s]    37 |     [01;31m[Kgetline(cin,sides)[m[K;
+[11.574s]       |     [01;31m[K~~~~~~~^~~~~~~~~~~[m[K
+[11.575s] In file included from [01m[K/usr/include/c++/11/string:56[m[K,
+[11.577s]                  from [01m[K/usr/include/c++/11/bits/locale_classes.h:40[m[K,
+[11.578s]                  from [01m[K/usr/include/c++/11/bits/ios_base.h:41[m[K,
+[11.580s]                  from [01m[K/usr/include/c++/11/ios:42[m[K,
+[11.582s]                  from [01m[K/usr/include/c++/11/ostream:38[m[K,
+[11.583s]                  from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[11.585s]                  from [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:1[m[K:
+[11.586s] [01m[K/usr/include/c++/11/bits/basic_string.tcc:1557:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, _CharT)[m[K’
+[11.588s]  1557 |     [01;36m[Kgetline[m[K(basic_istream<_CharT, _Traits>& __in,
+[11.589s]       |     [01;36m[K^~~~~~~[m[K
+[11.591s] [01m[K/usr/include/c++/11/bits/basic_string.tcc:1557:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.593s] [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:37:12:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kint[m[K’
+[11.594s]    37 |     [01;36m[Kgetline(cin,sides)[m[K;
+[11.596s]       |     [01;36m[K~~~~~~~^~~~~~~~~~~[m[K
+[11.597s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[11.599s]                  from [01m[K/usr/include/c++/11/bits/locale_classes.h:40[m[K,
+[11.600s]                  from [01m[K/usr/include/c++/11/bits/ios_base.h:41[m[K,
+[11.602s]                  from [01m[K/usr/include/c++/11/ios:42[m[K,
+[11.603s]                  from [01m[K/usr/include/c++/11/ostream:38[m[K,
+[11.605s]                  from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[11.606s]                  from [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:1[m[K:
+[11.608s] [01m[K/usr/include/c++/11/bits/basic_string.h:6571:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+[11.609s]  6571 |     [01;36m[Kgetline[m[K(basic_istream<_CharT, _Traits>& __is,
+[11.610s]       |     [01;36m[K^~~~~~~[m[K
+[11.611s] [01m[K/usr/include/c++/11/bits/basic_string.h:6571:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.614s] [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:37:12:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kint[m[K’
+[11.615s]    37 |     [01;36m[Kgetline(cin,sides)[m[K;
+[11.616s]       |     [01;36m[K~~~~~~~^~~~~~~~~~~[m[K
+[11.617s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[11.618s]                  from [01m[K/usr/include/c++/11/bits/locale_classes.h:40[m[K,
+[11.619s]                  from [01m[K/usr/include/c++/11/bits/ios_base.h:41[m[K,
+[11.620s]                  from [01m[K/usr/include/c++/11/ios:42[m[K,
+[11.621s]                  from [01m[K/usr/include/c++/11/ostream:38[m[K,
+[11.622s]                  from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[11.623s]                  from [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:1[m[K:
+[11.625s] [01m[K/usr/include/c++/11/bits/basic_string.h:6579:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, _CharT)[m[K’
+[11.626s]  6579 |     [01;36m[Kgetline[m[K(basic_istream<_CharT, _Traits>&& __is,
+[11.627s]       |     [01;36m[K^~~~~~~[m[K
+[11.628s] [01m[K/usr/include/c++/11/bits/basic_string.h:6579:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.629s] [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:37:12:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kint[m[K’
+[11.629s]    37 |     [01;36m[Kgetline(cin,sides)[m[K;
+[11.630s]       |     [01;36m[K~~~~~~~^~~~~~~~~~~[m[K
+[11.631s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[11.632s]                  from [01m[K/usr/include/c++/11/bits/locale_classes.h:40[m[K,
+[11.633s]                  from [01m[K/usr/include/c++/11/bits/ios_base.h:41[m[K,
+[11.633s]                  from [01m[K/usr/include/c++/11/ios:42[m[K,
+[11.634s]                  from [01m[K/usr/include/c++/11/ostream:38[m[K,
+[11.635s]                  from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[11.636s]                  from [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:1[m[K:
+[11.637s] [01m[K/usr/include/c++/11/bits/basic_string.h:6586:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+[11.637s]  6586 |     [01;36m[Kgetline[m[K(basic_istream<_CharT, _Traits>&& __is,
+[11.638s]       |     [01;36m[K^~~~~~~[m[K
+[11.639s] [01m[K/usr/include/c++/11/bits/basic_string.h:6586:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.639s] [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:37:12:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kint[m[K’
+[11.640s]    37 |     [01;36m[Kgetline(cin,sides)[m[K;
+[11.641s]       |     [01;36m[K~~~~~~~^~~~~~~~~~~[m[K
+[11.642s] In file included from [01m[K/usr/include/c++/11/cstdio:42[m[K,
+[11.644s]                  from [01m[K/usr/include/c++/11/ext/string_conversions.h:43[m[K,
+[11.645s]                  from [01m[K/usr/include/c++/11/bits/basic_string.h:6608[m[K,
+[11.646s]                  from [01m[K/usr/include/c++/11/string:55[m[K,
+[11.647s]                  from [01m[K/usr/include/c++/11/bits/locale_classes.h:40[m[K,
+[11.647s]                  from [01m[K/usr/include/c++/11/bits/ios_base.h:41[m[K,
+[11.648s]                  from [01m[K/usr/include/c++/11/ios:42[m[K,
+[11.649s]                  from [01m[K/usr/include/c++/11/ostream:38[m[K,
+[11.650s]                  from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[11.651s]                  from [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:1[m[K:
+[11.652s] [01m[K/usr/include/stdio.h:645:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[K__ssize_t getline(char**, size_t*, FILE*)[m[K’
+[11.653s]   645 | extern __ssize_t [01;36m[Kgetline[m[K (char **__restrict __lineptr,
+[11.653s]       |                  [01;36m[K^~~~~~~[m[K
+[11.654s] [01m[K/usr/include/stdio.h:645:18:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+[15.093s] gmake[2]: *** [CMakeFiles/shapes_node.dir/build.make:76: CMakeFiles/shapes_node.dir/src/shapes_node.cpp.o] Error 1
+[15.095s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/shapes_node.dir/all] Error 2
+[15.096s] gmake: *** [Makefile:146: all] Error 2
+[15.106s] Invoked command in '/home/gargie/project/build/project_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/project/build/project_pkg -- -j4 -l4

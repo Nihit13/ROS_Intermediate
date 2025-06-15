@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target shapes_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/shapes_node.dir/src/shapes_node.cpp.o[0m
+[01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:[m[K In constructor ‘[01m[KShape::Shape()[m[K’:
+[01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:87:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kseonds[m[K’ is not a member of ‘[01m[Kstd::chrono[m[K’; did you mean ‘[01m[Kseconds[m[K’?
+   87 |     rclcpp::sleep_for(std::chrono::[01;31m[Kseonds[m[K(3));
+      |                                    [01;31m[K^~~~~~[m[K
+      |                                    [32m[Kseconds[m[K
+gmake[2]: *** [CMakeFiles/shapes_node.dir/build.make:76: CMakeFiles/shapes_node.dir/src/shapes_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/shapes_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

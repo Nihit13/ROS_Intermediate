@@ -1,0 +1,14 @@
+[0.061s] Invoking command in '/home/gargie/project/build/project_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/project/build/project_pkg -- -j4 -l4
+[0.227s] [35m[1mConsolidate compiler generated dependencies of target shapes_node[0m
+[0.306s] [ 50%] [32mBuilding CXX object CMakeFiles/shapes_node.dir/src/shapes_node.cpp.o[0m
+[11.900s] [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:[m[K In constructor ‘[01m[KShape::Shape()[m[K’:
+[11.904s] [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:67:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ktest[m[K’ was not declared in this scope
+[11.906s]    67 |     if([01;31m[Ktest[m[K==count){
+[11.907s]       |        [01;31m[K^~~~[m[K
+[11.909s] [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:74:9:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[11.911s]    74 |     [01;35m[Kmore+4[m[K;
+[11.912s]       |     [01;35m[K~~~~^~[m[K
+[15.393s] gmake[2]: *** [CMakeFiles/shapes_node.dir/build.make:76: CMakeFiles/shapes_node.dir/src/shapes_node.cpp.o] Error 1
+[15.394s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/shapes_node.dir/all] Error 2
+[15.396s] gmake: *** [Makefile:146: all] Error 2
+[15.403s] Invoked command in '/home/gargie/project/build/project_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/project/build/project_pkg -- -j4 -l4

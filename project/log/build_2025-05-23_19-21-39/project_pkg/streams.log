@@ -1,0 +1,12 @@
+[0.091s] Invoking command in '/home/gargie/project/build/project_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/project/build/project_pkg -- -j4 -l4
+[0.344s] [35m[1mConsolidate compiler generated dependencies of target shapes_node[0m
+[0.428s] [ 50%] [32mBuilding CXX object CMakeFiles/shapes_node.dir/src/shapes_node.cpp.o[0m
+[28.231s] [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:[m[K In constructor ‘[01m[KShape::Shape()[m[K’:
+[28.231s] [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:87:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kseonds[m[K’ is not a member of ‘[01m[Kstd::chrono[m[K’; did you mean ‘[01m[Kseconds[m[K’?
+[28.232s]    87 |     rclcpp::sleep_for(std::chrono::[01;31m[Kseonds[m[K(3));
+[28.234s]       |                                    [01;31m[K^~~~~~[m[K
+[28.235s]       |                                    [32m[Kseconds[m[K
+[40.242s] gmake[2]: *** [CMakeFiles/shapes_node.dir/build.make:76: CMakeFiles/shapes_node.dir/src/shapes_node.cpp.o] Error 1
+[40.243s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/shapes_node.dir/all] Error 2
+[40.244s] gmake: *** [Makefile:146: all] Error 2
+[40.267s] Invoked command in '/home/gargie/project/build/project_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/project/build/project_pkg -- -j4 -l4

@@ -1,0 +1,317 @@
+[0.000000] (-) TimerEvent: {}
+[0.004051] (project_pkg) JobQueued: {'identifier': 'project_pkg', 'dependencies': OrderedDict()}
+[0.004235] (project_pkg) JobStarted: {'identifier': 'project_pkg'}
+[0.045647] (project_pkg) JobProgress: {'identifier': 'project_pkg', 'progress': 'cmake'}
+[0.049166] (project_pkg) JobProgress: {'identifier': 'project_pkg', 'progress': 'build'}
+[0.052219] (project_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gargie/project/build/project_pkg', '--', '-j4', '-l4'], 'cwd': '/home/gargie/project/build/project_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'gargie'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gargie'), ('OLDPWD', '/home/gargie'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1473'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gargie/project/install:/home/gargie/key_ws/install:/home/gargie/chem_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gargie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gargie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gargie-HP-Pavilion-x360-Convertible:@/tmp/.ICE-unix/1436,unix/gargie-HP-Pavilion-x360-Convertible:/tmp/.ICE-unix/1436'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/39e6412a_35c4_40e2_bee8_bd71414aa4f3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D06D62'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gargie/key_ws/install/key_pkg:/home/gargie/key_ws/install/key1_pkg:/home/gargie/project/install/project_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gargie/project/build/project_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gargie/key_ws/install/key1_pkg/lib/python3.10/site-packages:/home/gargie/chem_ws/install/chem_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gargie/key_ws/install/key_pkg:/home/gargie/project/install/project_pkg:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble')]), 'shell': False}
+[0.098908] (-) TimerEvent: {}
+[0.199929] (-) TimerEvent: {}
+[0.244292] (project_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target shapes_node\x1b[0m\n'}
+[0.300262] (-) TimerEvent: {}
+[0.312264] (project_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/shapes_node.dir/src/shapes_node.cpp.o\x1b[0m\n'}
+[0.400600] (-) TimerEvent: {}
+[0.501329] (-) TimerEvent: {}
+[0.602076] (-) TimerEvent: {}
+[0.702821] (-) TimerEvent: {}
+[0.803619] (-) TimerEvent: {}
+[0.904781] (-) TimerEvent: {}
+[1.006783] (-) TimerEvent: {}
+[1.108734] (-) TimerEvent: {}
+[1.210737] (-) TimerEvent: {}
+[1.312796] (-) TimerEvent: {}
+[1.414799] (-) TimerEvent: {}
+[1.516745] (-) TimerEvent: {}
+[1.618435] (-) TimerEvent: {}
+[1.720414] (-) TimerEvent: {}
+[1.822021] (-) TimerEvent: {}
+[1.922869] (-) TimerEvent: {}
+[2.024183] (-) TimerEvent: {}
+[2.125913] (-) TimerEvent: {}
+[2.227765] (-) TimerEvent: {}
+[2.329849] (-) TimerEvent: {}
+[2.431739] (-) TimerEvent: {}
+[2.533704] (-) TimerEvent: {}
+[2.635757] (-) TimerEvent: {}
+[2.737726] (-) TimerEvent: {}
+[2.839602] (-) TimerEvent: {}
+[2.941533] (-) TimerEvent: {}
+[3.043356] (-) TimerEvent: {}
+[3.145530] (-) TimerEvent: {}
+[3.247649] (-) TimerEvent: {}
+[3.349544] (-) TimerEvent: {}
+[3.451273] (-) TimerEvent: {}
+[3.553182] (-) TimerEvent: {}
+[3.655009] (-) TimerEvent: {}
+[3.756838] (-) TimerEvent: {}
+[3.858791] (-) TimerEvent: {}
+[3.960686] (-) TimerEvent: {}
+[4.062713] (-) TimerEvent: {}
+[4.164709] (-) TimerEvent: {}
+[4.266697] (-) TimerEvent: {}
+[4.368409] (-) TimerEvent: {}
+[4.470191] (-) TimerEvent: {}
+[4.572372] (-) TimerEvent: {}
+[4.674245] (-) TimerEvent: {}
+[4.776058] (-) TimerEvent: {}
+[4.877828] (-) TimerEvent: {}
+[4.979818] (-) TimerEvent: {}
+[5.081662] (-) TimerEvent: {}
+[5.183680] (-) TimerEvent: {}
+[5.285606] (-) TimerEvent: {}
+[5.387538] (-) TimerEvent: {}
+[5.489658] (-) TimerEvent: {}
+[5.591594] (-) TimerEvent: {}
+[5.693734] (-) TimerEvent: {}
+[5.795780] (-) TimerEvent: {}
+[5.897791] (-) TimerEvent: {}
+[5.999708] (-) TimerEvent: {}
+[6.101789] (-) TimerEvent: {}
+[6.203626] (-) TimerEvent: {}
+[6.305344] (-) TimerEvent: {}
+[6.407188] (-) TimerEvent: {}
+[6.509115] (-) TimerEvent: {}
+[6.611096] (-) TimerEvent: {}
+[6.713079] (-) TimerEvent: {}
+[6.815030] (-) TimerEvent: {}
+[6.916621] (-) TimerEvent: {}
+[7.017663] (-) TimerEvent: {}
+[7.118609] (-) TimerEvent: {}
+[7.219388] (-) TimerEvent: {}
+[7.320193] (-) TimerEvent: {}
+[7.421059] (-) TimerEvent: {}
+[7.521862] (-) TimerEvent: {}
+[7.622634] (-) TimerEvent: {}
+[7.723374] (-) TimerEvent: {}
+[7.824635] (-) TimerEvent: {}
+[7.925405] (-) TimerEvent: {}
+[8.026179] (-) TimerEvent: {}
+[8.126983] (-) TimerEvent: {}
+[8.227841] (-) TimerEvent: {}
+[8.329215] (-) TimerEvent: {}
+[8.431047] (-) TimerEvent: {}
+[8.533685] (-) TimerEvent: {}
+[8.634620] (-) TimerEvent: {}
+[8.735759] (-) TimerEvent: {}
+[8.836717] (-) TimerEvent: {}
+[8.937980] (-) TimerEvent: {}
+[9.039614] (-) TimerEvent: {}
+[9.141519] (-) TimerEvent: {}
+[9.243786] (-) TimerEvent: {}
+[9.345760] (-) TimerEvent: {}
+[9.446837] (-) TimerEvent: {}
+[9.548723] (-) TimerEvent: {}
+[9.650763] (-) TimerEvent: {}
+[9.752529] (-) TimerEvent: {}
+[9.854426] (-) TimerEvent: {}
+[9.956581] (-) TimerEvent: {}
+[10.058641] (-) TimerEvent: {}
+[10.161156] (-) TimerEvent: {}
+[10.263667] (-) TimerEvent: {}
+[10.365543] (-) TimerEvent: {}
+[10.467230] (-) TimerEvent: {}
+[10.568980] (-) TimerEvent: {}
+[10.670654] (-) TimerEvent: {}
+[10.772195] (-) TimerEvent: {}
+[10.874040] (-) TimerEvent: {}
+[10.975767] (-) TimerEvent: {}
+[11.077599] (-) TimerEvent: {}
+[11.179365] (-) TimerEvent: {}
+[11.281091] (-) TimerEvent: {}
+[11.383254] (-) TimerEvent: {}
+[11.485348] (-) TimerEvent: {}
+[11.587152] (-) TimerEvent: {}
+[11.689115] (-) TimerEvent: {}
+[11.790903] (-) TimerEvent: {}
+[11.892811] (-) TimerEvent: {}
+[11.994765] (-) TimerEvent: {}
+[12.096640] (-) TimerEvent: {}
+[12.198506] (-) TimerEvent: {}
+[12.300206] (-) TimerEvent: {}
+[12.402053] (-) TimerEvent: {}
+[12.503807] (-) TimerEvent: {}
+[12.605595] (-) TimerEvent: {}
+[12.706705] (-) TimerEvent: {}
+[12.807623] (-) TimerEvent: {}
+[12.908600] (-) TimerEvent: {}
+[13.010868] (-) TimerEvent: {}
+[13.112087] (-) TimerEvent: {}
+[13.214411] (-) TimerEvent: {}
+[13.316590] (-) TimerEvent: {}
+[13.418590] (-) TimerEvent: {}
+[13.520381] (-) TimerEvent: {}
+[13.622367] (-) TimerEvent: {}
+[13.724228] (-) TimerEvent: {}
+[13.826261] (-) TimerEvent: {}
+[13.928610] (-) TimerEvent: {}
+[14.030531] (-) TimerEvent: {}
+[14.132729] (-) TimerEvent: {}
+[14.234767] (-) TimerEvent: {}
+[14.336740] (-) TimerEvent: {}
+[14.438681] (-) TimerEvent: {}
+[14.540870] (-) TimerEvent: {}
+[14.642751] (-) TimerEvent: {}
+[14.744736] (-) TimerEvent: {}
+[14.846745] (-) TimerEvent: {}
+[14.948699] (-) TimerEvent: {}
+[15.050690] (-) TimerEvent: {}
+[15.152542] (-) TimerEvent: {}
+[15.254598] (-) TimerEvent: {}
+[15.356582] (-) TimerEvent: {}
+[15.458288] (-) TimerEvent: {}
+[15.560300] (-) TimerEvent: {}
+[15.662208] (-) TimerEvent: {}
+[15.764188] (-) TimerEvent: {}
+[15.866013] (-) TimerEvent: {}
+[15.967888] (-) TimerEvent: {}
+[16.069909] (-) TimerEvent: {}
+[16.171744] (-) TimerEvent: {}
+[16.273507] (-) TimerEvent: {}
+[16.375185] (-) TimerEvent: {}
+[16.477047] (-) TimerEvent: {}
+[16.579367] (-) TimerEvent: {}
+[16.681349] (-) TimerEvent: {}
+[16.783493] (-) TimerEvent: {}
+[16.885665] (-) TimerEvent: {}
+[16.987621] (-) TimerEvent: {}
+[17.089353] (-) TimerEvent: {}
+[17.190669] (-) TimerEvent: {}
+[17.292401] (-) TimerEvent: {}
+[17.394806] (-) TimerEvent: {}
+[17.496163] (-) TimerEvent: {}
+[17.598160] (-) TimerEvent: {}
+[17.700240] (-) TimerEvent: {}
+[17.802242] (-) TimerEvent: {}
+[17.904198] (-) TimerEvent: {}
+[18.006630] (-) TimerEvent: {}
+[18.109055] (-) TimerEvent: {}
+[18.210841] (-) TimerEvent: {}
+[18.312836] (-) TimerEvent: {}
+[18.414890] (-) TimerEvent: {}
+[18.516786] (-) TimerEvent: {}
+[18.618695] (-) TimerEvent: {}
+[18.720729] (-) TimerEvent: {}
+[18.822796] (-) TimerEvent: {}
+[18.924776] (-) TimerEvent: {}
+[19.026770] (-) TimerEvent: {}
+[19.128791] (-) TimerEvent: {}
+[19.230750] (-) TimerEvent: {}
+[19.332743] (-) TimerEvent: {}
+[19.434596] (-) TimerEvent: {}
+[19.536303] (-) TimerEvent: {}
+[19.638351] (-) TimerEvent: {}
+[19.740531] (-) TimerEvent: {}
+[19.842363] (-) TimerEvent: {}
+[19.944694] (-) TimerEvent: {}
+[20.046518] (-) TimerEvent: {}
+[20.148604] (-) TimerEvent: {}
+[20.250306] (-) TimerEvent: {}
+[20.352329] (-) TimerEvent: {}
+[20.454391] (-) TimerEvent: {}
+[20.556583] (-) TimerEvent: {}
+[20.658563] (-) TimerEvent: {}
+[20.760561] (-) TimerEvent: {}
+[20.862558] (-) TimerEvent: {}
+[20.964576] (-) TimerEvent: {}
+[21.066271] (-) TimerEvent: {}
+[21.168229] (-) TimerEvent: {}
+[21.270347] (-) TimerEvent: {}
+[21.372558] (-) TimerEvent: {}
+[21.474306] (-) TimerEvent: {}
+[21.575946] (-) TimerEvent: {}
+[21.677857] (-) TimerEvent: {}
+[21.779639] (-) TimerEvent: {}
+[21.881619] (-) TimerEvent: {}
+[21.983725] (-) TimerEvent: {}
+[22.085754] (-) TimerEvent: {}
+[22.187804] (-) TimerEvent: {}
+[22.289829] (-) TimerEvent: {}
+[22.391923] (-) TimerEvent: {}
+[22.493997] (-) TimerEvent: {}
+[22.596093] (-) TimerEvent: {}
+[22.698181] (-) TimerEvent: {}
+[22.800336] (-) TimerEvent: {}
+[22.902541] (-) TimerEvent: {}
+[23.004509] (-) TimerEvent: {}
+[23.106315] (-) TimerEvent: {}
+[23.208723] (-) TimerEvent: {}
+[23.310820] (-) TimerEvent: {}
+[23.412857] (-) TimerEvent: {}
+[23.514531] (-) TimerEvent: {}
+[23.615802] (-) TimerEvent: {}
+[23.717798] (-) TimerEvent: {}
+[23.819775] (-) TimerEvent: {}
+[23.921873] (-) TimerEvent: {}
+[24.023943] (-) TimerEvent: {}
+[24.125616] (-) TimerEvent: {}
+[24.226572] (-) TimerEvent: {}
+[24.327436] (-) TimerEvent: {}
+[24.428327] (-) TimerEvent: {}
+[24.529667] (-) TimerEvent: {}
+[24.631240] (-) TimerEvent: {}
+[24.732150] (-) TimerEvent: {}
+[24.833144] (-) TimerEvent: {}
+[24.934095] (-) TimerEvent: {}
+[25.034961] (-) TimerEvent: {}
+[25.135882] (-) TimerEvent: {}
+[25.236865] (-) TimerEvent: {}
+[25.337703] (-) TimerEvent: {}
+[25.440023] (-) TimerEvent: {}
+[25.541755] (-) TimerEvent: {}
+[25.642629] (-) TimerEvent: {}
+[25.743513] (-) TimerEvent: {}
+[25.844339] (-) TimerEvent: {}
+[25.945102] (-) TimerEvent: {}
+[26.045926] (-) TimerEvent: {}
+[26.146684] (-) TimerEvent: {}
+[26.247562] (-) TimerEvent: {}
+[26.348404] (-) TimerEvent: {}
+[26.449280] (-) TimerEvent: {}
+[26.550160] (-) TimerEvent: {}
+[26.650996] (-) TimerEvent: {}
+[26.751843] (-) TimerEvent: {}
+[26.853035] (-) TimerEvent: {}
+[26.899874] (project_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable shapes_node\x1b[0m\n'}
+[26.953421] (-) TimerEvent: {}
+[27.054868] (-) TimerEvent: {}
+[27.155749] (-) TimerEvent: {}
+[27.256631] (-) TimerEvent: {}
+[27.357654] (-) TimerEvent: {}
+[27.458717] (-) TimerEvent: {}
+[27.559682] (-) TimerEvent: {}
+[27.660769] (-) TimerEvent: {}
+[27.761720] (-) TimerEvent: {}
+[27.862769] (-) TimerEvent: {}
+[27.963613] (-) TimerEvent: {}
+[28.064375] (-) TimerEvent: {}
+[28.165328] (-) TimerEvent: {}
+[28.266315] (-) TimerEvent: {}
+[28.367281] (-) TimerEvent: {}
+[28.468361] (-) TimerEvent: {}
+[28.548656] (project_pkg) StdoutLine: {'line': b'[100%] Built target shapes_node\n'}
+[28.568652] (-) TimerEvent: {}
+[28.591358] (project_pkg) CommandEnded: {'returncode': 0}
+[28.596201] (project_pkg) JobProgress: {'identifier': 'project_pkg', 'progress': 'install'}
+[28.636694] (project_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/gargie/project/build/project_pkg'], 'cwd': '/home/gargie/project/build/project_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'gargie'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gargie'), ('OLDPWD', '/home/gargie'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1473'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gargie/project/install:/home/gargie/key_ws/install:/home/gargie/chem_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gargie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gargie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gargie-HP-Pavilion-x360-Convertible:@/tmp/.ICE-unix/1436,unix/gargie-HP-Pavilion-x360-Convertible:/tmp/.ICE-unix/1436'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/39e6412a_35c4_40e2_bee8_bd71414aa4f3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D06D62'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gargie/key_ws/install/key_pkg:/home/gargie/key_ws/install/key1_pkg:/home/gargie/project/install/project_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gargie/project/build/project_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gargie/key_ws/install/key1_pkg/lib/python3.10/site-packages:/home/gargie/chem_ws/install/chem_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gargie/key_ws/install/key_pkg:/home/gargie/project/install/project_pkg:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble')]), 'shell': False}
+[28.664769] (project_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[28.665788] (project_pkg) StdoutLine: {'line': b'-- Installing: /home/gargie/project/install/project_pkg/lib/project_pkg/shapes_node\n'}
+[28.668846] (-) TimerEvent: {}
+[28.676335] (project_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/gargie/project/install/project_pkg/lib/project_pkg/shapes_node" to ""\n'}
+[28.678706] (project_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/project/install/project_pkg/share/ament_index/resource_index/package_run_dependencies/project_pkg\n'}
+[28.680766] (project_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/project/install/project_pkg/share/ament_index/resource_index/parent_prefix_path/project_pkg\n'}
+[28.682410] (project_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/project/install/project_pkg/share/project_pkg/environment/ament_prefix_path.sh\n'}
+[28.684759] (project_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/project/install/project_pkg/share/project_pkg/environment/ament_prefix_path.dsv\n'}
+[28.686535] (project_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/project/install/project_pkg/share/project_pkg/environment/path.sh\n'}
+[28.688367] (project_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/project/install/project_pkg/share/project_pkg/environment/path.dsv\n'}
+[28.690634] (project_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/project/install/project_pkg/share/project_pkg/local_setup.bash\n'}
+[28.692375] (project_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/project/install/project_pkg/share/project_pkg/local_setup.sh\n'}
+[28.694177] (project_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/project/install/project_pkg/share/project_pkg/local_setup.zsh\n'}
+[28.701719] (project_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/project/install/project_pkg/share/project_pkg/local_setup.dsv\n'}
+[28.703747] (project_pkg) StdoutLine: {'line': b'-- Installing: /home/gargie/project/install/project_pkg/share/project_pkg/package.dsv\n'}
+[28.705801] (project_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/project/install/project_pkg/share/ament_index/resource_index/packages/project_pkg\n'}
+[28.707787] (project_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/project/install/project_pkg/share/project_pkg/cmake/project_pkgConfig.cmake\n'}
+[28.710854] (project_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/project/install/project_pkg/share/project_pkg/cmake/project_pkgConfig-version.cmake\n'}
+[28.712922] (project_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/gargie/project/install/project_pkg/share/project_pkg/package.xml\n'}
+[28.714783] (project_pkg) CommandEnded: {'returncode': 0}
+[28.773372] (-) TimerEvent: {}
+[28.856321] (project_pkg) JobEnded: {'identifier': 'project_pkg', 'rc': 0}
+[28.862909] (-) EventReactorShutdown: {}

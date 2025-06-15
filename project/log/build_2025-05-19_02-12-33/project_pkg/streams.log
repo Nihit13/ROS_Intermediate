@@ -1,0 +1,11 @@
+[0.055s] Invoking command in '/home/gargie/project/build/project_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/project/build/project_pkg -- -j4 -l4
+[0.221s] [35m[1mConsolidate compiler generated dependencies of target shapes_node[0m
+[0.290s] [ 50%] [32mBuilding CXX object CMakeFiles/shapes_node.dir/src/shapes_node.cpp.o[0m
+[11.657s] [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[11.658s] [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:71:11:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[K<unresolved overloaded function type>[m[K’ and ‘[01m[Kint[m[K’ to binary ‘[01m[Koperator<=[m[K’
+[11.659s]    71 |   if([01;31m[Kcount<=10[m[K){rclcpp::shutdown();}
+[11.660s]       |      [01;31m[K~~~~~^~~~[m[K
+[15.240s] gmake[2]: *** [CMakeFiles/shapes_node.dir/build.make:76: CMakeFiles/shapes_node.dir/src/shapes_node.cpp.o] Error 1
+[15.241s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/shapes_node.dir/all] Error 2
+[15.241s] gmake: *** [Makefile:146: all] Error 2
+[15.251s] Invoked command in '/home/gargie/project/build/project_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/project/build/project_pkg -- -j4 -l4

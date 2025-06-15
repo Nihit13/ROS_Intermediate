@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target shapes_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/shapes_node.dir/src/shapes_node.cpp.o[0m
+[01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:[m[K In constructor ‘[01m[KShape::Shape()[m[K’:
+[01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:16:11:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K=[m[K’ token
+   16 |      float[01;31m[K=[m[Kangle=0;
+      |           [01;31m[K^[m[K
+[01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:39:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kangle[m[K’ was not declared in this scope
+   39 |     [01;31m[Kangle[m[K=((sides-2)*M_PI)/sides;
+      |     [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/shapes_node.dir/build.make:76: CMakeFiles/shapes_node.dir/src/shapes_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/shapes_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

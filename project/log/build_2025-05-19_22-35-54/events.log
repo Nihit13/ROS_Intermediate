@@ -1,0 +1,262 @@
+[0.000000] (-) TimerEvent: {}
+[0.000739] (project_pkg) JobQueued: {'identifier': 'project_pkg', 'dependencies': OrderedDict()}
+[0.000920] (project_pkg) JobStarted: {'identifier': 'project_pkg'}
+[0.043669] (project_pkg) JobProgress: {'identifier': 'project_pkg', 'progress': 'cmake'}
+[0.049636] (project_pkg) JobProgress: {'identifier': 'project_pkg', 'progress': 'build'}
+[0.049871] (project_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gargie/project/build/project_pkg', '--', '-j4', '-l4'], 'cwd': '/home/gargie/project/build/project_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'gargie'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gargie'), ('OLDPWD', '/home/gargie'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1473'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gargie/project/install:/home/gargie/key_ws/install:/home/gargie/chem_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gargie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gargie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gargie-HP-Pavilion-x360-Convertible:@/tmp/.ICE-unix/1436,unix/gargie-HP-Pavilion-x360-Convertible:/tmp/.ICE-unix/1436'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/39e6412a_35c4_40e2_bee8_bd71414aa4f3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D06D62'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gargie/key_ws/install/key_pkg:/home/gargie/key_ws/install/key1_pkg:/home/gargie/project/install/project_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gargie/project/build/project_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gargie/key_ws/install/key1_pkg/lib/python3.10/site-packages:/home/gargie/chem_ws/install/chem_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gargie/key_ws/install/key_pkg:/home/gargie/project/install/project_pkg:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble')]), 'shell': False}
+[0.096470] (-) TimerEvent: {}
+[0.197232] (-) TimerEvent: {}
+[0.224556] (project_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target shapes_node\x1b[0m\n'}
+[0.291350] (project_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/shapes_node.dir/src/shapes_node.cpp.o\x1b[0m\n'}
+[0.297426] (-) TimerEvent: {}
+[0.398283] (-) TimerEvent: {}
+[0.499692] (-) TimerEvent: {}
+[0.601551] (-) TimerEvent: {}
+[0.703378] (-) TimerEvent: {}
+[0.805265] (-) TimerEvent: {}
+[0.907012] (-) TimerEvent: {}
+[1.008901] (-) TimerEvent: {}
+[1.110709] (-) TimerEvent: {}
+[1.212518] (-) TimerEvent: {}
+[1.314349] (-) TimerEvent: {}
+[1.416140] (-) TimerEvent: {}
+[1.517853] (-) TimerEvent: {}
+[1.619763] (-) TimerEvent: {}
+[1.721559] (-) TimerEvent: {}
+[1.823370] (-) TimerEvent: {}
+[1.925167] (-) TimerEvent: {}
+[2.026874] (-) TimerEvent: {}
+[2.128939] (-) TimerEvent: {}
+[2.230768] (-) TimerEvent: {}
+[2.332546] (-) TimerEvent: {}
+[2.434423] (-) TimerEvent: {}
+[2.536271] (-) TimerEvent: {}
+[2.638005] (-) TimerEvent: {}
+[2.739788] (-) TimerEvent: {}
+[2.841666] (-) TimerEvent: {}
+[2.943528] (-) TimerEvent: {}
+[3.045394] (-) TimerEvent: {}
+[3.147215] (-) TimerEvent: {}
+[3.249051] (-) TimerEvent: {}
+[3.350898] (-) TimerEvent: {}
+[3.452675] (-) TimerEvent: {}
+[3.554548] (-) TimerEvent: {}
+[3.656347] (-) TimerEvent: {}
+[3.758113] (-) TimerEvent: {}
+[3.859940] (-) TimerEvent: {}
+[3.961824] (-) TimerEvent: {}
+[4.063656] (-) TimerEvent: {}
+[4.165523] (-) TimerEvent: {}
+[4.267386] (-) TimerEvent: {}
+[4.369300] (-) TimerEvent: {}
+[4.471207] (-) TimerEvent: {}
+[4.572981] (-) TimerEvent: {}
+[4.674791] (-) TimerEvent: {}
+[4.776612] (-) TimerEvent: {}
+[4.878407] (-) TimerEvent: {}
+[4.980204] (-) TimerEvent: {}
+[5.081916] (-) TimerEvent: {}
+[5.183691] (-) TimerEvent: {}
+[5.285416] (-) TimerEvent: {}
+[5.387273] (-) TimerEvent: {}
+[5.489139] (-) TimerEvent: {}
+[5.590909] (-) TimerEvent: {}
+[5.692781] (-) TimerEvent: {}
+[5.794593] (-) TimerEvent: {}
+[5.896379] (-) TimerEvent: {}
+[5.998146] (-) TimerEvent: {}
+[6.099865] (-) TimerEvent: {}
+[6.201669] (-) TimerEvent: {}
+[6.303404] (-) TimerEvent: {}
+[6.405242] (-) TimerEvent: {}
+[6.506948] (-) TimerEvent: {}
+[6.608847] (-) TimerEvent: {}
+[6.710631] (-) TimerEvent: {}
+[6.812427] (-) TimerEvent: {}
+[6.914314] (-) TimerEvent: {}
+[7.016059] (-) TimerEvent: {}
+[7.117872] (-) TimerEvent: {}
+[7.219765] (-) TimerEvent: {}
+[7.321609] (-) TimerEvent: {}
+[7.423411] (-) TimerEvent: {}
+[7.525269] (-) TimerEvent: {}
+[7.627021] (-) TimerEvent: {}
+[7.728876] (-) TimerEvent: {}
+[7.830557] (-) TimerEvent: {}
+[7.932432] (-) TimerEvent: {}
+[8.034306] (-) TimerEvent: {}
+[8.136021] (-) TimerEvent: {}
+[8.237762] (-) TimerEvent: {}
+[8.339536] (-) TimerEvent: {}
+[8.441359] (-) TimerEvent: {}
+[8.543139] (-) TimerEvent: {}
+[8.644901] (-) TimerEvent: {}
+[8.746758] (-) TimerEvent: {}
+[8.849015] (-) TimerEvent: {}
+[8.950820] (-) TimerEvent: {}
+[9.052811] (-) TimerEvent: {}
+[9.154702] (-) TimerEvent: {}
+[9.256504] (-) TimerEvent: {}
+[9.358355] (-) TimerEvent: {}
+[9.460211] (-) TimerEvent: {}
+[9.562016] (-) TimerEvent: {}
+[9.663844] (-) TimerEvent: {}
+[9.765649] (-) TimerEvent: {}
+[9.867559] (-) TimerEvent: {}
+[9.969437] (-) TimerEvent: {}
+[10.071302] (-) TimerEvent: {}
+[10.173044] (-) TimerEvent: {}
+[10.274969] (-) TimerEvent: {}
+[10.376824] (-) TimerEvent: {}
+[10.478672] (-) TimerEvent: {}
+[10.580437] (-) TimerEvent: {}
+[10.682308] (-) TimerEvent: {}
+[10.784059] (-) TimerEvent: {}
+[10.885875] (-) TimerEvent: {}
+[10.987697] (-) TimerEvent: {}
+[11.089580] (-) TimerEvent: {}
+[11.191410] (-) TimerEvent: {}
+[11.293238] (-) TimerEvent: {}
+[11.395012] (-) TimerEvent: {}
+[11.496882] (-) TimerEvent: {}
+[11.598823] (-) TimerEvent: {}
+[11.700691] (-) TimerEvent: {}
+[11.802528] (-) TimerEvent: {}
+[11.904394] (-) TimerEvent: {}
+[12.006229] (-) TimerEvent: {}
+[12.107994] (-) TimerEvent: {}
+[12.209835] (-) TimerEvent: {}
+[12.226689] (project_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KShape::Shape()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.230550] (project_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:98:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEmpty\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_srvs\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.232263] (project_pkg) StderrLine: {'line': b'   98 |     std::shared_ptr<std_srvs::\x1b[01;31m\x1b[KEmpty\x1b[m\x1b[K::Request> clear_req=std::make_shared<std_srvs::srv::Empty::Request>();\n'}
+[12.233819] (project_pkg) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[12.235398] (project_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:98:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[12.236932] (project_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/wait_result.hpp:25\x1b[m\x1b[K,\n'}
+[12.238499] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/sequential_synchronization.hpp:32\x1b[m\x1b[K,\n'}
+[12.240028] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/wait_set.hpp:26\x1b[m\x1b[K,\n'}
+[12.242166] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:168\x1b[m\x1b[K,\n'}
+[12.244897] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:2\x1b[m\x1b[K:\n'}
+[12.247178] (project_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/wait_result_kind.hpp:28:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Empty\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.248901] (project_pkg) StderrLine: {'line': b'   28 |   \x1b[01;36m\x1b[KEmpty\x1b[m\x1b[K,  //<! Kind used when trying to wait on an empty wait set.\n'}
+[12.250623] (project_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[12.252354] (project_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/std_srvs/std_srvs/srv/empty.hpp:7\x1b[m\x1b[K,\n'}
+[12.254152] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:5\x1b[m\x1b[K:\n'}
+[12.258007] (project_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_srvs/std_srvs/srv/detail/empty__struct.hpp:237:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_srvs::srv::Empty\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.260236] (project_pkg) StderrLine: {'line': b'  237 | struct \x1b[01;36m\x1b[KEmpty\x1b[m\x1b[K\n'}
+[12.261867] (project_pkg) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[12.263622] (project_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:98:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[12.265354] (project_pkg) StderrLine: {'line': b'   98 |     std::shared_ptr<std_srvs::Empty::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K clear_req=std::make_shared<std_srvs::srv::Empty::Request>();\n'}
+[12.266896] (project_pkg) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[12.268425] (project_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:98:104:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 in initialization\n'}
+[12.269817] (project_pkg) StderrLine: {'line': b'   98 | ::Request> clear_req=\x1b[01;31m\x1b[Kstd::make_shared<std_srvs::srv::Empty::Request>()\x1b[m\x1b[K;\n'}
+[12.271192] (project_pkg) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[12.272555] (project_pkg) StderrLine: {'line': b'      |                                                                     \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[12.273871] (project_pkg) StderrLine: {'line': b'      |                                                                     \x1b[01;31m\x1b[Kstd::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >\x1b[m\x1b[K\n'}
+[12.275228] (project_pkg) StderrLine: {'line': b'\n'}
+[12.276527] (project_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:99:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Client<std_srvs::srv::Empty>::async_send_request(int&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.277845] (project_pkg) StderrLine: {'line': b'   99 |     \x1b[01;31m\x1b[Kclear_client_->async_send_request(clear_req)\x1b[m\x1b[K;\n'}
+[12.279039] (project_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.280215] (project_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[12.281350] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[12.282583] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[12.283722] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[12.284873] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[12.286014] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[12.287046] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[12.288117] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[12.289203] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[12.290110] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:2\x1b[m\x1b[K:\n'}
+[12.291021] (project_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:643:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFutureAndRequestId rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest, CallbackT&&) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<typename ServiceT::Response::SharedPtr>)> >::value>::type* <anonymous> = <anonymous>; ServiceT = std_srvs::srv::Empty]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.292006] (project_pkg) StderrLine: {'line': b'  643 |   \x1b[01;36m\x1b[Kasync_send_request\x1b[m\x1b[K(SharedRequest request, CallbackT && cb)\n'}
+[12.292892] (project_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.293801] (project_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:643:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[12.294714] (project_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:99:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[12.295613] (project_pkg) StderrLine: {'line': b'   99 |     \x1b[01;36m\x1b[Kclear_client_->async_send_request(clear_req)\x1b[m\x1b[K;\n'}
+[12.296475] (project_pkg) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.297271] (project_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[12.298048] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[12.298860] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[12.299636] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[12.300374] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[12.301129] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[12.301860] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[12.302607] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[12.303329] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[12.304038] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:2\x1b[m\x1b[K:\n'}
+[12.304742] (project_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:674:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFutureWithRequestAndRequestId rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest, CallbackT&&) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<typename ServiceT::Request::SharedPtr, typename ServiceT::Response::SharedPtr> >)> >::value>::type* <anonymous> = <anonymous>; ServiceT = std_srvs::srv::Empty]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.305546] (project_pkg) StderrLine: {'line': b'  674 |   \x1b[01;36m\x1b[Kasync_send_request\x1b[m\x1b[K(SharedRequest request, CallbackT && cb)\n'}
+[12.306249] (project_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.306903] (project_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:674:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[12.307591] (project_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:99:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[12.308265] (project_pkg) StderrLine: {'line': b'   99 |     \x1b[01;36m\x1b[Kclear_client_->async_send_request(clear_req)\x1b[m\x1b[K;\n'}
+[12.308990] (project_pkg) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.309669] (project_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[12.310322] (-) TimerEvent: {}
+[12.310927] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[12.311747] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[12.312416] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[12.313127] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[12.313760] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[12.314478] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[12.315178] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[12.315830] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[12.316481] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:2\x1b[m\x1b[K:\n'}
+[12.317091] (project_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:608:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Client<ServiceT>::FutureAndRequestId rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest) [with ServiceT = std_srvs::srv::Empty; rclcpp::Client<ServiceT>::SharedRequest = std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.317722] (project_pkg) StderrLine: {'line': b'  608 |   \x1b[01;36m\x1b[Kasync_send_request\x1b[m\x1b[K(SharedRequest request)\n'}
+[12.318314] (project_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.318849] (project_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:608:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Client<std_srvs::srv::Empty>::SharedRequest\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[12.319472] (project_pkg) StderrLine: {'line': b'  608 |   async_send_request(\x1b[01;36m\x1b[KSharedRequest request\x1b[m\x1b[K)\n'}
+[12.319984] (project_pkg) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[12.410679] (-) TimerEvent: {}
+[12.511831] (-) TimerEvent: {}
+[12.613513] (-) TimerEvent: {}
+[12.714845] (-) TimerEvent: {}
+[12.816576] (-) TimerEvent: {}
+[12.918396] (-) TimerEvent: {}
+[13.020249] (-) TimerEvent: {}
+[13.122013] (-) TimerEvent: {}
+[13.223835] (-) TimerEvent: {}
+[13.325695] (-) TimerEvent: {}
+[13.427557] (-) TimerEvent: {}
+[13.529415] (-) TimerEvent: {}
+[13.631259] (-) TimerEvent: {}
+[13.733031] (-) TimerEvent: {}
+[13.834854] (-) TimerEvent: {}
+[13.936692] (-) TimerEvent: {}
+[14.038501] (-) TimerEvent: {}
+[14.140379] (-) TimerEvent: {}
+[14.242238] (-) TimerEvent: {}
+[14.344034] (-) TimerEvent: {}
+[14.445916] (-) TimerEvent: {}
+[14.547770] (-) TimerEvent: {}
+[14.649640] (-) TimerEvent: {}
+[14.751438] (-) TimerEvent: {}
+[14.853329] (-) TimerEvent: {}
+[14.955239] (-) TimerEvent: {}
+[15.057014] (-) TimerEvent: {}
+[15.158848] (-) TimerEvent: {}
+[15.260687] (-) TimerEvent: {}
+[15.362423] (-) TimerEvent: {}
+[15.464323] (-) TimerEvent: {}
+[15.566147] (-) TimerEvent: {}
+[15.667895] (-) TimerEvent: {}
+[15.769728] (-) TimerEvent: {}
+[15.871591] (-) TimerEvent: {}
+[15.973386] (-) TimerEvent: {}
+[16.075255] (-) TimerEvent: {}
+[16.176959] (-) TimerEvent: {}
+[16.278768] (-) TimerEvent: {}
+[16.380638] (-) TimerEvent: {}
+[16.482519] (-) TimerEvent: {}
+[16.584335] (-) TimerEvent: {}
+[16.686155] (-) TimerEvent: {}
+[16.787913] (-) TimerEvent: {}
+[16.889719] (-) TimerEvent: {}
+[16.991534] (-) TimerEvent: {}
+[17.093410] (-) TimerEvent: {}
+[17.101026] (project_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/shapes_node.dir/build.make:76: CMakeFiles/shapes_node.dir/src/shapes_node.cpp.o] Error 1\n'}
+[17.102525] (project_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/shapes_node.dir/all] Error 2\n'}
+[17.103347] (project_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[17.111026] (project_pkg) CommandEnded: {'returncode': 2}
+[17.164010] (project_pkg) JobEnded: {'identifier': 'project_pkg', 'rc': 2}
+[17.175918] (-) EventReactorShutdown: {}
