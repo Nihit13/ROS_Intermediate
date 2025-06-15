@@ -1,0 +1,11 @@
+[0.053s] Invoking command in '/home/gargie/project/build/project_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gargie/project/build/project_pkg -- -j4 -l4
+[0.215s] [35m[1mConsolidate compiler generated dependencies of target shapes_node[0m
+[0.283s] [ 50%] [32mBuilding CXX object CMakeFiles/shapes_node.dir/src/shapes_node.cpp.o[0m
+[11.584s] [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:[m[K In constructor ‘[01m[KShape::Shape()[m[K’:
+[11.586s] [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:23:5:[m[K [01;31m[Kerror: [m[Kcontinue statement not within a loop
+[11.587s]    23 |     [01;31m[Kcontinue[m[K;
+[11.589s]       |     [01;31m[K^~~~~~~~[m[K
+[15.125s] gmake[2]: *** [CMakeFiles/shapes_node.dir/build.make:76: CMakeFiles/shapes_node.dir/src/shapes_node.cpp.o] Error 1
+[15.126s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/shapes_node.dir/all] Error 2
+[15.127s] gmake: *** [Makefile:146: all] Error 2
+[15.135s] Invoked command in '/home/gargie/project/build/project_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gargie/project/build/project_pkg -- -j4 -l4

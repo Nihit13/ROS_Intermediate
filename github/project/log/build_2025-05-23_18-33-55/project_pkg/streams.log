@@ -1,0 +1,11 @@
+[0.094s] Invoking command in '/home/gargie/project/build/project_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/project/build/project_pkg -- -j4 -l4
+[0.419s] [35m[1mConsolidate compiler generated dependencies of target shapes_node[0m
+[0.558s] [ 50%] [32mBuilding CXX object CMakeFiles/shapes_node.dir/src/shapes_node.cpp.o[0m
+[2.097s] [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kstd_srvs/srv/empty.hpp: No such file or directory
+[2.098s]     5 | #include [01;31m[K"std_srvs/srv/empty.hpp"[m[K
+[2.098s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.099s] compilation terminated.
+[2.106s] gmake[2]: *** [CMakeFiles/shapes_node.dir/build.make:76: CMakeFiles/shapes_node.dir/src/shapes_node.cpp.o] Error 1
+[2.107s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/shapes_node.dir/all] Error 2
+[2.107s] gmake: *** [Makefile:146: all] Error 2
+[2.115s] Invoked command in '/home/gargie/project/build/project_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/project/build/project_pkg -- -j4 -l4

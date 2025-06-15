@@ -1,0 +1,6 @@
+Invoking command in '/home/gargie/project/build/project_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/gargie/project/src/project_pkg -DCMAKE_INSTALL_PREFIX=/home/gargie/project/install/project_pkg
+Invoked command in '/home/gargie/project/build/project_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/gargie/project/src/project_pkg -DCMAKE_INSTALL_PREFIX=/home/gargie/project/install/project_pkg
+Invoking command in '/home/gargie/project/build/project_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gargie/project/build/project_pkg -- -j4 -l4
+Invoked command in '/home/gargie/project/build/project_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gargie/project/build/project_pkg -- -j4 -l4
+Invoking command in '/home/gargie/project/build/project_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/gargie/project/build/project_pkg
+Invoked command in '/home/gargie/project/build/project_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/gargie/project/build/project_pkg

@@ -1,0 +1,21 @@
+[3.011s] Invoking command in '/home/gargie/launch_ws/src/py_launch_example': PYTHONPATH=/home/gargie/launch_ws/build/py_launch_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gargie/launch_ws/install/py_launch_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_launch_example build --build-base /home/gargie/launch_ws/build/py_launch_example/build install --record /home/gargie/launch_ws/build/py_launch_example/install.log --single-version-externally-managed install_data
+[4.186s] running egg_info
+[4.189s] writing ../../build/py_launch_example/py_launch_example.egg-info/PKG-INFO
+[4.191s] writing dependency_links to ../../build/py_launch_example/py_launch_example.egg-info/dependency_links.txt
+[4.192s] writing entry points to ../../build/py_launch_example/py_launch_example.egg-info/entry_points.txt
+[4.193s] writing requirements to ../../build/py_launch_example/py_launch_example.egg-info/requires.txt
+[4.193s] writing top-level names to ../../build/py_launch_example/py_launch_example.egg-info/top_level.txt
+[4.200s] reading manifest file '../../build/py_launch_example/py_launch_example.egg-info/SOURCES.txt'
+[4.202s] adding license file 'LICENSE'
+[4.210s] writing manifest file '../../build/py_launch_example/py_launch_example.egg-info/SOURCES.txt'
+[4.211s] running build
+[4.211s] running build_py
+[4.212s] running install
+[4.213s] running install_lib
+[4.218s] running install_data
+[4.219s] running install_egg_info
+[4.227s] removing '/home/gargie/launch_ws/install/py_launch_example/lib/python3.10/site-packages/py_launch_example-0.0.0-py3.10.egg-info' (and everything under it)
+[4.228s] Copying ../../build/py_launch_example/py_launch_example.egg-info to /home/gargie/launch_ws/install/py_launch_example/lib/python3.10/site-packages/py_launch_example-0.0.0-py3.10.egg-info
+[4.233s] running install_scripts
+[4.320s] writing list of installed files to '/home/gargie/launch_ws/build/py_launch_example/install.log'
+[4.453s] Invoked command in '/home/gargie/launch_ws/src/py_launch_example' returned '0': PYTHONPATH=/home/gargie/launch_ws/build/py_launch_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gargie/launch_ws/install/py_launch_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_launch_example build --build-base /home/gargie/launch_ws/build/py_launch_example/build install --record /home/gargie/launch_ws/build/py_launch_example/install.log --single-version-externally-managed install_data

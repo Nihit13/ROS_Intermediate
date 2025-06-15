@@ -1,0 +1,26 @@
+[0.055s] Invoking command in '/home/gargie/project/build/project_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/project/build/project_pkg -- -j4 -l4
+[0.233s] [35m[1mConsolidate compiler generated dependencies of target shapes_node[0m
+[0.306s] [ 50%] [32mBuilding CXX object CMakeFiles/shapes_node.dir/src/shapes_node.cpp.o[0m
+[26.924s] [100%] [32m[1mLinking CXX executable shapes_node[0m
+[28.562s] [100%] Built target shapes_node
+[28.606s] Invoked command in '/home/gargie/project/build/project_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/project/build/project_pkg -- -j4 -l4
+[28.646s] Invoking command in '/home/gargie/project/build/project_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --install /home/gargie/project/build/project_pkg
+[28.676s] -- Install configuration: ""
+[28.676s] -- Installing: /home/gargie/project/install/project_pkg/lib/project_pkg/shapes_node
+[28.687s] -- Set runtime path of "/home/gargie/project/install/project_pkg/lib/project_pkg/shapes_node" to ""
+[28.688s] -- Up-to-date: /home/gargie/project/install/project_pkg/share/ament_index/resource_index/package_run_dependencies/project_pkg
+[28.689s] -- Up-to-date: /home/gargie/project/install/project_pkg/share/ament_index/resource_index/parent_prefix_path/project_pkg
+[28.689s] -- Up-to-date: /home/gargie/project/install/project_pkg/share/project_pkg/environment/ament_prefix_path.sh
+[28.689s] -- Up-to-date: /home/gargie/project/install/project_pkg/share/project_pkg/environment/ament_prefix_path.dsv
+[28.690s] -- Up-to-date: /home/gargie/project/install/project_pkg/share/project_pkg/environment/path.sh
+[28.690s] -- Up-to-date: /home/gargie/project/install/project_pkg/share/project_pkg/environment/path.dsv
+[28.691s] -- Up-to-date: /home/gargie/project/install/project_pkg/share/project_pkg/local_setup.bash
+[28.691s] -- Up-to-date: /home/gargie/project/install/project_pkg/share/project_pkg/local_setup.sh
+[28.691s] -- Up-to-date: /home/gargie/project/install/project_pkg/share/project_pkg/local_setup.zsh
+[28.692s] -- Up-to-date: /home/gargie/project/install/project_pkg/share/project_pkg/local_setup.dsv
+[28.692s] -- Installing: /home/gargie/project/install/project_pkg/share/project_pkg/package.dsv
+[28.692s] -- Up-to-date: /home/gargie/project/install/project_pkg/share/ament_index/resource_index/packages/project_pkg
+[28.693s] -- Up-to-date: /home/gargie/project/install/project_pkg/share/project_pkg/cmake/project_pkgConfig.cmake
+[28.693s] -- Up-to-date: /home/gargie/project/install/project_pkg/share/project_pkg/cmake/project_pkgConfig-version.cmake
+[28.693s] -- Up-to-date: /home/gargie/project/install/project_pkg/share/project_pkg/package.xml
+[28.698s] Invoked command in '/home/gargie/project/build/project_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/service/install/py_srvcli:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --install /home/gargie/project/build/project_pkg

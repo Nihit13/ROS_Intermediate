@@ -1,0 +1,16 @@
+/home/gargie/project/install/project_pkg/lib/project_pkg/shapes_node
+/home/gargie/project/install/project_pkg/share/ament_index/resource_index/package_run_dependencies/project_pkg
+/home/gargie/project/install/project_pkg/share/ament_index/resource_index/parent_prefix_path/project_pkg
+/home/gargie/project/install/project_pkg/share/project_pkg/environment/ament_prefix_path.sh
+/home/gargie/project/install/project_pkg/share/project_pkg/environment/ament_prefix_path.dsv
+/home/gargie/project/install/project_pkg/share/project_pkg/environment/path.sh
+/home/gargie/project/install/project_pkg/share/project_pkg/environment/path.dsv
+/home/gargie/project/install/project_pkg/share/project_pkg/local_setup.bash
+/home/gargie/project/install/project_pkg/share/project_pkg/local_setup.sh
+/home/gargie/project/install/project_pkg/share/project_pkg/local_setup.zsh
+/home/gargie/project/install/project_pkg/share/project_pkg/local_setup.dsv
+/home/gargie/project/install/project_pkg/share/project_pkg/package.dsv
+/home/gargie/project/install/project_pkg/share/ament_index/resource_index/packages/project_pkg
+/home/gargie/project/install/project_pkg/share/project_pkg/cmake/project_pkgConfig.cmake
+/home/gargie/project/install/project_pkg/share/project_pkg/cmake/project_pkgConfig-version.cmake
+/home/gargie/project/install/project_pkg/share/project_pkg/package.xml

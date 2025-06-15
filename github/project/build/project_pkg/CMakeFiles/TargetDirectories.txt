@@ -1,0 +1,10 @@
+/home/gargie/project/build/project_pkg/CMakeFiles/uninstall.dir
+/home/gargie/project/build/project_pkg/CMakeFiles/project_pkg_uninstall.dir
+/home/gargie/project/build/project_pkg/CMakeFiles/shapes_node.dir
+/home/gargie/project/build/project_pkg/CMakeFiles/test.dir
+/home/gargie/project/build/project_pkg/CMakeFiles/edit_cache.dir
+/home/gargie/project/build/project_pkg/CMakeFiles/rebuild_cache.dir
+/home/gargie/project/build/project_pkg/CMakeFiles/list_install_components.dir
+/home/gargie/project/build/project_pkg/CMakeFiles/install.dir
+/home/gargie/project/build/project_pkg/CMakeFiles/install/local.dir
+/home/gargie/project/build/project_pkg/CMakeFiles/install/strip.dir

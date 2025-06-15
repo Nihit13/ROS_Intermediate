@@ -1,0 +1,243 @@
+[0.000000] (-) TimerEvent: {}
+[0.003518] (project_pkg) JobQueued: {'identifier': 'project_pkg', 'dependencies': OrderedDict()}
+[0.004068] (project_pkg) JobStarted: {'identifier': 'project_pkg'}
+[0.044468] (project_pkg) JobProgress: {'identifier': 'project_pkg', 'progress': 'cmake'}
+[0.050331] (project_pkg) JobProgress: {'identifier': 'project_pkg', 'progress': 'build'}
+[0.050613] (project_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gargie/project/build/project_pkg', '--', '-j4', '-l4'], 'cwd': '/home/gargie/project/build/project_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'gargie'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gargie'), ('OLDPWD', '/home/gargie'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1460'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gargie/project/install:/home/gargie/key_ws/install:/home/gargie/chem_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gargie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gargie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gargie-HP-Pavilion-x360-Convertible:@/tmp/.ICE-unix/1425,unix/gargie-HP-Pavilion-x360-Convertible:/tmp/.ICE-unix/1425'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/507d4404_7c4b_4c5c_97ec_4d2b2c6d7e2b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UX3Y62'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.367'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gargie/key_ws/install/key_pkg:/home/gargie/key_ws/install/key1_pkg:/home/gargie/project/install/project_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gargie/project/build/project_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gargie/key_ws/install/key1_pkg/lib/python3.10/site-packages:/home/gargie/chem_ws/install/chem_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gargie/key_ws/install/key_pkg:/home/gargie/project/install/project_pkg:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble')]), 'shell': False}
+[0.098524] (-) TimerEvent: {}
+[0.199517] (-) TimerEvent: {}
+[0.234675] (project_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target shapes_node\x1b[0m\n'}
+[0.299724] (-) TimerEvent: {}
+[0.308620] (project_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/shapes_node.dir/src/shapes_node.cpp.o\x1b[0m\n'}
+[0.400022] (-) TimerEvent: {}
+[0.500904] (-) TimerEvent: {}
+[0.601674] (-) TimerEvent: {}
+[0.702410] (-) TimerEvent: {}
+[0.803159] (-) TimerEvent: {}
+[0.903968] (-) TimerEvent: {}
+[1.004690] (-) TimerEvent: {}
+[1.105487] (-) TimerEvent: {}
+[1.206241] (-) TimerEvent: {}
+[1.307019] (-) TimerEvent: {}
+[1.407872] (-) TimerEvent: {}
+[1.508739] (-) TimerEvent: {}
+[1.609572] (-) TimerEvent: {}
+[1.710415] (-) TimerEvent: {}
+[1.812581] (-) TimerEvent: {}
+[1.913568] (-) TimerEvent: {}
+[2.014449] (-) TimerEvent: {}
+[2.115365] (-) TimerEvent: {}
+[2.216489] (-) TimerEvent: {}
+[2.317534] (-) TimerEvent: {}
+[2.419330] (-) TimerEvent: {}
+[2.520687] (-) TimerEvent: {}
+[2.621640] (-) TimerEvent: {}
+[2.722613] (-) TimerEvent: {}
+[2.823569] (-) TimerEvent: {}
+[2.924567] (-) TimerEvent: {}
+[3.025533] (-) TimerEvent: {}
+[3.126491] (-) TimerEvent: {}
+[3.227371] (-) TimerEvent: {}
+[3.328215] (-) TimerEvent: {}
+[3.429071] (-) TimerEvent: {}
+[3.530001] (-) TimerEvent: {}
+[3.630903] (-) TimerEvent: {}
+[3.731751] (-) TimerEvent: {}
+[3.832728] (-) TimerEvent: {}
+[3.933700] (-) TimerEvent: {}
+[4.034731] (-) TimerEvent: {}
+[4.135651] (-) TimerEvent: {}
+[4.236656] (-) TimerEvent: {}
+[4.337614] (-) TimerEvent: {}
+[4.438662] (-) TimerEvent: {}
+[4.539683] (-) TimerEvent: {}
+[4.640613] (-) TimerEvent: {}
+[4.741537] (-) TimerEvent: {}
+[4.842454] (-) TimerEvent: {}
+[4.943470] (-) TimerEvent: {}
+[5.044407] (-) TimerEvent: {}
+[5.145401] (-) TimerEvent: {}
+[5.246278] (-) TimerEvent: {}
+[5.347625] (-) TimerEvent: {}
+[5.449922] (-) TimerEvent: {}
+[5.552108] (-) TimerEvent: {}
+[5.654160] (-) TimerEvent: {}
+[5.756146] (-) TimerEvent: {}
+[5.858215] (-) TimerEvent: {}
+[5.960297] (-) TimerEvent: {}
+[6.062418] (-) TimerEvent: {}
+[6.164475] (-) TimerEvent: {}
+[6.266578] (-) TimerEvent: {}
+[6.368698] (-) TimerEvent: {}
+[6.470793] (-) TimerEvent: {}
+[6.573023] (-) TimerEvent: {}
+[6.674977] (-) TimerEvent: {}
+[6.777131] (-) TimerEvent: {}
+[6.879084] (-) TimerEvent: {}
+[6.981133] (-) TimerEvent: {}
+[7.083166] (-) TimerEvent: {}
+[7.185177] (-) TimerEvent: {}
+[7.287027] (-) TimerEvent: {}
+[7.389041] (-) TimerEvent: {}
+[7.491030] (-) TimerEvent: {}
+[7.593014] (-) TimerEvent: {}
+[7.694998] (-) TimerEvent: {}
+[7.796998] (-) TimerEvent: {}
+[7.898974] (-) TimerEvent: {}
+[8.000978] (-) TimerEvent: {}
+[8.102947] (-) TimerEvent: {}
+[8.205020] (-) TimerEvent: {}
+[8.307102] (-) TimerEvent: {}
+[8.409160] (-) TimerEvent: {}
+[8.511178] (-) TimerEvent: {}
+[8.613284] (-) TimerEvent: {}
+[8.715359] (-) TimerEvent: {}
+[8.817474] (-) TimerEvent: {}
+[8.919302] (-) TimerEvent: {}
+[9.020708] (-) TimerEvent: {}
+[9.121537] (-) TimerEvent: {}
+[9.222454] (-) TimerEvent: {}
+[9.323344] (-) TimerEvent: {}
+[9.424273] (-) TimerEvent: {}
+[9.525041] (-) TimerEvent: {}
+[9.625798] (-) TimerEvent: {}
+[9.727142] (-) TimerEvent: {}
+[9.827963] (-) TimerEvent: {}
+[9.928709] (-) TimerEvent: {}
+[10.029557] (-) TimerEvent: {}
+[10.130389] (-) TimerEvent: {}
+[10.232612] (-) TimerEvent: {}
+[10.333739] (-) TimerEvent: {}
+[10.435130] (-) TimerEvent: {}
+[10.536033] (-) TimerEvent: {}
+[10.637154] (-) TimerEvent: {}
+[10.738146] (-) TimerEvent: {}
+[10.839178] (-) TimerEvent: {}
+[10.940480] (-) TimerEvent: {}
+[11.043048] (-) TimerEvent: {}
+[11.144916] (-) TimerEvent: {}
+[11.246686] (-) TimerEvent: {}
+[11.348435] (-) TimerEvent: {}
+[11.449955] (-) TimerEvent: {}
+[11.552143] (-) TimerEvent: {}
+[11.654210] (-) TimerEvent: {}
+[11.735053] (project_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KShape::Shape()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.737286] (project_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:38:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kgetline(std::istream&, int&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.739708] (project_pkg) StderrLine: {'line': b'   38 |     \x1b[01;31m\x1b[Kgetline(cin,sides)\x1b[m\x1b[K;\n'}
+[11.743786] (project_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.745604] (project_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:56\x1b[m\x1b[K,\n'}
+[11.747246] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/locale_classes.h:40\x1b[m\x1b[K,\n'}
+[11.748784] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/ios_base.h:41\x1b[m\x1b[K,\n'}
+[11.750904] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ios:42\x1b[m\x1b[K,\n'}
+[11.752536] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ostream:38\x1b[m\x1b[K,\n'}
+[11.754171] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/iostream:39\x1b[m\x1b[K,\n'}
+[11.755674] (-) TimerEvent: {}
+[11.757400] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:1\x1b[m\x1b[K:\n'}
+[11.759155] (project_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.tcc:1557:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, _CharT)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.760766] (project_pkg) StderrLine: {'line': b' 1557 |     \x1b[01;36m\x1b[Kgetline\x1b[m\x1b[K(basic_istream<_CharT, _Traits>& __in,\n'}
+[11.762384] (project_pkg) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[11.764001] (project_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.tcc:1557:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[11.765555] (project_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:38:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.767157] (project_pkg) StderrLine: {'line': b'   38 |     \x1b[01;36m\x1b[Kgetline(cin,sides)\x1b[m\x1b[K;\n'}
+[11.768907] (project_pkg) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.770486] (project_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[11.772105] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/locale_classes.h:40\x1b[m\x1b[K,\n'}
+[11.773636] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/ios_base.h:41\x1b[m\x1b[K,\n'}
+[11.775314] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ios:42\x1b[m\x1b[K,\n'}
+[11.776906] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ostream:38\x1b[m\x1b[K,\n'}
+[11.778423] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/iostream:39\x1b[m\x1b[K,\n'}
+[11.780052] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:1\x1b[m\x1b[K:\n'}
+[11.781612] (project_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6571:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.783091] (project_pkg) StderrLine: {'line': b' 6571 |     \x1b[01;36m\x1b[Kgetline\x1b[m\x1b[K(basic_istream<_CharT, _Traits>& __is,\n'}
+[11.784464] (project_pkg) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[11.785796] (project_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6571:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[11.787131] (project_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:38:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.788290] (project_pkg) StderrLine: {'line': b'   38 |     \x1b[01;36m\x1b[Kgetline(cin,sides)\x1b[m\x1b[K;\n'}
+[11.789432] (project_pkg) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.790579] (project_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[11.791752] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/locale_classes.h:40\x1b[m\x1b[K,\n'}
+[11.793013] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/ios_base.h:41\x1b[m\x1b[K,\n'}
+[11.794164] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ios:42\x1b[m\x1b[K,\n'}
+[11.795262] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ostream:38\x1b[m\x1b[K,\n'}
+[11.796273] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/iostream:39\x1b[m\x1b[K,\n'}
+[11.797284] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:1\x1b[m\x1b[K:\n'}
+[11.798307] (project_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6579:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, _CharT)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.799406] (project_pkg) StderrLine: {'line': b' 6579 |     \x1b[01;36m\x1b[Kgetline\x1b[m\x1b[K(basic_istream<_CharT, _Traits>&& __is,\n'}
+[11.800485] (project_pkg) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[11.801506] (project_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6579:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[11.802480] (project_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:38:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.803450] (project_pkg) StderrLine: {'line': b'   38 |     \x1b[01;36m\x1b[Kgetline(cin,sides)\x1b[m\x1b[K;\n'}
+[11.804349] (project_pkg) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.805251] (project_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[11.806066] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/locale_classes.h:40\x1b[m\x1b[K,\n'}
+[11.806870] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/ios_base.h:41\x1b[m\x1b[K,\n'}
+[11.807666] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ios:42\x1b[m\x1b[K,\n'}
+[11.808487] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ostream:38\x1b[m\x1b[K,\n'}
+[11.809301] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/iostream:39\x1b[m\x1b[K,\n'}
+[11.810191] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:1\x1b[m\x1b[K:\n'}
+[11.811333] (project_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6586:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.812337] (project_pkg) StderrLine: {'line': b' 6586 |     \x1b[01;36m\x1b[Kgetline\x1b[m\x1b[K(basic_istream<_CharT, _Traits>&& __is,\n'}
+[11.813256] (project_pkg) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[11.814175] (project_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6586:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[11.815098] (project_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:38:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.816031] (project_pkg) StderrLine: {'line': b'   38 |     \x1b[01;36m\x1b[Kgetline(cin,sides)\x1b[m\x1b[K;\n'}
+[11.816795] (project_pkg) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.817602] (project_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/cstdio:42\x1b[m\x1b[K,\n'}
+[11.818483] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ext/string_conversions.h:43\x1b[m\x1b[K,\n'}
+[11.819428] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6608\x1b[m\x1b[K,\n'}
+[11.820363] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[11.821289] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/locale_classes.h:40\x1b[m\x1b[K,\n'}
+[11.822229] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/ios_base.h:41\x1b[m\x1b[K,\n'}
+[11.823184] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ios:42\x1b[m\x1b[K,\n'}
+[11.824115] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ostream:38\x1b[m\x1b[K,\n'}
+[11.825050] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/iostream:39\x1b[m\x1b[K,\n'}
+[11.825960] (project_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:1\x1b[m\x1b[K:\n'}
+[11.826939] (project_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/stdio.h:645:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[K__ssize_t getline(char**, size_t*, FILE*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.827857] (project_pkg) StderrLine: {'line': b'  645 | extern __ssize_t \x1b[01;36m\x1b[Kgetline\x1b[m\x1b[K (char **__restrict __lineptr,\n'}
+[11.828644] (project_pkg) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[11.829396] (project_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/stdio.h:645:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 2 provided\n'}
+[11.829981] (project_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:12:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kphase\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.830545] (project_pkg) StderrLine: {'line': b'   12 |     int \x1b[01;35m\x1b[Kphase\x1b[m\x1b[K=0;\n'}
+[11.831115] (project_pkg) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[11.856165] (-) TimerEvent: {}
+[11.957309] (-) TimerEvent: {}
+[12.058407] (-) TimerEvent: {}
+[12.159676] (-) TimerEvent: {}
+[12.261324] (-) TimerEvent: {}
+[12.363160] (-) TimerEvent: {}
+[12.464985] (-) TimerEvent: {}
+[12.566614] (-) TimerEvent: {}
+[12.668271] (-) TimerEvent: {}
+[12.769610] (-) TimerEvent: {}
+[12.871375] (-) TimerEvent: {}
+[12.973305] (-) TimerEvent: {}
+[13.075227] (-) TimerEvent: {}
+[13.177254] (-) TimerEvent: {}
+[13.278165] (-) TimerEvent: {}
+[13.378965] (-) TimerEvent: {}
+[13.479764] (-) TimerEvent: {}
+[13.580587] (-) TimerEvent: {}
+[13.681439] (-) TimerEvent: {}
+[13.782265] (-) TimerEvent: {}
+[13.883064] (-) TimerEvent: {}
+[13.983900] (-) TimerEvent: {}
+[14.084804] (-) TimerEvent: {}
+[14.185617] (-) TimerEvent: {}
+[14.286462] (-) TimerEvent: {}
+[14.387323] (-) TimerEvent: {}
+[14.488181] (-) TimerEvent: {}
+[14.589064] (-) TimerEvent: {}
+[14.690066] (-) TimerEvent: {}
+[14.791049] (-) TimerEvent: {}
+[14.892030] (-) TimerEvent: {}
+[14.992983] (-) TimerEvent: {}
+[15.093735] (-) TimerEvent: {}
+[15.194663] (-) TimerEvent: {}
+[15.295508] (-) TimerEvent: {}
+[15.371188] (project_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/shapes_node.dir/build.make:76: CMakeFiles/shapes_node.dir/src/shapes_node.cpp.o] Error 1\n'}
+[15.372786] (project_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/shapes_node.dir/all] Error 2\n'}
+[15.374063] (project_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[15.380928] (project_pkg) CommandEnded: {'returncode': 2}
+[15.395773] (-) TimerEvent: {}
+[15.455719] (project_pkg) JobEnded: {'identifier': 'project_pkg', 'rc': 2}
+[15.468008] (-) EventReactorShutdown: {}

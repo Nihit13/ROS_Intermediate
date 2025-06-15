@@ -1,0 +1,11 @@
+[0.056s] Invoking command in '/home/gargie/project/build/project_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gargie/project/build/project_pkg -- -j4 -l4
+[0.217s] [35m[1mConsolidate compiler generated dependencies of target shapes_node[0m
+[0.292s] [ 50%] [32mBuilding CXX object CMakeFiles/shapes_node.dir/src/shapes_node.cpp.o[0m
+[11.608s] [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:[m[K In constructor ‘[01m[KShape::Shape()[m[K’:
+[11.610s] [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:29:19:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K==[m[K’ token
+[11.612s]    29 |         if(phase% [01;31m[K==[m[K 0){
+[11.613s]       |                   [01;31m[K^~[m[K
+[15.228s] gmake[2]: *** [CMakeFiles/shapes_node.dir/build.make:76: CMakeFiles/shapes_node.dir/src/shapes_node.cpp.o] Error 1
+[15.230s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/shapes_node.dir/all] Error 2
+[15.231s] gmake: *** [Makefile:146: all] Error 2
+[15.239s] Invoked command in '/home/gargie/project/build/project_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gargie/project/build/project_pkg -- -j4 -l4

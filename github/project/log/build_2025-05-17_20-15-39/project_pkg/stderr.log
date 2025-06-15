@@ -1,0 +1,7 @@
+[01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:[m[K In constructor ‘[01m[KShape::Shape()[m[K’:
+[01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:29:20:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K=[m[K’ token
+   29 |         if(phase %=[01;31m[K=[m[K0){
+      |                    [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/shapes_node.dir/build.make:76: CMakeFiles/shapes_node.dir/src/shapes_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/shapes_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

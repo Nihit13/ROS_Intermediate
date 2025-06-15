@@ -1,0 +1,14 @@
+[0.060s] Invoking command in '/home/gargie/project/build/project_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/project/build/project_pkg -- -j4 -l4
+[0.225s] [35m[1mConsolidate compiler generated dependencies of target shapes_node[0m
+[0.294s] [ 50%] [32mBuilding CXX object CMakeFiles/shapes_node.dir/src/shapes_node.cpp.o[0m
+[12.201s] [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:[m[K In constructor ‘[01m[KShape::Shape()[m[K’:
+[12.203s] [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:16:11:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K=[m[K’ token
+[12.205s]    16 |      float[01;31m[K=[m[Kangle=0;
+[12.207s]       |           [01;31m[K^[m[K
+[12.228s] [01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:39:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kangle[m[K’ was not declared in this scope
+[12.230s]    39 |     [01;31m[Kangle[m[K=((sides-2)*M_PI)/sides;
+[12.231s]       |     [01;31m[K^~~~~[m[K
+[15.777s] gmake[2]: *** [CMakeFiles/shapes_node.dir/build.make:76: CMakeFiles/shapes_node.dir/src/shapes_node.cpp.o] Error 1
+[15.778s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/shapes_node.dir/all] Error 2
+[15.779s] gmake: *** [Makefile:146: all] Error 2
+[15.790s] Invoked command in '/home/gargie/project/build/project_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/project/build/project_pkg -- -j4 -l4

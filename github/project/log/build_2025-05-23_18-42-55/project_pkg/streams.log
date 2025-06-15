@@ -1,0 +1,50 @@
+[0.062s] Invoking command in '/home/gargie/project/build/project_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/project/build/project_pkg -- -j4 -l4
+[0.189s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.881s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.008s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.022s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.051s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.103s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.177s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.345s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.354s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.749s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.017s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.087s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[2.294s] -- Found std_srvs: 4.8.0 (/opt/ros/humble/share/std_srvs/cmake)
+[2.358s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.765s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.766s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/gargie/project/src/project_pkg/include>
+[2.767s] -- Configured cppcheck exclude dirs and/or files: 
+[2.770s] -- Added test 'lint_cmake' to check CMake code style
+[2.777s] -- Added test 'uncrustify' to check C / C++ code style
+[2.778s] -- Configured uncrustify additional arguments: 
+[2.779s] -- Added test 'xmllint' to check XML markup files
+[2.787s] -- Configuring done
+[2.855s] -- Generating done
+[2.880s] -- Build files have been written to: /home/gargie/project/build/project_pkg
+[3.007s] [35m[1mConsolidate compiler generated dependencies of target shapes_node[0m
+[3.087s] [ 50%] [32mBuilding CXX object CMakeFiles/shapes_node.dir/src/shapes_node.cpp.o[0m
+[35.961s] [100%] [32m[1mLinking CXX executable shapes_node[0m
+[38.032s] [100%] Built target shapes_node
+[38.106s] Invoked command in '/home/gargie/project/build/project_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/gargie/project/build/project_pkg -- -j4 -l4
+[38.150s] Invoking command in '/home/gargie/project/build/project_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --install /home/gargie/project/build/project_pkg
+[38.184s] -- Install configuration: ""
+[38.188s] -- Installing: /home/gargie/project/install/project_pkg/lib/project_pkg/shapes_node
+[38.201s] -- Set runtime path of "/home/gargie/project/install/project_pkg/lib/project_pkg/shapes_node" to ""
+[38.201s] -- Installing: /home/gargie/project/install/project_pkg/share/ament_index/resource_index/package_run_dependencies/project_pkg
+[38.202s] -- Up-to-date: /home/gargie/project/install/project_pkg/share/ament_index/resource_index/parent_prefix_path/project_pkg
+[38.202s] -- Up-to-date: /home/gargie/project/install/project_pkg/share/project_pkg/environment/ament_prefix_path.sh
+[38.203s] -- Installing: /home/gargie/project/install/project_pkg/share/project_pkg/environment/ament_prefix_path.dsv
+[38.203s] -- Up-to-date: /home/gargie/project/install/project_pkg/share/project_pkg/environment/path.sh
+[38.204s] -- Installing: /home/gargie/project/install/project_pkg/share/project_pkg/environment/path.dsv
+[38.204s] -- Up-to-date: /home/gargie/project/install/project_pkg/share/project_pkg/local_setup.bash
+[38.205s] -- Up-to-date: /home/gargie/project/install/project_pkg/share/project_pkg/local_setup.sh
+[38.206s] -- Up-to-date: /home/gargie/project/install/project_pkg/share/project_pkg/local_setup.zsh
+[38.206s] -- Installing: /home/gargie/project/install/project_pkg/share/project_pkg/local_setup.dsv
+[38.207s] -- Installing: /home/gargie/project/install/project_pkg/share/project_pkg/package.dsv
+[38.208s] -- Up-to-date: /home/gargie/project/install/project_pkg/share/ament_index/resource_index/packages/project_pkg
+[38.208s] -- Up-to-date: /home/gargie/project/install/project_pkg/share/project_pkg/cmake/project_pkgConfig.cmake
+[38.208s] -- Up-to-date: /home/gargie/project/install/project_pkg/share/project_pkg/cmake/project_pkgConfig-version.cmake
+[38.209s] -- Installing: /home/gargie/project/install/project_pkg/share/project_pkg/package.xml
+[38.216s] Invoked command in '/home/gargie/project/build/project_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gargie/key_ws/install/key1_pkg:/opt/ros/humble /usr/bin/cmake --install /home/gargie/project/build/project_pkg

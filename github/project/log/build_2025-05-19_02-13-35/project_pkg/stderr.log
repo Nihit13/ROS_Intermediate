@@ -1,0 +1,7 @@
+[01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:71:12:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[K<unresolved overloaded function type>[m[K’ and ‘[01m[Kint[m[K’ to binary ‘[01m[Koperator<=[m[K’
+   71 |   if([01;31m[Kcount <= 10[m[K){rclcpp::shutdown();}
+      |      [01;31m[K~~~~~~^~~~~[m[K
+gmake[2]: *** [CMakeFiles/shapes_node.dir/build.make:76: CMakeFiles/shapes_node.dir/src/shapes_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/shapes_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

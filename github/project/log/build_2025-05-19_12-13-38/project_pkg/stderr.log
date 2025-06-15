@@ -1,0 +1,10 @@
+[01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:[m[K In constructor ‘[01m[KShape::Shape()[m[K’:
+[01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:67:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ktest[m[K’ was not declared in this scope
+   67 |     if([01;31m[Ktest[m[K==count){
+      |        [01;31m[K^~~~[m[K
+[01m[K/home/gargie/project/src/project_pkg/src/shapes_node.cpp:74:9:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   74 |     [01;35m[Kmore+4[m[K;
+      |     [01;35m[K~~~~^~[m[K
+gmake[2]: *** [CMakeFiles/shapes_node.dir/build.make:76: CMakeFiles/shapes_node.dir/src/shapes_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/shapes_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
