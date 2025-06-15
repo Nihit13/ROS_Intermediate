@@ -1,2 +1,0 @@
-Invoking command in '/home/nihit/servcli/build/tutorial_interfaces': /usr/bin/cmake /home/nihit/servcli/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/nihit/servcli/install/tutorial_interfaces
-Invoked command in '/home/nihit/servcli/build/tutorial_interfaces' returned '1': /usr/bin/cmake /home/nihit/servcli/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/nihit/servcli/install/tutorial_interfaces

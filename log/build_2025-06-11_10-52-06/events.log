@@ -1,9 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000496] (-) JobUnselected: {'identifier': 'action_tutorials_interfaces'}
-[0.000548] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
-[0.000578] (-) JobUnselected: {'identifier': 'py_srvcli'}
-[0.000604] (-) JobUnselected: {'identifier': 'python_parameters'}
-[0.000628] (-) JobUnselected: {'identifier': 'shapes'}
-[0.000653] (-) JobUnselected: {'identifier': 'turtlebounds'}
-[0.000677] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
-[0.000702] (-) EventReactorShutdown: {}
